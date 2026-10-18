@@ -10,8 +10,8 @@
 ## ============================================================
 
 define config.font_replacement_map = {
-    ("DejaVuSans.ttf", False, False): ("fonts/NotoSansCJKsc-Regular.otf", False, False),
-    ("DejaVuSans.ttf", True,  False): ("fonts/NotoSansCJKsc-Regular.otf", True,  False),
-    ("DejaVuSans.ttf", False, True):  ("fonts/NotoSansCJKsc-Regular.otf", False, True),
-    ("DejaVuSans.ttf", True,  True):  ("fonts/NotoSansCJKsc-Regular.otf", True,  True),
+    ("DejaVuSans.ttf", False, False): ("fonts/game-regular.woff2", False, False),
+    ("DejaVuSans.ttf", True,  False): ("fonts/game-regular.woff2", True,  False),
+    ("DejaVuSans.ttf", False, True):  ("fonts/game-regular.woff2", False, True),
+    ("DejaVuSans.ttf", True,  True):  ("fonts/game-regular.woff2", True,  True),
 }
