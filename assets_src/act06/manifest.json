@@ -1,19 +1,15 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T08:03:11.508Z",
-  "status": "generating",
+  "updated_at": "2026-10-18T08:04:01.161Z",
+  "status": "complete_planned_draft_pack",
   "scope": "C6-01–C6-06 only",
   "planned_assets": 10,
-  "pending_assets": [
-    "ds_win_determined",
-    "claude_win_invitation",
-    "gpt_work_determined"
-  ],
+  "pending_assets": [],
   "assets": [
     {
       "id": "ds_win_earnest",
       "label": "DeepSeek｜大学冬装·认真抱本",
-      "scene": "C6-02/DS-02",
+      "scene": "C6-02",
       "file": "characters/deepseek/ds_win_earnest_v001.png",
       "transparent": true,
       "refs": [
@@ -152,7 +148,7 @@
     {
       "id": "bg29_crossing_sunset",
       "label": "BG29｜铁路道口·夕阳",
-      "scene": "C6-05/C6-06/DS-01",
+      "scene": "C6-05/C6-06",
       "file": "backgrounds/bg29_crossing_sunset_v001.png",
       "transparent": false,
       "refs": [
@@ -169,6 +165,75 @@
       "edge_alpha_max": 255,
       "bytes": 3024083,
       "sha256": "416d0c677176ffbb6e234d1ab88a5199c7210638c2b7001b9e12ceb019c1fb54",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_win_determined",
+      "label": "DeepSeek｜冬装·坚定询问",
+      "scene": "C6-02",
+      "file": "characters/deepseek/ds_win_determined_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/ds_win_determined.txt",
+      "path": "assets_src/act06/characters/deepseek/ds_win_determined_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 2093140,
+      "sha256": "656c08d8c5a2244bb03637f01718258c3f23d2d04f63857527ddf8cc827d0a22",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_win_invitation",
+      "label": "Claude｜冬装·同行邀请",
+      "scene": "C6-03",
+      "file": "characters/claude/claude_win_invitation_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/claude_win_invitation.txt",
+      "path": "assets_src/act06/characters/claude/claude_win_invitation_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 2031991,
+      "sha256": "2b74f9b28c14d476401c5b8800b63019f595e5577bb48607ddd08196548db39e",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_work_determined",
+      "label": "GPT｜工作冬装·坦率期待",
+      "scene": "C6-04B",
+      "file": "characters/gpt/gpt_work_determined_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/gpt_work_determined.txt",
+      "path": "assets_src/act06/characters/gpt/gpt_work_determined_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 2099692,
+      "sha256": "e8c69792e21ffa61526a1255bba63866ded3e9a4b9379bfa52ddab7ee3301bcc",
       "tool": "built-in imagegen",
       "status": "generated_draft"
     }

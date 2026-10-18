@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "scope": "C6-01–C6-06 only",
-  "status": "in_progress",
-  "notes": "Reuse adult act05 identities; chapter-six expression/gesture variants are generated drafts, not pixel-registered layers. Excludes route-specific assets.",
+  "status": "complete_planned_draft_pack",
+  "notes": "Chapter-six only. Reuse adult act05 identities. Expression and gesture variants are generated drafts, not pixel-registered layers; no runtime integration.",
   "jobs": [
     {
       "id": "ds_win_earnest",
       "label": "DeepSeek｜大学冬装·认真抱本",
-      "scene": "C6-02/DS-02",
+      "scene": "C6-02",
       "file": "characters/deepseek/ds_win_earnest_v001.png",
       "transparent": true,
       "refs": [
@@ -74,7 +74,7 @@
     {
       "id": "bg29_crossing_sunset",
       "label": "BG29｜铁路道口·夕阳",
-      "scene": "C6-05/C6-06/DS-01",
+      "scene": "C6-05/C6-06",
       "file": "backgrounds/bg29_crossing_sunset_v001.png",
       "transparent": false,
       "refs": [
