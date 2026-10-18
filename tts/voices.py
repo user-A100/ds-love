@@ -30,7 +30,7 @@ VOICES = {
                             "style_weight": 1.0, "url": BASE_URL}},
     ## 温柔学姐 → koharune + Neutral 低权重（更平缓柔顺）
     "gpt":      {"engine": "sbv2", "lang": "jp",
-                 "params": {"model_name": "koharune-ami", "style": "Neutral",
+                 "params": {"model_name": "amitaro", "style": "Neutral", "pitch_scale": 0.93,
                             "style_weight": 0.9, "url": BASE_URL}},
     ## 男主 → M1
     "user":     {"engine": "sbv2", "lang": "jp",
