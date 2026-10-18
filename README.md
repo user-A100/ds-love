@@ -42,7 +42,7 @@ whalegal/
 
 ## Web 打包（HTML5）
 
-现有美术已按正文接入；逐场核对页、素材缺口与维护命令见 [游戏美术接入](docs/art/integration/README.md)。继续生成素材后，先更新 `story/art_direction.json`，运行 `python tools/integrate_art.py` 和 `python tools/import_story.py`；不必为检查接入而打包发布。
+现有美术已按正文接入；逐场核对页、素材缺口与维护命令见 [游戏美术接入](docs/art/integration/README.md)。
 
 - Ren'Py 8.5 原生支持 web 导出（WASM），命令行入口：
   `renpy.sh launcher web_build <项目根> --destination <输出目录>`
@@ -51,17 +51,19 @@ whalegal/
 - 产物为纯静态文件：`index.html` + `game.zip`（游戏数据）+ `renpy.wasm`（引擎）。
 - `.wasm` 必须以 `application/wasm` MIME 提供，nginx 模板已配置。
 
-## 部署（nginx）
+## 部署与发布（Cloudflare）
+
+**日常发布一条命令**：
 
 ```bash
-# 在有公网 IP 的主机上（仓库 clone 到任意位置，无写死路径）：
-sudo ./server/deploy/deploy.sh --port 80
-# 更新只需: git pull && ./tools/build_web.sh   （静态文件即时生效）
+./tools/publish_web.sh     # 构建 → 推 web-dist 分支 → CF 自动部署（约 1 分钟生效）
 ```
 
-nginx 模板要点：wasm MIME、gzip（js/wasm 压缩比约 4.5x）、
-分级缓存（game.zip 不缓存 / 引擎文件 1h / 图片 1d）、
-单 IP 限连接限速率（校园网出口保护）、Range 原生支持（渐进下载）。
+线上地址：`https://whalegal.<子域>.workers.dev`（生产分支 = `web-dist`，
+产物为纯静态文件，Deploy command = `npx wrangler deploy`）。
+
+完整原理、首次配置步骤与常见问题见 **[docs/PUBLISH.md](docs/PUBLISH.md)**。
+自建 nginx 备用方案仍在 `server/deploy/`（校园网内自建服务器有封号风险，仅限校外 VPS）。
 
 ## 已知坑（重要）
 

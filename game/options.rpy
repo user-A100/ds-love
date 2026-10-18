@@ -29,9 +29,6 @@ init python:
     ## 这里只做“排除”与“文档”类覆盖。
 
     ## 工程文件不进分发包
-    # Ren'Py 的开屏默认规则先于 classify 执行；仅从游戏 ZIP 排除，
-    # launcher/web.rpy 仍会独立复制封面到网页目录。
-    build.early_base_patterns.insert(0, ("web-presplash.*", []))
     build.classify("docs/**", None)
     build.classify("story/**", None)
     build.classify("tts/**", None)
@@ -48,8 +45,18 @@ init python:
     ## 空目录占位文件不进包
     build.classify("game/**/.keep", None)
 
+    ## 瘦身：源码/缓存/文档不进分发包（game.zip 需低于 CF 25MiB 限制）
+    build.include_source = False
+    build.classify("game/cache/**", None)
+    build.classify("**.md", None)
+    build.classify("story/**", None)
+
     ## Android/iOS 暂不支持
     build.include_android = False
     build.include_ios = False
 
     build.documentation = "README.md"
+
+# Exclude development test scripts from published builds.
+init python:
+    build.classify("game/tests/**", None)
