@@ -19,6 +19,9 @@ export SDL_AUDIODRIVER="${SDL_AUDIODRIVER:-dummy}"
 echo "==> [1/4] 导入剧本 (story/*.md -> game/script/story_gen/)"
 python3 "${ROOT}/tools/import_story.py" | tail -3
 
+echo "==> [1.5/4] 同步剧本美术资产 (assets_src -> game/images/story/)"
+python3 "${ROOT}/tools/sync_story_assets.py"
+
 echo "==> [2/4] 字体子集化"
 python3 "${ROOT}/tools/subset_font.py"
 
