@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "scope": "DS-01–DS-09 supplementary art",
+  "status": "generating",
+  "tool": "built-in imagegen",
+  "planned_assets": 30,
+  "jobs": [
+    {
+      "id": "ds_spring_neutral",
+      "label": "DeepSeek｜大学春装基准",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_neutral_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Create university-age 21 DeepSeek in a light SPRING outfit, younger than four-years-later mature version. Reference locks identity: long navy-to-cyan voluminous wavy hair, blue eyes, ahoge, white underside fin ears, cyan bows, blue whale tail on viewer right. Outfit: light pastel-blue hip-length unbuttoned cardigan with fine ribbed cuffs over plain ivory crew-neck blouse, navy below-knee pleated skirt, navy ankle socks and simple blue low-heeled loafers. No winter coat or turtleneck, no high-school uniform, no premiere gown. Natural adult proportions. Relaxed standing, two empty hands naturally resting in front of waist, calm neutral gentle closed-mouth smile and steady forward gaze. Full-body 1024x1536 portrait transparent sprite with generous margins; no background, glow, ground shadow or text."
+    },
+    {
+      "id": "bg30_university_night",
+      "label": "大学校园｜冬夜",
+      "scene": "DS-01",
+      "group": "BG30_NIGHT",
+      "file": "backgrounds/bg30_university_night_v001.png",
+      "refs": [
+        "assets_src/act04/backgrounds/bg_university_winter_evening_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. EDIT reference only from evening into 21:00 winter night. Preserve exact camera, university walkway, buildings, dormitory direction, trees, railings and snow. Dark blue sky, lit street lamps and a few windows; no people or invented gate or landmarks. Landscape 16:9 environmental plate."
+    },
+    {
+      "id": "bg26_filmclub_night",
+      "label": "大学影像社｜冬夜",
+      "scene": "DS-02",
+      "group": "BG26_NIGHT",
+      "file": "backgrounds/bg26_filmclub_night_v001.png",
+      "refs": [
+        "assets_src/act06/backgrounds/bg26_filmclub_day_continuity_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. EDIT reference only into 21:10 winter night. Preserve exact table, chairs, left windows, rear dual-monitor desk, right equipment racks and camera. Night outside windows, warm practical lamp, dim ceiling light and restrained monitor glow. No people. Landscape 16:9 environmental plate."
+    },
+    {
+      "id": "bg20_rehearsal_evening",
+      "label": "专业排练厅｜冬日下午",
+      "scene": "DS-03",
+      "group": "BG20_EVENING",
+      "file": "backgrounds/bg20_rehearsal_evening_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg20_rehearsal_day_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. EDIT reference only lighting to winter late afternoon: restrained fading amber sunlight and long soft shadows. Exact same professional rehearsal room, grand piano, piano bench, windows, furniture and camera. No people, no added instruments. Landscape 16:9 environmental plate."
+    },
+    {
+      "id": "bg26_filmclub_spring_day",
+      "label": "大学影像社｜春日",
+      "scene": "DS-06",
+      "group": "BG26_SPRING",
+      "file": "backgrounds/bg26_filmclub_spring_day_v001.png",
+      "refs": [
+        "assets_src/act06/backgrounds/bg26_filmclub_day_continuity_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. EDIT reference changing ONLY season outside left windows: remove all snow and bare winter frost, replace with tender green foliage and clear spring daylight. Preserve exact room, all furniture, camera, windows, rear editing desk and right racks. No people. Landscape 16:9 environmental plate."
+    },
+    {
+      "id": "bg17_lakeside_spring_overcast",
+      "label": "旧公园｜春日柔阴",
+      "scene": "DS-08",
+      "group": "BG17_SPRING_OVERCAST",
+      "file": "backgrounds/bg17_lakeside_spring_overcast_v001.png",
+      "refs": [
+        "assets_src/act04/backgrounds/bg_lakeside_sunset_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. EDIT reference into spring overcast afternoon: pale cloudy sky, cool soft diffuse light, green budding foliage, remove winter snow if any. Preserve lake, shoreline, bench, path, buildings and exact camera; no people. Not sunset, not dramatic storm. Landscape 16:9 environmental plate."
+    },
+    {
+      "id": "ds_indoor_surprised",
+      "label": "DeepSeek｜大学室内·惊讶",
+      "scene": "DS-02",
+      "group": "DS_INDOOR_EXPRESSIONS",
+      "file": "characters/deepseek/ds_indoor_surprised_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_indoor_firm_tear_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Eyes widened, brows raised, lips slightly parted in disbelief, no smile. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "ds_indoor_shy",
+      "label": "DeepSeek｜大学室内·害羞",
+      "scene": "DS-02",
+      "group": "DS_INDOOR_EXPRESSIONS",
+      "file": "characters/deepseek/ds_indoor_shy_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_indoor_firm_tear_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Small shy smile, subtle pink cheeks, gaze slightly averted, no tears. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "ds_indoor_earnest",
+      "label": "DeepSeek｜大学室内·认真",
+      "scene": "DS-02",
+      "group": "DS_INDOOR_EXPRESSIONS",
+      "file": "characters/deepseek/ds_indoor_earnest_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_indoor_firm_tear_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Steady direct forward gaze, calm serious brows, closed mouth, composed firm boundaries, not crying. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "claude_indoor_hurt",
+      "label": "Claude｜成年排练便服·受伤含泪",
+      "scene": "DS-03",
+      "group": "CLAUDE_INDOOR_EMOTIONS",
+      "file": "characters/claude/claude_indoor_hurt_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Eyes moist with a little tear at lower lid, wounded disbelief, subtly drawn brows, mouth slightly tense, not smiling. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "claude_indoor_cry",
+      "label": "Claude｜成年排练便服·哭泣",
+      "scene": "DS-03",
+      "group": "CLAUDE_INDOOR_EMOTIONS",
+      "file": "characters/claude/claude_indoor_cry_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Tears visibly rolling down both cheeks, grieving but dignified, slightly parted tense mouth, no smile, no melodramatic screaming. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "claude_indoor_firm",
+      "label": "Claude｜成年排练便服·坚决",
+      "scene": "DS-03",
+      "group": "CLAUDE_INDOOR_EMOTIONS",
+      "file": "characters/claude/claude_indoor_firm_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Steady direct level gaze and resolute serious mouth after tears, controlled hurt, no smile, no blush. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "gpt_work_lonely",
+      "label": "GPT｜成年工作装·克制失落",
+      "scene": "DS-04",
+      "group": "GPT_WORK_LONELY",
+      "file": "characters/gpt/gpt_work_lonely_v001.png",
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Subtle restrained disappointment, lips in quiet neutral line without smile, slightly lowered gaze, moist eyes but not crying. Preserve white long hair, purple eyes, dragon horns, wings and scaled tail, pale lavender coat, plum skirt and folder, rosette on viewer right. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "ds_spring_happy",
+      "label": "DeepSeek｜大学春装·开心",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_happy_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Bright open-eyed joyful smile, eyebrows gently lifted, no tears. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "ds_spring_hesitant",
+      "label": "DeepSeek｜大学春装·犹豫",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_hesitant_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Concerned conflicted expression, slightly drawn brows, gaze subtly aside, closed uncertain lips, no smile or tears. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "ds_spring_surprised",
+      "label": "DeepSeek｜大学春装·惊讶",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_surprised_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Eyes widened and lips slightly parted, brows raised in hurt disbelief, no smile. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "ds_spring_cry",
+      "label": "DeepSeek｜大学春装·哭泣",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_cry_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Visible tears flowing down cheeks, saddened and hurt, small tense mouth, no smile. Keep forward gaze, not pleading. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "ds_spring_earnest",
+      "label": "DeepSeek｜大学春装·认真",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_earnest_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Firm level forward gaze, slightly knitted brows, serious closed mouth, self-possessed assertiveness, no smile or tears. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "ds_spring_tearsmile",
+      "label": "DeepSeek｜大学春装·泪笑",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_tearsmile_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Gentle bittersweet small smile with tear tracks on cheeks and slightly moist eyes, dignified acceptance, not carefree laughter. Single full-body transparent sprite on 1024x1536 portrait canvas, generous safe margins all around hair, ears, tail and shoes, entire silhouette included. Actual transparent background, no colored backdrop, glow, vignette or floor shadow. Gentle light from upper left. Keep exact reference body pose, proportions, hair silhouette, accessories, costume, hand placement and shoes; change only facial emotion. No pixel-registered layer claim."
+    },
+    {
+      "id": "pr26_whale_charm",
+      "label": "PR26｜蓝色鲸鱼行李挂件",
+      "scene": "DS-09",
+      "group": "PR26_WHALE_CHARM",
+      "file": "props/pr26_whale_charm_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Single isolated small blue whale luggage keychain: rounded cobalt-blue whale body, cyan underside, two small side fins, fluked tail, friendly simple black eyes, silver short chain and small round ring. Painted anime material, palm-sized soft plush charm. One object centered with generous margins on transparent landscape 16:9 canvas. No hands, suitcase, letters, background, ground or external shadow."
+    },
+    {
+      "id": "detail_piano_hand",
+      "label": "Claude｜按琴键局部",
+      "scene": "DS-03",
+      "group": "PIANO_HAND",
+      "file": "details/detail_piano_hand_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png",
+        "assets_src/act05/backgrounds/bg20_rehearsal_day_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative detail with opaque background, close view of one adult woman's right hand with exactly five anatomically coherent fingers, index finger gently pressing one white grand-piano key, other fingers relaxed above adjacent keys. Ivory ribbed turtleneck sweater sleeve EXACTLY matching Claude indoor reference, no coat. Credible black and white piano keyboard geometry and warm winter afternoon light. No face or extra hand."
+    },
+    {
+      "id": "detail_spring_handhold",
+      "label": "春装｜握手支持",
+      "scene": "DS-06",
+      "group": "SPRING_HANDS",
+      "file": "details/detail_spring_handhold_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/ds_route/backgrounds/bg26_filmclub_spring_day_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 close narrative detail: adult DeepSeek's one hand in pastel blue ribbed cardigan cuff gently held by one adult protagonist hand in plain dark navy civilian sleeve over film-club wooden table. Exactly two hands, anatomically coherent five fingers per hand. Supportive gentle hold, no rings, no notebook, no face. Ivory blouse glimpse optional. Same spring light and table as room reference."
+    },
+    {
+      "id": "detail_spring_pinky",
+      "label": "PR10｜成年春袖拉钩",
+      "scene": "DS-07",
+      "group": "SPRING_HANDS",
+      "file": "details/detail_spring_pinky_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 close narrative detail: exactly TWO adult hands making a pinky promise, one from DeepSeek pastel-blue ribbed cardigan cuff, one from protagonist plain dark navy civilian sleeve. Each hand has exactly five fingers; only pinky fingers interlocked, other fingers naturally curled. No extra hands, no highschool uniform, no jewelry. Blurred same rooftop parapet and warm spring evening light behind, no faces."
+    },
+    {
+      "id": "detail_spring_lean_shoulder",
+      "label": "春装｜靠肩局部",
+      "scene": "DS-07",
+      "group": "SPRING_HANDS",
+      "file": "details/detail_spring_lean_shoulder_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 intimate upper-body close crop: adult DeepSeek in EXACT spring outfit gently resting side of head on protagonist's plain dark navy-clothed shoulder, her blue eyes calm and affectionate, cyan fin-ear bows and navy-to-cyan wavy hair visible. Protagonist only shoulder and back, face and neck above crop, no hands in frame. Both safely standing inside rooftop parapet in warm spring evening light, no kiss."
+    },
+    {
+      "id": "cg12_lakeside_hug",
+      "label": "CG12｜正式交往拥抱",
+      "scene": "DS-05",
+      "group": "CG12_HUG",
+      "file": "cg/cg12_lakeside_hug_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_lakeside_sunset_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 finished narrative CG. Same old park lake at sunset as reference2. University-age DeepSeek in EXACT reference1 light blue winter coat, ivory cable-knit turtleneck, navy skirt, long blue hair and whale tail has joyfully stepped forward into an embrace, tearful relieved smile visible in three-quarter face. Protagonist only civilian dark navy shoulder/back and arms, no face. Two people only, natural adult head/body ratio, coherent gentle embrace and fingers. She actively chooses embrace. No kiss or ring. Face and contact above bottom24 percent dialogue zone."
+    },
+    {
+      "id": "cg17_airport_departure",
+      "label": "CG17｜机场与鲸鱼挂件",
+      "scene": "DS-09",
+      "group": "CG17_AIRPORT",
+      "file": "cg/cg17_airport_departure_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_airport_depart_day_v001.png",
+        "assets_src/ds_route/props/pr26_whale_charm_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 finished narrative CG. University-age DeepSeek in EXACT spring cardigan/blouse/navy skirt from reference1 runs back for one farewell embrace before departure; bittersweet tearful smile, blue whale tail visible. Protagonist only dark navy civilian shoulder/back, no face. Two adults only. Foreground carry-on suitcase has EXACT small blue whale charm from reference3 attached to handle, clearly legible as object, no readable text. Same airport departure concourse and security direction as reference2, bright spring daylight, no arrivals baggage belt, no wedding ring. Natural adult proportions, faces and embrace above bottom24 percent."
+    },
+    {
+      "id": "cg13_claude_alone_piano",
+      "label": "CG13｜Claude独自弹琴",
+      "scene": "DS-03",
+      "group": "CG13_OPTIONAL",
+      "file": "cg/cg13_claude_alone_piano_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png",
+        "assets_src/ds_route/backgrounds/bg20_rehearsal_evening_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P2",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG, viewed discreetly from rehearsal room doorway after protagonist has left. Adult Claude with long orange hair, flower and black ribbon on her left/viewer-right when frontal, EXACT ivory ribbed turtleneck and navy belted long skirt from reference1, seated naturally on piano bench at same grand piano as reference2, lonely back/three-quarter back. Hands correctly reach keys. One person only; face mostly hidden, no cheerful waving or smile, restrained heartbreak in posture. Same room geometry and subdued winter late afternoon light."
+    },
+    {
+      "id": "cg14_gpt_cold_tea",
+      "label": "CG14｜GPT与凉茶",
+      "scene": "DS-04",
+      "group": "CG14_OPTIONAL",
+      "file": "cg/cg14_gpt_cold_tea_v001.png",
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png",
+        "assets_src/act05/backgrounds/bg23_cafe_snow_day_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P2",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG, winter cafe same window-table area as reference2. Adult GPT identity reference1: white long hair, purple eyes, horns, wings, scaled tail, pale lavender work coat and plum skirt; seated alone with composed downcast gaze and small tense neutral mouth, no smile or wave. Two cooled tea cups without steam on table, plum portfolio closed beside. View from just outside cafe window, quiet reflections but clear face, no protagonist or others. Winter soft daylight and restrained personal sadness, natural adult proportions."
+    },
+    {
+      "id": "cg15_rooftop_promise",
+      "label": "CG15｜成年天台新约定",
+      "scene": "DS-07",
+      "group": "CG15_OPTIONAL",
+      "file": "cg/cg15_rooftop_promise_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P2",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG. Adult university-age DeepSeek in EXACT spring outfit reference1, at old rooftop inside parapet same geometry reference2. Main action ONE pinky promise: she extends one hand, links pinky with protagonist one hand from dark navy civilian sleeve foreground; no other protagonist face/body. Her other arm holds exact pale-blue cloth notebook/navy spine/blank cream label reference3 against torso. Tender serious hopeful smile, warm spring evening, no winter snow or refurbished ending railing, no simultaneous embrace or multiple actions. Fingers coherent, face and linked fingers above bottom24 percent."
+    },
+    {
+      "id": "cg16_park_boundary",
+      "label": "CG16｜春日公园平视反问",
+      "scene": "DS-08",
+      "group": "CG16_OPTIONAL",
+      "file": "cg/cg16_park_boundary_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/ds_route/backgrounds/bg17_lakeside_spring_overcast_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P2",
+      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG in old park same lake/path geometry reference2. University-age DeepSeek in EXACT spring cardigan/blouse/skirt reference1 standing upright facing camera at eye level, a step of distance maintained from protagonist POV. Moist eyes with restrained tears, direct steady assertive gaze, brows slightly knit, mouth parted in serious question. One girl only, hands naturally at sides, not begging or clinging, no smile, no kneeling. Cloudy soft spring daylight, young green foliage, no winter snow, face above bottom24 percent."
+    }
+  ]
+}

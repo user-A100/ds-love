@@ -8,9 +8,10 @@
 label ch05:
 
     ## ── 场景: 场景 5-01｜三年后的重逢 ──
-    hide gp
     ## 演出: 时间：十二月 · 下午 · 国际机场
     ## 演出: 旁白
+    ## 美术分景 C5-01 · 从送别到接机
+    scene art_act05_bg13_arrive_winter with trans_dissolve
     narrator "Claude 回国的那天，下着小雪。" id story_ch05_bbf0ab01fc30_1
     narrator "我原本并没有打算去机场。" id story_ch05_870139d47eee_1
     narrator "毕竟，我们已经三年没有见面了。" id story_ch05_fb8b6b135eef_1
@@ -25,7 +26,7 @@ label ch05:
     narrator "只是当时，我是来送她离开的。" id story_ch05_5e93fb9fea98_1
     narrator "而现在，我在等她回来。" id story_ch05_98856116b481_1
     ## 演出: 音效 行李箱滚轮声、机场广播。
-    show cl normal at sprite_pos_center with trans_dissolve
+    show art_act05_claude_win_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_6e8c28cb9442")
     cl "……User？" id story_ch05_6e8c28cb9442_1
     narrator "我抬起头。" id story_ch05_e890b69429d4_1
@@ -91,6 +92,7 @@ label ch05:
     cl "还是和以前一样啊。" id story_ch05_2d3719ee71be_1
     voice voice_file("v_b8c1915d6dc1")
     u "你也是。" id story_ch05_b8c1915d6dc1_1
+    show art_act05_claude_win_blush as cl at sprite_pos_center with trans_dissolve
     narrator "她轻轻笑了一下。" id story_ch05_0b093419c688_1
     voice voice_file("v_faa1b0ea94c0")
     cl "才没有。" id story_ch05_faa1b0ea94c0_1
@@ -108,9 +110,10 @@ label ch05:
     narrator "可我们都知道，三年并不是一句“好久不见”，就能够轻易跨越的距离。" id story_ch05_827a1829e392_1
 
     ## ── 场景: 场景 5-02｜熟悉的钢琴声 ──
-    hide cl
     ## 演出: 时间：回国后的第三天 · 音乐排练厅
     ## 演出: 旁白
+    ## 美术分景 C5-02 · 两个人都没忘的旋律
+    scene art_act05_bg20_rehearsal_day with trans_dissolve
     narrator "Claude 这次回国，是为了参加一场钢琴独奏音乐会。" id story_ch05_b4db8f5c10eb_1
     narrator "因为临时需要整理一些演出资料，她联系我帮忙。" id story_ch05_e5a0bf77b3c5_1
     narrator "我来到排练厅时，她正在练习。" id story_ch05_ee51d11cb291_1
@@ -122,7 +125,7 @@ label ch05:
     narrator "那架已经有些老旧的钢琴。" id story_ch05_cb280d864a99_1
     narrator "以及那个总是嫌弃我吉他弹得难听的女孩。" id story_ch05_9ae9c4e4dcbb_1
     ## 演出: 音效 钢琴声停止。
-    show cl normal at sprite_pos_center with trans_dissolve
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_0754a6c57fb4")
     cl "……站在外面干什么？" id story_ch05_0754a6c57fb4_1
     voice voice_file("v_93dfc7eb1453")
@@ -192,17 +195,18 @@ label ch05:
     narrator "忽然发现，自己也从来没有真正忘记过。" id story_ch05_a1089d1f6741_1
 
     ## ── 场景: 场景 5-03｜她并没有变得坚强 ──
-    hide cl
     ## 演出: 时间：音乐会前一周 · Claude 的临时住处
     ## 演出: 旁白
+    ## 美术分景 C5-03 · 礼服之外仍需要人照顾
+    scene art_act05_bg21_temporary_evening with trans_dissolve
     narrator "随着音乐会临近，Claude 的状态开始变得不太好。" id story_ch05_4c0c0237c2c5_1
     narrator "她每天练习很长时间。" id story_ch05_1549fd761f2f_1
     narrator "有时候连饭都顾不上吃。" id story_ch05_0400e61968ca_1
     narrator "我去找她时，发现房间里到处堆着乐谱和演出资料。" id story_ch05_26b0f3a429ca_1
+    show art_act05_claude_win_worried as cl at sprite_pos_center with trans_dissolve
     narrator "厨房几乎没有使用过的痕迹。" id story_ch05_5af3133bf2e4_1
     voice voice_file("v_3993d9f14490")
     u "你今天吃饭了吗？" id story_ch05_3993d9f14490_1
-    show cl normal at sprite_pos_center with trans_dissolve
     voice voice_file("v_8f33bff9097f")
     cl "吃了。" id story_ch05_8f33bff9097f_1
     voice voice_file("v_6b60102d3e4f")
@@ -294,9 +298,10 @@ label ch05:
     narrator "只是低着头，慢慢吃完了那顿饭。" id story_ch05_a7b72a012250_1
 
     ## ── 场景: 场景 5-04｜另一边的等待 ──
-    hide cl
     ## 演出: 时间：同一周 · DeepSeek 的大学
     ## 演出: 旁白
+    ## 美术分景 C5-04 · 新剧本里的女孩继续写作
+    scene art_act05_bg18_user_university_day with trans_dissolve
     narrator "Claude 回国以后，我开始频繁往返于学校和排练厅之间。" id story_ch05_7b5aeeb4d714_1
     narrator "DeepSeek 依然会给我发消息。" id story_ch05_0285a84797f0_1
     narrator "但与以前不同，她不再每天都来找我。" id story_ch05_9377e20976e6_1
@@ -304,7 +309,6 @@ label ch05:
     narrator "我没有给她明确的答复。" id story_ch05_a5ded00bb283_1
     narrator "她也没有再追问。" id story_ch05_39d4859649e6_1
     narrator "直到某天下午，她突然发来一份新的剧本。" id story_ch05_7705dc67d3e5_1
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_e4ea7809a3e9")
     ds "User！新版本写好啦！" id story_ch05_e4ea7809a3e9_1
     voice voice_file("v_2e3e2f7c71a2")
@@ -345,14 +349,15 @@ label ch05:
     narrator "只是我似乎很少认真注意到这一点。" id story_ch05_be6f4dbe885b_1
 
     ## ── 场景: 场景 5-05｜学姐的邀请 ──
-    hide ds
     ## 演出: 时间：周五下午 · 出版社
     ## 演出: 旁白
+    ## 美术分景 C5-05 · 学姐记得他的导演梦想
+    scene art_act05_bg22_publisher_day with trans_dissolve
     narrator "周五下午，我按照约定来到 GPT 学姐工作的出版社。" id story_ch05_27ec42cdf190_1
     narrator "她比以前成熟了很多。" id story_ch05_b15afdf071bd_1
     narrator "穿着简洁的职业装，桌上堆满了稿件和资料。" id story_ch05_6013da8c5fab_1
     narrator "看见我，她微笑着站起来。" id story_ch05_65009cc61c51_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act05_gpt_work_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_9f76fb1b0f24")
     gp "好久不见。" id story_ch05_9f76fb1b0f24_1
     voice voice_file("v_5c275d66ba5c")
@@ -421,13 +426,14 @@ label ch05:
     narrator "只要愿意努力，什么时候都不晚。" id story_ch05_7d3b754ba674_1
 
     ## ── 场景: 场景 5-06｜没有说出口的答案 ──
-    hide gp
     ## 演出: 时间：出版社附近的咖啡馆 · 傍晚
     ## 演出: 旁白
+    ## 美术分景 C5-06 · 她说曾经喜欢过一个人
+    scene art_act05_bg23_cafe_snow_evening with trans_dissolve
     narrator "离开出版社后，GPT 学姐提议一起吃晚饭。" id story_ch05_cd9d30af1d62_1
     narrator "我们来到附近一家安静的咖啡馆。" id story_ch05_f11fa3a8dc75_1
     narrator "窗外开始下雪。" id story_ch05_5ac817b19e58_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act05_gpt_work_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_e7942bfd41ff")
     gp "听说 Claude 回国了？" id story_ch05_e7942bfd41ff_1
     voice voice_file("v_88c9b8aa98f4")
@@ -518,9 +524,10 @@ label ch05:
     gp "作品集的事情，你回去好好考虑一下。" id story_ch05_283e1488aca4_1
 
     ## ── 场景: 场景 5-07｜三封消息 ──
-    hide gp
     ## 演出: 时间：深夜 · User 的房间
     ## 演出: 旁白
+    ## 美术分景 C5-07A · DeepSeek说她不后悔
+    scene art_act05_bg18_user_university_night with trans_dissolve
     narrator "回到住处时，已经接近晚上十一点。" id story_ch05_5397bc6efef3_1
     narrator "我脱下外套，将 GPT 学姐交给我的资料放在书桌上。" id story_ch05_8b0cc0eed34b_1
     narrator "窗外还在下雪。" id story_ch05_0d6b32b346f1_1
@@ -528,7 +535,6 @@ label ch05:
     narrator "我打开电脑，准备继续修改作品集。" id story_ch05_37abbfce8265_1
     narrator "就在这时，手机突然震动了一下。" id story_ch05_686c24f003e0_1
     ## 演出: 手机消息：DeepSeek
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_cf6d3665984b")
     ds "User！你看完我发给你的新剧本了吗？" id story_ch05_cf6d3665984b_1
     voice voice_file("v_67269b11d2b1")
@@ -598,9 +604,9 @@ label ch05:
     narrator "就在这时，第二条消息出现了。" id story_ch05_02f82d7fc518_1
 
     ## ── 场景: 第二封消息：Claude ──
-    hide ds
     ## 演出: 手机消息：Claude
-    show cl normal at sprite_pos_center with trans_dissolve
+    ## 美术分景 C5-07B · 她只再给这一次机会
+    scene art_act05_bg18_user_university_night with trans_dissolve
     voice voice_file("v_2bd46d4b1ecb")
     cl "睡了吗？" id story_ch05_2bd46d4b1ecb_1
     voice voice_file("v_5bafd178766c")
@@ -709,15 +715,15 @@ label ch05:
     cl "那就明天见。" id story_ch05_4a4db7ef6cde_1
 
     ## ── 场景: 第三封消息：GPT ──
-    hide cl
     ## 演出: 旁白
+    ## 美术分景 C5-07C · 保存了三年的成绩记录
+    scene art_act05_bg18_user_university_night with trans_dissolve
     narrator "放下手机后，我重新坐回电脑前。" id story_ch05_884c763e0044_1
     narrator "桌上放着 GPT 学姐交给我的作品集资料。" id story_ch05_502970777970_1
     narrator "我打开邮箱，准备确认面试要求。" id story_ch05_387e4afb7526_1
     narrator "却发现收件箱里多了一封新邮件。" id story_ch05_7024fb7bfb40_1
     narrator "发件人是 GPT。" id story_ch05_0a2e39f4832f_1
     ## 演出: 邮件主题：关于今天的事情
-    show gp normal at sprite_pos_right with trans_dissolve
     voice voice_file("v_22577060a8d5")
     gp "今天聊得很开心。\n作品集的资料我已经整理好了，附件里还有一些以前合作项目的案例，你可以参考。\n另外，关于今天在咖啡馆里说的那些话，希望没有让你觉得困扰。\n有些事情，过去太久以后，反而不知道应该从哪里开始说起。\n不过我想，既然已经决定认真面对自己的生活，就不应该一直回避过去。\n如果你愿意的话，等这次项目结束，我们再找个时间好好聊聊吧。" id story_ch05_22577060a8d5_1
     ## 演出: 旁白
@@ -817,8 +823,9 @@ label ch05:
     gp "晚安。" id story_ch05_738a8d5f3ea5_1
 
     ## ── 场景: 场景尾声：三个没有答案的问题 ──
-    hide gp
     ## 演出: 旁白
+    ## 美术分景 C5-07D · 三段珍惜与三个未答的问题
+    scene art_act05_bg18_user_university_night with trans_dissolve
     narrator "那天晚上，我很久都没有睡着。" id story_ch05_09856a012ac1_1
     narrator "手机里，停留着三段不同的对话。" id story_ch05_ecdd66ab3179_1
     narrator "DeepSeek 说，她会继续写故事。" id story_ch05_1db0e1616eb2_1
@@ -862,14 +869,14 @@ label ch05:
     ## 演出: 场景 5-07 完
 
     ## ── 场景: 场景 5-08｜音乐会之前 ──
-    $ scene_bg("BG-018")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C5-08 · 候诊走廊里抓住衣袖
+    scene art_act05_bg24_hospital_day with trans_dissolve
     narrator "第二天上午，我按照约定来到医院。" id story_ch05_78d761132463_1
+    show art_act05_claude_win_worried as cl at sprite_pos_center with trans_dissolve
     narrator "Claude 已经站在大厅里等我。" id story_ch05_d578e8ee96a4_1
     narrator "她穿着一件深色大衣，长发整齐地披在肩上。" id story_ch05_e365dbea7199_1
     narrator "看见我，她抬起手，似乎想打招呼，却又很快放了下来。" id story_ch05_717d3eea1cfa_1
-    show cl normal at sprite_pos_center with trans_dissolve
     voice voice_file("v_625768dc7018")
     cl "……还挺准时的。" id story_ch05_625768dc7018_1
     voice voice_file("v_e6859ef7c8a1")
@@ -945,15 +952,14 @@ label ch05:
     narrator "现在才发现，她也会有不知道该怎么办的时候。" id story_ch05_6884755481b1_1
 
     ## ── 场景: 场景 5-09｜演出前的崩溃 ──
-    hide cl
-    $ scene_bg("BG-019")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C5-09 · 弹不完熟悉的曲子
+    scene art_act05_bg25_empty_stage_night with trans_dissolve
     narrator "医院的检查暂时没有给出明确结论。" id story_ch05_40efec516cd6_1
     narrator "医生建议 Claude 的母亲继续接受观察。" id story_ch05_53d8a9a9d004_1
     narrator "与此同时，Claude 的音乐会已经迫在眉睫。" id story_ch05_aa10cec9bfbf_1
     narrator "那天晚上，我接到她的电话。" id story_ch05_5e313380e08d_1
-    show cl normal at sprite_pos_center with trans_dissolve
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_423132c8fb30")
     cl "……你现在有空吗？" id story_ch05_423132c8fb30_1
     voice voice_file("v_8517678f9232")
@@ -1042,17 +1048,16 @@ label ch05:
     narrator "可我仍然没有勇气说出更多。" id story_ch05_1500ee4eb9f2_1
 
     ## ── 场景: 场景 5-10｜DeepSeek 的决定 ──
-    hide cl
-    $ scene_bg("BG-020")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C5-10 · 我不能一直等下去
+    scene art_act06_bg26_filmclub_day_continuity with trans_dissolve
     narrator "音乐会结束后，Claude 的状态逐渐恢复。" id story_ch05_f91bfb8cfa11_1
     narrator "演出取得了成功。" id story_ch05_4a555f79dfa1_1
     narrator "而我也重新回到了大学里的生活。" id story_ch05_d2480109ec61_1
     narrator "周末，我按照约定去找 DeepSeek。" id story_ch05_5e6716cd7d21_1
     narrator "她正在整理新的剧本。" id story_ch05_8e0ddcc39617_1
     narrator "看见我，她像往常一样挥了挥手。" id story_ch05_b0f1d2b11eda_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_act05_ds_indoor_firm_tear as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_eb2358b996f5")
     ds "User！你来啦！" id story_ch05_eb2358b996f5_1
     voice voice_file("v_88c9b8aa98f4")
@@ -1131,17 +1136,16 @@ label ch05:
     narrator "而我却还停留在原地。" id story_ch05_6edc78c37963_1
 
     ## ── 场景: 场景 5-11｜学姐最后的温柔 ──
-    hide ds
-    $ scene_bg("BG-021")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C5-11 · 学姐终于说出自己的答案
+    scene art_act05_bg23_cafe_snow_day with trans_dissolve
     narrator "几天后，我再次来到出版社。" id story_ch05_d3df752f73ff_1
     narrator "GPT 学姐已经帮我整理好了作品集。" id story_ch05_5b60c5fc0de7_1
     narrator "她告诉我，影像改编项目的面试安排在下个月。" id story_ch05_3b78a9762b95_1
     narrator "如果能够通过，我就有机会真正参与一部文学作品的影像制作。" id story_ch05_c90efcba8215_1
     narrator "这原本是我一直期待的事情。" id story_ch05_f1463bb5f353_1
     narrator "可最近发生的一切，让我始终无法集中精神。" id story_ch05_dd3362d0665f_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act05_gpt_work_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_7a857ac7311f")
     gp "你最近看起来很累。" id story_ch05_7a857ac7311f_1
     voice voice_file("v_65d6faac9f2d")
@@ -1261,22 +1265,23 @@ label ch05:
     narrator "她终于把藏在心里的答案告诉了我。" id story_ch05_ec2f05c23f03_1
 
     ## ── 场景: 场景 5-12｜无法继续的四人关系 ──
-    hide gp
     ## 演出: 时间：十二月底 · 高中母校 · 旧音乐教室
     ## 演出: 旁白
+    ## 美术分景 C5-12A · 四个人重新站回原处
+    scene art_act05_bg10_musicroom_winter_day with trans_dissolve
     narrator "年底，母校举办了一场校友活动。" id story_ch05_12dc7e57a348_1
     narrator "因为文化祭时的演出录像被重新选中展示，我们四个人都收到了邀请。" id story_ch05_c66768774561_1
     narrator "这是高中毕业以后，我们第一次重新聚在一起。" id story_ch05_9ca632f3713b_1
     narrator "DeepSeek 比约定时间早到了半个小时。" id story_ch05_6236c805b8dc_1
     narrator "GPT 学姐带来了一些以前的照片。" id story_ch05_a1dc8a8bb095_1
     narrator "Claude 则在活动开始前几分钟才出现。" id story_ch05_3014fa2c7dae_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_act05_ds_win_neutral as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_9ced20c1a07b")
     ds "哇！大家真的都来了！" id story_ch05_9ced20c1a07b_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act05_gpt_work_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_debc6d481c02")
     gp "好久没有这样聚在一起了。" id story_ch05_debc6d481c02_1
-    show cl normal at sprite_pos_center with trans_dissolve
+    show art_act05_claude_win_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_60788a6e0c59")
     cl "……嗯。" id story_ch05_60788a6e0c59_1
     voice voice_file("v_979561950902")
@@ -1398,16 +1403,15 @@ label ch05:
     narrator "却再也无法理所当然地享受这份陪伴。" id story_ch05_15e8fce8e0eb_1
 
     ## ── 场景: 场景：旧音乐教室 · 黄昏 ──
-    hide cl
-    hide ds
-    hide gp
     ## 演出: 旁白
+    ## 美术分景 C5-12B · Claude不想再过另一个三年
+    scene art_act05_bg10_musicroom_winter_evening with trans_dissolve
     narrator "校友活动结束后，我们留在教室里整理东西。" id story_ch05_68ffdf57e4e7_1
     narrator "DeepSeek 抱着以前的演出照片，坐在窗边。" id story_ch05_a12633a13f5f_1
     narrator "GPT 学姐正在整理乐谱。" id story_ch05_5a01a4d2d95c_1
     narrator "Claude 则独自站在钢琴旁。" id story_ch05_21d79fb76228_1
     narrator "我走过去，准备帮她把琴盖合上。" id story_ch05_f8a7508667f4_1
-    show cl normal at sprite_pos_center with trans_dissolve
+    show art_act05_claude_win_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_7919dbafb866")
     cl "……User。" id story_ch05_7919dbafb866_2
     voice voice_file("v_7235f2204469")
@@ -1478,16 +1482,18 @@ label ch05:
     cl "不过这一次，我不会一直等下去。" id story_ch05_33497d96e4fd_1
 
     ## ── 场景: 场景：电影研究社旧活动室 ──
-    hide cl
     ## 演出: 旁白
+    ## 美术分景 C5-12C · 把最初的约定交给他保管
+    scene art_act05_bg04_filmclub_clean_winter_evening with trans_dissolve
     narrator "离开音乐教室后，我去找 DeepSeek。" id story_ch05_e54a10385d27_1
     narrator "她正独自坐在旧活动室里，翻看高中时写下的剧本。" id story_ch05_0e44326d06c9_1
     voice voice_file("v_5886c7a04217")
     u "原来你在这里。" id story_ch05_5886c7a04217_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_act05_ds_win_neutral as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_d1f530391cf4")
     ds "啊，User！" id story_ch05_d1f530391cf4_1
     narrator "她抬起头。" id story_ch05_54b76a6e010c_4
+    show art_act01_pr01_blue_notebook as story_prop at story_prop_pos with trans_dissolve
     voice voice_file("v_13daa50c6407")
     ds "你看！我找到以前的笔记本啦！" id story_ch05_13daa50c6407_1
     narrator "那是我们第一次见面时，她遗失在天台上的那本。" id story_ch05_11734175909a_1
@@ -1520,6 +1526,7 @@ label ch05:
     voice voice_file("v_a87fb721fd76")
     ds "所以我一直记得。" id story_ch05_a87fb721fd76_1
     ## 演出: 旁白
+    hide story_prop with trans_dissolve
     narrator "她把笔记本合上。" id story_ch05_c56dfc5a3ef4_1
     voice voice_file("v_0a84887f827d")
     ds "User。" id story_ch05_0a84887f827d_1
@@ -1580,11 +1587,12 @@ label ch05:
     narrator "最终还是像高中时那样，轻轻勾住了她的小指。" id story_ch05_6583b378a0c7_1
 
     ## ── 场景: 场景：教学楼走廊 · 傍晚 ──
-    hide ds
     ## 演出: 旁白
+    ## 美术分景 C5-12D · 她要的是喜欢而非报答
+    scene art_act05_bg08_corridor_winter_evening with trans_dissolve
     narrator "GPT 学姐正在走廊里等我。" id story_ch05_f837e8b91e56_1
     narrator "她手里拿着几张旧照片。" id story_ch05_174039cdb949_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act05_gpt_work_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_917101c7b4a4")
     gp "找到你了。" id story_ch05_917101c7b4a4_1
     voice voice_file("v_b83f6ff55971")
@@ -1669,8 +1677,9 @@ label ch05:
     gp "那可是你一直以来的梦想。" id story_ch05_e0db308aa457_1
 
     ## ── 场景: 场景 5-12 尾声｜空无一人的音乐教室 ──
-    hide gp
     ## 演出: 旁白
+    ## 美术分景 C5-12E · 三样东西与三条道路
+    scene art_act05_bg10_musicroom_winter_night with trans_dissolve
     narrator "天色完全暗下来时，她们都已经离开。" id story_ch05_b474e4b0b29c_1
     narrator "我独自回到音乐教室。" id story_ch05_b327e2c342ca_1
     narrator "窗外的灯光映在钢琴上。" id story_ch05_c58d9e2fa71b_1
@@ -1687,15 +1696,12 @@ label ch05:
     narrator "我们都在努力向前走。" id story_ch05_3b678cb2a6ba_1
     narrator "只有我，似乎始终停留在文化祭结束的那个夜晚。" id story_ch05_bb68bed7d64b_1
     narrator "我想起 Claude 说过的话。" id story_ch05_2c51394d7c9a_1
-    show cl normal at sprite_pos_center with trans_dissolve
     voice voice_file("v_c6fd5d45396e")
     cl "这一次，我不会一直等下去。" id story_ch05_c6fd5d45396e_1
     narrator "想起 DeepSeek 的笑容。" id story_ch05_e985e48bb6ea_1
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_881049aeda93")
     ds "如果最后不能和你在一起，我也会继续写下去。" id story_ch05_881049aeda93_1
     narrator "还有 GPT 学姐那句温柔却坚定的话。" id story_ch05_f361f25b1d82_1
-    show gp normal at sprite_pos_right with trans_dissolve
     voice voice_file("v_16a2dc835b90")
     gp "我想要的，是你真正的喜欢。" id story_ch05_16a2dc835b90_2
     ## 演出: 旁白
@@ -1703,10 +1709,12 @@ label ch05:
     narrator "而我也终于明白。" id story_ch05_a98cdd7645e0_1
     narrator "我不能再用所谓的温柔，逃避自己必须承担的责任。" id story_ch05_4545b8dfba7b_1
     narrator "我打开背包。" id story_ch05_d416df52d968_1
+    show art_act01_pr01_blue_notebook as story_prop at story_prop_pos with trans_dissolve
     narrator "里面放着 DeepSeek 交给我的旧笔记本。" id story_ch05_65156fec4cd9_1
     narrator "桌上，是 GPT 学姐帮我整理的作品集。" id story_ch05_ef91cf03f4f1_1
     narrator "钢琴旁，还留着 Claude 当年写下的乐谱。" id story_ch05_2fe43852ecef_1
     narrator "三样东西。" id story_ch05_17dc4d49358e_1
+    hide story_prop with trans_dissolve
     narrator "三段不同的回忆。" id story_ch05_9ce73bf7fd2b_1
     narrator "以及三条无法同时走下去的道路。" id story_ch05_43424a0f4e4a_1
     ## 演出: 旁白

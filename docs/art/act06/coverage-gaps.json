@@ -1,74 +1,14 @@
 {
   "scope": "C6-01–C6-06 only",
   "coverage_status": "incomplete",
-  "generated_image_count": 10,
-  "notes": "Ten generated PNGs are an initial batch, not a complete chapter art pack. Reusable existing files require shot-by-shot mapping. Optional CG11 is not counted as mandatory new illustration.",
+  "generated_image_count": 24,
+  "notes": "All 24 planned images saved and validated. Draft resolutions are mapped in docs/art/act06/拼接交接.md; editable text/UI and runtime verification remain. Optional CG11 is not mandatory.",
   "gaps": [
     {
       "scene": "C6-01",
       "id": "PR25",
       "missing": "可编辑的一月日历与20/23/27圈记、可推近构图；背景中的空白日历不能代替成品",
       "kind": "required"
-    },
-    {
-      "scene": "C6-01/C6-04A",
-      "id": "PR21",
-      "missing": "成年作品集和面试资料递交道具；GPT手持文件夹不等于可阅读或可递交的资料叠层",
-      "kind": "required"
-    },
-    {
-      "scene": "C6-02",
-      "id": "PR08",
-      "missing": "《候鸟》最终稿、递稿动作及可编辑后记；第一幕稿纸可作基础，但尚无复用映射与最终稿版本",
-      "kind": "required"
-    },
-    {
-      "scene": "C6-02",
-      "id": "DS_EMOTIONS",
-      "missing": "完稿开心→感谢→平静坚定的成年表情覆盖；当前抱本两姿态不等于全套情绪",
-      "kind": "required"
-    },
-    {
-      "scene": "C6-03",
-      "id": "CLAUDE_EMOTIONS",
-      "missing": "演后自信轻笑→认真告知→坚定邀请的表情覆盖与映射",
-      "kind": "required"
-    },
-    {
-      "scene": "C6-03",
-      "id": "CLAUDE_HAND_CONTACT",
-      "missing": "原文已握住男主手；当前伸手邀请图未表现接触，可用手部局部或CG补足",
-      "kind": "required_visual_beat"
-    },
-    {
-      "scene": "C6-03",
-      "id": "PR09_CASE",
-      "missing": "收谱进箱的乐谱与琴谱箱；后台显眼的吉他形琴盒不应冒充钢琴家的琴谱箱",
-      "kind": "required"
-    },
-    {
-      "scene": "C6-04A/B",
-      "id": "GPT_EMOTIONS",
-      "missing": "微笑支持、面试后安心、认真告白的细分；第五章中性微笑可复用，尚缺安心变化与明确调度",
-      "kind": "required"
-    },
-    {
-      "scene": "C6-04B",
-      "id": "GPT_HAIR_GESTURE",
-      "missing": "原文整理被风吹乱头发的动作；目前始终双手持文件夹",
-      "kind": "optional_gesture"
-    },
-    {
-      "scene": "C6-05",
-      "id": "CROSSING_BLOCKED",
-      "missing": "栏杆落下、列车遮挡与通过的画面状态；现图只有栏杆升起后的空道口",
-      "kind": "required"
-    },
-    {
-      "scene": "C6-05",
-      "id": "FLASHBACK_MAP",
-      "missing": "花坛低谷、天台初遇、操场告白、教室辅导四段回忆的既有资产对应与高中服装核对",
-      "kind": "required_reuse_mapping"
     },
     {
       "scene": "C6-05",
@@ -81,12 +21,133 @@
       "id": "UI04",
       "missing": "已有通用四选项菜单逻辑可复用，但无本章专用美术/布局交付与选择前存档呈现验证；不能说完全没有菜单",
       "kind": "required_verification"
+    }
+  ],
+  "resolved_draft_items": [
+    {
+      "scene": "C6-01/C6-04A",
+      "id": "PR21",
+      "kind": "required",
+      "previous_missing": "成年作品集和面试资料递交道具；GPT手持文件夹不等于可阅读或可递交的资料叠层",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/props/pr21_interview_portfolio_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-02",
+      "id": "PR08",
+      "kind": "required",
+      "previous_missing": "《候鸟》最终稿、递稿动作及可编辑后记；第一幕稿纸可作基础，但尚无复用映射与最终稿版本",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/props/pr08_final_manuscript_v001.png",
+        "assets_src/act06/cg/cg_c602_final_manuscript_handover_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-02",
+      "id": "DS_EMOTIONS",
+      "kind": "required",
+      "previous_missing": "完稿开心→感谢→平静坚定的成年表情覆盖；当前抱本两姿态不等于全套情绪",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/characters/deepseek/ds_win_completed_happy_v001.png",
+        "assets_src/act06/characters/deepseek/ds_win_earnest_v001.png",
+        "assets_src/act06/characters/deepseek/ds_win_determined_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-03",
+      "id": "CLAUDE_EMOTIONS",
+      "kind": "required",
+      "previous_missing": "演后自信轻笑→认真告知→坚定邀请的表情覆盖与映射",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/characters/claude/claude_win_confident_smile_v001.png",
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png",
+        "assets_src/act06/characters/claude/claude_win_invitation_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-03",
+      "id": "CLAUDE_HAND_CONTACT",
+      "kind": "required_visual_beat",
+      "previous_missing": "原文已握住男主手；当前伸手邀请图未表现接触，可用手部局部或CG补足",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/cg/cg_c603_claude_handhold_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-03",
+      "id": "PR09_CASE",
+      "kind": "required",
+      "previous_missing": "收谱进箱的乐谱与琴谱箱；后台显眼的吉他形琴盒不应冒充钢琴家的琴谱箱",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/props/pr09_music_document_case_v001.png",
+        "assets_src/act06/backgrounds/bg27_backstage_musiccase_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-04A/B",
+      "id": "GPT_EMOTIONS",
+      "kind": "required",
+      "previous_missing": "微笑支持、面试后安心、认真告白的细分；第五章中性微笑可复用，尚缺安心变化与明确调度",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png",
+        "assets_src/act06/characters/gpt/gpt_work_relieved_v001.png",
+        "assets_src/act06/characters/gpt/gpt_work_determined_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-04B",
+      "id": "GPT_HAIR_GESTURE",
+      "kind": "optional_gesture",
+      "previous_missing": "原文整理被风吹乱头发的动作；目前始终双手持文件夹",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/characters/gpt/gpt_work_hair_tuck_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-05",
+      "id": "CROSSING_BLOCKED",
+      "kind": "required",
+      "previous_missing": "栏杆落下、列车遮挡与通过的画面状态；现图只有栏杆升起后的空道口",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/backgrounds/bg29_crossing_barrier_down_v001.png",
+        "assets_src/act06/backgrounds/bg29_crossing_train_passing_v001.png"
+      ]
+    },
+    {
+      "scene": "C6-05",
+      "id": "FLASHBACK_MAP",
+      "kind": "required_reuse_mapping",
+      "previous_missing": "花坛低谷、天台初遇、操场告白、教室辅导四段回忆的既有资产对应与高中服装核对",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act02/cg/cg_c203_mother_v001.png",
+        "assets_src/act01/cg/cg01_rooftop_collision_v001.png",
+        "assets_src/act01/cg/cg02_pullup_confession_v001.png",
+        "assets_src/act02/cg/cg03_tutoring_v001.png"
+      ]
     },
     {
       "scene": "C6-01/C6-02/C6-04A",
       "id": "SPATIAL_CONTINUITY",
-      "missing": "复核当前第五章BG18/BG26/BG22与第六章机位关系；住处床、窗、门关系明显不同，应以已确定空间做差分或明确合理反打",
-      "kind": "required_review"
+      "kind": "required_review",
+      "previous_missing": "复核当前第五章BG18/BG26/BG22与第六章机位关系；住处床、窗、门关系明显不同，应以已确定空间做差分或明确合理反打",
+      "status": "mapped_draft_pending_runtime_review",
+      "assets": [
+        "assets_src/act06/backgrounds/bg18_student_room_night_continuity_v001.png",
+        "assets_src/act06/backgrounds/bg26_filmclub_day_continuity_v001.png",
+        "assets_src/act05/backgrounds/bg22_publisher_day_v001.png"
+      ]
     }
-  ]
+  ],
+  "handoff_file": "docs/art/act06/拼接交接.md"
 }

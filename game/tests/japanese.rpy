@@ -25,7 +25,7 @@ testsuite japanese:
         assert "第四章 · 届かない恋" timeout 2.0
         assert "DeepSeekルート · 最初の約束" timeout 2.0
         click "第四章 · 届かない恋"
-        assert screen "say"
+        assert screen "say" timeout 2.0
         assert eval (_preferences.language == "japanese")
 
     testcase missing_voice_is_silent:

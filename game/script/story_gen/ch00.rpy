@@ -8,9 +8,9 @@
 label ch00:
 
     ## ── 场景: 序章《天台上的少女》 ──
-    $ scene_bg("CG-001")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 P-01 · 天台上的少女
+    scene art_act01_bg_rooftop_spring_day with trans_dissolve
     narrator "那天，我原本只是想找个安静的地方。" id story_ch00_b884d820f9f3_1
     narrator "教学楼天台平时很少有人来。尤其是在午休结束前的十几分钟，整个校园都显得格外安静。" id story_ch00_413322d44ea3_1
     narrator "我喜欢拍电影。" id story_ch00_d602938fea12_1
@@ -23,11 +23,15 @@ label ch00:
     ## 演出: 音效 砰！
     voice voice_file("v_ba5641e432a5")
     u "什——？！" id story_ch00_ba5641e432a5_1
+    scene art_act01_cg_p01_offbalance with trans_dissolve
     narrator "一个蓝色的身影突然从天台高处跃下。" id story_ch00_f452766ff4ff_1
     narrator "不，准确来说，是从旁边的矮墙上失去平衡，整个人向我扑了过来。" id story_ch00_223b9e92bbda_1
+    scene art_act01_cg01_rooftop_collision with trans_dissolve
     narrator "我还没来得及反应，就被撞得坐在地上。" id story_ch00_1dccf8f0ddc4_1
     voice voice_file("v_3510e0a35fb3")
     mystery "好痛……" id story_ch00_3510e0a35fb3_1
+    scene art_act01_bg_rooftop_spring_day with trans_dissolve
+    show art_act01_ds_hs_pain as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_71bfe7dcd574")
     u "你没事吧？！" id story_ch00_71bfe7dcd574_1
     voice voice_file("v_5ddd706e7312")
@@ -47,6 +51,7 @@ label ch00:
     u "……" id story_ch00_5f55f500d924_1
     voice voice_file("v_5436934aa60e")
     mystery "啊，不对！这个时候应该先道歉！" id story_ch00_5436934aa60e_1
+    show art_act01_ds_hs_apology as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_638752c34d1b")
     mystery "对不起！！" id story_ch00_638752c34d1b_1
     narrator "少女猛地鞠躬，差点又撞上我的额头。" id story_ch00_83ec9c5fe5a9_1
@@ -67,6 +72,7 @@ label ch00:
     voice voice_file("v_b3e892ecdf9c")
     mystery "那就好！" id story_ch00_b3e892ecdf9c_1
     narrator "她露出了笑容。" id story_ch00_a651f3c785a5_1
+    show art_act01_ds_hs_happy as ds at sprite_pos_left with trans_dissolve
     narrator "阳光落在她的蓝发上。" id story_ch00_22bea4103746_1
     narrator "那一瞬间，我忽然有种奇怪的感觉。" id story_ch00_bf1e47c7c4d0_1
     narrator "如果刚才手里的摄影机正在录制，这一定会是个很好的镜头。" id story_ch00_caccdc659551_1
@@ -78,10 +84,13 @@ label ch00:
     mystery "我先走啦！再见！" id story_ch00_6b4c1555f516_1
     voice voice_file("v_6a4c3a38c71d")
     u "等等，你叫什么——" id story_ch00_6a4c3a38c71d_1
+    hide ds with trans_dissolve
     narrator "她已经消失在楼梯口。" id story_ch00_9b7a11817f25_1
     narrator "地上只剩下一本浅蓝色的笔记本。" id story_ch00_c4ca71156d22_1
+    scene art_act01_cg_p01_notebook_pickup with trans_dissolve
     narrator "我捡了起来。" id story_ch00_a311ff891354_1
     narrator "封面上写着一个名字。" id story_ch00_b6433d3ebc39_1
+    scene art_act01_cg_p01_notebook_reveal with trans_dissolve
     narrator "DeepSeek。" id story_ch00_7c0be0110e83_1
     ## 演出: 旁白
     narrator "那是我第一次知道她的名字。" id story_ch00_7ba0d90826f8_1

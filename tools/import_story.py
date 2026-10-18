@@ -26,6 +26,7 @@ import struct
 import sys
 
 from story_text import parse_markdown, align_chapter
+from art_direction import ArtDirector
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STORY_DIR = os.path.join(ROOT, "story")
@@ -99,7 +100,9 @@ class Importer:
         var = "narrator" if speaker == "narrator" else self.speakers.get(speaker)
         if var is None:
             raise ValueError("未知说话人 {} ({}:{})".format(speaker, event.source, event.line))
-        if var in SPRITE_POS and var not in self.shown:
+        if self.art:
+            self.art.before(event, var)
+        elif var in SPRITE_POS and var not in self.shown:
             self.emit("show {} normal at sprite_pos_{} with trans_dissolve".format(var, SPRITE_POS[var]))
             self.shown.add(var)
         key = (self.current, speaker, text)
@@ -128,7 +131,7 @@ class Importer:
     def emit_scene_reset(self, heading):
         self.emit("")
         self.emit("## ── 场景: {} ──".format(heading))
-        for who in sorted(self.shown):
+        for who in sorted(self.shown) if not self.art else []:
             self.emit("hide {}".format(who))
         self.shown.clear()
 
@@ -147,6 +150,7 @@ class Importer:
         for chapter in self.chapter_order:
             self.translations.update(align_chapter(self.events, japanese, chapter, self.speakers))
         self.japanese_units = sum(len(v) for v in self.translations.values())
+        self.art = ArtDirector(ROOT, self.events, self.emit) if Path(STORY_DIR, 'art_direction.json').exists() else None
         for event in self.events:
             self.current = event.chapter
             if event.kind == "say":
@@ -154,6 +158,8 @@ class Importer:
             elif event.kind == "heading":
                 self.emit_scene_reset(event.text)
             elif event.kind == "background":
+                if self.art:
+                    continue  # Exact text anchors supersede the old, ambiguous CG/BG numbers.
                 self.emit('$ scene_bg("{}")'.format(event.text))
                 self.emit("with trans_dissolve")
                 self.shown.clear()
@@ -205,6 +211,8 @@ class Importer:
         a.append("")
         a.append("## 立绘（真实资产就绪前用 Placeholder 剪影）")
         a.extend(image_lines)
+        if self.art:
+            a.extend(self.art.definitions())
         files["assets.rpy"] = "\n".join(a) + "\n"
 
         ## ── 章节文件 ──

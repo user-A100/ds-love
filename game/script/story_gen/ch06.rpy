@@ -8,11 +8,10 @@
 label ch06:
 
     ## ── 场景: 场景 6-01｜最后的期限 ──
-    hide cl
-    hide ds
-    hide gp
     ## 演出: 时间：一月上旬 · User 的住处
     ## 演出: 旁白
+    ## 美术分景 C6-01 · 日历上的三个日期
+    scene art_act06_bg18_student_room_night_continuity with trans_dissolve
     narrator "新年过去以后，一切似乎都在催促着我做出决定。" id story_ch06_b1e8d4115369_1
     narrator "Claude 的音乐会已经结束。" id story_ch06_a108969cf9f4_1
     narrator "她收到了欧洲方面新的演出邀请，必须在月底之前决定是否返回。" id story_ch06_d618e8bce284_1
@@ -33,22 +32,29 @@ label ch06:
     ## ── 场景: 场景 6-02｜DeepSeek 的最后一次邀请 ──
     ## 演出: 时间：一月二十日 · 大学电影研究社
     ## 演出: 旁白
+    ## 美术分景 C6-02 · 最后一次请你认真回答
+    scene art_act06_bg26_filmclub_day_continuity with trans_dissolve
     narrator "DeepSeek 的小说终于完成了。" id story_ch06_56b9524c55f1_1
     narrator "她邀请我去看最终稿。" id story_ch06_ef8d4e3bb9b1_1
+    show art_act06_pr08_final_manuscript as story_prop at story_prop_pos with trans_dissolve
     narrator "来到活动室时，她正坐在桌边，认真地整理打印出来的稿纸。" id story_ch06_932538badc5f_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_act06_ds_win_completed_happy as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_eb2358b996f5")
     ds "User！你来啦！" id story_ch06_eb2358b996f5_1
     voice voice_file("v_88c9b8aa98f4")
     u "嗯。" id story_ch06_88c9b8aa98f4_1
     voice voice_file("v_5e8ad5a49fc6")
     ds "你看！这次是真的完成了！" id story_ch06_5e8ad5a49fc6_1
+    hide story_prop with trans_dissolve
+    scene art_act06_cg_c602_final_manuscript_handover with trans_dissolve
     narrator "她把厚厚一摞稿纸递给我。" id story_ch06_acf5400cb1ea_1
     narrator "我翻开第一页。" id story_ch06_e48c9557d526_1
     narrator "故事依然是那个关于少年与少女、梦想与分别的故事。" id story_ch06_1948aa9dea5f_1
     narrator "只是这一次，女孩不再因为失去爱情而放弃写作。" id story_ch06_6f2ce57a2f3b_1
     narrator "她最终成为了小说家。" id story_ch06_079f4037292c_1
     narrator "而少年也实现了自己的电影梦想。" id story_ch06_584a4106be9f_1
+    scene art_act06_bg26_filmclub_day_continuity with trans_dissolve
+    show art_act06_ds_win_earnest as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_5433624fea29")
     u "结局还是这样？" id story_ch06_5433624fea29_1
     voice voice_file("v_f3620bb93bd0")
@@ -94,6 +100,7 @@ label ch06:
     voice voice_file("v_3995d5924583")
     ds "嘿嘿，我也这么觉得。" id story_ch06_3995d5924583_1
     narrator "她低头看着自己的稿纸。" id story_ch06_b91bb4c82531_1
+    show art_act06_ds_win_determined as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_d7afd468306e")
     ds "所以我想，在离开之前，再问你最后一次。" id story_ch06_d7afd468306e_1
     narrator "我抬起头。" id story_ch06_e890b69429d4_1
@@ -114,19 +121,22 @@ label ch06:
     ds "请你认真告诉我吧。" id story_ch06_418761184967_1
 
     ## ── 场景: 场景 6-03｜Claude 的最后一场演奏 ──
-    hide ds
     ## 演出: 时间：一月二十三日 · 音乐厅
     ## 演出: 旁白
+    ## 美术分景 C6-03 · 这次和我一起走吧
+    scene art_act06_bg27_backstage_musiccase with trans_dissolve
     narrator "Claude 回国后的最后一场音乐会，安排在一月二十三日。" id story_ch06_aa51d9695a36_1
     narrator "演出结束后，我来到后台。" id story_ch06_163c8189bab1_1
     narrator "她已经换下礼服，正在整理自己的东西。" id story_ch06_6f2dc327a96d_1
-    show cl normal at sprite_pos_center with trans_dissolve
+    show art_act06_pr09_music_document_case as story_prop at story_prop_pos with trans_dissolve
+    show art_act06_claude_win_confident_smile as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_219648a88e1f")
     cl "……你来了。" id story_ch06_219648a88e1f_1
     voice voice_file("v_affcf2375aa7")
     u "演出很成功。" id story_ch06_affcf2375aa7_1
     voice voice_file("v_fb4c000169d9")
     cl "当然。" id story_ch06_fb4c000169d9_1
+    hide story_prop with trans_dissolve
     narrator "她轻轻笑了一下。" id story_ch06_0b093419c688_1
     voice voice_file("v_73b3bd7aabd4")
     cl "我可是练习了很久。" id story_ch06_73b3bd7aabd4_1
@@ -162,6 +172,7 @@ label ch06:
     cl "三年前，我一直希望你能够开口挽留我。" id story_ch06_ac077f7df1a8_1
     voice voice_file("v_7db6fe0bebee")
     cl "可是这次，我不会再因为你的一句话，就改变自己的人生。" id story_ch06_7db6fe0bebee_1
+    show art_act06_claude_win_invitation as cl at sprite_pos_center with trans_dissolve
     narrator "她走到我面前。" id story_ch06_cbc37b5a7c31_1
     voice voice_file("v_68007f602d74")
     cl "我喜欢钢琴。" id story_ch06_68007f602d74_1
@@ -170,6 +181,7 @@ label ch06:
     voice voice_file("v_042f04659bf8")
     cl "我不想为了其中一个，就放弃另一个。" id story_ch06_042f04659bf8_1
     ## 演出: 旁白
+    scene art_act06_cg_c603_claude_handhold with trans_dissolve
     narrator "她伸出手，轻轻握住我的手。" id story_ch06_70d0f04583c3_1
     voice voice_file("v_9940ee0c00f3")
     cl "所以，如果你真的想和我在一起……" id story_ch06_9940ee0c00f3_1
@@ -188,19 +200,21 @@ label ch06:
     cl "这一次，我想听到一个真正的答案。" id story_ch06_eed7dd494184_1
 
     ## ── 场景: 场景 6-04｜GPT 学姐的最后一道题 ──
-    hide cl
     ## 演出: 时间：一月二十七日 · 出版社
     ## 演出: 旁白
+    ## 美术分景 C6-04A · 把面试交给自己的努力
+    scene art_act06_bg22_publisher_lobby_day with trans_dissolve
     narrator "影像改编项目的面试安排在一月二十七日。" id story_ch06_d303901346b9_1
     narrator "我提前半小时来到出版社。" id story_ch06_70a608a1d679_1
     narrator "GPT 学姐已经在大厅里等我。" id story_ch06_469421da48ed_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act05_gpt_work_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_21046dc14332")
     gp "准备好了吗？" id story_ch06_21046dc14332_1
     voice voice_file("v_4008637fda5a")
     u "有一点紧张。" id story_ch06_4008637fda5a_1
     voice voice_file("v_6b62967858f6")
     gp "正常。" id story_ch06_6b62967858f6_1
+    show art_act06_pr21_interview_portfolio as story_prop at story_prop_pos with trans_dissolve
     narrator "她笑着递给我一份资料。" id story_ch06_d7acdaeec469_1
     voice voice_file("v_3d820134a457")
     gp "不过你已经准备得很充分了。" id story_ch06_3d820134a457_1
@@ -208,6 +222,7 @@ label ch06:
     u "多亏了学姐。" id story_ch06_bf0a2e92b59d_1
     voice voice_file("v_0c9399b54496")
     gp "又来了。" id story_ch06_0c9399b54496_1
+    hide story_prop with trans_dissolve
     voice voice_file("v_ab3720bd4818")
     gp "我不是说过吗？这是你自己努力的结果。" id story_ch06_ab3720bd4818_1
     ## 演出: 旁白
@@ -221,6 +236,9 @@ label ch06:
     voice voice_file("v_02256439ef41")
     gp "那就好。" id story_ch06_02256439ef41_1
     narrator "她露出安心的笑容。" id story_ch06_d738f8311c12_1
+    ## 美术分景 C6-04B · 学姐也想成为被陪伴的人
+    scene art_act06_bg28_publisher_street_snow with trans_dissolve
+    show art_act06_gpt_work_relieved as gp at sprite_pos_right with trans_dissolve
     narrator "我们一起走出出版社。" id story_ch06_8db5dc5b98e2_1
     narrator "街道上还残留着前几天的积雪。" id story_ch06_4c93f5247336_1
     voice voice_file("v_8e5d6be8f73c")
@@ -247,6 +265,7 @@ label ch06:
     voice voice_file("v_f425371fe41e")
     gp "但未来要怎么走，仍然可以由自己决定。" id story_ch06_f425371fe41e_1
     narrator "她看着我。" id story_ch06_d18d9ba31bef_1
+    show art_act06_gpt_work_determined as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_fa9a6cb2f831")
     gp "我喜欢你。" id story_ch06_fa9a6cb2f831_1
     voice voice_file("v_939de23981d7")
@@ -262,26 +281,32 @@ label ch06:
     gp "如果你愿意，我们可以试着真正成为恋人。" id story_ch06_aab5a476c064_1
     voice voice_file("v_c252014ecc34")
     gp "如果你不愿意，我也会尊重你的决定。" id story_ch06_c252014ecc34_1
+    show art_act06_gpt_work_hair_tuck as gp at sprite_pos_right with trans_dissolve
     narrator "她伸出手，轻轻整理了一下被风吹乱的头发。" id story_ch06_fb3ef3f80926_1
     voice voice_file("v_15cbd9c737ba")
     gp "这一次，答案要由你自己写出来。" id story_ch06_15cbd9c737ba_1
 
     ## ── 场景: 场景 6-05｜选择的代价 ──
-    hide gp
-    $ scene_bg("CG-005")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C6-05 · 栏杆升起以后
+    scene art_act06_bg29_crossing_sunset with trans_dissolve
     narrator "面试结束后的傍晚，我独自走在回家的路上。" id story_ch06_68097a3e3696_1
     narrator "经过一处铁路道口时，警报声突然响起。" id story_ch06_71e84deeb811_1
     ## 演出: 音效 叮、叮、叮——
+    scene art_act06_bg29_crossing_barrier_down with trans_dissolve
     narrator "栏杆缓缓落下。" id story_ch06_2e72e6e50a15_1
     narrator "我停住脚步。" id story_ch06_d0aba29eb8b3_1
+    scene art_act06_bg29_crossing_train_passing with trans_dissolve
     narrator "列车从眼前驶过。" id story_ch06_e14c205daa4a_1
     narrator "车窗里映出一张张陌生的面孔。" id story_ch06_4f7fcea35ea6_1
     narrator "我忽然想起很多年前。" id story_ch06_36e438981ba7_1
+    scene art_act02_cg_c203_mother with trans_dissolve
     narrator "那个因为成绩糟糕而对未来失去信心的自己。" id story_ch06_bc9ed2486acb_1
+    scene art_act01_cg01_rooftop_collision with trans_dissolve
     narrator "那个在天台上遇见 DeepSeek 的下午。" id story_ch06_7041231a780d_1
+    scene art_act01_cg02_pullup_confession with trans_dissolve
     narrator "那个在操场上向 Claude 告白的傍晚。" id story_ch06_e02c131064af_1
+    scene art_act02_cg03_tutoring with trans_dissolve
     narrator "还有 GPT 学姐坐在教室前排，耐心帮我讲解题目的日子。" id story_ch06_a07cf84cd68b_1
     ## 演出: 旁白
     narrator "我曾经以为，人生中所有重要的事情，都可以等到准备好了再去面对。" id story_ch06_9ac7453579fa_1
@@ -289,7 +314,9 @@ label ch06:
     narrator "有些机会一旦错过，就不会再回来。" id story_ch06_fb9e2c6c5418_1
     narrator "有些人即使仍然喜欢，也可能因为时间和距离，渐渐走向不同的未来。" id story_ch06_9bc44d8340dc_1
     narrator "而有些感情，如果始终不愿意承认，就只能永远停留在回忆里。" id story_ch06_517f274f755f_1
+    scene art_act06_bg29_crossing_train_passing with trans_dissolve
     narrator "列车终于驶过。" id story_ch06_ea527155aa72_1
+    scene art_act06_bg29_crossing_sunset with trans_dissolve
     narrator "栏杆缓缓升起。" id story_ch06_51a87cd5a255_1
     narrator "我站在原地。" id story_ch06_d9745483a730_1
     narrator "拿出手机。" id story_ch06_b4ddab91b386_1

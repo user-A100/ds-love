@@ -46,6 +46,10 @@ transform sprite_idle:
         ease 2.2 yoffset 0
         repeat
 
+## 道具独立叠层，置于对白框上方；场景切换自动清除。
+transform story_prop_pos:
+    xalign 0.5 yalign 0.36
+
 ## ------------------------------------------------------------
 ## 配音钩子（TTS 产物按内容寻址 ID 命名，未合成的台词静默跳过）
 ## tts/synthesize.py 用同一 ID 算法: md5(角色 + \x00 + 台词)[:12]

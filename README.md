@@ -42,6 +42,8 @@ whalegal/
 
 ## Web 打包（HTML5）
 
+现有美术已按正文接入；逐场核对页、素材缺口与维护命令见 [游戏美术接入](docs/art/integration/README.md)。继续生成素材后，先更新 `story/art_direction.json`，运行 `python tools/integrate_art.py` 和 `python tools/import_story.py`；不必为检查接入而打包发布。
+
 - Ren'Py 8.5 原生支持 web 导出（WASM），命令行入口：
   `renpy.sh launcher web_build <项目根> --destination <输出目录>`
   （必须在 SDK 目录内执行 CLI，`launcher` 才能被解析。）

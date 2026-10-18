@@ -10,9 +10,9 @@ label ch01:
     ## ── 场景: 第一章《认错的人》 ──
 
     ## ── 场景: 场景 1：寻找天台上的少女 ──
-    $ scene_bg("BG-002")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C1-01 · 寻找的人与眼前的人
+    scene art_act01_bg_playground_evening with trans_dissolve
     narrator "第二天，我开始寻找笔记本的主人。" id story_ch01_6c8b68ac22b8_1
     narrator "可是奇怪的是，学校里似乎没有多少人认识 DeepSeek。" id story_ch01_b8bc34a4321f_1
     narrator "我只记得她蓝色的头发和那双明亮的眼睛。" id story_ch01_c0c0f312e7d8_1
@@ -31,7 +31,7 @@ label ch01:
     narrator "直到放学后，在操场附近看到了 Claude。" id story_ch01_7bb0d4af69ce_1
     narrator "橙色长发，精致的发饰，干净整齐的制服。" id story_ch01_5092d1f49369_1
     narrator "她身边似乎总有一种让人难以靠近的气场。" id story_ch01_abc06a15584e_1
-    show cl normal at sprite_pos_center with trans_dissolve
+    show art_act01_claude_hs_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_80ae254d4021")
     cl "你从刚才开始就在看我吧？" id story_ch01_80ae254d4021_1
     voice voice_file("v_c84255281569")
@@ -60,6 +60,9 @@ label ch01:
     voice voice_file("v_d9e53fa8f82b")
     u "Claude！" id story_ch01_d9e53fa8f82b_1
     narrator "她回过头。" id story_ch01_39a99d15c762_1
+    ## 美术分景 C1-02 · 单杠上的告白
+    scene art_act01_bg_playground_evening with trans_dissolve
+    show art_act01_claude_hs_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_456d532bd390")
     cl "又怎么了？" id story_ch01_456d532bd390_1
     voice voice_file("v_70a4665c0509")
@@ -70,6 +73,7 @@ label ch01:
     voice voice_file("v_f4ac22ed7248")
     u "请——" id story_ch01_f4ac22ed7248_1
     narrator "第二下。" id story_ch01_f52815213d7f_1
+    scene art_act01_cg02_pullup_confession with trans_dissolve
     voice voice_file("v_71b6bf0ee083")
     u "和我——" id story_ch01_71b6bf0ee083_1
     narrator "第三下。" id story_ch01_ade49dc509a0_1
@@ -89,6 +93,8 @@ label ch01:
     cl "而且我们根本不熟吧！" id story_ch01_17ccc4c53cae_1
     voice voice_file("v_181159f12195")
     u "所以……不行吗？" id story_ch01_181159f12195_1
+    scene art_act01_bg_playground_evening with trans_dissolve
+    show art_act01_claude_hs_blush as cl at sprite_pos_center with trans_dissolve
     narrator "她沉默了好一会儿。" id story_ch01_c6c4c2f25ce0_1
     voice voice_file("v_a3fccccffe85")
     cl "……也不是完全不行。" id story_ch01_a3fccccffe85_1
@@ -103,25 +109,23 @@ label ch01:
     narrator "我因为一次认错人，莫名其妙地有了女朋友。" id story_ch01_c93788ffe516_1
     narrator "而我真正想找的那个女孩——" id story_ch01_5f6370226a05_1
     narrator "此刻正在另一栋教学楼里，翻遍自己的书包。" id story_ch01_fde24f29e20e_1
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_445e39872668")
     ds "诶？笔记本呢？" id story_ch01_445e39872668_1
     voice voice_file("v_4a1d785dc144")
     ds "完蛋了完蛋了！我写了好久的故事啊！" id story_ch01_4a1d785dc144_1
 
     ## ── 场景: 场景 2：笔记本的主人 ──
-    hide cl
-    hide ds
-    $ scene_bg("BG-003")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C1-03 · 归还笔记本
+    scene art_act01_bg_library_day with trans_dissolve
     narrator "几天后，我终于在图书馆找到了 DeepSeek。" id story_ch01_370cba7e7652_1
+    show art_act01_ds_hs_sad as ds at sprite_pos_left with trans_dissolve
     narrator "她正趴在桌上，一脸绝望。" id story_ch01_e97a6f7e0877_1
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_4908a1855484")
     ds "呜……找不到了……" id story_ch01_4908a1855484_1
     voice voice_file("v_a438ba4976e2")
     u "你是在找这个吗？" id story_ch01_a438ba4976e2_1
+    scene art_act01_cg_c103_notebook_return with trans_dissolve
     narrator "我把笔记本放在她面前。" id story_ch01_5ad798adc5f8_1
     voice voice_file("v_52a4ea9090e2")
     ds "啊啊啊！我的宝贝！！" id story_ch01_52a4ea9090e2_1
@@ -137,6 +141,8 @@ label ch01:
     narrator "她小心翼翼地接过笔记本。" id story_ch01_b818a655c5d4_1
     voice voice_file("v_fc595934bbd6")
     u "里面写的是小说？" id story_ch01_fc595934bbd6_1
+    scene art_act01_bg_library_day with trans_dissolve
+    show art_act01_ds_hs_book_happy as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_72e96871249e")
     ds "嗯！虽然写得不太好啦……" id story_ch01_72e96871249e_1
     voice voice_file("v_7cfb4c1f8028")
@@ -164,15 +170,14 @@ label ch01:
     narrator "那时的我还不知道，这个约定会将我们的生活紧紧联系在一起。" id story_ch01_6eacd2a5cb3f_1
 
     ## ── 场景: 第一章（续）《写在笔记本里的约定》 ──
-    hide ds
 
     ## ── 场景: 场景 3：第一次合作 ──
-    $ scene_bg("BG-004")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C1-04 · 想飞的鲸鱼与第一次合作
+    scene art_act01_bg_library_day with trans_dissolve
     narrator "我原本以为，答应 DeepSeek 拍电影，只是一句随口说出的承诺。" id story_ch01_84c57957821f_1
     narrator "直到第二天下午，她抱着一大摞笔记本出现在我面前。" id story_ch01_aca6519aac44_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_act01_ds_hs_neutral_clean as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_6cb727cf5085")
     ds "锵锵！全部都带来了！" id story_ch01_6cb727cf5085_1
     voice voice_file("v_8ad4a97d1e9f")
@@ -188,6 +193,7 @@ label ch01:
     voice voice_file("v_5eee3abe419e")
     ds "嘿嘿……写着写着就变多了。" id story_ch01_5eee3abe419e_1
     narrator "我随手拿起最上面的一本。" id story_ch01_46e0f6829d1a_1
+    show art_act01_pr02_flying_whale_sketch as story_prop at story_prop_pos with trans_dissolve
     narrator "封面上画着一只歪歪扭扭的小鲸鱼。" id story_ch01_7cf8cff27d78_1
     voice voice_file("v_5d35411d3cf7")
     u "这是主角？" id story_ch01_5d35411d3cf7_1
@@ -208,6 +214,8 @@ label ch01:
     voice voice_file("v_9e021948b332")
     u "真的。" id story_ch01_9e021948b332_1
     narrator "她开心地笑起来。" id story_ch01_7b5b9fae9bb7_1
+    hide story_prop with trans_dissolve
+    scene art_act01_cg_c104_writing_together with trans_dissolve
     narrator "我翻开笔记本，继续往下读。" id story_ch01_5be7d14a24d2_1
     narrator "故事的结构并不完整，许多地方甚至前后矛盾。" id story_ch01_102f509881e8_1
     narrator "但里面有一些画面，让我很想亲手拍出来。" id story_ch01_fae3571ea5d5_1

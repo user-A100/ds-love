@@ -29,6 +29,9 @@ init python:
     ## 这里只做“排除”与“文档”类覆盖。
 
     ## 工程文件不进分发包
+    # Ren'Py 的开屏默认规则先于 classify 执行；仅从游戏 ZIP 排除，
+    # launcher/web.rpy 仍会独立复制封面到网页目录。
+    build.early_base_patterns.insert(0, ("web-presplash.*", []))
     build.classify("docs/**", None)
     build.classify("story/**", None)
     build.classify("tts/**", None)

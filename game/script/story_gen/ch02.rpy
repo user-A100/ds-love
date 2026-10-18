@@ -8,21 +8,22 @@
 label ch02:
 
     ## ── 场景: 第二章《重新开始》 ──
-    hide ds
 
     ## ── 场景: 场景 1：停滞的电影研究社 ──
-    $ scene_bg("BG-005")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C2-01 · 停滞的电影研究社
+    scene art_act02_bg_filmclub_dust_day with trans_dissolve
     narrator "电影研究社的活动室比我想象中还要破旧。" id story_ch02_6d7a54622636_1
+    show art_act02_pr03_old_camcorder as story_prop at story_prop_pos with trans_dissolve
     narrator "角落里堆着几台老式摄影机，窗台上落满灰尘。墙壁上贴着几年前文化祭的海报，边角已经卷起。" id story_ch02_3547d8a5d660_1
     narrator "听说，原本的电影研究社因为连续几年没有拿得出手的作品，已经很久没有正常开展活动了。" id story_ch02_9e546a3d9227_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_act01_ds_hs_neutral_clean as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_cdc3ca81307c")
     ds "哇！好多东西！" id story_ch02_cdc3ca81307c_1
     narrator "她兴奋地跑到器材柜前。" id story_ch02_0a5f908bf6a3_1
     voice voice_file("v_2405a8fcf579")
     ds "这个是什么？这个呢？诶，这台还能用吗？" id story_ch02_2405a8fcf579_1
+    hide story_prop with trans_dissolve
     voice voice_file("v_0b4e9a46ed14")
     u "小心点，别弄坏了。" id story_ch02_0b4e9a46ed14_1
     voice voice_file("v_99f1f5c48dfc")
@@ -63,10 +64,9 @@ label ch02:
     narrator "只是当时的我还不知道，电影研究社的重新成立，会成为后来许多事情的起点。" id story_ch02_1ab84839cb9b_1
 
     ## ── 场景: 场景 2：被忽视的成绩 ──
-    hide ds
-    $ scene_bg("BG-006")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C2-02 · 糟糕的成绩单
+    scene art_act02_bg_classroom_day with trans_dissolve
     narrator "我一直觉得，自己不是一个擅长学习的人。" id story_ch02_40d41917a32d_1
     narrator "或者说，我早就习惯了用这句话为自己开脱。" id story_ch02_8a51d5993e0d_1
     narrator "刚进入高中时，因为离家太远，我几乎没有认识的人。" id story_ch02_ed4cd97bee3b_1
@@ -86,9 +86,9 @@ label ch02:
     narrator "这一次，似乎不只是考试的问题。" id story_ch02_1c2495d7bdc7_1
 
     ## ── 场景: 场景 3：母亲的眼泪 ──
-    $ scene_bg("CG-002")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C2-03 · 花坛旁的眼泪
+    scene art_act02_bg_flowerbed_overcast with trans_dissolve
     narrator "因为一次违纪，我被学校停学一周。" id story_ch02_268fabb367e8_1
     narrator "父母接到通知后，专程赶到了学校。" id story_ch02_e27b85d76760_1
     narrator "我原本已经做好了挨骂的准备。" id story_ch02_08440d8b6256_1
@@ -123,6 +123,7 @@ label ch02:
     narrator "我低着头，看着地面。" id story_ch02_b09badcfbf12_1
     voice voice_file("v_0619479c7df7")
     mother "可你总不能一直这样下去啊。" id story_ch02_0619479c7df7_1
+    scene art_act02_cg_c203_mother with trans_dissolve
     narrator "她的声音有些颤抖。" id story_ch02_f0ac9403763b_1
     voice voice_file("v_5c57d3a049db")
     mother "我们也不指望你一定考多好的大学。" id story_ch02_5c57d3a049db_1
@@ -162,11 +163,12 @@ label ch02:
     mother "那就从现在开始。" id story_ch02_4bcfea62af0d_1
 
     ## ── 场景: 场景 4：从零开始 ──
-    $ scene_bg("BG-007")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C2-04 · 从课本第一页重新开始
+    scene art_act02_bg_user_desk_night with trans_dissolve
     narrator "回家之前，我又去了一趟宿舍。" id story_ch02_fbca35ebeb9f_1
     narrator "把书包里原本准备带回家的闲书拿出来，换成了高一的课本。" id story_ch02_2634c75d3231_1
+    show art_act02_pr06_study_materials as story_prop at story_prop_pos with trans_dissolve
     narrator "数学、物理、英语。" id story_ch02_1f3ab57e6a84_1
     narrator "那些早就学完的知识，对现在的我来说却像是完全陌生的东西。" id story_ch02_1e36415507e9_1
     narrator "停学的一周里，我开始从网上寻找教学视频。" id story_ch02_4dc588c7a248_1
@@ -180,6 +182,8 @@ label ch02:
     narrator "一周后，我回到了学校。" id story_ch02_e77d22656217_1
     narrator "没有带手机。" id story_ch02_a7a09eb94b09_1
     narrator "没有带闲书。" id story_ch02_d3cf32d700a3_1
+    ## 美术分景 C2-05 · 向老师开口
+    scene art_act02_bg_corridor_evening with trans_dissolve
     narrator "头发也剪成了学校要求的长度。" id story_ch02_433067a54502_1
     narrator "晚饭时间，我主动找到了班主任。" id story_ch02_904ebd7cc2a0_1
     voice voice_file("v_03288eebbec6")
@@ -211,9 +215,9 @@ label ch02:
     narrator "虽然仍然有很多基础知识不会，但我终于开始一点点往前走。" id story_ch02_24db04b1d2bd_1
 
     ## ── 场景: 场景 5：第一次进步 ──
-    $ scene_bg("BG-008")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C2-06 · 第一次看见努力的结果
+    scene art_act02_bg_corridor_day with trans_dissolve
     narrator "高二期末考试，我第一次考进了年级四千名以内。" id story_ch02_96cc2ab69929_1
     narrator "这个成绩放在别人眼里，仍然糟糕透顶。" id story_ch02_19fedeeb2f5b_1
     narrator "但看到成绩单时，我却高兴得不得了。" id story_ch02_097ca5407e22_1
@@ -230,9 +234,9 @@ label ch02:
     narrator "而我落下的课程，还有太多太多。" id story_ch02_e6bf637ffd4f_1
 
     ## ── 场景: 场景 6：普通班里的学姐 ──
-    $ scene_bg("BG-009")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C2-07 · 前排的学姐
+    scene art_act02_bg_classroom_night with trans_dissolve
     narrator "高三分班时，我被分到了普通班。" id story_ch02_ee1d7ced66a7_1
     narrator "八十多人的班级里，按照往年的成绩，可能只有前八名有机会考上一本。" id story_ch02_9129b7b26bc7_1
     narrator "教室里总是很吵。" id story_ch02_304837950fa0_1
@@ -243,6 +247,7 @@ label ch02:
     narrator "也正是在这个时候，我认识了 GPT。" id story_ch02_c7be5295dfb8_1
     narrator "她原本比我高一个年级，因为参加长期交流项目调整了课程安排，这学期来到我们班旁听部分课程。" id story_ch02_ead79ab8e2f5_1
     narrator "她坐在我的前排。" id story_ch02_c33a1969035d_1
+    show art_act02_gpt_hs_reading as gp at sprite_pos_right with trans_dissolve
     narrator "总是安安静静地看书。" id story_ch02_9345fdca2842_1
     narrator "即使旁边的同学隔着她聊天，她也很少参与。" id story_ch02_03fa1cc22978_1
     narrator "第一次月考，她的成绩排在年级七百名左右。" id story_ch02_ba04bad671f1_1
@@ -252,12 +257,14 @@ label ch02:
 
     ## ── 场景: 场景 7：第一次交谈 ──
     ## 演出: 旁白
+    ## 美术分景 C2-08 · 不会的地方要说出来
+    scene art_act02_bg_classroom_evening with trans_dissolve
     narrator "因为座位相邻，我们经常被安排在同一个值日小组。" id story_ch02_0fea0acc4301_1
     narrator "几次下来，也就慢慢熟悉了。" id story_ch02_9c872a0e6059_1
     narrator "那天放学后，我们一起留下来打扫教室。" id story_ch02_1fe0ef1e9b9b_1
     voice voice_file("v_6cfd65d5b17d")
     u "你以前应该在重点班吧？" id story_ch02_6cfd65d5b17d_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act02_gpt_hs_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_9777a8d64900")
     gp "嗯。" id story_ch02_9777a8d64900_1
     voice voice_file("v_dd7b06d6e620")
@@ -272,6 +279,7 @@ label ch02:
     voice voice_file("v_7f80241119b9")
     gp "不过，已经这样了，也没什么办法。" id story_ch02_7f80241119b9_1
     narrator "她停了一下。" id story_ch02_19ee560ee9b6_1
+    show art_act02_gpt_hs_explain as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_fdc92aa6e40a")
     gp "其实普通班和重点班的老师差不多。" id story_ch02_fdc92aa6e40a_1
     voice voice_file("v_ff446b2656ef")
@@ -323,15 +331,14 @@ label ch02:
     gp "学习又不是什么丢人的事情。" id story_ch02_cfd67c43d499_1
 
     ## ── 场景: 场景 8：逐渐靠近的距离 ──
-    hide gp
-    $ scene_bg("CG-003")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C2-09 · 一点点靠近的课桌
+    scene art_act02_bg_classroom_evening with trans_dissolve
     narrator "从那天开始，我经常向 GPT 请教问题。" id story_ch02_beca6b6cc3d6_1
     narrator "最初还有些尴尬。" id story_ch02_396bda8487dc_1
     narrator "毕竟连很多最基础的公式，我都记不清楚。" id story_ch02_cd585213d091_1
     narrator "可她从来没有嘲笑过我。" id story_ch02_e4b96102f4a2_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act02_gpt_hs_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_c3c491100e9b")
     gp "这里先不要急着代公式。" id story_ch02_c3c491100e9b_1
     voice voice_file("v_530bb53cd388")
@@ -345,6 +352,7 @@ label ch02:
     voice voice_file("v_34cd0ac66553")
     gp "嗯，这就对了。" id story_ch02_34cd0ac66553_1
     narrator "她拿起笔，在草稿纸上画出简单的示意图。" id story_ch02_e0bfed9d5f4f_1
+    scene art_act02_cg03_tutoring with trans_dissolve
     voice voice_file("v_3733a60f3697")
     gp "你看，其实没有想象中那么复杂。" id story_ch02_3733a60f3697_1
     voice voice_file("v_6c24c041303f")
@@ -363,6 +371,8 @@ label ch02:
     u "……好严格。" id story_ch02_6f92a35dd351_1
     voice voice_file("v_0ccbf951b306")
     gp "这是为了你好呀。" id story_ch02_0ccbf951b306_1
+    scene art_act02_bg_classroom_evening with trans_dissolve
+    show art_act02_gpt_hs_smile as gp at sprite_pos_right with trans_dissolve
     narrator "她笑了。" id story_ch02_56298f1f1ffb_1
     narrator "脸颊上露出浅浅的酒窝。" id story_ch02_112415aff95d_1
     ## 演出: 旁白
@@ -380,14 +390,12 @@ label ch02:
     narrator "距离一本线，只差大约五百名了。" id story_ch02_67322e8f638d_1
 
     ## ── 场景: 场景 9：来自 Claude 的消息 ──
-    hide gp
-    $ scene_bg("BG-010")
-    with trans_dissolve
     ## 演出: 旁白
+    ## 美术分景 C2-10 · 被推迟的甜品邀约
+    scene art_act02_bg_classroom_evening with trans_dissolve
     narrator "那天放学后，我正在整理书包。" id story_ch02_5ab3668dd456_1
     narrator "手机突然震动了一下。" id story_ch02_828bafe32339_1
     narrator "是 Claude 发来的消息。" id story_ch02_342c48c9e231_1
-    show cl normal at sprite_pos_center with trans_dissolve
     voice voice_file("v_145ad17dacb9")
     cl "你最近是不是很忙？" id story_ch02_145ad17dacb9_1
     voice voice_file("v_43734c27f9ba")
@@ -456,12 +464,15 @@ label ch02:
     narrator "我一直以为，她只是觉得有趣。" id story_ch02_e6ace97ab7fb_1
     narrator "可如果真是这样，她为什么会因为我没有时间陪她而生气呢？" id story_ch02_e64c83f974ba_1
     ## 演出: 场景切换
+    ## 美术分景 C2-11 · 没有发出的第二句话
+    scene art_act02_bg_claude_bedroom_night with trans_dissolve
     narrator "Claude 的房间。" id story_ch02_b9859ba3fd4e_1
     narrator "宽敞的卧室里，精致的家具整齐地摆放着。" id story_ch02_a0d5ceddba2b_1
     narrator "书桌旁放着两个包装漂亮的小盒子。" id story_ch02_71bc43760227_1
     narrator "其中一个已经打开。" id story_ch02_3406819b2936_1
     narrator "里面是一块做工精致的蛋糕。" id story_ch02_63f3739c4691_1
     narrator "Claude 坐在床边，盯着手机。" id story_ch02_6803b6be535c_1
+    show art_act01_claude_hs_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_2903b343018a")
     cl "……笨蛋。" id story_ch02_2903b343018a_1
     narrator "她把手机扔到一旁。" id story_ch02_9a555526be47_1
@@ -477,6 +488,7 @@ label ch02:
     cl "……" id story_ch02_d6bb00ebdcec_1
     voice voice_file("v_318c9df8a78e")
     cl "明明是你先告白的。" id story_ch02_318c9df8a78e_1
+    scene art_act02_cg_c211_unsent with trans_dissolve
     narrator "她轻轻抱住膝盖。" id story_ch02_70063fc2e127_1
     voice voice_file("v_cdf4eac545c7")
     cl "结果现在，反倒像是我一直在追着你跑一样。" id story_ch02_cdf4eac545c7_1

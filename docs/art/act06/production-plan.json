@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "C6-01–C6-06 only",
-  "status": "supplement_in_progress",
+  "status": "complete_planned_draft_pack",
   "notes": "Chapter-six only. Reuse adult act05 identities. Expression and gesture variants are generated drafts, not pixel-registered layers; no runtime integration.",
   "jobs": [
     {
@@ -192,7 +192,7 @@
       "refs": [
         "assets_src/act01/props/pr_manuscript_stack_v001.png"
       ],
-      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. Single isolated thick A4 manuscript paper stack, two small black binder clips on left edge, front page blank and clean for editable title overlay. Matching fine painted anime prop rendering. Three-quarter view slightly from above, clipped thick pages credible. No hands, writing, notebook, surface or shadow outside object. Landscape16:9 transparent canvas, one coherent paper object centered with generous margins."
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. Single isolated thick A4 manuscript paper stack, two small black binder clips on left edge, front page blank and clean for editable title overlay. Matching fine painted anime prop rendering. Three-quarter view slightly from above, clipped thick pages credible. No hands, writing, notebook, surface or shadow outside object. Landscape16:9 transparent canvas, one coherent paper object centered with generous margins. Reference is rendering style only: produce loose clipped A4 papers, NOT the bound books in reference."
     },
     {
       "id": "pr21_interview_portfolio",

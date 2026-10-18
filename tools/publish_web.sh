@@ -19,6 +19,12 @@ echo "==> [1/3] 构建 Web 包"
 
 echo "==> [2/3] 生成 Cloudflare 配置（_headers + wrangler.jsonc）"
 cat > server/public/_headers <<'EOF'
+/
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/web-presplash.png
+  Cache-Control: no-cache
 /game.zip
   Cache-Control: no-cache
 /service-worker.js

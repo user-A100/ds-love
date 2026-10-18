@@ -1,24 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T08:16:18.313Z",
+  "updated_at": "2026-10-18T08:45:21.667Z",
   "status": "partial_chapter_draft_pack",
-  "generation_status": "generating",
+  "generation_status": "complete_planned_draft_pack",
   "coverage_status": "incomplete",
   "coverage_file": "docs/art/act06/coverage-gaps.json",
   "scope": "C6-01–C6-06 only",
   "planned_assets": 24,
-  "pending_assets": [
-    "cg_c602_final_manuscript_handover",
-    "cg_c603_claude_handhold",
-    "pr08_final_manuscript",
-    "pr21_interview_portfolio",
-    "pr09_music_document_case",
-    "bg18_student_room_night_continuity",
-    "bg26_filmclub_day_continuity",
-    "bg27_backstage_musiccase",
-    "bg29_crossing_barrier_down",
-    "bg29_crossing_train_passing"
-  ],
+  "pending_assets": [],
   "assets": [
     {
       "id": "ds_win_earnest",
@@ -340,6 +329,238 @@
       "edge_alpha_max": 1,
       "bytes": 2114977,
       "sha256": "e3b75bd579bad11dd4ab6f4cdf34dbbd5af97bc04eeec427096482cbd49d478a",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c602_final_manuscript_handover",
+      "label": "C6-02｜递出最终稿",
+      "scene": "C6-02",
+      "file": "cg/cg_c602_final_manuscript_handover_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png",
+        "assets_src/act05/backgrounds/bg26_university_filmclub_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/cg_c602_final_manuscript_handover.txt",
+      "path": "assets_src/act06/cg/cg_c602_final_manuscript_handover_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2501940,
+      "sha256": "4e61913c1225719c90127cd0d82e317fed32b72c159c5530276cf564f7a4fb4d",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c603_claude_handhold",
+      "label": "C6-03｜这次和我一起走·握手",
+      "scene": "C6-03",
+      "file": "cg/cg_c603_claude_handhold_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png",
+        "assets_src/act06/backgrounds/bg27_concert_backstage_evening_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/cg_c603_claude_handhold.txt",
+      "path": "assets_src/act06/cg/cg_c603_claude_handhold_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2310780,
+      "sha256": "2c27dbfec9999ecbcce24a4e95c823c728132e0967acd9bfe8e7dd48b71780f1",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr08_final_manuscript",
+      "label": "PR08｜候鸟最终稿·无字底图",
+      "scene": "C6-01/C6-02",
+      "file": "props/pr08_final_manuscript_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr_manuscript_stack_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/pr08_final_manuscript.txt",
+      "path": "assets_src/act06/props/pr08_final_manuscript_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 1492624,
+      "sha256": "f1d6b39374c05dfa52f08ae58eb09ff7b653060ec9385eb8454245fc16245d6a",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr21_interview_portfolio",
+      "label": "PR21｜作品集与面试资料",
+      "scene": "C6-01/C6-04A",
+      "file": "props/pr21_interview_portfolio_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/pr21_interview_portfolio.txt",
+      "path": "assets_src/act06/props/pr21_interview_portfolio_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 11,
+      "bytes": 1624774,
+      "sha256": "baf2ccc4f94fcf0498729d9a2f0f6d54e46cd5c0851586b653c458c48a6065cc",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr09_music_document_case",
+      "label": "PR09｜琴谱箱与收谱",
+      "scene": "C6-01/C6-03",
+      "file": "props/pr09_music_document_case_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/pr09_music_document_case.txt",
+      "path": "assets_src/act06/props/pr09_music_document_case_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 252,
+      "bytes": 1596193,
+      "sha256": "60b94049898547eff0c792b3d32a6ae99fb058697a5f4b342fa451746ef86f66",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg18_student_room_night_continuity",
+      "label": "BG18｜住处夜景·第五章同机位",
+      "scene": "C6-01",
+      "file": "backgrounds/bg18_student_room_night_continuity_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act05/backgrounds/bg18_user_university_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg18_student_room_night_continuity.txt",
+      "path": "assets_src/act06/backgrounds/bg18_student_room_night_continuity_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 1983662,
+      "sha256": "f53c41e5d4a83fa5b4e2956ed8c6f3b0840c2b4168030d2db7bba639d56f649c",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg26_filmclub_day_continuity",
+      "label": "BG26｜影像社日光·第五章同机位",
+      "scene": "C6-02",
+      "file": "backgrounds/bg26_filmclub_day_continuity_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act05/backgrounds/bg26_university_filmclub_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg26_filmclub_day_continuity.txt",
+      "path": "assets_src/act06/backgrounds/bg26_filmclub_day_continuity_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2347802,
+      "sha256": "a604b58c36522dd99ca445ad473ecd8ec31554be05fc67ada9d38e48822e719c",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg27_backstage_musiccase",
+      "label": "BG27｜后台·琴谱箱修正版",
+      "scene": "C6-03",
+      "file": "backgrounds/bg27_backstage_musiccase_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act06/backgrounds/bg27_concert_backstage_evening_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg27_backstage_musiccase.txt",
+      "path": "assets_src/act06/backgrounds/bg27_backstage_musiccase_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 1876329,
+      "sha256": "37aba4241c1198867c6eefaadbfa389d17f13715b56549a93d70c03df93b45c7",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg29_crossing_barrier_down",
+      "label": "BG29｜栏杆落下·等待",
+      "scene": "C6-05",
+      "file": "backgrounds/bg29_crossing_barrier_down_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act06/backgrounds/bg29_crossing_sunset_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg29_crossing_barrier_down.txt",
+      "path": "assets_src/act06/backgrounds/bg29_crossing_barrier_down_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2768584,
+      "sha256": "31219d329710e30d2076145880b1e496d4eedd756b80cd8c0e7c178aa5462157",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg29_crossing_train_passing",
+      "label": "BG29｜列车经过·遮挡",
+      "scene": "C6-05",
+      "file": "backgrounds/bg29_crossing_train_passing_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act06/backgrounds/bg29_crossing_sunset_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg29_crossing_train_passing.txt",
+      "path": "assets_src/act06/backgrounds/bg29_crossing_train_passing_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2558392,
+      "sha256": "49b657c5c40eac4507bc1be33f7593b6e448414e97f3e09947f6c4d404e595a1",
       "tool": "built-in imagegen",
       "status": "generated_draft"
     }

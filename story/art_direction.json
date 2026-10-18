@@ -1,0 +1,3907 @@
+{
+  "schema_version": 1,
+  "stage": [
+    1280,
+    720
+  ],
+  "source": "docs/分景设计/scene_data.json",
+  "notes": [
+    "仅接入已有素材；不打包、不发布。",
+    "对白/翻译/配音ID不变，场景锚点用原文精确匹配。",
+    "素材缺口及暂用差分见各场notes和docs/art/ds-route-reuse.json。"
+  ],
+  "assets": {
+    "act01.bg_library_day": {
+      "source": "assets_src/act01/backgrounds/bg_library_day_v001.png",
+      "runtime": "images/story/act01/backgrounds/bg_library_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "图书馆 · 午后"
+    },
+    "act01.bg_playground_evening": {
+      "source": "assets_src/act01/backgrounds/bg_playground_evening_v001.png",
+      "runtime": "images/story/act01/backgrounds/bg_playground_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "操场 · 放学后"
+    },
+    "act01.bg_rooftop_spring_day": {
+      "source": "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png",
+      "runtime": "images/story/act01/backgrounds/bg_rooftop_spring_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "天台 · 春日午后"
+    },
+    "act01.cg01_rooftop_collision": {
+      "source": "assets_src/act01/cg/cg01_rooftop_collision_v001.png",
+      "runtime": "images/story/act01/cg/cg01_rooftop_collision_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG01 · 天台碰撞后"
+    },
+    "act01.cg02_pullup_confession": {
+      "source": "assets_src/act01/cg/cg02_pullup_confession_v001.png",
+      "runtime": "images/story/act01/cg/cg02_pullup_confession_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG02 · 单杠告白"
+    },
+    "act01.cg_c103_notebook_return": {
+      "source": "assets_src/act01/cg/cg_c103_notebook_return_v001.png",
+      "runtime": "images/story/act01/cg/cg_c103_notebook_return_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C1-03 · 归还笔记本"
+    },
+    "act01.cg_c104_writing_together": {
+      "source": "assets_src/act01/cg/cg_c104_writing_together_v001.png",
+      "runtime": "images/story/act01/cg/cg_c104_writing_together_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C1-04 · 第一次合作"
+    },
+    "act01.cg_p01_notebook_pickup": {
+      "source": "assets_src/act01/cg/cg_p01_notebook_pickup_v001.png",
+      "runtime": "images/story/act01/cg/cg_p01_notebook_pickup_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "P-01-S09 · 拾起笔记本"
+    },
+    "act01.cg_p01_notebook_reveal": {
+      "source": "assets_src/act01/cg/cg_p01_notebook_reveal_v001.png",
+      "runtime": "images/story/act01/cg/cg_p01_notebook_reveal_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "P-01-S10 · 姓名揭晓"
+    },
+    "act01.cg_p01_offbalance": {
+      "source": "assets_src/act01/cg/cg_p01_offbalance_v001.png",
+      "runtime": "images/story/act01/cg/cg_p01_offbalance_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "P-01-S03 · 矮墙失衡"
+    },
+    "act01.claude_hs_blush": {
+      "source": "assets_src/act01/characters/claude/claude_hs_blush_v001.png",
+      "runtime": "images/story/act01/characters/claude/claude_hs_blush_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude · 嘴硬脸红"
+    },
+    "act01.claude_hs_neutral": {
+      "source": "assets_src/act01/characters/claude/claude_hs_neutral_v001.png",
+      "runtime": "images/story/act01/characters/claude/claude_hs_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude · 制服基准"
+    },
+    "act01.ds_hs_apology": {
+      "source": "assets_src/act01/characters/deepseek/ds_hs_apology_v001.png",
+      "runtime": "images/story/act01/characters/deepseek/ds_hs_apology_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 低头道歉"
+    },
+    "act01.ds_hs_book_happy": {
+      "source": "assets_src/act01/characters/deepseek/ds_hs_book_happy_v001.png",
+      "runtime": "images/story/act01/characters/deepseek/ds_hs_book_happy_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 抱本欣喜"
+    },
+    "act01.ds_hs_happy": {
+      "source": "assets_src/act01/characters/deepseek/ds_hs_happy_v001.png",
+      "runtime": "images/story/act01/characters/deepseek/ds_hs_happy_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 灿笑"
+    },
+    "act01.ds_hs_neutral_clean": {
+      "source": "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+      "runtime": "images/story/act01/characters/deepseek/ds_hs_neutral_v002.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 制服基准"
+    },
+    "act01.ds_hs_pain": {
+      "source": "assets_src/act01/characters/deepseek/ds_hs_pain_v001.png",
+      "runtime": "images/story/act01/characters/deepseek/ds_hs_pain_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 揉额头"
+    },
+    "act01.ds_hs_sad": {
+      "source": "assets_src/act01/characters/deepseek/ds_hs_sad_v001.png",
+      "runtime": "images/story/act01/characters/deepseek/ds_hs_sad_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 沮丧"
+    },
+    "act01.pr01_blue_notebook": {
+      "source": "assets_src/act01/props/pr01_blue_notebook_v001.png",
+      "runtime": "images/story/act01/props/pr01_blue_notebook_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR01 · 浅蓝笔记本"
+    },
+    "act01.pr02_flying_whale_sketch": {
+      "source": "assets_src/act01/props/pr02_flying_whale_sketch_v001.png",
+      "runtime": "images/story/act01/props/pr02_flying_whale_sketch_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR02 · 想飞的鲸鱼草图"
+    },
+    "act02.bg_classroom_day": {
+      "source": "assets_src/act02/backgrounds/bg_classroom_day_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_classroom_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG05 · 教室日间柔阴光"
+    },
+    "act02.bg_classroom_evening": {
+      "source": "assets_src/act02/backgrounds/bg_classroom_evening_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_classroom_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG05 · 教室放学傍晚"
+    },
+    "act02.bg_classroom_night": {
+      "source": "assets_src/act02/backgrounds/bg_classroom_night_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_classroom_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG05 · 教室晚自习"
+    },
+    "act02.bg_claude_bedroom_night": {
+      "source": "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_claude_bedroom_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG09 · Claude高中卧室夜景"
+    },
+    "act02.bg_corridor_day": {
+      "source": "assets_src/act02/backgrounds/bg_corridor_day_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_corridor_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG08 · 校内走廊日间"
+    },
+    "act02.bg_corridor_evening": {
+      "source": "assets_src/act02/backgrounds/bg_corridor_evening_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_corridor_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG08 · 校内走廊黄昏"
+    },
+    "act02.bg_filmclub_dust_day": {
+      "source": "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_filmclub_dust_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG04 · 落灰电影社"
+    },
+    "act02.bg_flowerbed_overcast": {
+      "source": "assets_src/act02/backgrounds/bg_flowerbed_overcast_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_flowerbed_overcast_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG06 · 花坛与长椅阴天"
+    },
+    "act02.bg_user_desk_night": {
+      "source": "assets_src/act02/backgrounds/bg_user_desk_night_v001.png",
+      "runtime": "images/story/act02/backgrounds/bg_user_desk_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG07 · 高中家中书桌夜间"
+    },
+    "act02.cg03_tutoring": {
+      "source": "assets_src/act02/cg/cg03_tutoring_v001.png",
+      "runtime": "images/story/act02/cg/cg03_tutoring_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG03 · 课桌辅导"
+    },
+    "act02.cg_c203_mother": {
+      "source": "assets_src/act02/cg/cg_c203_mother_v001.png",
+      "runtime": "images/story/act02/cg/cg_c203_mother_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C2-03 · 花坛旁的眼泪"
+    },
+    "act02.cg_c211_unsent": {
+      "source": "assets_src/act02/cg/cg_c211_unsent_v001.png",
+      "runtime": "images/story/act02/cg/cg_c211_unsent_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C2-11 · 没有发出的第二句话"
+    },
+    "act02.gpt_hs_explain": {
+      "source": "assets_src/act02/characters/gpt/gpt_hs_explain_v001.png",
+      "runtime": "images/story/act02/characters/gpt/gpt_hs_explain_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT · 耐心讲解"
+    },
+    "act02.gpt_hs_neutral": {
+      "source": "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png",
+      "runtime": "images/story/act02/characters/gpt/gpt_hs_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT · 制服平静"
+    },
+    "act02.gpt_hs_reading": {
+      "source": "assets_src/act02/characters/gpt/gpt_hs_reading_v001.png",
+      "runtime": "images/story/act02/characters/gpt/gpt_hs_reading_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT · 坐姿阅读"
+    },
+    "act02.gpt_hs_smile": {
+      "source": "assets_src/act02/characters/gpt/gpt_hs_smile_v001.png",
+      "runtime": "images/story/act02/characters/gpt/gpt_hs_smile_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT · 温柔微笑"
+    },
+    "act02.pr03_old_camcorder": {
+      "source": "assets_src/act02/props/pr03_old_camcorder_v001.png",
+      "runtime": "images/story/act02/props/pr03_old_camcorder_v001.png",
+      "kind": "prop",
+      "width": 1365,
+      "height": 1152,
+      "label": "PR03 · 旧摄像机"
+    },
+    "act02.pr06_study_materials": {
+      "source": "assets_src/act02/props/pr06_study_materials_v001.png",
+      "runtime": "images/story/act02/props/pr06_study_materials_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR06 · 课本与草稿"
+    },
+    "act03.bg_auditorium_performance": {
+      "source": "assets_src/act03/backgrounds/bg_auditorium_performance_v001.png",
+      "runtime": "images/story/act03/backgrounds/bg_auditorium_performance_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG11 · 文化祭正式舞台"
+    },
+    "act03.bg_auditorium_rehearsal": {
+      "source": "assets_src/act03/backgrounds/bg_auditorium_rehearsal_v001.png",
+      "runtime": "images/story/act03/backgrounds/bg_auditorium_rehearsal_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG11 · 礼堂排练"
+    },
+    "act03.bg_musicroom_evening": {
+      "source": "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png",
+      "runtime": "images/story/act03/backgrounds/bg_musicroom_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG10 · 音乐教室傍晚"
+    },
+    "act03.bg_musicroom_night": {
+      "source": "assets_src/act03/backgrounds/bg_musicroom_night_v001.png",
+      "runtime": "images/story/act03/backgrounds/bg_musicroom_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG10 · 音乐教室夜间"
+    },
+    "act03.bg_rooftop_night": {
+      "source": "assets_src/act03/backgrounds/bg_rooftop_night_v001.png",
+      "runtime": "images/story/act03/backgrounds/bg_rooftop_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG01 · 文化祭后夜晚天台"
+    },
+    "act03.bg_schoolgate_evening": {
+      "source": "assets_src/act03/backgrounds/bg_schoolgate_evening_v001.png",
+      "runtime": "images/story/act03/backgrounds/bg_schoolgate_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG12 · 放学后的校门"
+    },
+    "act03.cg04_cultural_festival": {
+      "source": "assets_src/act03/cg/cg04_cultural_festival_v001.png",
+      "runtime": "images/story/act03/cg/cg04_cultural_festival_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG04 / PR11 · 四人文化祭演出定格"
+    },
+    "act03.cg_c303_piano_guidance": {
+      "source": "assets_src/act03/cg/cg_c303_piano_guidance_v001.png",
+      "runtime": "images/story/act03/cg/cg_c303_piano_guidance_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C3-03 · 钢琴回应与指导"
+    },
+    "act03.cg_c307_rooftop_promise": {
+      "source": "assets_src/act03/cg/cg_c307_rooftop_promise_v001.png",
+      "runtime": "images/story/act03/cg/cg_c307_rooftop_promise_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C3-07 · 夜晚天台的约定"
+    },
+    "act03.cg_c308_claude_confession": {
+      "source": "assets_src/act03/cg/cg_c308_claude_confession_v001.png",
+      "runtime": "images/story/act03/cg/cg_c308_claude_confession_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C3-08 · Claude真实告白"
+    },
+    "act03.gpt_hs_lonely": {
+      "source": "assets_src/act03/characters/gpt/gpt_hs_lonely_v001.png",
+      "runtime": "images/story/act03/characters/gpt/gpt_hs_lonely_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT · 隐忍落寞"
+    },
+    "act03.gpt_hs_shy": {
+      "source": "assets_src/act03/characters/gpt/gpt_hs_shy_v001.png",
+      "runtime": "images/story/act03/characters/gpt/gpt_hs_shy_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT · 被邀请后的害羞"
+    },
+    "act03.pr12_two_drink_cans": {
+      "source": "assets_src/act03/props/pr12_two_drink_cans_v001.png",
+      "runtime": "images/story/act03/props/pr12_two_drink_cans_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR12 · 两罐饮料"
+    },
+    "act04.bg_airport_depart_day": {
+      "source": "assets_src/act04/backgrounds/bg_airport_depart_day_v001.png",
+      "runtime": "images/story/act04/backgrounds/bg_airport_depart_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG13 · 国际出发大厅"
+    },
+    "act04.bg_aquarium_blue": {
+      "source": "assets_src/act04/backgrounds/bg_aquarium_blue_v001.png",
+      "runtime": "images/story/act04/backgrounds/bg_aquarium_blue_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG16 · 水族馆蓝色主水槽"
+    },
+    "act04.bg_europe_apartment_night": {
+      "source": "assets_src/act04/backgrounds/bg_europe_apartment_night_v001.png",
+      "runtime": "images/story/act04/backgrounds/bg_europe_apartment_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG14 · 欧洲独居公寓夜景"
+    },
+    "act04.bg_lakeside_sunset": {
+      "source": "assets_src/act04/backgrounds/bg_lakeside_sunset_v001.png",
+      "runtime": "images/story/act04/backgrounds/bg_lakeside_sunset_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG17 · 冬日湖岸夕阳"
+    },
+    "act04.bg_rooftop_evening": {
+      "source": "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png",
+      "runtime": "images/story/act04/backgrounds/bg_rooftop_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG01 · 高中天台傍晚"
+    },
+    "act04.bg_university_day": {
+      "source": "assets_src/act04/backgrounds/bg_university_day_v001.png",
+      "runtime": "images/story/act04/backgrounds/bg_university_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG15 · 大学校园日间"
+    },
+    "act04.bg_university_library_day": {
+      "source": "assets_src/act04/backgrounds/bg_university_library_day_v001.png",
+      "runtime": "images/story/act04/backgrounds/bg_university_library_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG19 · 大学图书馆日间"
+    },
+    "act04.bg_university_winter_evening": {
+      "source": "assets_src/act04/backgrounds/bg_university_winter_evening_v001.png",
+      "runtime": "images/story/act04/backgrounds/bg_university_winter_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG15 · 大学校园初冬傍晚"
+    },
+    "act04.cg05_eve_farewell": {
+      "source": "assets_src/act04/cg/cg05_eve_farewell_v001.png",
+      "runtime": "images/story/act04/cg/cg05_eve_farewell_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG05 · 出国前夜坦白"
+    },
+    "act04.cg06_airport_farewell": {
+      "source": "assets_src/act04/cg/cg06_airport_farewell_v001.png",
+      "runtime": "images/story/act04/cg/cg06_airport_farewell_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG06 · 安检口拥抱告别"
+    },
+    "act04.cg07_aquarium_partner": {
+      "source": "assets_src/act04/cg/cg07_aquarium_partner_v001.png",
+      "runtime": "images/story/act04/cg/cg07_aquarium_partner_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG07 · 蓝色水光里的搭档"
+    },
+    "act04.cg08_ds_confession": {
+      "source": "assets_src/act04/cg/cg08_ds_confession_v001.png",
+      "runtime": "images/story/act04/cg/cg08_ds_confession_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG08 · 湖边第一次认真告白"
+    },
+    "act04.cg_c406a_waiting": {
+      "source": "assets_src/act04/cg/cg_c406a_waiting_v001.png",
+      "runtime": "images/story/act04/cg/cg_c406a_waiting_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C4-06A · 留在教室的人"
+    },
+    "act04.cg_c408b_unsent": {
+      "source": "assets_src/act04/cg/cg_c408b_unsent_v001.png",
+      "runtime": "images/story/act04/cg/cg_c408b_unsent_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C4-08B · 公寓删去思念"
+    },
+    "act04.claude_home_neutral": {
+      "source": "assets_src/act04/characters/claude_home_neutral_v001.png",
+      "runtime": "images/story/act04/characters/claude_home_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude · 高中过渡便服基准"
+    },
+    "act04.claude_home_teary": {
+      "source": "assets_src/act04/characters/claude_home_teary_v001.png",
+      "runtime": "images/story/act04/characters/claude_home_teary_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude · 便服含泪"
+    },
+    "act04.claude_travel_cry": {
+      "source": "assets_src/act04/characters/claude_travel_cry_v001.png",
+      "runtime": "images/story/act04/characters/claude_travel_cry_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude · 机场含泪"
+    },
+    "act04.claude_travel_neutral": {
+      "source": "assets_src/act04/characters/claude_travel_neutral_v001.png",
+      "runtime": "images/story/act04/characters/claude_travel_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude · 出国外套基准"
+    },
+    "act04.ds_university_neutral": {
+      "source": "assets_src/act04/characters/ds_university_neutral_v001.png",
+      "runtime": "images/story/act04/characters/ds_university_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 大学浅蓝外套基准"
+    },
+    "act04.ds_university_shy": {
+      "source": "assets_src/act04/characters/ds_university_shy_v001.png",
+      "runtime": "images/story/act04/characters/ds_university_shy_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 大学紧张告白"
+    },
+    "act04.ds_university_tearsmile": {
+      "source": "assets_src/act04/characters/ds_university_tearsmile_v001.png",
+      "runtime": "images/story/act04/characters/ds_university_tearsmile_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek · 大学泪中强笑"
+    },
+    "act04.pr09_score_box": {
+      "source": "assets_src/act04/props/pr09_score_box_v001.png",
+      "runtime": "images/story/act04/props/pr09_score_box_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR09 · 告别时乐谱纸箱"
+    },
+    "act04.pr13_memory_envelope": {
+      "source": "assets_src/act04/props/pr13_memory_envelope_v001.png",
+      "runtime": "images/story/act04/props/pr13_memory_envelope_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR13 · 照片乐谱文件袋"
+    },
+    "act04.pr14_suitcase": {
+      "source": "assets_src/act04/props/pr14_suitcase_v001.png",
+      "runtime": "images/story/act04/props/pr14_suitcase_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR14 · Claude行李箱"
+    },
+    "act04.pr16_hot_drink": {
+      "source": "assets_src/act04/props/pr16_hot_drink_v001.png",
+      "runtime": "images/story/act04/props/pr16_hot_drink_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR16 · 学姐热饮"
+    },
+    "act04.pr17_admission": {
+      "source": "assets_src/act04/props/pr17_admission_v001.png",
+      "runtime": "images/story/act04/props/pr17_admission_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "PR17 · 录取与成绩单底板"
+    },
+    "act04.pr18_concert_photo": {
+      "source": "assets_src/act04/cg/pr18_concert_photo_v001.png",
+      "runtime": "images/story/act04/cg/pr18_concert_photo_v001.png",
+      "kind": "cg",
+      "width": 1024,
+      "height": 1536,
+      "label": "PR18 · Claude成年音乐会宣传照"
+    },
+    "act05.bg04_filmclub_clean_winter_evening": {
+      "source": "assets_src/act05/backgrounds/bg04_filmclub_clean_winter_evening_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg04_filmclub_clean_winter_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "旧电影社｜冬日傍晚"
+    },
+    "act05.bg08_corridor_winter_evening": {
+      "source": "assets_src/act05/backgrounds/bg08_corridor_winter_evening_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg08_corridor_winter_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "高中走廊｜冬日黄昏"
+    },
+    "act05.bg10_musicroom_winter_day": {
+      "source": "assets_src/act05/backgrounds/bg10_musicroom_winter_day_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg10_musicroom_winter_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "旧音乐教室｜冬日白昼"
+    },
+    "act05.bg10_musicroom_winter_evening": {
+      "source": "assets_src/act05/backgrounds/bg10_musicroom_winter_evening_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg10_musicroom_winter_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "旧音乐教室｜冬日黄昏"
+    },
+    "act05.bg10_musicroom_winter_night": {
+      "source": "assets_src/act05/backgrounds/bg10_musicroom_winter_night_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg10_musicroom_winter_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "旧音乐教室｜冬日深夜"
+    },
+    "act05.bg13_arrive_winter": {
+      "source": "assets_src/act05/backgrounds/bg13_arrive_winter_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg13_arrive_winter_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "机场｜冬日到达厅"
+    },
+    "act05.bg18_user_university_day": {
+      "source": "assets_src/act05/backgrounds/bg18_user_university_day_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg18_user_university_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "User大学住处｜白昼"
+    },
+    "act05.bg18_user_university_night": {
+      "source": "assets_src/act05/backgrounds/bg18_user_university_night_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg18_user_university_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "User大学住处｜深夜"
+    },
+    "act05.bg20_rehearsal_day": {
+      "source": "assets_src/act05/backgrounds/bg20_rehearsal_day_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg20_rehearsal_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "专业排练厅｜冬日白昼"
+    },
+    "act05.bg21_temporary_evening": {
+      "source": "assets_src/act05/backgrounds/bg21_temporary_evening_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg21_temporary_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "Claude临时住处｜黄昏"
+    },
+    "act05.bg22_publisher_day": {
+      "source": "assets_src/act05/backgrounds/bg22_publisher_day_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg22_publisher_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "出版社｜日间编辑区"
+    },
+    "act05.bg23_cafe_snow_day": {
+      "source": "assets_src/act05/backgrounds/bg23_cafe_snow_day_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg23_cafe_snow_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "咖啡馆｜冬日飘雪白昼"
+    },
+    "act05.bg23_cafe_snow_evening": {
+      "source": "assets_src/act05/backgrounds/bg23_cafe_snow_evening_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg23_cafe_snow_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "咖啡馆｜雪夜窗边"
+    },
+    "act05.bg24_hospital_day": {
+      "source": "assets_src/act05/backgrounds/bg24_hospital_day_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg24_hospital_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "医院｜上午候诊区"
+    },
+    "act05.bg25_empty_stage_night": {
+      "source": "assets_src/act05/backgrounds/bg25_empty_stage_night_v001.png",
+      "runtime": "images/story/act05/backgrounds/bg25_empty_stage_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "专业音乐厅｜前夜单灯"
+    },
+    "act05.claude_indoor_neutral": {
+      "source": "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png",
+      "runtime": "images/story/act05/characters/claude/claude_indoor_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜成年排练便服·专注"
+    },
+    "act05.claude_win_blush": {
+      "source": "assets_src/act05/characters/claude/claude_win_blush_v001.png",
+      "runtime": "images/story/act05/characters/claude/claude_win_blush_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜成年冬装·嘴硬脸红"
+    },
+    "act05.claude_win_neutral": {
+      "source": "assets_src/act05/characters/claude/claude_win_neutral_v001.png",
+      "runtime": "images/story/act05/characters/claude/claude_win_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜成年冬装·自持"
+    },
+    "act05.claude_win_worried": {
+      "source": "assets_src/act05/characters/claude/claude_win_worried_v001.png",
+      "runtime": "images/story/act05/characters/claude/claude_win_worried_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜成年冬装·担忧含泪"
+    },
+    "act05.ds_indoor_firm_tear": {
+      "source": "assets_src/act05/characters/deepseek/ds_indoor_firm_tear_v001.png",
+      "runtime": "images/story/act05/characters/deepseek/ds_indoor_firm_tear_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek｜大学室内·含泪坚定"
+    },
+    "act05.ds_win_neutral": {
+      "source": "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png",
+      "runtime": "images/story/act05/characters/deepseek/ds_win_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek｜大学冬装·温柔"
+    },
+    "act05.gpt_work_neutral": {
+      "source": "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png",
+      "runtime": "images/story/act05/characters/gpt/gpt_work_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT｜成年工作冬装·微笑"
+    },
+    "act06.bg18_student_room_night_continuity": {
+      "source": "assets_src/act06/backgrounds/bg18_student_room_night_continuity_v001.png",
+      "runtime": "images/story/act06/backgrounds/bg18_student_room_night_continuity_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG18｜住处夜景·第五章同机位"
+    },
+    "act06.bg22_publisher_lobby_day": {
+      "source": "assets_src/act06/backgrounds/bg22_publisher_lobby_day_v001.png",
+      "runtime": "images/story/act06/backgrounds/bg22_publisher_lobby_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG22｜出版社大厅·面试前"
+    },
+    "act06.bg26_filmclub_day_continuity": {
+      "source": "assets_src/act06/backgrounds/bg26_filmclub_day_continuity_v001.png",
+      "runtime": "images/story/act06/backgrounds/bg26_filmclub_day_continuity_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG26｜影像社日光·第五章同机位"
+    },
+    "act06.bg27_backstage_musiccase": {
+      "source": "assets_src/act06/backgrounds/bg27_backstage_musiccase_v001.png",
+      "runtime": "images/story/act06/backgrounds/bg27_backstage_musiccase_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG27｜后台·琴谱箱修正版"
+    },
+    "act06.bg28_publisher_street_snow": {
+      "source": "assets_src/act06/backgrounds/bg28_publisher_street_snow_v001.png",
+      "runtime": "images/story/act06/backgrounds/bg28_publisher_street_snow_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG28｜出版社外街道·积雪"
+    },
+    "act06.bg29_crossing_barrier_down": {
+      "source": "assets_src/act06/backgrounds/bg29_crossing_barrier_down_v001.png",
+      "runtime": "images/story/act06/backgrounds/bg29_crossing_barrier_down_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG29｜栏杆落下·等待"
+    },
+    "act06.bg29_crossing_sunset": {
+      "source": "assets_src/act06/backgrounds/bg29_crossing_sunset_v001.png",
+      "runtime": "images/story/act06/backgrounds/bg29_crossing_sunset_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG29｜铁路道口·夕阳"
+    },
+    "act06.bg29_crossing_train_passing": {
+      "source": "assets_src/act06/backgrounds/bg29_crossing_train_passing_v001.png",
+      "runtime": "images/story/act06/backgrounds/bg29_crossing_train_passing_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG29｜列车经过·遮挡"
+    },
+    "act06.cg_c602_final_manuscript_handover": {
+      "source": "assets_src/act06/cg/cg_c602_final_manuscript_handover_v001.png",
+      "runtime": "images/story/act06/cg/cg_c602_final_manuscript_handover_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C6-02｜递出最终稿"
+    },
+    "act06.cg_c603_claude_handhold": {
+      "source": "assets_src/act06/cg/cg_c603_claude_handhold_v001.png",
+      "runtime": "images/story/act06/cg/cg_c603_claude_handhold_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "C6-03｜这次和我一起走·握手"
+    },
+    "act06.claude_win_confident_smile": {
+      "source": "assets_src/act06/characters/claude/claude_win_confident_smile_v001.png",
+      "runtime": "images/story/act06/characters/claude/claude_win_confident_smile_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜演后自信轻笑"
+    },
+    "act06.claude_win_invitation": {
+      "source": "assets_src/act06/characters/claude/claude_win_invitation_v001.png",
+      "runtime": "images/story/act06/characters/claude/claude_win_invitation_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜冬装·同行邀请"
+    },
+    "act06.ds_win_completed_happy": {
+      "source": "assets_src/act06/characters/deepseek/ds_win_completed_happy_v001.png",
+      "runtime": "images/story/act06/characters/deepseek/ds_win_completed_happy_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek｜完稿喜悦"
+    },
+    "act06.ds_win_determined": {
+      "source": "assets_src/act06/characters/deepseek/ds_win_determined_v001.png",
+      "runtime": "images/story/act06/characters/deepseek/ds_win_determined_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek｜冬装·坚定询问"
+    },
+    "act06.ds_win_earnest": {
+      "source": "assets_src/act06/characters/deepseek/ds_win_earnest_v001.png",
+      "runtime": "images/story/act06/characters/deepseek/ds_win_earnest_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek｜大学冬装·认真抱本"
+    },
+    "act06.gpt_work_determined": {
+      "source": "assets_src/act06/characters/gpt/gpt_work_determined_v001.png",
+      "runtime": "images/story/act06/characters/gpt/gpt_work_determined_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT｜工作冬装·坦率期待"
+    },
+    "act06.gpt_work_hair_tuck": {
+      "source": "assets_src/act06/characters/gpt/gpt_work_hair_tuck_v001.png",
+      "runtime": "images/story/act06/characters/gpt/gpt_work_hair_tuck_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT｜告白后整理头发"
+    },
+    "act06.gpt_work_relieved": {
+      "source": "assets_src/act06/characters/gpt/gpt_work_relieved_v001.png",
+      "runtime": "images/story/act06/characters/gpt/gpt_work_relieved_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT｜面试后安心微笑"
+    },
+    "act06.pr08_final_manuscript": {
+      "source": "assets_src/act06/props/pr08_final_manuscript_v001.png",
+      "runtime": "images/story/act06/props/pr08_final_manuscript_v001.png",
+      "kind": "prop",
+      "width": 1672,
+      "height": 941,
+      "label": "PR08｜候鸟最终稿·无字底图"
+    },
+    "act06.pr09_music_document_case": {
+      "source": "assets_src/act06/props/pr09_music_document_case_v001.png",
+      "runtime": "images/story/act06/props/pr09_music_document_case_v001.png",
+      "kind": "prop",
+      "width": 1672,
+      "height": 941,
+      "label": "PR09｜琴谱箱与收谱"
+    },
+    "act06.pr21_interview_portfolio": {
+      "source": "assets_src/act06/props/pr21_interview_portfolio_v001.png",
+      "runtime": "images/story/act06/props/pr21_interview_portfolio_v001.png",
+      "kind": "prop",
+      "width": 1672,
+      "height": 941,
+      "label": "PR21｜作品集与面试资料"
+    },
+    "ending.bg01_refurbished_spring_day": {
+      "source": "assets_src/ending/backgrounds/bg01_refurbished_spring_day_v001.png",
+      "runtime": "images/story/ending/backgrounds/bg01_refurbished_spring_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "BG01｜终章天台·春日翻新栏杆"
+    },
+    "ending.bg31_director_studio_day": {
+      "source": "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png",
+      "runtime": "images/story/ending/backgrounds/bg31_director_studio_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "导演工作室·日"
+    },
+    "ending.bg31_director_studio_evening": {
+      "source": "assets_src/ending/backgrounds/bg31_director_studio_evening_v001.png",
+      "runtime": "images/story/ending/backgrounds/bg31_director_studio_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "导演工作室·晚"
+    },
+    "ending.bg32_adaptation_forum_day": {
+      "source": "assets_src/ending/backgrounds/bg32_adaptation_forum_day_v001.png",
+      "runtime": "images/story/ending/backgrounds/bg32_adaptation_forum_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "文学改编交流会"
+    },
+    "ending.bg33_reunion_park_sunset": {
+      "source": "assets_src/ending/backgrounds/bg33_reunion_park_sunset_v001.png",
+      "runtime": "images/story/ending/backgrounds/bg33_reunion_park_sunset_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "重逢公园·夕阳"
+    },
+    "ending.bg34_premiere_backstage_evening": {
+      "source": "assets_src/ending/backgrounds/bg34_premiere_backstage_evening_v001.png",
+      "runtime": "images/story/ending/backgrounds/bg34_premiere_backstage_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "电影首映后台"
+    },
+    "ending.cg18_forum_reunion": {
+      "source": "assets_src/ending/cg/cg18_forum_reunion_v001.png",
+      "runtime": "images/story/ending/cg/cg18_forum_reunion_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG18·交流会及时停步"
+    },
+    "ending.cg19_park_short_kiss": {
+      "source": "assets_src/ending/cg/cg19_park_short_kiss_v002.png",
+      "runtime": "images/story/ending/cg/cg19_park_short_kiss_v002.png",
+      "kind": "cg",
+      "width": 1671,
+      "height": 941,
+      "label": "CG19·四年后主动短吻"
+    },
+    "ending.cg20_premiere_notebook_embrace": {
+      "source": "assets_src/ending/cg/cg20_premiere_notebook_embrace_v001.png",
+      "runtime": "images/story/ending/cg/cg20_premiere_notebook_embrace_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG20·旧本兑现后的拥抱"
+    },
+    "ending.cg21_rooftop_tomorrow": {
+      "source": "assets_src/ending/cg/cg21_rooftop_tomorrow_v001.png",
+      "runtime": "images/story/ending/cg/cg21_rooftop_tomorrow_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "CG21｜天台上的少女与明天·牵手回眸"
+    },
+    "ending.cg_ds10_growth_work": {
+      "source": "assets_src/ending/cg/cg_ds10_growth_work_v001.png",
+      "runtime": "images/story/ending/cg/cg_ds10_growth_work_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "成长·独立导演工作"
+    },
+    "ending.cg_ds13a_creating_together": {
+      "source": "assets_src/ending/cg/cg_ds13a_creating_together_v001.png",
+      "runtime": "images/story/ending/cg/cg_ds13a_creating_together_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "共同改编·认真讨论"
+    },
+    "ending.cg_ds14a_daily_care": {
+      "source": "assets_src/ending/cg/cg_ds14a_daily_care_v001.png",
+      "runtime": "images/story/ending/cg/cg_ds14a_daily_care_v001.png",
+      "kind": "cg",
+      "width": 1672,
+      "height": 941,
+      "label": "日常·为彼此留时间"
+    },
+    "ending.ds_mat_daily_neutral": {
+      "source": "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png",
+      "runtime": "images/story/ending/characters/deepseek/ds_mat_daily_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "成熟日常便服·基础"
+    },
+    "ending.ds_mat_premiere_flustered": {
+      "source": "assets_src/ending/characters/deepseek/ds_mat_premiere_flustered_v001.png",
+      "runtime": "images/story/ending/characters/deepseek/ds_mat_premiere_flustered_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "成熟首映装·慌张找本"
+    },
+    "ending.ds_mat_premiere_neutral": {
+      "source": "assets_src/ending/characters/deepseek/ds_mat_premiere_neutral_v001.png",
+      "runtime": "images/story/ending/characters/deepseek/ds_mat_premiere_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "成熟首映装·基础"
+    },
+    "ending.ds_mat_spring_blush": {
+      "source": "assets_src/ending/characters/deepseek/ds_mat_spring_blush_v001.png",
+      "runtime": "images/story/ending/characters/deepseek/ds_mat_spring_blush_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "成熟春装·害羞"
+    },
+    "ending.ds_mat_spring_neutral": {
+      "source": "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+      "runtime": "images/story/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek｜成熟春装·基础"
+    },
+    "ending.ds_mat_spring_pout": {
+      "source": "assets_src/ending/characters/deepseek/ds_mat_spring_pout_v001.png",
+      "runtime": "images/story/ending/characters/deepseek/ds_mat_spring_pout_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek｜成熟春装·鼓脸拌嘴"
+    },
+    "ending.ds_mat_spring_teary_smile": {
+      "source": "assets_src/ending/characters/deepseek/ds_mat_spring_teary_smile_v001.png",
+      "runtime": "images/story/ending/characters/deepseek/ds_mat_spring_teary_smile_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "成熟春装·泪笑"
+    },
+    "ending.ds_mat_spring_tender": {
+      "source": "assets_src/ending/characters/deepseek/ds_mat_spring_tender_v001.png",
+      "runtime": "images/story/ending/characters/deepseek/ds_mat_spring_tender_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "DeepSeek｜成熟春装·温柔·手放心口"
+    },
+    "ending.pr01_aged_blue_notebook": {
+      "source": "assets_src/ending/props/pr01_aged_blue_notebook_v001.png",
+      "runtime": "images/story/ending/props/pr01_aged_blue_notebook_v001.png",
+      "kind": "prop",
+      "width": 1312,
+      "height": 1199,
+      "label": "旧蓝本·泛黄纸页"
+    },
+    "ending.pr27_creative_works": {
+      "source": "assets_src/ending/props/pr27_creative_works_v001.png",
+      "runtime": "images/story/ending/props/pr27_creative_works_v001.png",
+      "kind": "prop",
+      "width": 1536,
+      "height": 1024,
+      "label": "双方作品与预告物料"
+    },
+    "ending.pr28_forum_book_list": {
+      "source": "assets_src/ending/props/pr28_forum_book_list_v001.png",
+      "runtime": "images/story/ending/props/pr28_forum_book_list_v001.png",
+      "kind": "prop",
+      "width": 1536,
+      "height": 1024,
+      "label": "作品名单与候鸟出版物"
+    }
+  },
+  "scenes": [
+    {
+      "id": "P-01",
+      "title": "天台上的少女",
+      "anchor": {
+        "chapter": "ch00",
+        "speaker": "narrator",
+        "text": "那天，我原本只是想找个安静的地方。",
+        "occurrence": 1
+      },
+      "background": "act01.bg_rooftop_spring_day",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "narrator",
+            "text": "一个蓝色的身影突然从天台高处跃下。",
+            "occurrence": 1
+          },
+          "cg": "act01.cg_p01_offbalance"
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "narrator",
+            "text": "我还没来得及反应，就被撞得坐在地上。",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "narrator",
+            "text": "我还没来得及反应，就被撞得坐在地上。",
+            "occurrence": 1
+          },
+          "cg": "act01.cg01_rooftop_collision"
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "User",
+            "text": "你没事吧？！",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "User",
+            "text": "你没事吧？！",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act01.ds_hs_pain"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "？？？",
+            "text": "对不起！！",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act01.ds_hs_apology"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "narrator",
+            "text": "阳光落在她的蓝发上。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act01.ds_hs_happy"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "narrator",
+            "text": "她已经消失在楼梯口。",
+            "occurrence": 1
+          },
+          "hide": [
+            "ds"
+          ]
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "narrator",
+            "text": "我捡了起来。",
+            "occurrence": 1
+          },
+          "cg": "act01.cg_p01_notebook_pickup"
+        },
+        {
+          "anchor": {
+            "chapter": "ch00",
+            "speaker": "narrator",
+            "text": "DeepSeek。",
+            "occurrence": 1
+          },
+          "cg": "act01.cg_p01_notebook_reveal"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C1-01",
+      "title": "寻找的人与眼前的人",
+      "anchor": {
+        "chapter": "ch01",
+        "speaker": "narrator",
+        "text": "第二天，我开始寻找笔记本的主人。",
+        "occurrence": 1
+      },
+      "background": "act01.bg_playground_evening",
+      "characters": {
+        "cl": "act01.claude_hs_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C1-02",
+      "title": "单杠上的告白",
+      "anchor": {
+        "chapter": "ch01",
+        "speaker": "Claude",
+        "text": "又怎么了？",
+        "occurrence": 1
+      },
+      "background": "act01.bg_playground_evening",
+      "characters": {
+        "cl": "act01.claude_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "User",
+            "text": "和我——",
+            "occurrence": 1
+          },
+          "cg": "act01.cg02_pullup_confession"
+        },
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "narrator",
+            "text": "她沉默了好一会儿。",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "narrator",
+            "text": "她沉默了好一会儿。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act01.claude_hs_blush"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C1-03",
+      "title": "归还笔记本",
+      "anchor": {
+        "chapter": "ch01",
+        "speaker": "narrator",
+        "text": "几天后，我终于在图书馆找到了 DeepSeek。",
+        "occurrence": 1
+      },
+      "background": "act01.bg_library_day",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "narrator",
+            "text": "她正趴在桌上，一脸绝望。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act01.ds_hs_sad"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "narrator",
+            "text": "我把笔记本放在她面前。",
+            "occurrence": 1
+          },
+          "cg": "act01.cg_c103_notebook_return"
+        },
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "DeepSeek",
+            "text": "嗯！虽然写得不太好啦……",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "DeepSeek",
+            "text": "嗯！虽然写得不太好啦……",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act01.ds_hs_book_happy"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C1-04",
+      "title": "想飞的鲸鱼与第一次合作",
+      "anchor": {
+        "chapter": "ch01",
+        "speaker": "narrator",
+        "text": "我原本以为，答应 DeepSeek 拍电影，只是一句随口说出的承诺。",
+        "occurrence": 1
+      },
+      "background": "act01.bg_library_day",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "narrator",
+            "text": "封面上画着一只歪歪扭扭的小鲸鱼。",
+            "occurrence": 1
+          },
+          "prop": "act01.pr02_flying_whale_sketch"
+        },
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "narrator",
+            "text": "我翻开笔记本，继续往下读。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "narrator",
+            "text": "我翻开笔记本，继续往下读。",
+            "occurrence": 1
+          },
+          "cg": "act01.cg_c104_writing_together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C2-01",
+      "title": "停滞的电影研究社",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "电影研究社的活动室比我想象中还要破旧。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_filmclub_dust_day",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "narrator",
+            "text": "角落里堆着几台老式摄影机，窗台上落满灰尘。墙壁上贴着几年前文化祭的海报，边角已经卷起。",
+            "occurrence": 1
+          },
+          "prop": "act02.pr03_old_camcorder"
+        },
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "User",
+            "text": "小心点，别弄坏了。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C2-02",
+      "title": "糟糕的成绩单",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "我一直觉得，自己不是一个擅长学习的人。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_classroom_day",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C2-03",
+      "title": "花坛旁的眼泪",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "因为一次违纪，我被学校停学一周。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_flowerbed_overcast",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "narrator",
+            "text": "她的声音有些颤抖。",
+            "occurrence": 1
+          },
+          "cg": "act02.cg_c203_mother"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C2-04",
+      "title": "从课本第一页重新开始",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "回家之前，我又去了一趟宿舍。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_user_desk_night",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "narrator",
+            "text": "数学、物理、英语。",
+            "occurrence": 1
+          },
+          "prop": "act02.pr06_study_materials"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C2-05",
+      "title": "向老师开口",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "头发也剪成了学校要求的长度。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_corridor_evening",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C2-06",
+      "title": "第一次看见努力的结果",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "高二期末考试，我第一次考进了年级四千名以内。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_corridor_day",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C2-07",
+      "title": "前排的学姐",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "高三分班时，我被分到了普通班。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_classroom_night",
+      "characters": {
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "narrator",
+            "text": "总是安安静静地看书。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act02.gpt_hs_reading"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C2-08",
+      "title": "不会的地方要说出来",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "因为座位相邻，我们经常被安排在同一个值日小组。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_classroom_evening",
+      "characters": {
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "GPT",
+            "text": "其实普通班和重点班的老师差不多。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act02.gpt_hs_explain"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C2-09",
+      "title": "一点点靠近的课桌",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "从那天开始，我经常向 GPT 请教问题。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_classroom_evening",
+      "characters": {
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "GPT",
+            "text": "你看，其实没有想象中那么复杂。",
+            "occurrence": 1
+          },
+          "cg": "act02.cg03_tutoring"
+        },
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "narrator",
+            "text": "她笑了。",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "narrator",
+            "text": "她笑了。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act02.gpt_hs_smile"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C2-10",
+      "title": "被推迟的甜品邀约",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "那天放学后，我正在整理书包。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_classroom_evening",
+      "characters": {
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C2-11",
+      "title": "没有发出的第二句话",
+      "anchor": {
+        "chapter": "ch02",
+        "speaker": "narrator",
+        "text": "Claude 的房间。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_claude_bedroom_night",
+      "characters": {
+        "cl": "act01.claude_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch02",
+            "speaker": "narrator",
+            "text": "她轻轻抱住膝盖。",
+            "occurrence": 1
+          },
+          "cg": "act02.cg_c211_unsent"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C3-01",
+      "title": "她还记得那个约定",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "寒假结束后的第一天，我在教学楼门口遇见了 DeepSeek。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_corridor_day",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C3-02",
+      "title": "焕然一新的活动室与《候鸟》",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "重新走进电影研究社时，我发现活动室已经和之前完全不同。",
+        "occurrence": 1
+      },
+      "background": "act05.bg04_filmclub_clean_winter_evening",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [],
+      "notes": [
+        "暂复用干净旧社团冬日晚景；高中日间/傍晚同机位差分待补，不能视为最终连续性验收。"
+      ]
+    },
+    {
+      "id": "C3-03",
+      "title": "隔壁的钢琴回应",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "为了给电影配乐，我开始尝试自己练习吉他。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_musicroom_evening",
+      "characters": {
+        "cl": "act01.claude_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "那天之后，Claude 开始帮我练习音乐。",
+            "occurrence": 1
+          },
+          "cg": "act03.cg_c303_piano_guidance"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C3-04",
+      "title": "学姐加入了歌声",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "某天下午，我和 Claude 正在排练电影的配乐。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_musicroom_evening",
+      "characters": {
+        "cl": "act01.claude_hs_neutral",
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "她似乎有些不好意思。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act03.gpt_hs_shy"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C3-05",
+      "title": "要不要现场演出",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "文化祭前一周，社团的准备工作终于进入最后阶段。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_auditorium_rehearsal",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean",
+        "cl": "act01.claude_hs_neutral",
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C3-06",
+      "title": "四个人站上舞台",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "文化祭终于到了。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_auditorium_performance",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean",
+        "cl": "act01.claude_hs_neutral",
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "DeepSeek",
+            "text": "User……",
+            "occurrence": 1
+          },
+          "cg": "act03.cg04_cultural_festival"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C3-07",
+      "title": "毕业以后还会一起拍吗",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "文化祭结束后，校园渐渐安静下来。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_rooftop_night",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "她把其中一罐递给我。",
+            "occurrence": 1
+          },
+          "prop": "act03.pr12_two_drink_cans"
+        },
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "她靠在栏杆旁，望向远处的灯光。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "过了一会儿，她突然轻声问道。",
+            "occurrence": 1
+          },
+          "cg": "act03.cg_c307_rooftop_promise"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C3-08",
+      "title": "名义恋人的真实告白",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "离开天台后，我经过音乐教室。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_musicroom_night",
+      "characters": {
+        "cl": "act01.claude_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "User",
+            "text": "不是这样的。",
+            "occurrence": 1
+          },
+          "cg": "act03.cg_c308_claude_confession"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C3-09",
+      "title": "照片里的四个人",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "文化祭结束后的第二天，学校恢复了平静。",
+        "occurrence": 1
+      },
+      "background": "act05.bg04_filmclub_clean_winter_evening",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "DeepSeek 坐在我的旁边，正兴奋地翻看文化祭当天拍摄的照片。",
+            "occurrence": 1
+          },
+          "prop": "act03.cg04_cultural_festival"
+        },
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "她盯着照片看了很久。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": [
+        "暂复用干净旧社团冬日晚景；高中日间/傍晚同机位差分待补，不能视为最终连续性验收。"
+      ]
+    },
+    {
+      "id": "C3-10",
+      "title": "学姐劝他自己决定",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "下午，我照例去找 GPT 学姐复习。",
+        "occurrence": 1
+      },
+      "background": "act01.bg_library_day",
+      "characters": {
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "她可以帮我解开一道又一道难题。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act03.gpt_hs_lonely"
+          }
+        }
+      ],
+      "notes": [
+        "图书馆傍晚差分尚缺，暂复用同地点日景。"
+      ]
+    },
+    {
+      "id": "C3-11",
+      "title": "不再责怪他的Claude",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "傍晚，我经过音乐教室。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_musicroom_evening",
+      "characters": {
+        "cl": "act01.claude_hs_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C3-12",
+      "title": "约不到的下一次聚会",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "几天后，我们四个人难得又聚在了一起。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_schoolgate_evening",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean",
+        "cl": "act01.claude_hs_neutral",
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C3-13",
+      "title": "暂停在最快乐的一帧",
+      "anchor": {
+        "chapter": "ch03",
+        "speaker": "narrator",
+        "text": "那天晚上，我打开电脑，重新播放文化祭的录像。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_user_desk_night",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "画面里，Claude 坐在钢琴前，GPT 站在麦克风旁，DeepSeek 笑着向观众挥手。",
+            "occurrence": 1
+          },
+          "cg": "act03.cg04_cultural_festival"
+        },
+        {
+          "anchor": {
+            "chapter": "ch03",
+            "speaker": "narrator",
+            "text": "我将录像暂停在那一刻。",
+            "occurrence": 1
+          },
+          "restore": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-01",
+      "title": "从别人那里听见她要走",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "文化祭结束后的日子，比想象中平静。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_musicroom_evening",
+      "characters": {
+        "cl": "act01.claude_hs_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C4-02",
+      "title": "希望重要的人来送行",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "Claude 即将离开的消息，很快传到了 DeepSeek 耳中。",
+        "occurrence": 1
+      },
+      "background": "act05.bg04_filmclub_clean_winter_evening",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [],
+      "notes": [
+        "暂复用干净旧社团冬日晚景；高中日间/傍晚同机位差分待补，不能视为最终连续性验收。"
+      ]
+    },
+    {
+      "id": "C4-03",
+      "title": "舍不得究竟意味着什么",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "Claude 的事情让我很难集中精神。",
+        "occurrence": 1
+      },
+      "background": "act01.bg_library_day",
+      "characters": {
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [],
+      "notes": [
+        "图书馆傍晚差分尚缺，暂复用同地点日景。"
+      ]
+    },
+    {
+      "id": "C4-04",
+      "title": "最后一次纠正那个和弦",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "距离毕业越来越近。",
+        "occurrence": 1
+      },
+      "background": "act03.bg_musicroom_evening",
+      "characters": {
+        "cl": "act01.claude_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "音乐教室里，那些原本属于她的乐谱，一本本被收进了箱子。",
+            "occurrence": 1
+          },
+          "prop": "act04.pr09_score_box"
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "她停下动作。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-05",
+      "title": "前夜终于坦白",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "Claude 出国的前一天，我收到了一条消息。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_claude_bedroom_night",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "可当我来到她家时，却发现她已经把所有东西都整理好了。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act04.claude_home_neutral"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "她把一个文件袋递给我。",
+            "occurrence": 1
+          },
+          "prop": "act04.pr13_memory_envelope"
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "Claude",
+            "text": "我已经有备份了。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "Claude 的眼泪突然落了下来。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act04.claude_home_teary"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "我们拥抱，亲吻，直到深夜仍舍不得分开。",
+            "occurrence": 1
+          },
+          "cg": "act04.cg05_eve_farewell"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-06A",
+      "title": "被DeepSeek推向机场",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "第二天早晨，我没有去机场。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_classroom_day",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "第二天早晨，我没有去机场。",
+            "occurrence": 1
+          },
+          "cg": "act04.cg_c406a_waiting"
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "所以，我坐在教室里。",
+            "occurrence": 1
+          },
+          "restore": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-06B",
+      "title": "安检口的吻别",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "等我赶到机场时，距离登机已经没有多少时间。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_airport_depart_day",
+      "characters": {
+        "cl": "act04.claude_travel_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "User",
+            "text": "可是我还是想再见你一次。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act04.claude_travel_cry"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "我伸出手，将她抱进怀里。",
+            "occurrence": 1
+          },
+          "cg": "act04.cg06_airport_farewell"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-07",
+      "title": "故事里的少年没有等到她",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "Claude 离开后，电影研究社少了一个人。",
+        "occurrence": 1
+      },
+      "background": "act05.bg04_filmclub_clean_winter_evening",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [],
+      "notes": [
+        "暂复用干净旧社团冬日晚景；高中日间/傍晚同机位差分待补，不能视为最终连续性验收。"
+      ]
+    },
+    {
+      "id": "C4-08A",
+      "title": "每天聊天渐渐变成问候",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "Claude 离开后的第一个月，我们仍然保持联系。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_user_desk_night",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C4-08B",
+      "title": "她也删掉了思念",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "深夜。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_europe_apartment_night",
+      "characters": {
+        "cl": "act04.claude_home_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "然后开始打字。",
+            "occurrence": 1
+          },
+          "cg": "act04.cg_c408b_unsent"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-08C",
+      "title": "如果连试都不试",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "那段时间，DeepSeek 仍然经常来找我。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_rooftop_evening",
+      "characters": {
+        "ds": "act01.ds_hs_neutral_clean"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C4-08D",
+      "title": "喜欢与陪伴是两道题",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "GPT 学姐依然坐在熟悉的位置。",
+        "occurrence": 1
+      },
+      "background": "act01.bg_library_day",
+      "characters": {
+        "gp": "act02.gpt_hs_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "她没有继续追问，只是把一杯热饮放到我面前。",
+            "occurrence": 1
+          },
+          "prop": "act04.pr16_hot_drink"
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "User",
+            "text": "你觉得，两个人明明都喜欢对方，为什么还是会慢慢疏远？",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": [
+        "图书馆傍晚差分尚缺，暂复用同地点日景。"
+      ]
+    },
+    {
+      "id": "C4-08E",
+      "title": "没有提出分手的一年",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "那天晚上，我再次打开与 Claude 的聊天窗口。",
+        "occurrence": 1
+      },
+      "background": "act02.bg_user_desk_night",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C4-09A",
+      "title": "一本录取与新的生活",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "三年过去了。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_university_day",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "高中毕业后，我考上了一所普通的一本大学。",
+            "occurrence": 1
+          },
+          "prop": "act04.pr17_admission"
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "我忽然想起高二那年，她坐在教学楼前的花坛旁流泪的样子。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-09B",
+      "title": "三个人各自的三年",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "DeepSeek 进入了同一座城市的另一所大学，继续写她那些充满奇思妙想的故事。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_university_winter_evening",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "照片里的她穿着礼服，坐在聚光灯下。",
+            "occurrence": 1
+          },
+          "prop": "act04.pr18_concert_photo"
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "我曾经以为，时间会慢慢冲淡一切。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-10",
+      "title": "冬日广播与周末邀请",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "十二月的某个傍晚，我刚结束兼职，独自走在回宿舍的路上。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_university_winter_evening",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C4-11",
+      "title": "蓝色水光里的搭档",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "周末，我按照约定来到水族馆。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_aquarium_blue",
+      "characters": {
+        "ds": "act04.ds_university_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "也会因为一只突然靠近玻璃的大鱼而吓得后退。",
+            "occurrence": 1
+          },
+          "cg": "act04.cg07_aquarium_partner"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-12",
+      "title": "第一次把喜欢说完整",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "离开水族馆后，我们来到附近的公园。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_lakeside_sunset",
+      "characters": {
+        "ds": "act04.ds_university_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "她抬起头。",
+            "occurrence": 2
+          },
+          "cg": "act04.cg08_ds_confession"
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "DeepSeek 的脸颊微微泛红。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act04.ds_university_shy"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "她努力笑了笑。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act04.ds_university_tearsmile"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "她轻轻笑了笑。",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "她轻轻笑了笑。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act04.ds_university_tearsmile"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch04",
+            "speaker": "narrator",
+            "text": "她离开了。",
+            "occurrence": 1
+          },
+          "hide": [
+            "ds"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C4-13",
+      "title": "旧恋人突然要回来了",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "回到宿舍后，我一直无法平静下来。",
+        "occurrence": 1
+      },
+      "background": "act05.bg18_user_university_night",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C4-14",
+      "title": "学姐发来的第三个邀请",
+      "anchor": {
+        "chapter": "ch04",
+        "speaker": "narrator",
+        "text": "第二天上午，我收到了 GPT 学姐发来的邮件。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_university_library_day",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-01",
+      "title": "从送别到接机",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "Claude 回国的那天，下着小雪。",
+        "occurrence": 1
+      },
+      "background": "act05.bg13_arrive_winter",
+      "characters": {
+        "cl": "act05.claude_win_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "她轻轻笑了一下。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act05.claude_win_blush"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C5-02",
+      "title": "两个人都没忘的旋律",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "Claude 这次回国，是为了参加一场钢琴独奏音乐会。",
+        "occurrence": 1
+      },
+      "background": "act05.bg20_rehearsal_day",
+      "characters": {
+        "cl": "act05.claude_indoor_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-03",
+      "title": "礼服之外仍需要人照顾",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "随着音乐会临近，Claude 的状态开始变得不太好。",
+        "occurrence": 1
+      },
+      "background": "act05.bg21_temporary_evening",
+      "characters": {
+        "cl": "act05.claude_win_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "厨房几乎没有使用过的痕迹。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act05.claude_win_worried"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C5-04",
+      "title": "新剧本里的女孩继续写作",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "Claude 回国以后，我开始频繁往返于学校和排练厅之间。",
+        "occurrence": 1
+      },
+      "background": "act05.bg18_user_university_day",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-05",
+      "title": "学姐记得他的导演梦想",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "周五下午，我按照约定来到 GPT 学姐工作的出版社。",
+        "occurrence": 1
+      },
+      "background": "act05.bg22_publisher_day",
+      "characters": {
+        "gp": "act05.gpt_work_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-06",
+      "title": "她说曾经喜欢过一个人",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "离开出版社后，GPT 学姐提议一起吃晚饭。",
+        "occurrence": 1
+      },
+      "background": "act05.bg23_cafe_snow_evening",
+      "characters": {
+        "gp": "act05.gpt_work_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-07A",
+      "title": "DeepSeek说她不后悔",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "回到住处时，已经接近晚上十一点。",
+        "occurrence": 1
+      },
+      "background": "act05.bg18_user_university_night",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-07B",
+      "title": "她只再给这一次机会",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "Claude",
+        "text": "睡了吗？",
+        "occurrence": 1
+      },
+      "background": "act05.bg18_user_university_night",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-07C",
+      "title": "保存了三年的成绩记录",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "放下手机后，我重新坐回电脑前。",
+        "occurrence": 1
+      },
+      "background": "act05.bg18_user_university_night",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-07D",
+      "title": "三段珍惜与三个未答的问题",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "那天晚上，我很久都没有睡着。",
+        "occurrence": 1
+      },
+      "background": "act05.bg18_user_university_night",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-08",
+      "title": "候诊走廊里抓住衣袖",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "第二天上午，我按照约定来到医院。",
+        "occurrence": 1
+      },
+      "background": "act05.bg24_hospital_day",
+      "characters": {
+        "cl": "act05.claude_win_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "Claude 已经站在大厅里等我。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act05.claude_win_worried"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C5-09",
+      "title": "弹不完熟悉的曲子",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "医院的检查暂时没有给出明确结论。",
+        "occurrence": 1
+      },
+      "background": "act05.bg25_empty_stage_night",
+      "characters": {
+        "cl": "act05.claude_indoor_neutral"
+      },
+      "cues": [],
+      "notes": [
+        "成年排练便服哭泣/拥抱CG尚缺；保持便服基准与原对白，不使用高中或机场拥抱CG。",
+        "正式音乐厅崩溃段缺少同服装含泪差分，仅使用现有成年排练基准。"
+      ]
+    },
+    {
+      "id": "C5-10",
+      "title": "我不能一直等下去",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "音乐会结束后，Claude 的状态逐渐恢复。",
+        "occurrence": 1
+      },
+      "background": "act06.bg26_filmclub_day_continuity",
+      "characters": {
+        "ds": "act05.ds_indoor_firm_tear"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-11",
+      "title": "学姐终于说出自己的答案",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "几天后，我再次来到出版社。",
+        "occurrence": 1
+      },
+      "background": "act05.bg23_cafe_snow_day",
+      "characters": {
+        "gp": "act05.gpt_work_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-12A",
+      "title": "四个人重新站回原处",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "年底，母校举办了一场校友活动。",
+        "occurrence": 1
+      },
+      "background": "act05.bg10_musicroom_winter_day",
+      "characters": {
+        "ds": "act05.ds_win_neutral",
+        "cl": "act05.claude_win_neutral",
+        "gp": "act05.gpt_work_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-12B",
+      "title": "Claude不想再过另一个三年",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "校友活动结束后，我们留在教室里整理东西。",
+        "occurrence": 1
+      },
+      "background": "act05.bg10_musicroom_winter_evening",
+      "characters": {
+        "cl": "act05.claude_win_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-12C",
+      "title": "把最初的约定交给他保管",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "离开音乐教室后，我去找 DeepSeek。",
+        "occurrence": 1
+      },
+      "background": "act05.bg04_filmclub_clean_winter_evening",
+      "characters": {
+        "ds": "act05.ds_win_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "DeepSeek",
+            "text": "你看！我找到以前的笔记本啦！",
+            "occurrence": 1
+          },
+          "prop": "act01.pr01_blue_notebook"
+        },
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "她把笔记本合上。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C5-12D",
+      "title": "她要的是喜欢而非报答",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "GPT 学姐正在走廊里等我。",
+        "occurrence": 1
+      },
+      "background": "act05.bg08_corridor_winter_evening",
+      "characters": {
+        "gp": "act05.gpt_work_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C5-12E",
+      "title": "三样东西与三条道路",
+      "anchor": {
+        "chapter": "ch05",
+        "speaker": "narrator",
+        "text": "天色完全暗下来时，她们都已经离开。",
+        "occurrence": 1
+      },
+      "background": "act05.bg10_musicroom_winter_night",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "里面放着 DeepSeek 交给我的旧笔记本。",
+            "occurrence": 1
+          },
+          "prop": "act01.pr01_blue_notebook"
+        },
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "三段不同的回忆。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C6-01",
+      "title": "日历上的三个日期",
+      "anchor": {
+        "chapter": "ch06",
+        "speaker": "narrator",
+        "text": "新年过去以后，一切似乎都在催促着我做出决定。",
+        "occurrence": 1
+      },
+      "background": "act06.bg18_student_room_night_continuity",
+      "characters": {},
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "C6-02",
+      "title": "最后一次请你认真回答",
+      "anchor": {
+        "chapter": "ch06",
+        "speaker": "narrator",
+        "text": "DeepSeek 的小说终于完成了。",
+        "occurrence": 1
+      },
+      "background": "act06.bg26_filmclub_day_continuity",
+      "characters": {
+        "ds": "act06.ds_win_completed_happy"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "来到活动室时，她正坐在桌边，认真地整理打印出来的稿纸。",
+            "occurrence": 1
+          },
+          "prop": "act06.pr08_final_manuscript"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "她把厚厚一摞稿纸递给我。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "她把厚厚一摞稿纸递给我。",
+            "occurrence": 1
+          },
+          "cg": "act06.cg_c602_final_manuscript_handover"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "User",
+            "text": "结局还是这样？",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "User",
+            "text": "结局还是这样？",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act06.ds_win_earnest"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "DeepSeek",
+            "text": "所以我想，在离开之前，再问你最后一次。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "act06.ds_win_determined"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C6-03",
+      "title": "这次和我一起走吧",
+      "anchor": {
+        "chapter": "ch06",
+        "speaker": "narrator",
+        "text": "Claude 回国后的最后一场音乐会，安排在一月二十三日。",
+        "occurrence": 1
+      },
+      "background": "act06.bg27_backstage_musiccase",
+      "characters": {
+        "cl": "act06.claude_win_confident_smile"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "Claude",
+            "text": "……你来了。",
+            "occurrence": 1
+          },
+          "prop": "act06.pr09_music_document_case"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "她轻轻笑了一下。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "她走到我面前。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act06.claude_win_invitation"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "她伸出手，轻轻握住我的手。",
+            "occurrence": 1
+          },
+          "cg": "act06.cg_c603_claude_handhold"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C6-04A",
+      "title": "把面试交给自己的努力",
+      "anchor": {
+        "chapter": "ch06",
+        "speaker": "narrator",
+        "text": "影像改编项目的面试安排在一月二十七日。",
+        "occurrence": 1
+      },
+      "background": "act06.bg22_publisher_lobby_day",
+      "characters": {
+        "gp": "act05.gpt_work_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "她笑着递给我一份资料。",
+            "occurrence": 1
+          },
+          "prop": "act06.pr21_interview_portfolio"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "GPT",
+            "text": "我不是说过吗？这是你自己努力的结果。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C6-04B",
+      "title": "学姐也想成为被陪伴的人",
+      "anchor": {
+        "chapter": "ch06",
+        "speaker": "narrator",
+        "text": "我们一起走出出版社。",
+        "occurrence": 1
+      },
+      "background": "act06.bg28_publisher_street_snow",
+      "characters": {
+        "gp": "act05.gpt_work_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "我们一起走出出版社。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act06.gpt_work_relieved"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "GPT",
+            "text": "我喜欢你。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act06.gpt_work_determined"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "她伸出手，轻轻整理了一下被风吹乱的头发。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act06.gpt_work_hair_tuck"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "C6-05",
+      "title": "栏杆升起以后",
+      "anchor": {
+        "chapter": "ch06",
+        "speaker": "narrator",
+        "text": "面试结束后的傍晚，我独自走在回家的路上。",
+        "occurrence": 1
+      },
+      "background": "act06.bg29_crossing_sunset",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "栏杆缓缓落下。",
+            "occurrence": 1
+          },
+          "background": "act06.bg29_crossing_barrier_down"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "列车从眼前驶过。",
+            "occurrence": 1
+          },
+          "background": "act06.bg29_crossing_train_passing"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "那个因为成绩糟糕而对未来失去信心的自己。",
+            "occurrence": 1
+          },
+          "cg": "act02.cg_c203_mother"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "那个在天台上遇见 DeepSeek 的下午。",
+            "occurrence": 1
+          },
+          "cg": "act01.cg01_rooftop_collision"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "那个在操场上向 Claude 告白的傍晚。",
+            "occurrence": 1
+          },
+          "cg": "act01.cg02_pullup_confession"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "还有 GPT 学姐坐在教室前排，耐心帮我讲解题目的日子。",
+            "occurrence": 1
+          },
+          "cg": "act02.cg03_tutoring"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "列车终于驶过。",
+            "occurrence": 1
+          },
+          "background": "act06.bg29_crossing_train_passing"
+        },
+        {
+          "anchor": {
+            "chapter": "ch06",
+            "speaker": "narrator",
+            "text": "栏杆缓缓升起。",
+            "occurrence": 1
+          },
+          "background": "act06.bg29_crossing_sunset"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-01",
+      "title": "第一次主动说想见她",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "铁路道口的栏杆缓缓升起。",
+        "occurrence": 1
+      },
+      "background": "act06.bg29_crossing_sunset",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "还有那本被遗忘在地上的笔记本。",
+            "occurrence": 1
+          },
+          "prop": "act01.pr01_blue_notebook"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "我们大概就不会相遇。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": [
+        "缺少本场大学夜景/春季背景差分，暂复用同地点已有图，保留待补项。"
+      ]
+    },
+    {
+      "id": "DS-02",
+      "title": "先说喜欢，再承担过去",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "我赶到活动室时，DeepSeek 正趴在桌上写东西。",
+        "occurrence": 1
+      },
+      "background": "act06.bg26_filmclub_day_continuity",
+      "characters": {
+        "ds": "act05.ds_indoor_firm_tear"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她低下头。",
+            "occurrence": 2
+          },
+          "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "我把她交给我保管的旧笔记本放在桌上。",
+            "occurrence": 1
+          },
+          "prop": "act01.pr01_blue_notebook"
+        }
+      ],
+      "notes": [
+        "缺少本场大学夜景/春季背景差分，暂复用同地点已有图，保留待补项。"
+      ]
+    },
+    {
+      "id": "DS-03",
+      "title": "对Claude说清楚",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "第二天下午，我去找了 Claude。",
+        "occurrence": 1
+      },
+      "background": "act05.bg20_rehearsal_day",
+      "characters": {
+        "cl": "act05.claude_indoor_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她正在整理即将带回欧洲的乐谱。",
+            "occurrence": 1
+          },
+          "prop": "act06.pr09_music_document_case"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "Claude",
+            "text": "想好了吗？",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-04",
+      "title": "祝福里也有她的难过",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "与 Claude 告别后的第二天，我去见了 GPT 学姐。",
+        "occurrence": 1
+      },
+      "background": "act05.bg23_cafe_snow_day",
+      "characters": {
+        "gp": "act05.gpt_work_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "离开前，她把作品集资料递给我。",
+            "occurrence": 1
+          },
+          "prop": "act06.pr21_interview_portfolio"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "GPT",
+            "text": "还有。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-05",
+      "title": "这次可以成为恋人了",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "我约 DeepSeek 在上次去过的公园见面。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_lakeside_sunset",
+      "characters": {
+        "ds": "act05.ds_win_neutral"
+      },
+      "cues": [],
+      "notes": []
+    },
+    {
+      "id": "DS-06",
+      "title": "终于得到的机会也意味着远行",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "和 DeepSeek 正式交往以后，我们的生活并没有立刻发生翻天覆地的变化。",
+        "occurrence": 1
+      },
+      "background": "act06.bg26_filmclub_day_continuity",
+      "characters": {},
+      "cues": [],
+      "notes": [
+        "缺少本场大学夜景/春季背景差分，暂复用同地点已有图，保留待补项。",
+        "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
+      ]
+    },
+    {
+      "id": "DS-07",
+      "title": "回到天台订下新约定",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "距离 DeepSeek 离开还有一个星期。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_rooftop_evening",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "过了一会儿，她从书包里拿出一本浅蓝色的笔记本。",
+            "occurrence": 1
+          },
+          "prop": "act01.pr01_blue_notebook"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "User",
+            "text": "为什么？",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": [
+        "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
+      ]
+    },
+    {
+      "id": "DS-08",
+      "title": "你有没有问过我想怎样",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "DeepSeek 离开的前三天，我主动提出，希望我们暂时把恋人的关系放回原点。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_lakeside_sunset",
+      "characters": {},
+      "cues": [],
+      "notes": [
+        "缺少本场大学夜景/春季背景差分，暂复用同地点已有图，保留待补项。",
+        "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
+      ]
+    },
+    {
+      "id": "DS-09",
+      "title": "带着想飞的鲸鱼出发",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "DeepSeek 离开的那天，天气很好。",
+        "occurrence": 1
+      },
+      "background": "act04.bg_airport_depart_day",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "我陪她办理登机手续。",
+            "occurrence": 1
+          },
+          "prop": "act04.pr14_suitcase"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "DeepSeek",
+            "text": "护身符！",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": [
+        "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
+      ]
+    },
+    {
+      "id": "DS-10",
+      "title": "四年里各自成长",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "四年过去了。",
+        "occurrence": 1
+      },
+      "background": "ending.bg31_director_studio_day",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "大学毕业以后，我一直从事影像创作。",
+            "occurrence": 1
+          },
+          "cg": "ending.cg_ds10_growth_work"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "DeepSeek 在法国的生活也逐渐步入正轨。",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "DeepSeek 在法国的生活也逐渐步入正轨。",
+            "occurrence": 1
+          },
+          "prop": "ending.pr27_creative_works"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "逢年过节时，偶尔会互相问候。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-11",
+      "title": "名单上熟悉的名字",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "那天，我受邀参加一场文学作品改编交流会。",
+        "occurrence": 1
+      },
+      "background": "ending.bg32_adaptation_forum_day",
+      "characters": {},
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "工作人员递给我一份作品名单。",
+            "occurrence": 1
+          },
+          "prop": "ending.pr28_forum_book_list"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "故事里的少年曾经成绩很差。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "DeepSeek",
+            "text": "User？！",
+            "occurrence": 1
+          },
+          "cg": "ending.cg18_forum_reunion"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "然后突然笑了起来。",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "然后突然笑了起来。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "ending.ds_mat_spring_blush"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-12",
+      "title": "现在的我们再次喜欢",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "交流会结束后，我们一起去了附近的公园。",
+        "occurrence": 1
+      },
+      "background": "ending.bg33_reunion_park_sunset",
+      "characters": {
+        "ds": "ending.ds_mat_spring_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "User",
+            "text": "没有。",
+            "occurrence": 3
+          },
+          "show": {
+            "ds": "ending.ds_mat_spring_blush"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她抬起头。",
+            "occurrence": 6
+          },
+          "show": {
+            "ds": "ending.ds_mat_spring_tender"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她的眼泪突然落了下来。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "ending.ds_mat_spring_teary_smile"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她踮起脚尖，轻轻吻了我。",
+            "occurrence": 1
+          },
+          "cg": "ending.cg19_park_short_kiss"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-13A",
+      "title": "共同创作仍会争论",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "半年以后，我的新电影终于完成了。",
+        "occurrence": 1
+      },
+      "background": "ending.bg31_director_studio_day",
+      "characters": {
+        "ds": "ending.ds_mat_daily_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "有时候，她会因为我删掉某段情节而生气。",
+            "occurrence": 1
+          },
+          "cg": "ending.cg_ds13a_creating_together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-13B",
+      "title": "这本笔记本终于可以归还",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "DeepSeek",
+        "text": "User！User！",
+        "occurrence": 1
+      },
+      "background": "ending.bg34_premiere_backstage_evening",
+      "characters": {
+        "ds": "ending.ds_mat_premiere_flustered"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "从自己的背包里拿出一本浅蓝色的笔记本。",
+            "occurrence": 1
+          },
+          "prop": "ending.pr01_aged_blue_notebook"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "我把笔记本递给她。",
+            "occurrence": 1
+          },
+          "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她用力抱住我。",
+            "occurrence": 1
+          },
+          "cg": "ending.cg20_premiere_notebook_embrace"
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她慌忙松开手。",
+            "occurrence": 1
+          },
+          "restore": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她慌忙松开手。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "ending.ds_mat_premiere_neutral"
+          }
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-14A",
+      "title": "在日常里给彼此留位置",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "电影上映以后，我们的生活并没有发生什么惊天动地的变化。",
+        "occurrence": 1
+      },
+      "background": "ending.bg31_director_studio_evening",
+      "characters": {
+        "ds": "ending.ds_mat_daily_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "我继续拍电影。",
+            "occurrence": 1
+          },
+          "cg": "ending.cg_ds14a_daily_care"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "DS-14B",
+      "title": "天台上的少女与明天",
+      "anchor": {
+        "chapter": "route_ds",
+        "speaker": "narrator",
+        "text": "那年春天，我们再次回到了最初相遇的地方。",
+        "occurrence": 1
+      },
+      "background": "ending.bg01_refurbished_spring_day",
+      "characters": {
+        "ds": "ending.ds_mat_spring_neutral"
+      },
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "DeepSeek",
+            "text": "那时候你是不是觉得我特别笨？",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "ending.ds_mat_spring_pout"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她伸出手，轻轻握住我的手。",
+            "occurrence": 1
+          },
+          "show": {
+            "ds": "ending.ds_mat_spring_tender"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "然后露出熟悉的笑容。",
+            "occurrence": 1
+          },
+          "cg": "ending.cg21_rooftop_tomorrow"
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

@@ -10,6 +10,8 @@ label route_ds:
     ## ── 场景: 场景 DS-01｜最初的约定 ──
     ## 演出: 时间：一月二十七日 · 夜晚 · DeepSeek 的大学
     ## 演出: 旁白
+    ## 美术分景 DS-01 · 第一次主动说想见她
+    scene art_act06_bg29_crossing_sunset with trans_dissolve
     narrator "铁路道口的栏杆缓缓升起。" id story_route_ds_1af411488f38_1
     narrator "人群从我身边走过。" id story_route_ds_e9b4ba411031_1
     narrator "我却仍然站在原地。" id story_route_ds_5e345721d52a_1
@@ -20,10 +22,12 @@ label route_ds:
     narrator "我想起了三年前的那个下午。" id story_route_ds_791c16c61625_1
     narrator "教学楼天台。" id story_route_ds_9ad72a310bbf_1
     narrator "从矮墙上跌落的蓝发少女。" id story_route_ds_4f2c5817ac0e_1
+    show art_act01_pr01_blue_notebook as story_prop at story_prop_pos with trans_dissolve
     narrator "还有那本被遗忘在地上的笔记本。" id story_route_ds_296396a3b116_1
     narrator "如果那天我没有去天台。" id story_route_ds_fbcb6b98a326_1
     narrator "如果她没有弄丢笔记本。" id story_route_ds_b92e251b58fb_1
     narrator "如果我没有读到她写下的故事。" id story_route_ds_35e111469987_1
+    hide story_prop with trans_dissolve
     narrator "我们大概就不会相遇。" id story_route_ds_d6ad7769993e_1
     narrator "可后来发生的一切，让我明白了一件事。" id story_route_ds_5bed914a02f7_1
     narrator "我想拍电影，不只是因为喜欢镜头里的世界。" id story_route_ds_51d6ce47764c_1
@@ -33,7 +37,6 @@ label route_ds:
     voice voice_file("v_ccad2eb99aee")
     u "你现在在哪里？" id story_route_ds_ccad2eb99aee_1
     narrator "过了几秒。" id story_route_ds_2628bf9e2337_1
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_9a8068fd217d")
     ds "诶？！" id story_route_ds_9a8068fd217d_1
     voice voice_file("v_7dddda9d1eee")
@@ -67,12 +70,13 @@ label route_ds:
     narrator "而是因为我想见她。" id story_route_ds_79a698a31863_1
 
     ## ── 场景: 场景 DS-02｜迟来的回答 ──
-    hide ds
     ## 演出: 时间：同日 · 晚上 21:10 · 电影研究社
     ## 演出: 旁白
+    ## 美术分景 DS-02 · 先说喜欢，再承担过去
+    scene art_act06_bg26_filmclub_day_continuity with trans_dissolve
     narrator "我赶到活动室时，DeepSeek 正趴在桌上写东西。" id story_route_ds_69c00c9344c1_1
     narrator "听见开门声，她猛地抬起头。" id story_route_ds_92bcf1802616_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_act05_ds_indoor_firm_tear as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_51a5ecf1d639")
     ds "User！" id story_route_ds_51a5ecf1d639_1
     voice voice_file("v_b18d06d72c2b")
@@ -152,6 +156,7 @@ label route_ds:
     ds "那……你现在为什么要告诉我？" id story_route_ds_609ea61dbdfd_1
     voice voice_file("v_a9563ad4a036")
     u "因为我不想再让你误以为，自己只能一直等待。" id story_route_ds_a9563ad4a036_1
+    show art_act01_pr01_blue_notebook as story_prop at story_prop_pos with trans_dissolve
     narrator "我把她交给我保管的旧笔记本放在桌上。" id story_route_ds_3ed8bce3256d_1
     voice voice_file("v_6a0931beefe1")
     u "我想继续和你一起拍电影。" id story_route_ds_6a0931beefe1_1
@@ -159,6 +164,7 @@ label route_ds:
     u "也想在不拍电影的时候，和你待在一起。" id story_route_ds_baf37099d56b_1
     voice voice_file("v_51ec94aebbfc")
     u "但我需要先把过去的事情处理好。" id story_route_ds_51ec94aebbfc_1
+    hide story_prop with trans_dissolve
     narrator "她低下头。" id story_route_ds_00d82bb20a31_2
     narrator "过了很久，轻轻点了点头。" id story_route_ds_6b994711e19b_1
     voice voice_file("v_1a79727e0e23")
@@ -187,17 +193,20 @@ label route_ds:
     ds "那就等你真正准备好了，再还给我吧。" id story_route_ds_f8ddde1cb7b9_1
 
     ## ── 场景: 场景 DS-03｜与过去告别 ──
-    hide ds
     ## 演出: 时间：一月二十八日 · 音乐厅
     ## 演出: 旁白
+    ## 美术分景 DS-03 · 对Claude说清楚
+    scene art_act05_bg20_rehearsal_day with trans_dissolve
     narrator "第二天下午，我去找了 Claude。" id story_route_ds_c27408a6cf5a_1
+    show art_act06_pr09_music_document_case as story_prop at story_prop_pos with trans_dissolve
     narrator "她正在整理即将带回欧洲的乐谱。" id story_route_ds_d62880713652_1
     narrator "看见我，她似乎已经猜到了什么。" id story_route_ds_b3afa652da08_1
-    show cl normal at sprite_pos_center with trans_dissolve
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_219648a88e1f")
     cl "……你来了。" id story_route_ds_219648a88e1f_1
     voice voice_file("v_88c9b8aa98f4")
     u "嗯。" id story_route_ds_88c9b8aa98f4_2
+    hide story_prop with trans_dissolve
     voice voice_file("v_42b0121679ba")
     cl "想好了吗？" id story_route_ds_42b0121679ba_1
     voice voice_file("v_2d1df85a91c3")
@@ -311,13 +320,14 @@ label route_ds:
     narrator "可这一次，只有她一个人在弹。" id story_route_ds_d81e45851e99_1
 
     ## ── 场景: 场景 DS-04｜学姐的祝福 ──
-    hide cl
     ## 演出: 时间：一月二十九日 · 出版社附近的咖啡馆
     ## 演出: 旁白
+    ## 美术分景 DS-04 · 祝福里也有她的难过
+    scene art_act05_bg23_cafe_snow_day with trans_dissolve
     narrator "与 Claude 告别后的第二天，我去见了 GPT 学姐。" id story_route_ds_0f238db840a2_1
     narrator "她已经知道我要来。" id story_route_ds_ec88963a22f9_1
     narrator "桌上放着两杯热茶。" id story_route_ds_208c263661f3_1
-    show gp normal at sprite_pos_right with trans_dissolve
+    show art_act05_gpt_work_neutral as gp at sprite_pos_right with trans_dissolve
     voice voice_file("v_7b4ac0e6e9e6")
     gp "坐吧。" id story_route_ds_7b4ac0e6e9e6_1
     voice voice_file("v_b82850ddc78e")
@@ -382,6 +392,7 @@ label route_ds:
     voice voice_file("v_0fd8f6d2c21f")
     gp "不过，这次我就收下了。" id story_route_ds_0fd8f6d2c21f_1
     ## 演出: 旁白
+    show art_act06_pr21_interview_portfolio as story_prop at story_prop_pos with trans_dissolve
     narrator "离开前，她把作品集资料递给我。" id story_route_ds_4bb53fd13341_1
     voice voice_file("v_daa0a1fbb398")
     gp "项目面试的结果应该很快就会出来。" id story_route_ds_daa0a1fbb398_1
@@ -389,6 +400,7 @@ label route_ds:
     gp "不管感情上发生什么，都不要忘记自己的梦想。" id story_route_ds_5abf92550e17_1
     voice voice_file("v_88c9b8aa98f4")
     u "嗯。" id story_route_ds_88c9b8aa98f4_4
+    hide story_prop with trans_dissolve
     voice voice_file("v_145ddaafdcdb")
     gp "还有。" id story_route_ds_145ddaafdcdb_1
     voice voice_file("v_4bc7badb508b")
@@ -405,9 +417,10 @@ label route_ds:
     narrator "只是低着头，安静地喝着已经有些凉了的茶。" id story_route_ds_36967acf8395_1
 
     ## ── 场景: 场景 DS-05｜第二次告白 ──
-    hide gp
     ## 演出: 时间：一月三十日 · 公园 · 黄昏
     ## 演出: 旁白
+    ## 美术分景 DS-05 · 这次可以成为恋人了
+    scene art_act04_bg_lakeside_sunset with trans_dissolve
     narrator "我约 DeepSeek 在上次去过的公园见面。" id story_route_ds_243b0c67b94e_1
     narrator "这里距离水族馆不远。" id story_route_ds_c41899156b98_1
     narrator "几个月前，她就是在这里第一次向我告白。" id story_route_ds_63107f6477f7_1
@@ -417,7 +430,7 @@ label route_ds:
     narrator "可当我走进公园时，却发现她已经站在那里。" id story_route_ds_e0c5e94e488a_1
     voice voice_file("v_5a38a955886a")
     u "你怎么来这么早？" id story_route_ds_5a38a955886a_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_act05_ds_win_neutral as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_a7782c7ec24c")
     ds "嘿嘿。" id story_route_ds_a7782c7ec24c_1
     voice voice_file("v_7322ea330424")
@@ -495,16 +508,16 @@ label route_ds:
     ## 演出: CG：DeepSeek 与 User 在夕阳下拥抱
 
     ## ── 场景: 场景 DS-06｜梦想与爱情之间 ──
-    hide ds
     ## 演出: 时间：两个月后 · 春天
     ## 演出: 旁白
+    ## 美术分景 DS-06 · 终于得到的机会也意味着远行
+    scene art_act06_bg26_filmclub_day_continuity with trans_dissolve
     narrator "和 DeepSeek 正式交往以后，我们的生活并没有立刻发生翻天覆地的变化。" id story_route_ds_327d63ebad15_1
     narrator "她依然经常忘记带东西。" id story_route_ds_a4e9755e097a_1
     narrator "依然会因为突然想到一个故事情节，就在半夜给我发消息。" id story_route_ds_d764efa4a8eb_1
     narrator "也依然会在讨论剧本时，因为意见不同而和我争论。" id story_route_ds_900c0e4fe58d_1
     narrator "只是现在，她会在放学后主动牵住我的手。" id story_route_ds_5165bdccdfd0_1
     narrator "也会在分别时，红着脸问我明天能不能再见面。" id story_route_ds_63d21edd95b0_1
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_51a5ecf1d639")
     ds "User！" id story_route_ds_51a5ecf1d639_2
     voice voice_file("v_8517678f9232")
@@ -525,13 +538,11 @@ label route_ds:
     ds "嗯！" id story_route_ds_57cd12ae7731_2
 
     ## ── 场景: 场景 DS-06｜梦想与爱情之间（续） ──
-    hide ds
     ## 演出: 旁白
     narrator "她投稿的小说通过了初步审核。" id story_route_ds_e278cbfae30d_2
     narrator "出版社邀请她参加一项长期创作计划。" id story_route_ds_624e24dff739_2
     voice voice_file("v_3b5d25ea110f")
     u "这是好事啊！" id story_route_ds_3b5d25ea110f_2
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_57cd12ae7731")
     ds "嗯！" id story_route_ds_57cd12ae7731_3
     narrator "她兴奋地点了点头。" id story_route_ds_72b798e3dc61_1
@@ -609,14 +620,14 @@ label route_ds:
     ds "……你这样说，我会更舍不得的。" id story_route_ds_ba04d2f649df_1
 
     ## ── 场景: 场景 DS-07｜回到原点 ──
-    hide ds
     ## 演出: 时间：DeepSeek 出国前一周 · 傍晚
     ## 演出: 旁白
+    ## 美术分景 DS-07 · 回到天台订下新约定
+    scene art_act04_bg_rooftop_evening with trans_dissolve
     narrator "距离 DeepSeek 离开还有一个星期。" id story_route_ds_e19ed6b8fb04_1
     narrator "那天，我们去了高中母校。" id story_route_ds_4db9f54843be_1
     narrator "学校正好放假，校园里几乎没有人。" id story_route_ds_628fdafd1580_1
     narrator "我们沿着熟悉的走廊，慢慢走向教学楼顶层。" id story_route_ds_76c27f9f2ce2_1
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_cad9abeaf55a")
     ds "哇！这里一点都没变！" id story_route_ds_cad9abeaf55a_1
     narrator "她推开天台的门。" id story_route_ds_03e9207a355e_1
@@ -636,6 +647,7 @@ label route_ds:
     voice voice_file("v_a3a92aa08d4a")
     u "……你还挺骄傲。" id story_route_ds_a3a92aa08d4a_1
     narrator "她笑了起来。" id story_route_ds_716fb1e444a4_1
+    show art_act01_pr01_blue_notebook as story_prop at story_prop_pos with trans_dissolve
     narrator "过了一会儿，她从书包里拿出一本浅蓝色的笔记本。" id story_route_ds_aa4164d97925_1
     voice voice_file("v_6313fa8d7786")
     ds "锵锵！" id story_route_ds_6313fa8d7786_1
@@ -657,6 +669,7 @@ label route_ds:
     narrator "她把笔记本递给我。" id story_route_ds_2ffa583f4dc1_1
     voice voice_file("v_4b28eef60716")
     ds "这个，再交给你一次。" id story_route_ds_4b28eef60716_1
+    hide story_prop with trans_dissolve
     voice voice_file("v_5fe64f8c35c7")
     u "为什么？" id story_route_ds_5fe64f8c35c7_1
     voice voice_file("v_a5a7f5ef5236")
@@ -698,12 +711,12 @@ label route_ds:
     ds "那就不要忘记我哦。" id story_route_ds_41653d8d77cd_1
 
     ## ── 场景: 场景 DS-08｜暂时分开 ──
-    hide ds
     ## 演出: 时间：出国前三天 · 公园
     ## 演出: 旁白
+    ## 美术分景 DS-08 · 你有没有问过我想怎样
+    scene art_act04_bg_lakeside_sunset with trans_dissolve
     narrator "DeepSeek 离开的前三天，我主动提出，希望我们暂时把恋人的关系放回原点。" id story_route_ds_1293af1a667b_1
     narrator "她愣住了。" id story_route_ds_be2b60c9df15_1
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_7cace157f7b3")
     ds "……诶？" id story_route_ds_7cace157f7b3_2
     voice voice_file("v_22b3acd6c18f")
@@ -779,16 +792,18 @@ label route_ds:
     narrator "眼泪却还在不停往下掉。" id story_route_ds_208fc0886851_1
 
     ## ── 场景: 场景 DS-09｜机场的告别 ──
-    hide ds
     ## 演出: 时间：四月 · 国际机场
     ## 演出: 旁白
+    ## 美术分景 DS-09 · 带着想飞的鲸鱼出发
+    scene art_act04_bg_airport_depart_day with trans_dissolve
     narrator "DeepSeek 离开的那天，天气很好。" id story_route_ds_4922dcab521e_1
+    show art_act04_pr14_suitcase as story_prop at story_prop_pos with trans_dissolve
     narrator "我陪她办理登机手续。" id story_route_ds_3319ba7a3758_1
     narrator "她的行李箱上挂着一只蓝色的小鲸鱼。" id story_route_ds_bb31704992c2_1
     narrator "是她自己买的。" id story_route_ds_a01165f1bc19_1
     voice voice_file("v_0fe8961cb56b")
     u "这个是什么？" id story_route_ds_0fe8961cb56b_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    hide story_prop with trans_dissolve
     voice voice_file("v_af22d3fe051b")
     ds "护身符！" id story_route_ds_af22d3fe051b_1
     voice voice_file("v_d3cce29bab38")
@@ -849,10 +864,12 @@ label route_ds:
     narrator "直到再也看不见。" id story_route_ds_12871aaea785_1
 
     ## ── 场景: 场景 DS-10｜四年之后 ──
-    hide ds
     ## 演出: 时间：四年后 · 东京
     ## 演出: 旁白
+    ## 美术分景 DS-10 · 四年里各自成长
+    scene art_ending_bg31_director_studio_day with trans_dissolve
     narrator "四年过去了。" id story_route_ds_0252de0368b6_1
+    scene art_ending_cg_ds10_growth_work with trans_dissolve
     narrator "大学毕业以后，我一直从事影像创作。" id story_route_ds_6f1e3b70afe7_1
     narrator "最初只是帮人拍摄一些短片和宣传视频。" id story_route_ds_4091ccf2bc70_1
     narrator "后来开始独立执导作品。" id story_route_ds_14758b2eb3e0_1
@@ -863,6 +880,8 @@ label route_ds:
     narrator "也有人离开了电影行业。" id story_route_ds_7de147094161_1
     narrator "偶尔，我们还会聚在一起，聊起高中时那场文化祭。" id story_route_ds_021798e8b345_1
     ## 演出: 旁白
+    scene art_ending_bg31_director_studio_day with trans_dissolve
+    show art_ending_pr27_creative_works as story_prop at story_prop_pos with trans_dissolve
     narrator "DeepSeek 在法国的生活也逐渐步入正轨。" id story_route_ds_b935127d0620_1
     narrator "她最初参加的是写作培训。" id story_route_ds_7fa9ef44779f_1
     narrator "后来开始发表短篇小说。" id story_route_ds_7c756b509bd9_1
@@ -871,6 +890,7 @@ label route_ds:
     narrator "她不再是那个总担心自己写得不好的女孩。" id story_route_ds_986604964c09_1
     narrator "而是真正拥有读者的小说家。" id story_route_ds_994c12f2af2b_1
     narrator "我们没有完全失去联系。" id story_route_ds_632f36b0aeb0_1
+    hide story_prop with trans_dissolve
     narrator "逢年过节时，偶尔会互相问候。" id story_route_ds_b3bcb1167bca_1
     narrator "有时，她会发来新作品的链接。" id story_route_ds_f15135c552ac_1
     narrator "我也会把自己的电影预告片发给她。" id story_route_ds_140c0c1b9eeb_1
@@ -883,9 +903,12 @@ label route_ds:
     ## ── 场景: 场景 DS-11｜重逢 ──
     ## 演出: 时间：秋天 · 文学作品改编交流会
     ## 演出: 旁白
+    ## 美术分景 DS-11 · 名单上熟悉的名字
+    scene art_ending_bg32_adaptation_forum_day with trans_dissolve
     narrator "那天，我受邀参加一场文学作品改编交流会。" id story_route_ds_ea957fa512f6_1
     narrator "主办方希望寻找一些适合改编成电影的小说。" id story_route_ds_9e181a5cb525_1
     narrator "我提前来到会场。" id story_route_ds_64466b796e64_1
+    show art_ending_pr28_forum_book_list as story_prop at story_prop_pos with trans_dissolve
     narrator "工作人员递给我一份作品名单。" id story_route_ds_826b043403d4_1
     narrator "我随手翻开。" id story_route_ds_0a779e91221a_1
     narrator "直到看见其中一个熟悉的名字。" id story_route_ds_b75edef88dab_1
@@ -896,6 +919,7 @@ label route_ds:
     narrator "书名叫《候鸟》。" id story_route_ds_8619ae654238_1
     ## 演出: 旁白
     narrator "我慢慢翻开简介。" id story_route_ds_1495a3de08cb_1
+    hide story_prop with trans_dissolve
     narrator "故事里的少年曾经成绩很差。" id story_route_ds_1a1b75c239b5_1
     narrator "后来，他遇见了一位愿意帮助自己的女孩。" id story_route_ds_55fb4014b992_1
     narrator "他们一起努力，一起成长。" id story_route_ds_010b67ff9e26_1
@@ -913,12 +937,14 @@ label route_ds:
     narrator "她穿着浅色外套，手里抱着几本书。" id story_route_ds_43e94bbe2bcd_1
     narrator "四年过去，她的模样已经比以前成熟了许多。" id story_route_ds_a3760244caf9_1
     narrator "可那双明亮的眼睛，依然和第一次见面时一样。" id story_route_ds_0b3ad3eedfb0_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    scene art_ending_cg18_forum_reunion with trans_dissolve
     voice voice_file("v_7d1bffc200ac")
     ds "User？！" id story_route_ds_7d1bffc200ac_1
     voice voice_file("v_d7f72fc4008d")
     u "……DeepSeek。" id story_route_ds_d7f72fc4008d_1
     narrator "她愣了几秒。" id story_route_ds_32eb9b617119_1
+    scene art_ending_bg32_adaptation_forum_day with trans_dissolve
+    show art_ending_ds_mat_spring_blush as ds at sprite_pos_left with trans_dissolve
     narrator "然后突然笑了起来。" id story_route_ds_7641fa43025c_1
     voice voice_file("v_35a43689ef83")
     ds "真的是你呀！" id story_route_ds_35a43689ef83_1
@@ -941,9 +967,10 @@ label route_ds:
     u "好久不见。" id story_route_ds_979561950902_1
 
     ## ── 场景: 场景 DS-12｜最后一次告白 ──
-    hide ds
     ## 演出: 时间：交流会结束后 · 公园 · 傍晚
     ## 演出: 旁白
+    ## 美术分景 DS-12 · 现在的我们再次喜欢
+    scene art_ending_bg33_reunion_park_sunset with trans_dissolve
     narrator "交流会结束后，我们一起去了附近的公园。" id story_route_ds_3e504147e07a_1
     narrator "四年没有真正见面。" id story_route_ds_ff2672dcd230_1
     narrator "可一旦聊起来，却发现彼此仍然有说不完的话。" id story_route_ds_9298f35bf975_1
@@ -954,7 +981,7 @@ label route_ds:
     narrator "那些失败的项目。" id story_route_ds_98af45473247_1
     narrator "那些反复修改的剧本。" id story_route_ds_c36a90f55492_1
     narrator "还有第一次在银幕上看到自己名字时的心情。" id story_route_ds_a9fce3d03552_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_ending_ds_mat_spring_neutral as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_052da7680b7b")
     ds "哇……" id story_route_ds_052da7680b7b_1
     voice voice_file("v_4472460255fd")
@@ -969,6 +996,7 @@ label route_ds:
     ds "对了。" id story_route_ds_f65b503e9361_1
     voice voice_file("v_b92055a42aa7")
     ds "你现在有女朋友吗？" id story_route_ds_b92055a42aa7_1
+    show art_ending_ds_mat_spring_blush as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_64555b5aeaf3")
     u "没有。" id story_route_ds_64555b5aeaf3_3
     narrator "她愣了一下。" id story_route_ds_05400f1a53de_1
@@ -1024,6 +1052,7 @@ label route_ds:
     u "一起创作，一起旅行。" id story_route_ds_9d09b3503d59_1
     voice voice_file("v_6ca90f7105bf")
     u "也一起度过那些没有什么特别事情发生的日子。" id story_route_ds_6ca90f7105bf_1
+    show art_ending_ds_mat_spring_teary_smile as ds at sprite_pos_left with trans_dissolve
     narrator "她的眼泪突然落了下来。" id story_route_ds_bde6d158365f_1
     voice voice_file("v_2803f44edf18")
     ds "……笨蛋。" id story_route_ds_2803f44edf18_2
@@ -1039,8 +1068,6 @@ label route_ds:
     ds "我也喜欢你。" id story_route_ds_3dce870d8db6_1
 
     ## ── 场景: 场景 DS-12｜最后一次告白（续） ──
-    hide ds
-    show ds normal at sprite_pos_left with trans_dissolve
     voice voice_file("v_3dce870d8db6")
     ds "我也喜欢你。" id story_route_ds_3dce870d8db6_2
     voice voice_file("v_4d7e007b2905")
@@ -1079,6 +1106,7 @@ label route_ds:
     ds "嗯？" id story_route_ds_0e748d627265_4
     voice voice_file("v_4611287c0b3e")
     u "以后，我们一起走吧。" id story_route_ds_4611287c0b3e_1
+    show art_ending_ds_mat_spring_tender as ds at sprite_pos_left with trans_dissolve
     narrator "她抬起头。" id story_route_ds_54b76a6e010c_6
     voice voice_file("v_11325855b49a")
     ds "……嗯！" id story_route_ds_11325855b49a_1
@@ -1103,6 +1131,7 @@ label route_ds:
     voice voice_file("v_a7782c7ec24c")
     ds "嘿嘿。" id story_route_ds_a7782c7ec24c_4
     ## 演出: 旁白
+    scene art_ending_cg19_park_short_kiss with trans_dissolve
     narrator "她踮起脚尖，轻轻吻了我。" id story_route_ds_6758ff59e45a_1
     narrator "那是一个很短的吻。" id story_route_ds_509fd67d5dfa_1
     narrator "短到我还没来得及反应，她就已经红着脸退开。" id story_route_ds_3b821bc3b262_1
@@ -1122,20 +1151,24 @@ label route_ds:
     narrator "原来有些相遇，会在很久以后，才显露出它真正的意义。" id story_route_ds_f595e929a0ac_1
 
     ## ── 场景: 场景 DS-13｜最初的约定，终于实现 ──
-    hide ds
     ## 演出: 时间：半年后 · 电影首映礼
     ## 演出: 旁白
+    ## 美术分景 DS-13A · 共同创作仍会争论
+    scene art_ending_bg31_director_studio_day with trans_dissolve
     narrator "半年以后，我的新电影终于完成了。" id story_route_ds_f2eff0d36537_1
     narrator "改编自 DeepSeek 的小说《候鸟》。" id story_route_ds_5552b176059e_1
     narrator "这也是我们第一次真正以导演和原作者的身份合作。" id story_route_ds_fa429b607a01_1
     narrator "从剧本修改到拍摄，再到最后的剪辑，我们经历了无数次争论。" id story_route_ds_3c1a3ed344e2_1
+    scene art_ending_cg_ds13a_creating_together with trans_dissolve
     narrator "有时候，她会因为我删掉某段情节而生气。" id story_route_ds_a28c694206e5_1
     narrator "有时候，我也会因为她突然修改结局而头疼。" id story_route_ds_6438658517ba_1
     narrator "可无论争论多少次，第二天，我们还是会坐在一起，继续完成剩下的工作。" id story_route_ds_bfa9305f11c0_1
     narrator "就像高中时一样。" id story_route_ds_65d9677eafab_1
     narrator "只是这一次，我们终于能够凭借自己的能力，把当初的梦想变成现实。" id story_route_ds_dbc2d0d52a32_1
     ## 演出: 场景：首映礼后台
-    show ds normal at sprite_pos_left with trans_dissolve
+    ## 美术分景 DS-13B · 这本笔记本终于可以归还
+    scene art_ending_bg34_premiere_backstage_evening with trans_dissolve
+    show art_ending_ds_mat_premiere_flustered as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_39aa041d99e4")
     ds "User！User！" id story_route_ds_39aa041d99e4_1
     narrator "她慌慌张张地跑过来。" id story_route_ds_64a9b66d7b19_1
@@ -1148,6 +1181,7 @@ label route_ds:
     voice voice_file("v_889b6aff98c3")
     ds "怎么办怎么办！我明明记得放在包里的！" id story_route_ds_889b6aff98c3_1
     narrator "我叹了口气。" id story_route_ds_bd68a300332e_1
+    show art_ending_pr01_aged_blue_notebook as story_prop at story_prop_pos with trans_dissolve
     narrator "从自己的背包里拿出一本浅蓝色的笔记本。" id story_route_ds_9f4098b5211c_1
     voice voice_file("v_a438ba4976e2")
     u "你是在找这个吗？" id story_route_ds_a438ba4976e2_1
@@ -1174,6 +1208,7 @@ label route_ds:
     u "DeepSeek。" id story_route_ds_c5f965228eed_5
     voice voice_file("v_0e748d627265")
     ds "嗯？" id story_route_ds_0e748d627265_5
+    hide story_prop with trans_dissolve
     narrator "我把笔记本递给她。" id story_route_ds_0bb224bc0ab0_1
     voice voice_file("v_f85f7d6388d0")
     u "现在可以还给你了。" id story_route_ds_f85f7d6388d0_1
@@ -1207,6 +1242,7 @@ label route_ds:
     ds "如果你没有说想把我的故事拍成电影，我可能也不会坚持写到今天。" id story_route_ds_b17871c3f6d7_1
     voice voice_file("v_646f2cc87a2b")
     ds "所以……" id story_route_ds_646f2cc87a2b_1
+    scene art_ending_cg20_premiere_notebook_embrace with trans_dissolve
     narrator "她用力抱住我。" id story_route_ds_85bca168a914_1
     voice voice_file("v_33fdfba33083")
     ds "能遇见你，真的太好了！" id story_route_ds_33fdfba33083_1
@@ -1217,6 +1253,8 @@ label route_ds:
     staff "导演！原作者！首映马上开始了！" id story_route_ds_e3d0b1197f27_1
     voice voice_file("v_2736d7284037")
     ds "啊啊啊！要迟到了！" id story_route_ds_2736d7284037_1
+    scene art_ending_bg34_premiere_backstage_evening with trans_dissolve
+    show art_ending_ds_mat_premiere_neutral as ds at sprite_pos_left with trans_dissolve
     narrator "她慌忙松开手。" id story_route_ds_2267e57a477e_1
     narrator "抓起笔记本就往外跑。" id story_route_ds_480915946081_1
     voice voice_file("v_bea7919dfc85")
@@ -1236,11 +1274,13 @@ label route_ds:
     u "当然。" id story_route_ds_3bc23ad5109b_1
 
     ## ── 场景: 场景 DS-14｜尾声：天台上的少女 ──
-    hide ds
     ## 演出: 时间：数年后 · 春天 · 高中母校
     ## 演出: 旁白
+    ## 美术分景 DS-14A · 在日常里给彼此留位置
+    scene art_ending_bg31_director_studio_evening with trans_dissolve
     narrator "电影上映以后，我们的生活并没有发生什么惊天动地的变化。" id story_route_ds_15e940bd55f1_1
     narrator "DeepSeek 继续写小说。" id story_route_ds_01e5e03829ee_1
+    scene art_ending_cg_ds14a_daily_care with trans_dissolve
     narrator "我继续拍电影。" id story_route_ds_e0218afd2a96_1
     narrator "有时候工作很忙，我们也会因为一些琐碎的事情争吵。" id story_route_ds_419a89e4edd8_1
     narrator "她依然会忘记带钥匙，偶尔把手机放进冰箱里，还会在半夜突然把我叫醒，说自己想到了一个绝妙的故事。" id story_route_ds_860f9ed751cb_1
@@ -1249,12 +1289,14 @@ label route_ds:
     narrator "不再要求对方放弃自己的梦想。" id story_route_ds_46b6c32c6096_1
     narrator "也不再因为害怕失去，就逃避应该说出口的话。" id story_route_ds_378abaeba6e3_1
     ## 演出: 场景：高中母校 · 天台
+    ## 美术分景 DS-14B · 天台上的少女与明天
+    scene art_ending_bg01_refurbished_spring_day with trans_dissolve
     narrator "那年春天，我们再次回到了最初相遇的地方。" id story_route_ds_37243214047f_1
     narrator "教学楼还是原来的样子。" id story_route_ds_e6f0ed5931c6_1
     narrator "天台的栏杆重新刷过漆。" id story_route_ds_0fa60487e935_1
     narrator "远处的樱花正开得很好。" id story_route_ds_d691440ccde7_1
     narrator "DeepSeek 站在我身边，仰头看着天空。" id story_route_ds_e087e3e3a478_1
-    show ds normal at sprite_pos_left with trans_dissolve
+    show art_ending_ds_mat_spring_neutral as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_0a84887f827d")
     ds "User。" id story_route_ds_0a84887f827d_3
     voice voice_file("v_7235f2204469")
@@ -1263,6 +1305,7 @@ label route_ds:
     ds "你还记得我们第一次见面的时候吗？" id story_route_ds_97fc87e43d5d_1
     voice voice_file("v_3bc23ad5109b")
     u "当然。" id story_route_ds_3bc23ad5109b_2
+    show art_ending_ds_mat_spring_pout as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_7d2f22014eaf")
     ds "那时候你是不是觉得我特别笨？" id story_route_ds_7d2f22014eaf_1
     voice voice_file("v_88c9b8aa98f4")
@@ -1283,6 +1326,7 @@ label route_ds:
     u "为什么？" id story_route_ds_5fe64f8c35c7_2
     voice voice_file("v_33d8145d0d08")
     ds "因为这样，我们就又可以从头开始啦。" id story_route_ds_33d8145d0d08_1
+    show art_ending_ds_mat_spring_tender as ds at sprite_pos_left with trans_dissolve
     narrator "她伸出手，轻轻握住我的手。" id story_route_ds_70d0f04583c3_1
     voice voice_file("v_20a1f65bea14")
     ds "一起写故事。" id story_route_ds_20a1f65bea14_1
@@ -1311,6 +1355,7 @@ label route_ds:
     voice voice_file("v_92dc54d298e8")
     u "以后也请多指教。" id story_route_ds_92dc54d298e8_1
     narrator "她愣了一下。" id story_route_ds_05400f1a53de_2
+    scene art_ending_cg21_rooftop_tomorrow with trans_dissolve
     narrator "然后露出熟悉的笑容。" id story_route_ds_e3b7b599ba3d_1
     voice voice_file("v_57cd12ae7731")
     ds "嗯！" id story_route_ds_57cd12ae7731_5
