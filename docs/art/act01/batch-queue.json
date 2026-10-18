@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-18",
+  "scope": "P-01 plus C1-01..C1-04",
+  "mode": "continuous built-in imagegen, separate call per asset",
+  "remaining_jobs": [
+    {
+      "id": "cg_p01_offbalance",
+      "file": "cg/cg_p01_offbalance_v001.png",
+      "transparent": false,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png",
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE single wide 16:9 anime visual-novel story illustration, no panels. Match the references precisely for identity, costume, objects and environment. High-quality clean anime linework, softly painted background, gentle coherent light, normal human anatomy, modest school attire. Keep faces, hands and the focal action above the lowest 24 percent intended for later dialogue. No captions, labels, dialogue boxes, logos, signatures or watermarks. The protagonist User has no defined face: only first-person hands or back/shoulders if required. Do not invent or reveal his hair color or eye color. FIRST reference is the exact rooftop layout, SECOND is DeepSeek's locked school-uniform identity. Show the instant before her small comic stumble in P-01-S03: from the same rooftop eye-level view, the blue-haired girl has been standing on the LOW INTERIOR CONCRETE DIVIDER on the left and briefly loses balance toward the OPEN CENTER of the roof. Her arms open for balance, expression comically alarmed; knees and knee-length skirt naturally cover her body, both shoes are visible close to the low ledge. Keep the ledge only about 45cm high relative to her legs. There is clearly safe rooftop ground on both sides of the ledge. The continuous tall outer fence, distant green trees, and right-rear stairwell door remain in their reference positions. Warm spring sun from upper left. No abyss, no outside-the-building fall, no camera prop, no notebook, no other person. Do not show the underside of her skirt. Her blue whale tail and long cyan-ended hair move gently with the stumble; same cyan ear bows and blue collar ribbon."
+    },
+    {
+      "id": "ds_hs_pain",
+      "file": "characters/deepseek/ds_hs_pain_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference sprite into ONE new expression/pose variant for the same visual-novel character. Strictly preserve her exact face, normal anime proportions, long cobalt-to-cyan wavy hair, ahoge, fin ears with cyan bows, blue whale tail, navy blazer with two brass buttons and fine gold piping, ivory blouse, small sky-blue collar ribbon, knee-length navy pleated skirt, white calf socks, navy loafers. Keep the same full-body framing, character scale, warm upper-left soft light, clean anime linework and transparent canvas. No redesign, no extra character, no text, no UI, no maid headdress, no brands, no painted checkerboard. Complete silhouette and clean alpha edges. Change only expression/pose as follows: She gently rubs her forehead with her right hand, eyes squeezed briefly in a small embarrassed wince, other hand low at her side. Mild comic bump, no injury or blood, no altered costume. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "claude_hs_annoyed",
+      "file": "characters/claude/claude_hs_annoyed_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference into ONE separate full-body transparent PNG expression sprite. Preserve exactly the same Claude face, long vivid orange hair, amber eyes, orange flower hair ornament on HER LEFT side (screen right) with dark ribbon tails, navy blazer with two brass buttons and thin gold piping, ivory shirt, small amber-gold collar ribbon, knee-length navy pleated skirt, white calf socks and navy loafers. Same portrait framing, scale, hands and feet complete, warm upper-left soft light and anime linework. No mirrored hair ornament, no fantasy dress, no book, no new props, no extra person, text, UI, border or painted checkerboard. Actual transparent background. She looks sidelong toward the viewer, brows slightly knit, lips pursed in restrained impatience, one hand lightly at her hip, shoulders turning a little as if preparing to leave. Aloof but not aggressive. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "cg01_rooftop_collision",
+      "file": "cg/cg01_rooftop_collision_v001.png",
+      "transparent": false,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png",
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE single wide 16:9 anime visual-novel story illustration, no panels. Match the references precisely for identity, costume, objects and environment. High-quality clean anime linework, softly painted background, gentle coherent light, normal human anatomy, modest school attire. Keep faces, hands and the focal action above the lowest 24 percent intended for later dialogue. No captions, labels, dialogue boxes, logos, signatures or watermarks. The protagonist User has no defined face: only first-person hands or back/shoulders if required. Do not invent or reveal his hair color or eye color. FIRST reference is exact rooftop architecture and upper-left light; SECOND locks the girl. P-01-S04, the gentle comic aftermath of an accidental small collision: User has been knocked to a seated position on the rooftop floor; we see his FIRST-PERSON view, with at most one navy sleeve/hand in the lower edge. DeepSeek is kneeling on the ground IN FRONT of him at a respectful small distance, not on his body, rubbing her own forehead with her right hand and looking up embarrassed and slightly pained, her large blue eyes readable. Show a modest upper-body / knees composition with skirt safely covering her legs, no straddling, no low-angle skirt view. Her same navy blazer, ivory shirt, sky-blue ribbon, cyan ear bows, fin ears and blue tail remain consistent. Left background shows the low INTERIOR ledge she stumbled off, with rooftop ground around it; the right-rear stairwell door and outer safety fence orient the space. Soft warm spring sunlight. No injury, blood, violence, magical falling, hugs or kissing. No notebook in focus."
+    },
+    {
+      "id": "ds_hs_happy",
+      "file": "characters/deepseek/ds_hs_happy_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference sprite into ONE new expression/pose variant for the same visual-novel character. Strictly preserve her exact face, normal anime proportions, long cobalt-to-cyan wavy hair, ahoge, fin ears with cyan bows, blue whale tail, navy blazer with two brass buttons and fine gold piping, ivory blouse, small sky-blue collar ribbon, knee-length navy pleated skirt, white calf socks, navy loafers. Keep the same full-body framing, character scale, warm upper-left soft light, clean anime linework and transparent canvas. No redesign, no extra character, no text, no UI, no maid headdress, no brands, no painted checkerboard. Complete silhouette and clean alpha edges. Change only expression/pose as follows: She gives a bright sincere open-eyed smile toward the viewer, relaxed shoulders, hands gently at her sides. Warm happy emotion, no exaggerated chibi change. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "claude_hs_surprised",
+      "file": "characters/claude/claude_hs_surprised_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference into ONE separate full-body transparent PNG expression sprite. Preserve exactly the same Claude face, long vivid orange hair, amber eyes, orange flower hair ornament on HER LEFT side (screen right) with dark ribbon tails, navy blazer with two brass buttons and thin gold piping, ivory shirt, small amber-gold collar ribbon, knee-length navy pleated skirt, white calf socks and navy loafers. Same portrait framing, scale, hands and feet complete, warm upper-left soft light and anime linework. No mirrored hair ornament, no fantasy dress, no book, no new props, no extra person, text, UI, border or painted checkerboard. Actual transparent background. She has just heard an unexpected confession: widened amber eyes, gently parted lips, slightly raised shoulders, hands close to her torso in surprise. No blush yet, no text. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "cg_p01_notebook_pickup",
+      "file": "cg/cg_p01_notebook_pickup_v001.png",
+      "transparent": false,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png",
+        "D:/ds-gal/whalegal/assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE single wide 16:9 anime visual-novel story illustration, no panels. Match the references precisely for identity, costume, objects and environment. High-quality clean anime linework, softly painted background, gentle coherent light, normal human anatomy, modest school attire. Keep faces, hands and the focal action above the lowest 24 percent intended for later dialogue. No captions, labels, dialogue boxes, logos, signatures or watermarks. The protagonist User has no defined face: only first-person hands or back/shoulders if required. Do not invent or reveal his hair color or eye color. P-01-S09, the quiet moment AFTER the girl has left. FIRST reference provides the same warm upper-left light and tiled rooftop ground; SECOND reference locks the exact pastel light-blue A5 notebook, darker blue left spine, rounded corners, off-white pages, small blank ivory name-label patch. A near-ground close-up of the notebook lying closed on the same rooftop floor, not damaged, with the protagonist's single hand and navy school-uniform sleeve gently reaching in from the lower left to pick it up. Hand with five natural fingers, no visible face or body, no other people. Notebook cover faces camera at a readable angle, label blank because the name is revealed in the next shot. Warm shadow, delicate blue / ivory / sunlit concrete colors. Low ledge base faintly visible at upper edge for continuity, no added grass, no bag, no camera. Focus on the recovered notebook and hand, no text."
+    },
+    {
+      "id": "ds_hs_apology",
+      "file": "characters/deepseek/ds_hs_apology_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference sprite into ONE new expression/pose variant for the same visual-novel character. Strictly preserve her exact face, normal anime proportions, long cobalt-to-cyan wavy hair, ahoge, fin ears with cyan bows, blue whale tail, navy blazer with two brass buttons and fine gold piping, ivory blouse, small sky-blue collar ribbon, knee-length navy pleated skirt, white calf socks, navy loafers. Keep the same full-body framing, character scale, warm upper-left soft light, clean anime linework and transparent canvas. No redesign, no extra character, no text, no UI, no maid headdress, no brands, no painted checkerboard. Complete silhouette and clean alpha edges. Change only expression/pose as follows: She makes a small polite apologetic upper-body bow, hands together in front of the skirt, embarrassed closed-mouth smile and lowered eyes. Keep face visible rather than a deep bow, same full-body scale. Modest school clothing, no change of costume. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "claude_hs_blush",
+      "file": "characters/claude/claude_hs_blush_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference into ONE separate full-body transparent PNG expression sprite. Preserve exactly the same Claude face, long vivid orange hair, amber eyes, orange flower hair ornament on HER LEFT side (screen right) with dark ribbon tails, navy blazer with two brass buttons and thin gold piping, ivory shirt, small amber-gold collar ribbon, knee-length navy pleated skirt, white calf socks and navy loafers. Same portrait framing, scale, hands and feet complete, warm upper-left soft light and anime linework. No mirrored hair ornament, no fantasy dress, no book, no new props, no extra person, text, UI, border or painted checkerboard. Actual transparent background. Her cheeks blush visibly while she averts her gaze slightly, trying to maintain a dignified expression, lips small and awkward, fingers loosely clasped before her. Shy reluctant acceptance, no romantic contact, no exaggerated chibi rendering. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "cg_p01_notebook_reveal",
+      "file": "cg/cg_p01_notebook_reveal_v001.png",
+      "transparent": false,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png",
+        "D:/ds-gal/whalegal/assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE single wide 16:9 anime visual-novel story illustration, no panels. Match the references precisely for identity, costume, objects and environment. High-quality clean anime linework, softly painted background, gentle coherent light, normal human anatomy, modest school attire. Keep faces, hands and the focal action above the lowest 24 percent intended for later dialogue. No captions, labels, dialogue boxes, logos, signatures or watermarks. The protagonist User has no defined face: only first-person hands or back/shoulders if required. Do not invent or reveal his hair color or eye color. P-01-S10, first-person view of the light-blue notebook now lifted in one of User's hands, occupying the LEFT foreground; the EMPTY sunlit rooftop recedes behind, keeping the inner low ledge on the left and stairwell access door in the right rear. FIRST reference locks the rooftop and sunlight, SECOND locks notebook shape, cloth cover, darker blue LEFT spine, off-white page edges, and little ivory name label at the lower right of the cover. The notebook has only ONE small handwritten name on that label, exactly \"DeepSeek\" (capital D, capital S; spell D e e p S e e k). This is the ONLY text in the image and the story's first revelation of her name. Make the name small but cleanly readable above the bottom 24 percent. The hand holds the lower-left edge naturally with navy sleeve visible, no extra fingers, no protagonist face. No girl, no other handwriting, no captions, no branding, no added ornament or whale logo."
+    },
+    {
+      "id": "ds_hs_alarmed",
+      "file": "characters/deepseek/ds_hs_alarmed_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference sprite into ONE new expression/pose variant for the same visual-novel character. Strictly preserve her exact face, normal anime proportions, long cobalt-to-cyan wavy hair, ahoge, fin ears with cyan bows, blue whale tail, navy blazer with two brass buttons and fine gold piping, ivory blouse, small sky-blue collar ribbon, knee-length navy pleated skirt, white calf socks, navy loafers. Keep the same full-body framing, character scale, warm upper-left soft light, clean anime linework and transparent canvas. No redesign, no extra character, no text, no UI, no maid headdress, no brands, no painted checkerboard. Complete silhouette and clean alpha edges. Change only expression/pose as follows: She suddenly remembers the class bell: eyes wide, mouth small open gasp, upper body pivoting gently toward her left (screen right), one foot ready to leave, one hand raised in a hurried farewell. Keep full silhouette and recognizable face. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "ds_hs_flustered",
+      "file": "characters/deepseek/ds_hs_flustered_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference sprite into ONE new expression/pose variant for the same visual-novel character. Strictly preserve her exact face, normal anime proportions, long cobalt-to-cyan wavy hair, ahoge, fin ears with cyan bows, blue whale tail, navy blazer with two brass buttons and fine gold piping, ivory blouse, small sky-blue collar ribbon, knee-length navy pleated skirt, white calf socks, navy loafers. Keep the same full-body framing, character scale, warm upper-left soft light, clean anime linework and transparent canvas. No redesign, no extra character, no text, no UI, no maid headdress, no brands, no painted checkerboard. Complete silhouette and clean alpha edges. Change only expression/pose as follows: She has a flustered embarrassed look: brows raised, light blush, lips parted in an awkward explanation, shoulders slightly drawn inward, both hands held modestly in front. No notebook. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "cg02_pullup_confession",
+      "file": "cg/cg02_pullup_confession_v001.png",
+      "transparent": false,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/backgrounds/bg_playground_evening_v001.png",
+        "D:/ds-gal/whalegal/assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE single wide 16:9 anime visual-novel story illustration, no panels. Match the references precisely for identity, costume, objects and environment. High-quality clean anime linework, softly painted background, gentle coherent light, normal human anatomy, modest school attire. Keep faces, hands and the focal action above the lowest 24 percent intended for later dialogue. No captions, labels, dialogue boxes, logos, signatures or watermarks. The protagonist User has no defined face: only first-person hands or back/shoulders if required. Do not invent or reveal his hair color or eye color. C1-02, the absurd pull-up confession on the SAME school exercise field as the FIRST reference. Keep exactly the same left-side single straight horizontal bar between two dark-blue posts, track, trees, ivory school building and upper-left late-afternoon light. The student User is on the LEFT doing a pull-up, seen only from BEHIND with his head turned away and largely cropped at the top so there is no defined face or hair detail. He wears a plain matching navy school blazer and trousers; exactly two hands grip the one bar at plausible shoulder width. Claude, as precisely in SECOND reference, stands on the RIGHT watching him, amber eyes widened and cheeks lightly blushing, hands clasped in awkward surprise. Her orange long hair and flower ornament remain on HER LEFT, small amber collar bow, same school uniform. Two small indistinct backlit student silhouettes may stand far away at the edge, not crowding the leads. Composition emphasizes the ridiculous effort and her startled response, not muscular posing. No dialogue text, no hearts or romantic contact. Head and hand anatomy believable, no duplicate bar or extra limbs."
+    },
+    {
+      "id": "ds_hs_book_happy",
+      "file": "characters/deepseek/ds_hs_book_happy_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "D:/ds-gal/whalegal/assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference sprite into ONE new expression/pose variant for the same visual-novel character. Strictly preserve her exact face, normal anime proportions, long cobalt-to-cyan wavy hair, ahoge, fin ears with cyan bows, blue whale tail, navy blazer with two brass buttons and fine gold piping, ivory blouse, small sky-blue collar ribbon, knee-length navy pleated skirt, white calf socks, navy loafers. Keep the same full-body framing, character scale, warm upper-left soft light, clean anime linework and transparent canvas. No redesign, no extra character, no text, no UI, no maid headdress, no brands, no painted checkerboard. Complete silhouette and clean alpha edges. Change only expression/pose as follows: SECOND reference is the fixed notebook design. She hugs that same single pastel light-blue A5 hardback notebook close against her chest with both hands, visibly relieved and delighted, bright eyes and a small blush. Keep the same blank ivory label, no lettering. Hands correctly wrap around the notebook without extra fingers. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "ds_hs_sad",
+      "file": "characters/deepseek/ds_hs_sad_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference sprite into ONE new expression/pose variant for the same visual-novel character. Strictly preserve her exact face, normal anime proportions, long cobalt-to-cyan wavy hair, ahoge, fin ears with cyan bows, blue whale tail, navy blazer with two brass buttons and fine gold piping, ivory blouse, small sky-blue collar ribbon, knee-length navy pleated skirt, white calf socks, navy loafers. Keep the same full-body framing, character scale, warm upper-left soft light, clean anime linework and transparent canvas. No redesign, no extra character, no text, no UI, no maid headdress, no brands, no painted checkerboard. Complete silhouette and clean alpha edges. Change only expression/pose as follows: She looks discouraged after losing her notebook: gaze lowered, eyebrows tilted up near the center, mouth small and subdued, arms held loosely in front, shoulders slightly drooped. Quiet disappointment without tears, no notebook. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "cg_c103_notebook_return",
+      "file": "cg/cg_c103_notebook_return_v001.png",
+      "transparent": false,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/backgrounds/bg_library_day_v001.png",
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "D:/ds-gal/whalegal/assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE single wide 16:9 anime visual-novel story illustration, no panels. Match the references precisely for identity, costume, objects and environment. High-quality clean anime linework, softly painted background, gentle coherent light, normal human anatomy, modest school attire. Keep faces, hands and the focal action above the lowest 24 percent intended for later dialogue. No captions, labels, dialogue boxes, logos, signatures or watermarks. The protagonist User has no defined face: only first-person hands or back/shoulders if required. Do not invent or reveal his hair color or eye color. C1-03, returning the lost notebook. FIRST reference is the exact school library, windows LEFT, back shelves, door RIGHT rear, pale oak table and chairs. SECOND locks DeepSeek face and uniform. THIRD locks the ordinary pastel light-blue notebook, darker blue left spine, off-white pages and small ivory label. Camera is seated User's first-person view at the table. DeepSeek sits across from us, initially leaning forward, now lifting her face with delighted recognition. Her blue eyes brighten and she reaches with both hands toward the notebook User is gently holding out from the lower-left foreground. Draw exactly one notebook and natural hands, no handshake or romantic touch. Spring afternoon window light from left gives a soft rim to cobalt-to-cyan hair. Fin ears, cyan bows, blue ribbon and modest school uniform unchanged. Her blue tail may appear subtly beside the chair. Preserve table and shelf perspective, key hands and face above lower dialogue region. No other students, no readable text."
+    },
+    {
+      "id": "ds_hs_proud",
+      "file": "characters/deepseek/ds_hs_proud_v001.png",
+      "transparent": true,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the FIRST reference sprite into ONE new expression/pose variant for the same visual-novel character. Strictly preserve her exact face, normal anime proportions, long cobalt-to-cyan wavy hair, ahoge, fin ears with cyan bows, blue whale tail, navy blazer with two brass buttons and fine gold piping, ivory blouse, small sky-blue collar ribbon, knee-length navy pleated skirt, white calf socks, navy loafers. Keep the same full-body framing, character scale, warm upper-left soft light, clean anime linework and transparent canvas. No redesign, no extra character, no text, no UI, no maid headdress, no brands, no painted checkerboard. Complete silhouette and clean alpha edges. Change only expression/pose as follows: She is enthusiastic about her writing: lively open-eyed confident smile, one hand lightly on her hip, the other lifted in a small conversational gesture. No notebook stack in this sprite; keep outfit unchanged. All pixels outside the actual silhouette must have alpha=0; no glow, halo, vignette or backdrop. Preserve fine gold piping at the skirt hem as in the master."
+    },
+    {
+      "id": "cg_c104_writing_together",
+      "file": "cg/cg_c104_writing_together_v001.png",
+      "transparent": false,
+      "refs": [
+        "D:/ds-gal/whalegal/assets_src/act01/backgrounds/bg_library_day_v001.png",
+        "D:/ds-gal/whalegal/assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "D:/ds-gal/whalegal/assets_src/act01/props/pr01_blue_notebook_v001.png",
+        "D:/ds-gal/whalegal/assets_src/act01/props/pr02_flying_whale_sketch_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE single wide 16:9 anime visual-novel story illustration, no panels. Match the references precisely for identity, costume, objects and environment. High-quality clean anime linework, softly painted background, gentle coherent light, normal human anatomy, modest school attire. Keep faces, hands and the focal action above the lowest 24 percent intended for later dialogue. No captions, labels, dialogue boxes, logos, signatures or watermarks. The protagonist User has no defined face: only first-person hands or back/shoulders if required. Do not invent or reveal his hair color or eye color. C1-04, the next afternoon at 16:30 in the EXACT SAME library table position as FIRST reference; late-afternoon light enters the same LEFT windows, shelves and right-rear door unchanged. SECOND reference locks DeepSeek school-uniform appearance, THIRD locks her light-blue notebook. User's first-person seated view across the pale oak table: DeepSeek leans forward with a lively proud smile, one hand pointing to an open manuscript page and the other gently steadying the paper. A modest stack of five ordinary writing notebooks is on the LEFT side of the table, the fixed pastel-blue notebook on top, with cream and muted-blue covers underneath. The open page between us contains a simple original pen drawing of a LITTLE WHALE LEAPING TOWARD SMALL STARS, no handwriting or printed words. Her joy is about storytelling and filmmaking collaboration, no confession, hearts or romantic contact. All facial and hand focus above lower dialogue area. No real logo whale, no camera, no random extra people; same fin ears, long blue hair, cyan bows, blue tail and sky-blue collar ribbon. FOURTH reference fixes the exact original whale-and-stars drawing: reproduce that same doodle on the open page, not a different whale design."
+    }
+  ]
+}

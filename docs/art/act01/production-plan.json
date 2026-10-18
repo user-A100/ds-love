@@ -1,0 +1,492 @@
+{
+  "date": "2026-10-18",
+  "scope": [
+    "P-01",
+    "C1-01",
+    "C1-02",
+    "C1-03",
+    "C1-04"
+  ],
+  "jobs": [
+    {
+      "id": "bg_rooftop_spring_day",
+      "file": "backgrounds/bg_rooftop_spring_day_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/BG01-day.prompt.txt",
+      "refs": [],
+      "label": "天台 · 春日午后"
+    },
+    {
+      "id": "bg_playground_evening",
+      "file": "backgrounds/bg_playground_evening_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/bg_playground_evening.txt",
+      "refs": [
+        "assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png"
+      ],
+      "label": "操场 · 放学后"
+    },
+    {
+      "id": "bg_library_day",
+      "file": "backgrounds/bg_library_day_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/bg_library_day.txt",
+      "refs": [
+        "assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png"
+      ],
+      "label": "图书馆 · 午后"
+    },
+    {
+      "id": "pr01_blue_notebook",
+      "file": "props/pr01_blue_notebook_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/pr01_blue_notebook.txt",
+      "refs": [],
+      "label": "PR01 · 浅蓝笔记本"
+    },
+    {
+      "id": "ds_hs_neutral_clean",
+      "file": "characters/deepseek/ds_hs_neutral_v002.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_neutral_clean.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v001.png"
+      ],
+      "label": "DeepSeek · 制服基准"
+    },
+    {
+      "id": "claude_hs_neutral",
+      "file": "characters/claude/claude_hs_neutral_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/claude_hs_neutral.txt",
+      "refs": [
+        "assets_src/characters/claude/references/zipzippipe-pixiv-148186519-p02.jpg",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v001.png"
+      ],
+      "label": "Claude · 制服基准"
+    },
+    {
+      "id": "pr02_flying_whale_sketch",
+      "file": "props/pr02_flying_whale_sketch_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/pr02_flying_whale_sketch.txt",
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "label": "PR02 · 想飞的鲸鱼草图"
+    },
+    {
+      "id": "pr_manuscript_stack",
+      "file": "props/pr_manuscript_stack_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/pr_manuscript_stack.txt",
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "label": "道具 · 稿本堆叠"
+    },
+    {
+      "id": "cg_p01_offbalance",
+      "file": "cg/cg_p01_offbalance_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/cg_p01_offbalance.txt",
+      "refs": [
+        "assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "P-01-S03 · 矮墙失衡"
+    },
+    {
+      "id": "ds_hs_pain",
+      "file": "characters/deepseek/ds_hs_pain_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_pain.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "DeepSeek · 揉额头"
+    },
+    {
+      "id": "claude_hs_annoyed",
+      "file": "characters/claude/claude_hs_annoyed_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/claude_hs_annoyed.txt",
+      "refs": [
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "label": "Claude · 不耐烦"
+    },
+    {
+      "id": "cg01_rooftop_collision",
+      "file": "cg/cg01_rooftop_collision_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/cg01_rooftop_collision.txt",
+      "refs": [
+        "assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "CG01 · 天台碰撞后"
+    },
+    {
+      "id": "ds_hs_happy",
+      "file": "characters/deepseek/ds_hs_happy_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_happy.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "DeepSeek · 灿笑"
+    },
+    {
+      "id": "claude_hs_surprised",
+      "file": "characters/claude/claude_hs_surprised_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/claude_hs_surprised.txt",
+      "refs": [
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "label": "Claude · 惊讶"
+    },
+    {
+      "id": "cg_p01_notebook_pickup",
+      "file": "cg/cg_p01_notebook_pickup_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/cg_p01_notebook_pickup.txt",
+      "refs": [
+        "assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "label": "P-01-S09 · 拾起笔记本"
+    },
+    {
+      "id": "ds_hs_apology",
+      "file": "characters/deepseek/ds_hs_apology_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_apology.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "DeepSeek · 低头道歉"
+    },
+    {
+      "id": "claude_hs_blush",
+      "file": "characters/claude/claude_hs_blush_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/claude_hs_blush.txt",
+      "refs": [
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "label": "Claude · 嘴硬脸红"
+    },
+    {
+      "id": "cg_p01_notebook_reveal",
+      "file": "cg/cg_p01_notebook_reveal_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/cg_p01_notebook_reveal.txt",
+      "refs": [
+        "assets_src/backgrounds/rooftop/bg_rooftop_spring_day_v001.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "label": "P-01-S10 · 姓名揭晓"
+    },
+    {
+      "id": "ds_hs_alarmed",
+      "file": "characters/deepseek/ds_hs_alarmed_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_alarmed.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "DeepSeek · 听铃退场"
+    },
+    {
+      "id": "ds_hs_flustered",
+      "file": "characters/deepseek/ds_hs_flustered_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_flustered.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "DeepSeek · 慌张"
+    },
+    {
+      "id": "cg02_pullup_confession",
+      "file": "cg/cg02_pullup_confession_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/cg02_pullup_confession.txt",
+      "refs": [
+        "assets_src/act01/backgrounds/bg_playground_evening_v001.png",
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "label": "CG02 · 单杠告白"
+    },
+    {
+      "id": "ds_hs_book_happy",
+      "file": "characters/deepseek/ds_hs_book_happy_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_book_happy.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "label": "DeepSeek · 抱本欣喜"
+    },
+    {
+      "id": "ds_hs_sad",
+      "file": "characters/deepseek/ds_hs_sad_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_sad.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "DeepSeek · 沮丧"
+    },
+    {
+      "id": "cg_c103_notebook_return",
+      "file": "cg/cg_c103_notebook_return_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/cg_c103_notebook_return.txt",
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "label": "C1-03 · 归还笔记本"
+    },
+    {
+      "id": "ds_hs_proud",
+      "file": "characters/deepseek/ds_hs_proud_v001.png",
+      "transparent": true,
+      "prompt_file": "docs/art/act01/prompts/ds_hs_proud.txt",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "label": "DeepSeek · 得意"
+    },
+    {
+      "id": "cg_c104_writing_together",
+      "file": "cg/cg_c104_writing_together_v001.png",
+      "transparent": false,
+      "prompt_file": "docs/art/act01/prompts/cg_c104_writing_together.txt",
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png",
+        "assets_src/act01/props/pr02_flying_whale_sketch_v001.png"
+      ],
+      "label": "C1-04 · 第一次合作"
+    }
+  ],
+  "shots": [
+    {
+      "id": "P-01-S01",
+      "title": "安静的天台",
+      "bg": "bg_rooftop_spring_day",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "P-01-S02",
+      "title": "风、天空与摄影梦想",
+      "bg": "bg_rooftop_spring_day",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "P-01-S03",
+      "title": "少女在矮墙上失去平衡",
+      "bg": "cg_p01_offbalance",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "P-01-S04",
+      "title": "意外碰撞",
+      "bg": "cg01_rooftop_collision",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "P-01-S05",
+      "title": "揉着额头解释",
+      "bg": "bg_rooftop_spring_day",
+      "sprite": "ds_hs_pain",
+      "prop": null
+    },
+    {
+      "id": "P-01-S06",
+      "title": "慌忙道歉",
+      "bg": "bg_rooftop_spring_day",
+      "sprite": "ds_hs_apology",
+      "prop": null
+    },
+    {
+      "id": "P-01-S07",
+      "title": "有趣，是在夸我吗",
+      "bg": "bg_rooftop_spring_day",
+      "sprite": "ds_hs_happy",
+      "prop": null
+    },
+    {
+      "id": "P-01-S08",
+      "title": "铃响，跑向楼梯门",
+      "bg": "bg_rooftop_spring_day",
+      "sprite": "ds_hs_alarmed",
+      "prop": null
+    },
+    {
+      "id": "P-01-S09",
+      "title": "捡起遗落的笔记本",
+      "bg": "cg_p01_notebook_pickup",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "P-01-S10",
+      "title": "第一次知道她的名字",
+      "bg": "cg_p01_notebook_reveal",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-01-B01",
+      "title": "放学后的操场",
+      "bg": "bg_playground_evening",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-01-B02",
+      "title": "橙发少女入画",
+      "bg": "bg_playground_evening",
+      "sprite": "claude_hs_neutral",
+      "prop": null
+    },
+    {
+      "id": "C1-01-B03",
+      "title": "察觉注视",
+      "bg": "bg_playground_evening",
+      "sprite": "claude_hs_neutral",
+      "prop": null
+    },
+    {
+      "id": "C1-01-B04",
+      "title": "否认与不耐烦",
+      "bg": "bg_playground_evening",
+      "sprite": "claude_hs_annoyed",
+      "prop": null
+    },
+    {
+      "id": "C1-01-B05",
+      "title": "目光转向单杠",
+      "bg": "bg_playground_evening",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-02-B01",
+      "title": "叫住她",
+      "bg": "bg_playground_evening",
+      "sprite": "claude_hs_surprised",
+      "prop": null
+    },
+    {
+      "id": "C1-02-B02",
+      "title": "请，和我，交往吧",
+      "bg": "cg02_pullup_confession",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-02-B03",
+      "title": "荒唐的告白",
+      "bg": "cg02_pullup_confession",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-02-B04",
+      "title": "惊讶与嘴硬脸红",
+      "bg": "bg_playground_evening",
+      "sprite": "claude_hs_blush",
+      "prop": null
+    },
+    {
+      "id": "C1-02-B05",
+      "title": "关系意外成立",
+      "bg": "bg_playground_evening",
+      "sprite": "claude_hs_blush",
+      "prop": null
+    },
+    {
+      "id": "C1-03-B01",
+      "title": "图书馆，沮丧的她",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_sad",
+      "prop": null
+    },
+    {
+      "id": "C1-03-B02",
+      "title": "找回最重要的本子",
+      "bg": "cg_c103_notebook_return",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-03-B03",
+      "title": "读过故事后的羞窘",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_flustered",
+      "prop": null
+    },
+    {
+      "id": "C1-03-B04",
+      "title": "如果拍成电影",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_book_happy",
+      "prop": null
+    },
+    {
+      "id": "C1-03-B05",
+      "title": "她写，他拍",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_happy",
+      "prop": "pr01_blue_notebook"
+    },
+    {
+      "id": "C1-04-B01",
+      "title": "带来一摞稿本",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_proud",
+      "prop": "pr_manuscript_stack"
+    },
+    {
+      "id": "C1-04-B02",
+      "title": "想飞的鲸鱼",
+      "bg": "bg_library_day",
+      "sprite": null,
+      "prop": "pr02_flying_whale_sketch"
+    },
+    {
+      "id": "C1-04-B03",
+      "title": "认真阅读与讨论",
+      "bg": "cg_c104_writing_together",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-04-B04",
+      "title": "第一次创作合作",
+      "bg": "cg_c104_writing_together",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-04-B05",
+      "title": "兴奋后被提醒安静",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_apology",
+      "prop": null
+    }
+  ]
+}
