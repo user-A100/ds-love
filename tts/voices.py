@@ -26,7 +26,7 @@ VOICES = {
                             "style_weight": 1.0, "url": BASE_URL}},
     ## 傲娇大小姐 → amitaro + Neutral（情感随文本自适应）
     "claude":   {"engine": "sbv2", "lang": "jp",
-                 "params": {"model_name": "amitaro", "style": "Neutral",
+                 "params": {"model_name": "morioki", "style": "ノーマル",
                             "style_weight": 1.0, "url": BASE_URL}},
     ## 温柔学姐 → koharune + Neutral 低权重（更平缓柔顺）
     "gpt":      {"engine": "sbv2", "lang": "jp",
