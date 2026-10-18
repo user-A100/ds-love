@@ -1,0 +1,88 @@
+## ============================================================
+## whalegal nginx 站点配置模板
+## __ROOT__ / __PORT__ 由 server/deploy/deploy.sh 按实际 clone
+## 位置动态填充 —— 仓库内不写死任何绝对路径。
+##
+## 本文件将被 include 到 nginx 的 http 上下文中
+## （Debian 系: /etc/nginx/sites-enabled/；RHEL 系: conf.d）
+## 因此 limit_*_zone 必须写在 server{} 之外（http 上下文）。
+## ============================================================
+
+## ---------- 高并发限速（按来源 IP）----------
+limit_conn_zone $binary_remote_addr zone=whalegal_conn:10m;
+limit_req_zone  $binary_remote_addr zone=whalegal_req:10m rate=30r/s;
+
+server {
+    listen __PORT__;
+    listen [::]:__PORT__;
+
+    server_name _;
+
+    ## server/public/ 由 tools/build_web.sh 生成
+    root __ROOT__/server/public;
+    index index.html;
+
+    ## ---------- 大文件传输调优 ----------
+    sendfile           on;
+    tcp_nopush         on;
+    tcp_nodelay        on;
+    keepalive_timeout  65;
+    keepalive_requests 1000;
+
+    ## 校园网出口带宽有限：限连接数 + 限请求速率，防止个别用户打满
+    limit_conn  whalegal_conn 20;
+    limit_req   zone=whalegal_req burst=60 nodelay;
+
+    ## max_ranges 限制多区间请求滥用；Range 由 nginx 静态模块原生支持
+    max_ranges 4;
+
+    ## ---------- 压缩（wasm/js/json 压缩收益巨大）----------
+    gzip              on;
+    gzip_comp_level   5;
+    gzip_min_length   1024;
+    gzip_vary         on;
+    gzip_proxied      any;
+    gzip_types
+        application/wasm
+        application/javascript
+        application/json
+        application/octet-stream
+        text/css;
+
+    ## ---------- MIME ----------
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+    ## 兜底：老版本 nginx 的 mime.types 可能没有 wasm（有则产生无害的
+    ## duplicate 警告，可删除此块）
+    types {
+        application/wasm wasm;
+    }
+
+    ## ---------- 缓存策略 ----------
+    ## 游戏数据包 / PWA 入口：每次校验，保证更新即时生效
+    location = /game.zip {
+        add_header Cache-Control "no-cache, must-revalidate";
+    }
+    location = /service-worker.js {
+        add_header Cache-Control "no-cache";
+    }
+    location = /manifest.json {
+        add_header Cache-Control "no-cache";
+    }
+    ## 引擎大文件（wasm/data）：中等缓存
+    location ~* \.(wasm|data)$ {
+        add_header Cache-Control "public, max-age=3600";
+    }
+    ## 图标/图片/样式：长缓存
+    location ~* \.(png|jpg|jpeg|webp|svg|ico|css)$ {
+        add_header Cache-Control "public, max-age=86400";
+    }
+
+    ## ---------- 入口 ----------
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    access_log /var/log/nginx/whalegal.access.log;
+    error_log  /var/log/nginx/whalegal.error.log warn;
+}

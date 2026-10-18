@@ -1,0 +1,23 @@
+# Ren'Py SDK（本地安装，不入库）
+/renpy-8.5.3-sdk/
+/renpy-*.tar.bz2
+
+# Ren'Py 构建与运行产物
+*.rpa
+build/
+dist/
+.cache/
+old-game/
+/log.txt
+/errors.txt
+/traceback.txt
+/image_cache.txt
+/files.txt
+game/cache/
+game/saves/
+
+# Web 打包产物（由 tools/build_web.sh 生成）
+/server/public/
+
+# 系统文件
+.DS_Store
