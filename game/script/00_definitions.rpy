@@ -59,9 +59,7 @@ define librarian = Character("图书管理员", color="#888866")
 ## 全局配置
 ## ------------------------------------------------------------
 
-## TTS 自动配音钩子：
-## 每句台词按语句 ID 自动找 game/audio/voice/<id>.ogg，
-## 文件不存在则静默跳过。tts/synthesize.py 按同一 ID 命名产出。
-define config.auto_voice = "audio/voice/{id}.ogg"
+## TTS 配音不在此配置——由 10_stage.rpy 的 play_voice() 钩子实现，
+## ID 算法与 tts/synthesize.py 对齐（内容寻址，文案改动不漂移）。
 
 define GAME_TITLE = _("未抵达的心意")

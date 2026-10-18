@@ -1,0 +1,21 @@
+{
+  "_comment": "立绘映射：key 为「变量 表情」，file 为 game/ 下相对路径；file 为 null 或文件不存在时用 Placeholder 剪影。",
+  "ds normal": {"file": "images/sprites/ds_neutral.png"},
+  "ds happy": {"file": "images/sprites/ds_happy.png"},
+  "ds sad": {"file": "images/sprites/ds_sad.png"},
+  "ds angry": null,
+  "ds shy": {"file": "images/sprites/ds_flustered.png"},
+  "ds pain": {"file": "images/sprites/ds_pain.png"},
+  "ds alarmed": {"file": "images/sprites/ds_alarmed.png"},
+  "cl normal": {"file": "images/sprites/cl_neutral.png"},
+  "cl happy": null,
+  "cl sad": null,
+  "cl angry": {"file": "images/sprites/cl_annoyed.png"},
+  "cl shy": {"file": "images/sprites/cl_blush.png"},
+  "cl surprised": {"file": "images/sprites/cl_surprised.png"},
+  "gp normal": null,
+  "gp happy": null,
+  "gp sad": null,
+  "gp angry": null,
+  "gp shy": null
+}

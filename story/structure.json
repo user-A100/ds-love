@@ -1,0 +1,25 @@
+{
+  "_comment": "章节归属规则：heading 含 match 子串 → 归属 chapter；未命中保持当前章节。顺序敏感：精确标题放前面。start_marker 之后的正文才开始解析。",
+  "start_marker": "正式剧本",
+  "chapter_rules": [
+    {"match": "序章", "chapter": "ch00"},
+    {"match": "第一章", "chapter": "ch01"},
+    {"match": "第二章", "chapter": "ch02"},
+    {"match": "第一幕：被遗忘的约定", "chapter": "ch03"},
+    {"match": "第一幕：没有告诉任何人的决定", "chapter": "ch04"},
+    {"match": "场景 4-", "chapter": "ch04"},
+    {"match": "第四章", "chapter": "ch04"},
+    {"match": "场景 5-", "chapter": "ch05"},
+    {"match": "场景 6-", "chapter": "ch06"},
+    {"match": "第六章", "chapter": "ch06"},
+    {"match": "场景 DS-", "chapter": "route_ds"}
+  ],
+  "chapter_order": ["ch00", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "route_ds"],
+  "branch_after": {
+    "ch06": [
+      {"text": "追向 DeepSeek", "goto": "route_ds"},
+      {"text": "（Claude 线 · 待剧本）", "goto": "route_cl"},
+      {"text": "（GPT 线 · 待剧本）", "goto": "route_gp"}
+    ]
+  }
+}
