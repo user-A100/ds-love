@@ -21,6 +21,7 @@ game/saves/
 
 # TTS 离线流水线（合成中间态与本地引擎权重）
 /tts/cache.json
+/tts/cache-jp.json
 /tts/engine/
 
 # 系统文件

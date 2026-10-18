@@ -9,5 +9,6 @@
   "班主任": "teacher",
   "老师": "teacher",
   "同学": "classmate",
-  "图书管理员": "librarian"
+  "图书管理员": "librarian",
+  "工作人员": "staff"
 }

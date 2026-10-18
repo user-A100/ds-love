@@ -3,8 +3,8 @@
 ## import_story.py —— 剧本导入器（markdown → Ren'Py 脚本）
 ##
 ## 设计原则：
-##   1. story/chapters/*.md 是唯一事实来源，game/script/story_gen/
-##      下的 .rpy 全部是生成产物（DO NOT EDIT），可随时重建
+##   1. 中文源 story/chapters/*.md 与 story/japanese.json 指定日文稿
+##      生成主剧本及 game/tl/japanese/story_gen/，生成文件请勿手改
 ##   2. 配音 ID = md5(角色+台词)[:12]，内容寻址——插行/删行不
 ##      错位，台词本身改了 ID 才变（旧配音随之失效，语义正确）
 ##   3. 所有映射（说话人/章节归属/场景资产/立绘）在 story/*.json
@@ -16,11 +16,14 @@
 ##   python3 tools/import_story.py --check    # 只统计校验，不写盘
 ## ============================================================
 import argparse
+from collections import Counter
 import hashlib
 import json
 import os
-import re
+from pathlib import Path
 import sys
+
+from story_text import parse_markdown, align_chapter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STORY_DIR = os.path.join(ROOT, "story")
@@ -30,49 +33,13 @@ GEN_DIR = os.path.join(ROOT, "game", "script", "story_gen")
 GENERATED_HEADER = \
 """## ============================================================
 ## !! 本文件由 tools/import_story.py 生成 —— 请勿手改 !!
-## 源: story/chapters/未抵达的心意.md (+ story/*.json)
+## 源: story/chapters/未抵达的心意.md + story/japanese.json 指定的日文稿
 ## 重建: python3 tools/import_story.py
 ## ============================================================
 """
 
 ## 立绘站位：角色变量 → 位置
 SPRITE_POS = {"ds": "left", "cl": "center", "gp": "right"}
-
-DIALOGUE_RE = re.compile(r"^(.{1,20}?)：「(.*)$")
-HEADING_RE = re.compile(r"^#{2,3}\s+(.*)$")
-SCENE_CARD_RE = re.compile(r"^((?:CG|BG)-\d+)｜")
-SFX_RE = re.compile(r"^【音效】\s*(.*)$")
-INLINE_LINK_RE = re.compile(r"\[([^\]]*)\]\([^)]*\)")
-INLINE_DLG_RE = re.compile(r"([^：「\n]{1,20})：「([^」]*)」")
-STRIP_TAGS = ("BGM", "音效", "场景", "画面", "CG")
-
-
-def clean_text(text):
-    """剥离标记/链接/markdown 噪音，返回纯台词/旁白文本"""
-    text = INLINE_LINK_RE.sub(r"\1", text)
-    text = re.sub(r"【(?:BGM|音效|场景|画面|CG)[^】]*】", "", text)
-    text = re.sub(r"^【旁白】\s*", "", text)
-    text = re.sub(r"^【最终独白】\s*", "", text)
-    text = re.sub(r"_(.+?)_", r"\1", text)
-    text = re.sub(r"\*\*(.+?)\*\*", r"\1", text)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
-
-
-def split_inline_dialogue(line):
-    """把 '叙述A 角色：「对白」叙述B 角色2：「对白2」' 切成片段列表
-    [("n", 叙述A), ("d", 角色, 对白), ("n", 叙述B), ...]"""
-    pieces = []
-    last = 0
-    for m in INLINE_DLG_RE.finditer(line):
-        if m.start() > last:
-            pieces.append(("n", line[last:m.start()]))
-        pieces.append(("d", m.group(1).strip(), m.group(2)))
-        last = m.end()
-    if last < len(line):
-        pieces.append(("n", line[last:]))
-    return pieces
-
 
 def load_json(name):
     with open(os.path.join(STORY_DIR, name), encoding="utf-8") as f:
@@ -82,17 +49,11 @@ def load_json(name):
 def esc(text):
     """Ren'Py say 字符串转义: \\ " % [ """
     text = text.replace("\\", "\\\\")
+    text = text.replace("\r\n", "\n").replace("\r", "\n").replace("\n", "\\n")
     text = text.replace('"', '\\"')
     text = text.replace("%", "%%")
     text = text.replace("[", "[[")
     return text
-
-
-def clean_markup(line):
-    """去掉轻量 markdown 噪音"""
-    line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
-    line = re.sub(r"\*(.+?)\*", r"\1", line)
-    return line.strip()
 
 
 def voice_id(speaker, text):
@@ -110,43 +71,47 @@ class Importer:
         self.chapter_order = self.structure["chapter_order"]
         self.chapters = {c: [] for c in self.chapter_order}
         self.current = self.chapter_order[0]
-        self.unknown_speakers = {}
         self.shown = set()
-
-    # ---------- 章节归属 ----------
-
-    def match_chapter(self, heading):
-        for rule in self.structure["chapter_rules"]:
-            if rule["match"] in heading:
-                return rule["chapter"]
-        return None    # 未命中 → 保持当前章节
+        self.events = []
+        self.translations = {}
+        self.translation_files = {c: [] for c in self.chapter_order}
+        self.id_counts = Counter()
 
     # ---------- 语句生成 ----------
 
     def emit(self, line):
         self.chapters[self.current].append(line)
 
-    def emit_say(self, speaker, text):
+    def emit_say(self, speaker, text, event):
         text = text.strip()
-        if not text:
-            return
-        if speaker == "narrator":
-            self.emit('narrator "{}"'.format(esc(text)))
-            return
-        var = self.speakers.get(speaker)
+        var = "narrator" if speaker == "narrator" else self.speakers.get(speaker)
         if var is None:
-            ## 未知说话人：并入旁白，加名字前缀，报告警告
-            self.unknown_speakers[speaker] = self.unknown_speakers.get(speaker, 0) + 1
-            self.emit('narrator "{}：{}"'.format(esc(speaker), esc(text)))
-            return
+            raise ValueError("未知说话人 {} ({}:{})".format(speaker, event.source, event.line))
+        if var in SPRITE_POS and var not in self.shown:
+            self.emit("show {} normal at sprite_pos_{} with trans_dissolve".format(var, SPRITE_POS[var]))
+            self.shown.add(var)
+        key = (self.current, speaker, text)
+        self.id_counts[key] += 1
+        identifier = "story_{}_{}_{}".format(self.current, voice_id(speaker, text)[2:], self.id_counts[key])
         if var != "narrator":
-            self.emit('$ play_voice("{}")'.format(voice_id(speaker, text)))
-            ## 自动立绘：主角团在场上且未显示 → 入场
-            if var in SPRITE_POS and var not in self.shown:
-                self.emit("show {} normal at sprite_pos_{} with trans_dissolve".format(
-                    var, SPRITE_POS[var]))
-                self.shown.add(var)
-        self.emit('{} "{}"'.format(var, esc(text)))
+            self.emit('voice voice_file("{}")'.format(voice_id(speaker, text)))
+        self.emit('{} "{}" id {}'.format(var, esc(text), identifier))
+
+        translated = self.translations[event]
+        block = ["translate japanese {}:".format(identifier)]
+        if not translated:
+            block.append("    pass")
+        for target in translated:
+            who = "narrator" if target.speaker == "narrator" else self.speakers[target.speaker]
+            # Letters are authored as multi-paragraph speech; show one paragraph per click.
+            for paragraph in target.text.split("\n"):
+                paragraph = paragraph.strip()
+                if not paragraph:
+                    continue
+                if who != "narrator":
+                    block.append('    voice voice_file("{}")'.format(voice_id(target.speaker, paragraph)))
+                block.append('    {} "{}"'.format(who, esc(paragraph)))
+        self.translation_files[self.current].extend(block + [""])
 
     def emit_scene_reset(self, heading):
         self.emit("")
@@ -158,112 +123,30 @@ class Importer:
     # ---------- 主解析 ----------
 
     def parse(self):
-        start_marker = self.structure.get("start_marker", "")
-        started = not start_marker
-
-        with open(MD_PATH, encoding="utf-8") as f:
-            lines = f.read().splitlines()
-
-        para_buf = []
-
-        def flush_para():
-            if para_buf:
-                text = clean_text("".join(para_buf))
-                para_buf.clear()
-                if text:
-                    self.emit_say("narrator", text)
-
-        def emit_plain(stripped):
-            """普通文本：行内对白切分后逐段产出"""
-            pieces = split_inline_dialogue(clean_text(stripped))
-            for p in pieces:
-                if p[0] == "d":
-                    flush_para()
-                    self.emit_say(p[1], p[2])
-                elif p[1].strip():
-                    self.emit_say("narrator", p[1])
-
-        dlg_speaker = None
-        dlg_text = None
-
-        for raw in lines:
-            line = raw.rstrip()
-
-            ## ── start_marker 之前的内容（企划书/设定/链接）不进剧本 ──
-            if not started:
-                if line.startswith("# ") and start_marker in line:
-                    started = True
-                continue
-
-            ## ── 跨行对白缓冲中 ──
-            if dlg_speaker is not None:
-                dlg_text += line
-                if "」" in line:
-                    self.emit_say(dlg_speaker, dlg_text.split("」")[0])
-                    dlg_speaker = None
-                    dlg_text = None
-                continue
-
-            stripped = line.strip()
-
-            ## ── 空行 / H1 / 图片 / 分割线 / 列表项 / 纯链接行 ──
-            if (not stripped or stripped.startswith("# ")
-                    or stripped.startswith("![")
-                    or stripped.startswith("- ")
-                    or stripped == "---"
-                    or re.fullmatch(r"\[.*\]\(.*\)", stripped)):
-                continue
-
-            ## ── 标题（##/###）：章节归属 + 场景边界 ──
-            m = HEADING_RE.match(stripped)
-            if m:
-                flush_para()
-                heading = m.group(1).strip()
-                new_ch = self.match_chapter(heading)
-                if new_ch and new_ch in self.chapters:
-                    self.current = new_ch
-                self.emit_scene_reset(heading)
-                continue
-
-            ## ── 场景卡 CG-XXX/BG-XXX｜描述【旁白】正文… ──
-            m = SCENE_CARD_RE.match(stripped)
-            if m:
-                flush_para()
-                self.emit('$ scene_bg("{}")'.format(m.group(1)))
+        self.events = parse_markdown(
+            MD_PATH, self.chapter_order[0], self.structure["chapter_rules"],
+            self.structure.get("start_marker", ""))
+        japanese = []
+        for source in load_json("japanese.json")["sources"]:
+            rules = [{"match": "第一章", "chapter": "ch01"}] if source["chapter"] == "ch00" else []
+            japanese.extend(parse_markdown(
+                Path(STORY_DIR) / source["file"], source["chapter"], rules,
+                source.get("start_marker", ""), source.get("body_from_start", False)))
+        for chapter in self.chapter_order:
+            self.translations.update(align_chapter(self.events, japanese, chapter, self.speakers))
+        self.japanese_units = sum(len(v) for v in self.translations.values())
+        for event in self.events:
+            self.current = event.chapter
+            if event.kind == "say":
+                self.emit_say(event.speaker, event.text, event)
+            elif event.kind == "heading":
+                self.emit_scene_reset(event.text)
+            elif event.kind == "background":
+                self.emit('$ scene_bg("{}")'.format(event.text))
                 self.emit("with trans_dissolve")
-                rest = stripped[m.end():]
-                tail = rest[rest.find("【"):] if "【" in rest else ""
-                if tail.strip():
-                    emit_plain(tail)
-                continue
-
-            ## ── 音效标记 → 注释占位 ──
-            m = SFX_RE.match(stripped)
-            if m:
-                flush_para()
-                self.emit("## TODO 音效: {}".format(m.group(1)))
-                continue
-
-            ## ── 行首对白（支持跨行）──
-            m = DIALOGUE_RE.match(stripped)
-            if m and "：" not in m.group(1):
-                flush_para()
-                speaker = m.group(1).strip()
-                rest = m.group(2)
-                if "」" in rest:
-                    self.emit_say(speaker, rest.split("」")[0])
-                else:
-                    dlg_speaker, dlg_text = speaker, rest
-                continue
-
-            ## ── 普通文本（含行内对白切分）──
-            if "：「" in stripped:
-                flush_para()
-                emit_plain(stripped)
-            else:
-                para_buf.append(stripped)
-
-        flush_para()
+                self.shown.clear()
+            elif event.kind == "direction":
+                self.emit("## 演出: " + event.text)
 
     # ---------- 输出 ----------
 
@@ -331,16 +214,21 @@ class Importer:
                 out.append("    jump {}".format(nxt if nxt else "ending"))
             files["{}.rpy".format(ch)] = "\n".join(out) + "\n"
 
+        for chapter, body in self.translation_files.items():
+            files["tl/japanese/story_gen/{}.rpy".format(chapter)] = GENERATED_HEADER + "\n" + "\n".join(body)
+        choices = [GENERATED_HEADER, "translate japanese strings:"]
+        for branches in self.structure.get("branch_after", {}).values():
+            for branch in branches:
+                choices.extend(["", '    old "{}"'.format(esc(branch["text"])),
+                                '    new "{}"'.format(esc(branch["japanese"]))])
+        files["tl/japanese/story_gen/choices.rpy"] = "\n".join(choices) + "\n"
         return files
 
     def report(self):
         print("章节统计:")
         for ch in self.chapter_order:
             print("  {:<10} 语句 {:>5}".format(ch, len(self.chapters[ch])))
-        if self.unknown_speakers:
-            print("!! 未知说话人（已并入旁白）:")
-            for k, v in self.unknown_speakers.items():
-                print("   {}: {} 句".format(k, v))
+        print("日文映射: {} 个中文单元 -> {} 个日文段落".format(len(self.translations), self.japanese_units))
 
 
 def main():
@@ -357,12 +245,10 @@ def main():
         print("--check 模式: 未写盘")
         return 0
 
-    os.makedirs(GEN_DIR, exist_ok=True)
-    for old in os.listdir(GEN_DIR):
-        if old.endswith(".rpy"):
-            os.remove(os.path.join(GEN_DIR, old))
     for name, content in files.items():
-        with open(os.path.join(GEN_DIR, name), "w", encoding="utf-8") as f:
+        target = Path(ROOT) / "game" / name if name.startswith("tl/") else Path(GEN_DIR) / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        with target.open("w", encoding="utf-8") as f:
             f.write(content)
     print("已生成 {} 个文件 -> {}".format(len(files), os.path.relpath(GEN_DIR, ROOT)))
     return 0

@@ -10,7 +10,7 @@ label ending:
 
     scene black with trans_fade
 
-    narrator "《未抵达的心意》—— demo 到此结束。"
+    narrator "《未抵达的心意》—— 本篇到此结束。"
     narrator "感谢游玩。"
 
     ## return 后回到主菜单（从头开始/读档均可）

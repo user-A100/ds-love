@@ -40,12 +40,13 @@ from voices import VOICES, WHO_TO_VOICE, OVERRIDES  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STORY_GEN_DIR = os.path.join(ROOT, "game", "script", "story_gen")
+JAPANESE_GEN_DIR = os.path.join(ROOT, "game", "tl", "japanese", "story_gen")
 VOICE_DIR = os.path.join(ROOT, "game", "audio", "voice")
 SPEAKERS_JSON = os.path.join(ROOT, "story", "speakers.json")
 CACHE_JSON = os.path.join(ROOT, "tts", "cache.json")
 
-RE_HOOK = re.compile(r'^\s*\$ play_voice\("((?:[^"\\]|\\.)*)"\)\s*$')
-RE_SAY = re.compile(r'^\s*([a-zA-Z_]\w*) "((?:[^"\\]|\\.)*)"\s*$')
+RE_HOOK = re.compile(r'^\s*(?:\$ play_voice|voice voice_file)\("((?:[^"\\]|\\.)*)"\)\s*$')
+RE_SAY = re.compile(r'^\s*([a-zA-Z_]\w*) "((?:[^"\\]|\\.)*)"(?: id [A-Za-z0-9_]+)?\s*$')
 
 FFMPEG_ENC = {"ogg": ["-c:a", "libvorbis", "-q:a", "4"],
               "mp3": ["-c:a", "libmp3lame", "-q:a", "4"]}
@@ -64,15 +65,16 @@ def unescape(s):
         else:
             out.append(c)
             i += 1
-    return "".join(out)
+    return "".join(out).replace("%%", "%").replace("[[", "[")
 
 
-def parse_story_gen(errors):
+def parse_story_gen(errors, language="zh"):
     """返回 {v_id: (who, raw_text, relfile, lineno)}，并做完整性校验。"""
     lines_by_id = {}
-    files = sorted(glob.glob(os.path.join(STORY_GEN_DIR, "*.rpy")))
+    directory = JAPANESE_GEN_DIR if language == "jp" else STORY_GEN_DIR
+    files = sorted(glob.glob(os.path.join(directory, "*.rpy")))
     if not files:
-        errors.append("story_gen 目录为空: %s" % STORY_GEN_DIR)
+        errors.append("story_gen 目录为空: %s" % directory)
         return lines_by_id
 
     total_hooks = 0
@@ -246,6 +248,8 @@ def convert(wav, out_path, fmt, ffmpeg):
 def main():
     ap = argparse.ArgumentParser(description="whalegal TTS 批量合成")
     ap.add_argument("--engine", choices=sorted(ENGINES), help="覆盖所有音线的引擎")
+    ap.add_argument("--language", choices=["zh", "jp"], default="zh",
+                    help="zh=中文主剧本；jp=已导入的日文翻译。两种语言使用独立音频目录与缓存")
     ap.add_argument("--format", choices=["ogg", "mp3", "wav"], default="ogg")
     ap.add_argument("--only", help="行ID前缀或台词片段过滤")
     ap.add_argument("--chapter", help="文件名子串过滤，如 ch01")
@@ -258,8 +262,13 @@ def main():
     ap.add_argument("--sleep", type=float, default=0.05, help="引擎请求间隔秒")
     args = ap.parse_args()
 
+    global VOICE_DIR, CACHE_JSON
+    if args.language == "jp":
+        VOICE_DIR = os.path.join(ROOT, "game", "tl", "japanese", "audio", "voice")
+        CACHE_JSON = os.path.join(ROOT, "tts", "cache-jp.json")
+
     errors = []
-    lines = parse_story_gen(errors)
+    lines = parse_story_gen(errors, args.language)
     print("解析 story_gen: %d 条钩子台词" % len(lines))
     if errors:
         for e in errors:
@@ -291,7 +300,7 @@ def main():
         text = clean_text(raw, interp_warn)
         if text:
             work.append((vid, who, vkey, engine, cfg.get("params", {}),
-                         cfg.get("lang", "zh"), text, rel, pln))
+                         args.language, text, rel, pln))
     if unknown_who:
         errors.append("未知角色（请在 tts/voices.py 的 WHO_TO_VOICE 补映射）: %s"
                       % unknown_who)
@@ -369,7 +378,8 @@ def main():
 
     # 清理孤儿音频
     if args.prune:
-        valid = {vid for vid, *_ in work} if not args.check_only else set(lines)
+        # Keep voices used elsewhere in this language, even when --chapter/--only filters work.
+        valid = set(lines)
         removed = 0
         for p in glob.glob(os.path.join(VOICE_DIR, "*.ogg")) + \
                  glob.glob(os.path.join(VOICE_DIR, "*.mp3")) + \

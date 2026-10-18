@@ -50,3 +50,5 @@
 | 电影首映礼 | 映画のプレミア上映会 |
 
 本次从中文原稿第2655行接续到全文末尾，共7份续译文件，覆盖45个不同的场景编号。段落、说话人及编号顺序的核对记录见[translation-manifest.json](translation-manifest.json)。现有四份译稿保持不变。原稿尚未展开的Claude、GPT和Normal End，不在本次续译中新增。
+
+日文稿现已接入 Ren'Py 游戏，生成清单为 `story/japanese.json`。新玩家默认日文，设置中可切换简体中文。修改源稿后运行 `python tools/import_story.py`；详见[日文版接入说明](../../docs/japanese-integration.md)。

@@ -1,6 +1,6 @@
 ## ============================================================
 ## !! 本文件由 tools/import_story.py 生成 —— 请勿手改 !!
-## 源: story/chapters/未抵达的心意.md (+ story/*.json)
+## 源: story/chapters/未抵达的心意.md + story/japanese.json 指定的日文稿
 ## 重建: python3 tools/import_story.py
 ## ============================================================
 

@@ -1,0 +1,16 @@
+{
+  "_comment": "日文稿按显式顺序导入，避免把同章节的其他存档版本重复导入。chapter 是文件起始章节；首份稿件按标题进入 ch01。",
+  "sources": [
+    {"file": "ja/标题设定 + 序章 + 第一章（全3幕）.md", "chapter": "ch00", "start_marker": "本編シナリオ"},
+    {"file": "ja/第二章《重新开始》（全9个场景）.md", "chapter": "ch02"},
+    {"file": "ja/第三章《三个人的夏天》上半部分（第一幕～第七幕）.md", "chapter": "ch03"},
+    {"file": "ja/第三章《三个人的夏天》下半部分（第八幕：Claude 的告白 + 两段第三章尾声）.md", "chapter": "ch03", "body_from_start": true},
+    {"file": "ja/第四章《无法传达的爱恋》前篇（第一幕～第八幕）.md", "chapter": "ch04"},
+    {"file": "ja/第四章《无法传达的爱恋》后篇（场景4-09～4-14）.md", "chapter": "ch04"},
+    {"file": "ja/第五章《再一次，站在选择面前》前篇（场景5-01～5-07）.md", "chapter": "ch05"},
+    {"file": "ja/第五章终篇《无法回避的选择》（场景5-08～5-12）.md", "chapter": "ch05"},
+    {"file": "ja/第六章《选择的代价》（共同路线全5个场景）.md", "chapter": "ch06"},
+    {"file": "ja/DeepSeek真结局《最初的约定》前篇（DS-01～DS-06）.md", "chapter": "route_ds"},
+    {"file": "ja/DeepSeek真结局《最初的约定》终篇（DS-06续～DS-14）.md", "chapter": "route_ds"}
+  ]
+}

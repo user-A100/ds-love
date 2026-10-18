@@ -53,10 +53,19 @@ transform sprite_idle:
 
 init python:
 
+    def voice_file(vid):
+        """Native voice statement: missing files stay silent, never use another dub."""
+        prefix = "tl/japanese/" if _preferences.language == "japanese" else "<silence 0.01>"
+        path = prefix + "audio/voice/{}.ogg".format(vid)
+        return path if renpy.loadable(path) else "<silence 0.01>"
+
     def play_voice(vid):
-        path = "audio/voice/{}.ogg".format(vid)
-        if renpy.loadable(path):
+        # Compatibility for hand-authored scripts using the original hook.
+        path = voice_file(vid)
+        if path != "<silence 0.01>":
             renpy.music.play(path, channel="voice")
+        else:
+            renpy.music.stop(channel="voice")
 
     def scene_bg(scene_key):
         """按场景 key 切换背景；资产未就绪时回退黑场"""

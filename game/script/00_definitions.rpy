@@ -50,10 +50,12 @@ define narrator = Character(
 ## ------------------------------------------------------------
 
 define mystery = Character("？？？", color="#aaaaaa")       # 未揭露身份者
-define mother = Character("母亲", color="#cc9966")          # User 母亲 / Claude 母亲共用音线
-define teacher = Character("老师", color="#888866")         # 班主任 / 任课老师
-define classmate = Character("同学", color="#888888")       # 路人同学
-define librarian = Character("图书管理员", color="#888866")
+define mother = Character(_("母亲"), color="#cc9966")          # User 母亲 / Claude 母亲共用音线
+define teacher = Character(_("老师"), color="#888866")         # 班主任 / 任课老师
+define classmate = Character(_("同学"), color="#888888")       # 路人同学
+define librarian = Character(_("图书管理员"), color="#888866")
+
+define staff = Character(_("工作人员"), color="#888888")
 
 ## ------------------------------------------------------------
 ## 全局配置

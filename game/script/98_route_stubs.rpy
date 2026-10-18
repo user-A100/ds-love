@@ -14,3 +14,9 @@ label route_gp:
     scene black with trans_fade
     narrator "（GPT 线 · 剧本待补充）"
     return
+
+label route_normal:
+
+    scene black with trans_fade
+    narrator "（Normal End · 剧本待补充）"
+    return

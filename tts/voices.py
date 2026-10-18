@@ -45,6 +45,7 @@ WHO_TO_VOICE = {
     "teacher": "extra",
     "classmate": "extra",
     "librarian": "extra",
+    "staff": "extra",
 }
 
 ## 个别台词强制换音线（v_id → 音线 key），一般不用

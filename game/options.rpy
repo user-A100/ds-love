@@ -3,6 +3,7 @@
 ## ============================================================
 
 define config.name = _("未抵达的心意")
+define config.default_language = "japanese"
 define gui.show_name = True
 define gui.show_version = True
 define gui.about = _p("""
@@ -32,6 +33,8 @@ init python:
     build.classify("story/**", None)
     build.classify("tts/**", None)
     build.classify("tools/**", None)
+    build.classify("tests/**", None)
+    build.classify("game/tests/**", None)
     build.classify("server/**", None)
     build.classify("assets_src/**", None)
     build.classify("renpy-8.5.3-sdk/**", None)

@@ -13,13 +13,14 @@ define CHAPTERS = [
     ("ch00",      "序章 · 天台上的少女"),
     ("ch01",      "第一章 · 认错的人"),
     ("ch02",      "第二章 · 重新开始"),
-    ("ch03",      "第三章 · 文化祭"),
-    ("ch04",      "第四章 · 三年之后"),
-    ("ch05",      "第五章 · 重逢"),
-    ("ch06",      "第六章 · 最后的选择"),
-    ("route_ds",  "DeepSeek 线 · 未抵达的心意"),
+    ("ch03",      "第三章 · 三个人的夏天"),
+    ("ch04",      "第四章 · 无法传达的爱恋"),
+    ("ch05",      "第五章 · 再一次，站在选择面前"),
+    ("ch06",      "第六章 · 选择的代价"),
+    ("route_ds",  "DeepSeek 线 · 最初的约定"),
     ("route_cl",  "Claude 线（待剧本）"),
     ("route_gp",  "GPT 线（待剧本）"),
+    ("route_normal", "Normal End（待剧本）"),
 ]
 
 ## ------------------------------------------------------------
@@ -41,4 +42,4 @@ screen chapter_select():
             null height 10
 
             for _cid, _title in CHAPTERS:
-                textbutton _title action Start(_cid)
+                textbutton _(_title) action Start(_cid)
