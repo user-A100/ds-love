@@ -57,6 +57,3 @@ init python:
 
     build.documentation = "README.md"
 
-# Exclude development test scripts from published builds.
-init python:
-    build.classify("game/tests/**", None)
