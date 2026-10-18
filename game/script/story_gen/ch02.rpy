@@ -471,8 +471,8 @@ label ch02:
     narrator "书桌旁放着两个包装漂亮的小盒子。" id story_ch02_71bc43760227_1
     narrator "其中一个已经打开。" id story_ch02_3406819b2936_1
     narrator "里面是一块做工精致的蛋糕。" id story_ch02_63f3739c4691_1
+    scene art_act02_cg_c211_unsent with trans_dissolve
     narrator "Claude 坐在床边，盯着手机。" id story_ch02_6803b6be535c_1
-    show art_act01_claude_hs_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_2903b343018a")
     cl "……笨蛋。" id story_ch02_2903b343018a_1
     narrator "她把手机扔到一旁。" id story_ch02_9a555526be47_1
@@ -488,7 +488,6 @@ label ch02:
     cl "……" id story_ch02_d6bb00ebdcec_1
     voice voice_file("v_318c9df8a78e")
     cl "明明是你先告白的。" id story_ch02_318c9df8a78e_1
-    scene art_act02_cg_c211_unsent with trans_dissolve
     narrator "她轻轻抱住膝盖。" id story_ch02_70063fc2e127_1
     voice voice_file("v_cdf4eac545c7")
     cl "结果现在，反倒像是我一直在追着你跑一样。" id story_ch02_cdf4eac545c7_1

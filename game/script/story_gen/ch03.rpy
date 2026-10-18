@@ -344,7 +344,7 @@ label ch03:
     narrator "GPT 站在麦克风旁。" id story_ch03_556150e11bf1_1
     narrator "我抱着吉他。" id story_ch03_8df4f5a656e5_1
     narrator "DeepSeek 则站在舞台另一侧，紧张地攥着自己的衣角。" id story_ch03_472f838e4076_1
-    scene art_act03_cg04_cultural_festival with trans_dissolve
+    show art_act01_ds_hs_neutral_clean as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_0c11f05da2f2")
     ds "User……" id story_ch03_0c11f05da2f2_1
     voice voice_file("v_8517678f9232")
@@ -373,6 +373,7 @@ label ch03:
     narrator "Claude 的钢琴声率先响起。" id story_ch03_7b148a70839e_1
     narrator "紧接着，是我的吉他。" id story_ch03_c7f233ce19f5_1
     narrator "GPT 的歌声在礼堂里回荡。" id story_ch03_df4db3c8c166_1
+    scene art_act03_cg04_cultural_festival with trans_dissolve
     narrator "最后，DeepSeek 也加入了合唱。" id story_ch03_a11cec5bdf13_1
     narrator "我们演奏了三首歌曲。" id story_ch03_900187ae089a_1
     narrator "《WHITE ALBUM》。" id story_ch03_36cb25d4ea93_1

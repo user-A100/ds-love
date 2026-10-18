@@ -203,10 +203,10 @@ label ch05:
     narrator "她每天练习很长时间。" id story_ch05_1549fd761f2f_1
     narrator "有时候连饭都顾不上吃。" id story_ch05_0400e61968ca_1
     narrator "我去找她时，发现房间里到处堆着乐谱和演出资料。" id story_ch05_26b0f3a429ca_1
-    show art_act05_claude_win_worried as cl at sprite_pos_center with trans_dissolve
     narrator "厨房几乎没有使用过的痕迹。" id story_ch05_5af3133bf2e4_1
     voice voice_file("v_3993d9f14490")
     u "你今天吃饭了吗？" id story_ch05_3993d9f14490_1
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_8f33bff9097f")
     cl "吃了。" id story_ch05_8f33bff9097f_1
     voice voice_file("v_6b60102d3e4f")
@@ -998,6 +998,7 @@ label ch05:
     cl "每天都在练。" id story_ch05_d021a263c8c8_1
     voice voice_file("v_7c7fc19ffce0")
     cl "为什么偏偏现在……" id story_ch05_7c7fc19ffce0_1
+    show art_ds_route_claude_indoor_hurt as cl at sprite_pos_center with trans_dissolve
     narrator "她的声音开始颤抖。" id story_ch05_68c32f9ad8e7_1
     voice voice_file("v_37f91ecb60b9")
     cl "如果明天演出失败怎么办？" id story_ch05_37f91ecb60b9_1
@@ -1006,12 +1007,14 @@ label ch05:
     voice voice_file("v_77f896d4eb41")
     cl "如果我回欧洲以后，她又出了什么事……" id story_ch05_77f896d4eb41_1
     narrator "她终于抬起头。" id story_ch05_101db3854a94_1
+    show art_ds_route_claude_indoor_cry as cl at sprite_pos_center with trans_dissolve
     narrator "眼泪顺着脸颊落下。" id story_ch05_7329ca0f2949_1
     voice voice_file("v_dff63a7aed41")
     cl "我不知道该怎么办了。" id story_ch05_dff63a7aed41_1
     ## 演出: 旁白
     narrator "我第一次看见她如此无助。" id story_ch05_4fa58dca3de7_1
     narrator "那个曾经在文化祭上自信地坐在钢琴前的少女，如今连最熟悉的曲子都无法完整弹完。" id story_ch05_4880d9d8ff74_1
+    hide cl with trans_dissolve
     narrator "我走过去，轻轻抱住她。" id story_ch05_e7c720ee2705_1
     voice voice_file("v_8a7ae31768a2")
     u "没关系。" id story_ch05_8a7ae31768a2_1
@@ -1292,6 +1295,7 @@ label ch05:
     narrator "窗外的景色也几乎没有改变。" id story_ch05_120237db5835_1
     narrator "DeepSeek 兴奋地翻看以前的照片。" id story_ch05_c57e8bd920ec_1
     narrator "GPT 学姐站在窗边，安静地回忆着过去。" id story_ch05_e3c85efcc542_1
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     narrator "Claude 则走到钢琴前，轻轻按下几个琴键。" id story_ch05_f06c3c96184c_1
     narrator "熟悉的旋律响起。" id story_ch05_5822e877cd84_1
     narrator "《届かない恋》。" id story_ch05_62eaaa5379c9_2
@@ -1411,7 +1415,7 @@ label ch05:
     narrator "GPT 学姐正在整理乐谱。" id story_ch05_5a01a4d2d95c_1
     narrator "Claude 则独自站在钢琴旁。" id story_ch05_21d79fb76228_1
     narrator "我走过去，准备帮她把琴盖合上。" id story_ch05_f8a7508667f4_1
-    show art_act05_claude_win_neutral as cl at sprite_pos_center with trans_dissolve
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_7919dbafb866")
     cl "……User。" id story_ch05_7919dbafb866_2
     voice voice_file("v_7235f2204469")
