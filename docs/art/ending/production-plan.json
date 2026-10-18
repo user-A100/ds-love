@@ -1,0 +1,38 @@
+{
+  "scope": [
+    "DS-14B",
+    "DS-14A",
+    "DS-13B",
+    "DS-13A",
+    "DS-12",
+    "DS-11",
+    "DS-10"
+  ],
+  "order": "reverse_story",
+  "base_commit": "2841ceca620836abef135a628654d696d8dd5aad",
+  "status": "generating",
+  "jobs": [
+    {
+      "id": "bg01_refurbished_spring_day",
+      "label": "BG01｜终章天台·春日翻新栏杆",
+      "scene": "DS-14B",
+      "file": "backgrounds/bg01_refurbished_spring_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: stylized-concept. Production draft for visual novel 未抵达的心意. Closely match the supplied teammate art references: clean Japanese anime cel-shaded character line art, subtly painted background, natural clear upper-left lighting, stable anatomy, blue and warm neutral palette. No readable text, watermark, branding, speech bubbles, labels, grids or panels. Do NOT introduce story events, marriage, wedding ring, children, prizes, school logos or landmarks. EDIT the supplied school rooftop into its several-years-later SPRING DAY variant. Preserve EXACT SAME camera, layout, proportions and perspective: low internal concrete wall on left, stairwell door at rear-right, rectangular safe perimeter metal mesh fence around edges, the same concrete tile joints, distant low-rise city and hills. ONLY refresh metal fence paint to clean dark blue gray, modest maintenance of concrete, bright gentle spring sky and green treetops. Do not add fancy decorations, blossom trees rooted on roof, new buildings, people, open gate, falling petals baked in or any character. One wide landscape 16:9 full background, ideally1920x1080, low-detail clear foreground for sprites and lower24% dialogue overlay. This is a SAFE maintained school roof, railings continuous."
+    },
+    {
+      "id": "ds_mat_spring_neutral",
+      "label": "DeepSeek｜成熟春装·基础",
+      "scene": "DS-14B",
+      "file": "characters/deepseek/ds_mat_spring_neutral_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: stylized-concept. Production draft for visual novel 未抵达的心意. Closely match the supplied teammate art references: clean Japanese anime cel-shaded character line art, subtly painted background, natural clear upper-left lighting, stable anatomy, blue and warm neutral palette. No readable text, watermark, branding, speech bubbles, labels, grids or panels. Do NOT introduce story events, marriage, wedding ring, children, prizes, school logos or landmarks. DeepSeek is now an ADULT in her late twenties, same exact blue eyes, cobalt-to-cyan wavy long hair silhouette and curved ahoge, blue whale-fin ears with the identical small cyan bows on the same sides, and whale tail of the first character reference. Preserve face identity and line style while giving calm adult posture and restrained expression, not a child. MAT spring outfit: light ivory hip-length unbelted coat open over a pale blue simple blouse, muted navy-blue mid-calf A-line skirt, white socks and low navy loafers. Coherent ordinary spring civilian clothes, NO school uniform, apron, maid headband or fancy jewelry. ONE full-body neutral adult standing sprite, portrait1024x1536. Both hands lowered slightly away from torso, natural five-finger hands, soft composed attentive smile. Keep whole ahoge, hair, tail, fingers and shoes within frame with at least6% margin. Same full-body scale as reference. GENUINELY TRANSPARENT outside actual character silhouette, clean alpha edges without any blue aura, glow, haze, studio background or floor shadow. No other figures. This is the master for all mature spring costume differences."
+    }
+  ]
+}
