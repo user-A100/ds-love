@@ -1,3 +1,5 @@
+![未抵达的心意](docs/banner.png)
+
 # 未抵达的心意（ds-love）
 
 沙雕系 galgame，Ren'Py 8.5.3 开发，HTML5 发布，日语 TTS 配音。
