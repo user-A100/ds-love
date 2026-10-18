@@ -179,11 +179,11 @@ def synth_voicevox(text, params):
 def synth_sbv2(text, params):
     url = params.get("url", "http://127.0.0.1:5000").rstrip("/")
     p = {k: v for k, v in params.items() if k != "url"}
-    p.setdefault("model_id", 0)
-    p.setdefault("style", "Neutral")
+    if "language" not in p:
+        p["language"] = {"zh": "ZH", "jp": "JP", "en": "EN"}.get(
+            params.get("lang", "jp"), "JP")
+    p.pop("lang", None)
     p["text"] = text
-    p["language"] = {"zh": "ZH", "jp": "JP", "en": "EN"}.get(
-        p.pop("lang", "jp"), "JP")
     return _http(urllib.request.Request(
         "%s/voice?%s" % (url, urllib.parse.urlencode(p))))
 
