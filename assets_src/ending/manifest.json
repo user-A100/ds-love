@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-18T15:21:28+08:00",
+  "order": "reverse_story",
+  "status": "complete_planned_draft_pack",
+  "scope": [
+    "DS-14B",
+    "DS-14A",
+    "DS-13B",
+    "DS-13A",
+    "DS-12",
+    "DS-11",
+    "DS-10"
+  ],
+  "planned_assets": 6,
+  "pending_assets": [],
+  "assets": [
+    {
+      "id": "bg01_refurbished_spring_day",
+      "label": "BG01｜终章天台·春日翻新栏杆",
+      "scene": "DS-14B",
+      "path": "assets_src/ending/backgrounds/bg01_refurbished_spring_day_v001.png",
+      "prompt": "docs/art/ending/prompts/bg01_refurbished_spring_day.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2201696,
+      "sha256": "71193fb209842af315059cd0af9533f47560cdbccb52a4126917f53636f5ad8a",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_spring_neutral",
+      "label": "DeepSeek｜成熟春装·基础",
+      "scene": "DS-14B",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_spring_neutral.txt",
+      "references": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1860594,
+      "sha256": "09b9f015430e83bb4745fd4c93c74b2a7a21df84181cd66ea38add1cf4650c58",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg21_rooftop_tomorrow",
+      "label": "CG21｜天台上的少女与明天·牵手回眸",
+      "scene": "DS-14B",
+      "path": "assets_src/ending/cg/cg21_rooftop_tomorrow_v001.png",
+      "prompt": "docs/art/ending/prompts/cg21_rooftop_tomorrow.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg01_refurbished_spring_day_v001.png",
+        "assets_src/act01/cg/cg01_rooftop_collision_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2366133,
+      "sha256": "3999cfe48f1fd599269f8ce95bd1532ba1b3b3850074fff1018f5437b40b4cab",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_spring_tender",
+      "label": "DeepSeek｜成熟春装·温柔·手放心口",
+      "scene": "DS-14B",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_spring_tender_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_spring_tender.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1867085,
+      "sha256": "6ff919b4222722c4684942d868fc54e95a0b670499414d1f1c90d43088770aea",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_spring_happy",
+      "label": "DeepSeek｜成熟春装·开心",
+      "scene": "DS-14B",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_spring_happy_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_spring_happy.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1867524,
+      "sha256": "9177154afff12c12cf63c9e5fcf5c030f4f6e348d69d7148251982c52a4c3ee5",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_spring_pout",
+      "label": "DeepSeek｜成熟春装·鼓脸拌嘴",
+      "scene": "DS-14B",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_spring_pout_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_spring_pout.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1904487,
+      "sha256": "37c5a881a147916d0543b0d7f9b557bf8248a7aba943f60b6f87da1457433be9",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 6,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    }
+  ],
+  "notes": "Original PNG bytes preserved. Reference-based production drafts; not layered Live2D and not runtime integration."
+}

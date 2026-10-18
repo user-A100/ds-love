@@ -1,0 +1,23 @@
+{
+  "_comment": "场景卡映射：key 与剧本中的 CG-XXX/BG-XXX 一致；file 为 game/ 相对路径，未就绪→黑场回退。就近复用现有资产用注标注。",
+  "CG-001": {"file": "images/bg/cg001_rooftop_spring_day.png"},
+  "CG-002": null,
+  "CG-003": null,
+  "CG-004": null,
+  "CG-005": null,
+  "BG-002": {"file": "images/bg/bg_playground_evening.png", "_note": "学校操场（暂用傍晚操场图）"},
+  "BG-003": {"file": "images/bg/bg_library_day.png", "_note": "图书馆"},
+  "BG-004": {"file": "images/bg/bg_library_day.png", "_note": "学校图书馆（暂用图书馆图）"},
+  "BG-005": null,
+  "BG-006": null,
+  "BG-007": null,
+  "BG-008": null,
+  "BG-009": null,
+  "BG-010": null,
+  "BG-011": null,
+  "BG-018": null,
+  "BG-019": null,
+  "BG-020": null,
+  "BG-021": null,
+  "SCENE_LIBRARY": {"file": "images/bg/bg_library_day.png"}
+}

@@ -19,5 +19,13 @@ game/saves/
 # Web 打包产物（由 tools/build_web.sh 生成）
 /server/public/
 
+# TTS 离线流水线（合成中间态与本地引擎权重）
+/tts/cache.json
+/tts/engine/
+
 # 系统文件
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc

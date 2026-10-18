@@ -15,6 +15,9 @@ OUT="${ROOT}/server/public"
 export SDL_VIDEODRIVER="${SDL_VIDEODRIVER:-dummy}"
 export SDL_AUDIODRIVER="${SDL_AUDIODRIVER:-dummy}"
 
+echo "==> [0/3] 导入剧本 (story/*.md -> game/script/story_gen/)"
+python3 "${ROOT}/tools/import_story.py" | tail -3
+
 echo "==> [1/3] Lint 检查"
 "${SDK}/renpy.sh" "${ROOT}" lint --error-code >/dev/null
 

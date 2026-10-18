@@ -1,0 +1,88 @@
+{
+  "scope": [
+    "DS-14B",
+    "DS-14A",
+    "DS-13B",
+    "DS-13A",
+    "DS-12",
+    "DS-11",
+    "DS-10"
+  ],
+  "order": "reverse_story",
+  "base_commit": "2841ceca620836abef135a628654d696d8dd5aad",
+  "status": "generating",
+  "jobs": [
+    {
+      "id": "bg01_refurbished_spring_day",
+      "label": "BG01｜终章天台·春日翻新栏杆",
+      "scene": "DS-14B",
+      "file": "backgrounds/bg01_refurbished_spring_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: stylized-concept. Production draft for visual novel 未抵达的心意. Closely match the supplied teammate art references: clean Japanese anime cel-shaded character line art, subtly painted background, natural clear upper-left lighting, stable anatomy, blue and warm neutral palette. No readable text, watermark, branding, speech bubbles, labels, grids or panels. Do NOT introduce story events, marriage, wedding ring, children, prizes, school logos or landmarks. EDIT the supplied school rooftop into its several-years-later SPRING DAY variant. Preserve EXACT SAME camera, layout, proportions and perspective: low internal concrete wall on left, stairwell door at rear-right, rectangular safe perimeter metal mesh fence around edges, the same concrete tile joints, distant low-rise city and hills. ONLY refresh metal fence paint to clean dark blue gray, modest maintenance of concrete, bright gentle spring sky and green treetops. Do not add fancy decorations, blossom trees rooted on roof, new buildings, people, open gate, falling petals baked in or any character. One wide landscape 16:9 full background, ideally1920x1080, low-detail clear foreground for sprites and lower24% dialogue overlay. This is a SAFE maintained school roof, railings continuous."
+    },
+    {
+      "id": "ds_mat_spring_neutral",
+      "label": "DeepSeek｜成熟春装·基础",
+      "scene": "DS-14B",
+      "file": "characters/deepseek/ds_mat_spring_neutral_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: stylized-concept. Production draft for visual novel 未抵达的心意. Closely match the supplied teammate art references: clean Japanese anime cel-shaded character line art, subtly painted background, natural clear upper-left lighting, stable anatomy, blue and warm neutral palette. No readable text, watermark, branding, speech bubbles, labels, grids or panels. Do NOT introduce story events, marriage, wedding ring, children, prizes, school logos or landmarks. DeepSeek is now an ADULT in her late twenties, same exact blue eyes, cobalt-to-cyan wavy long hair silhouette and curved ahoge, blue whale-fin ears with the identical small cyan bows on the same sides, and whale tail of the first character reference. Preserve face identity and line style while giving calm adult posture and restrained expression, not a child. MAT spring outfit: light ivory hip-length unbelted coat open over a pale blue simple blouse, muted navy-blue mid-calf A-line skirt, white socks and low navy loafers. Coherent ordinary spring civilian clothes, NO school uniform, apron, maid headband or fancy jewelry. ONE full-body neutral adult standing sprite, portrait1024x1536. Both hands lowered slightly away from torso, natural five-finger hands, soft composed attentive smile. Keep whole ahoge, hair, tail, fingers and shoes within frame with at least6% margin. Same full-body scale as reference. GENUINELY TRANSPARENT outside actual character silhouette, clean alpha edges without any blue aura, glow, haze, studio background or floor shadow. No other figures. This is the master for all mature spring costume differences."
+    },
+    {
+      "id": "cg21_rooftop_tomorrow",
+      "label": "CG21｜天台上的少女与明天·牵手回眸",
+      "scene": "DS-14B",
+      "file": "cg/cg21_rooftop_tomorrow_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg01_refurbished_spring_day_v001.png",
+        "assets_src/act01/cg/cg01_rooftop_collision_v001.png"
+      ],
+      "prompt": "Visual novel production draft, same clean anime character drawing and painted environment as supplied teammate references. Same adult DeepSeek identity, blue eyes, cobalt-to-cyan wavy long hair, ahoge, whale-fin ears with cyan bows, whale tail. Exact light ivory open hip-length coat, pale blue blouse, muted navy midi skirt, white socks and low navy loafers as mature spring master. No uniform, apron or maid headband. Natural upper-left spring daylight. No watermark, text, label, UI, border, panels, ring, marriage or child. Draw the FINAL ENDING scene DS-14B, several years after adulthood reunion. ONE cinematic landscape16:9 event CG ideally1920x1080. Reference1 locks exact mature character and outfit. Reference2 locks rooftop structure: interior low concrete wall left, continuous safety mesh fence, stairwell building and door rear-right. Reference3 is ONLY teammate anime rendering style and first-person-protagonist handling; do NOT repeat its seated/fallen pose or school uniform. Scene: from first-person standing protagonist viewpoint, mature DeepSeek has gently taken the viewer's hand and is walking safely across the rooftop floor toward rear-right stairwell door. She turns her upper body and head back toward viewer with tender bright relaxed smile and affectionate eye contact. One of her hands visibly and naturally holds ONE protagonist hand entering lower foreground, hand contact readable ABOVE bottom24% dialogue area. Her other arm relaxed or gently extended for balance, five natural fingers when visible. Two people only; protagonist shown ONLY as hand and a short plain civilian sleeve, absolutely no face/hair/whole body. Medium-wide three-quarter or almost full-body framing for her, not a tiny figure, face clearly visible. Show ordinary maintained roof and fresh fence paint matching reference2. Soft breeze, serene ordinary promise of seeing each other tomorrow. No leaving for a journey, no luggage, no kiss or wedding cue, no unsafe fence climbing, no additional character, no camera recrossing axis. This is the last image of the story."
+    },
+    {
+      "id": "ds_mat_spring_tender",
+      "label": "DeepSeek｜成熟春装·温柔·手放心口",
+      "scene": "DS-14B",
+      "file": "characters/deepseek/ds_mat_spring_tender_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "Visual novel production draft, same clean anime character drawing and painted environment as supplied teammate references. Same adult DeepSeek identity, blue eyes, cobalt-to-cyan wavy long hair, ahoge, whale-fin ears with cyan bows, whale tail. Exact light ivory open hip-length coat, pale blue blouse, muted navy midi skirt, white socks and low navy loafers as mature spring master. No uniform, apron or maid headband. Natural upper-left spring daylight. No watermark, text, label, UI, border, panels, ring, marriage or child. EDIT attached mature spring sprite, keep face identity, hairstyle, outfit, tail, complete canvas1024x1536 and body scale EXACT. Tender affectionate gaze and very soft blush, small sincere smile. One hand rests gently on upper chest below collarbone over pale blue blouse, fingers naturally together; other hand relaxed low. Five anatomically correct fingers, coherent sleeve cuff. Full silhouette, head, ahoge, shoes and tail remain inside frame with transparent margins, same baseline. Genuine transparent background with no haze or glow, no extra objects."
+    },
+    {
+      "id": "ds_mat_spring_happy",
+      "label": "DeepSeek｜成熟春装·开心",
+      "scene": "DS-14B",
+      "file": "characters/deepseek/ds_mat_spring_happy_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "Visual novel production draft, same clean anime character drawing and painted environment as supplied teammate references. Same adult DeepSeek identity, blue eyes, cobalt-to-cyan wavy long hair, ahoge, whale-fin ears with cyan bows, whale tail. Exact light ivory open hip-length coat, pale blue blouse, muted navy midi skirt, white socks and low navy loafers as mature spring master. No uniform, apron or maid headband. Natural upper-left spring daylight. No watermark, text, label, UI, border, panels, ring, marriage or child. EDIT attached existing mature spring sprite: ONLY change facial expression to bright relaxed happy smile with blue eyes open, gently parted smiling mouth, subtle warm cheeks. Preserve EXACT head angle, body pose, arms, hands, costume, hair silhouette, tail and every accessory, canvas1024x1536 and original baseline and size. Single full-body figure, genuine transparent alpha, no background haze or glow, no props."
+    },
+    {
+      "id": "ds_mat_spring_pout",
+      "label": "DeepSeek｜成熟春装·鼓脸拌嘴",
+      "scene": "DS-14B",
+      "file": "characters/deepseek/ds_mat_spring_pout_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "Visual novel production draft, same clean anime character drawing and painted environment as supplied teammate references. Same adult DeepSeek identity, blue eyes, cobalt-to-cyan wavy long hair, ahoge, whale-fin ears with cyan bows, whale tail. Exact light ivory open hip-length coat, pale blue blouse, muted navy midi skirt, white socks and low navy loafers as mature spring master. No uniform, apron or maid headband. Natural upper-left spring daylight. No watermark, text, label, UI, border, panels, ring, marriage or child. EDIT attached mature spring sprite with slightly puffed cheeks and playful mildly reproachful expression, adult affectionate banter, not crying or true anger. One hand rests lightly at her waist with relaxed fingers, other arm lowered; preserve outfit, facial identity, hair and tail, full-body proportions and canvas1024x1536, complete shoes and hair visible with transparent margins. Five correct fingers. Genuine transparent alpha with no studio halo or floor shadow."
+    }
+  ],
+  "current_scene": "DS-14B",
+  "completed_scenes": [
+    "DS-14B"
+  ]
+}
