@@ -45,6 +45,12 @@ init python:
     ## 空目录占位文件不进包
     build.classify("game/**/.keep", None)
 
+    ## 瘦身：源码/缓存/文档不进分发包（game.zip 需低于 CF 25MiB 限制）
+    build.include_source = False
+    build.classify("game/cache/**", None)
+    build.classify("**.md", None)
+    build.classify("story/**", None)
+
     ## Android/iOS 暂不支持
     build.include_android = False
     build.include_ios = False
