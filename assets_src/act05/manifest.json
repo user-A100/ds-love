@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T08:08:17.837Z",
+  "updated_at": "2026-10-18T08:14:23.827Z",
   "status": "generating",
   "plan_is_final": false,
   "scope": "C5-01–C5-12E",
-  "planned_assets": 15,
+  "planned_assets": 19,
   "pending_assets": [],
   "assets": [
     {
@@ -350,6 +350,98 @@
       "edge_alpha_max": 255,
       "bytes": 2147423,
       "sha256": "a42f71f8535d57da11b0f16c7b9842e9f09d8bb26bc1297f6e9f4ade5690cdec",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_win_blush",
+      "file": "characters/claude/claude_win_blush_v001.png",
+      "label": "Claude｜成年冬装·嘴硬脸红",
+      "scene": "C5-01/08",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "docs/art/act05/prompts/claude_win_blush.txt",
+      "path": "assets_src/act05/characters/claude/claude_win_blush_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 0,
+      "bytes": 1988732,
+      "sha256": "8b18a8073dbb71481464d6fd4097476bf1baa8de08878bdf2a382318c959e596",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_win_worried",
+      "file": "characters/claude/claude_win_worried_v001.png",
+      "label": "Claude｜成年冬装·担忧含泪",
+      "scene": "C5-08/12B",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "docs/art/act05/prompts/claude_win_worried.txt",
+      "path": "assets_src/act05/characters/claude/claude_win_worried_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 0,
+      "bytes": 1990437,
+      "sha256": "bdf2c11e40941d41fa0692fe3b801cf9fef587a8db2a302dc902db36714df9fa",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_indoor_neutral",
+      "file": "characters/claude/claude_indoor_neutral_v001.png",
+      "label": "Claude｜成年排练便服·专注",
+      "scene": "C5-02/03/09",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "docs/art/act05/prompts/claude_indoor_neutral.txt",
+      "path": "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 0,
+      "bytes": 1846431,
+      "sha256": "6e6e1d7f146700368518a827d49dc904adf8bc18961378b00acd7da8ea245fd9",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_indoor_firm_tear",
+      "file": "characters/deepseek/ds_indoor_firm_tear_v001.png",
+      "label": "DeepSeek｜大学室内·含泪坚定",
+      "scene": "C5-10",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "docs/art/act05/prompts/ds_indoor_firm_tear.txt",
+      "path": "assets_src/act05/characters/deepseek/ds_indoor_firm_tear_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 5,
+      "bytes": 2148574,
+      "sha256": "e1407e32ae6663c78355350f151ca2e224384b76e8b2b96e015e9b5d3c18096e",
       "tool": "built-in imagegen",
       "status": "generated_draft"
     }
