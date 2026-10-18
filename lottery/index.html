@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>未抵达的心意 · 幸运抽签</title>
+<link rel="stylesheet" href="style.css">
+<body>
+<header><a href="#">未抵达的心意<span>校园特别活动</span></a><button id="fullscreen" class="quiet">全屏展示</button></header>
+<main>
+  <section class="stage" aria-labelledby="title">
+    <div class="intro"><span class="eyebrow">一百份心意，等一个幸运的你</span><h1 id="title">今天的幸运，<br>会是几号呢？</h1><p>从 1–100 中抽出一张，<br>每个编号，只相遇一次。</p></div>
+    <img class="character" src="assets/deepseek-happy.png" alt="微笑的 DeepSeek">
+    <div class="draw-panel">
+      <div class="ticket" id="ticket"><span id="ticket-label">你的幸运号码</span><strong id="number">?</strong><span id="ticket-foot">轻轻一点，让心意抵达</span></div>
+      <button id="draw" class="primary">抽一张幸运签 <span>✧</span></button>
+      <p id="message" role="status" aria-live="polite">奖池已准备好，第一份幸运等你揭晓。</p>
+    </div>
+  </section>
+  <aside class="pool-panel">
+    <div class="pool-heading"><div><span class="eyebrow">幸运签池</span><h2>还有 <b id="remaining">100</b> 张心意</h2></div><span class="total">共 100 张</span></div>
+    <progress id="progress" max="100" value="100" aria-label="奖池剩余数量"></progress>
+    <div class="legend"><span>空心 · 待抽取</span><span>蓝色 · 已抽出</span></div>
+    <div id="grid" class="grid" aria-label="1 到 100 号奖池"></div>
+    <div class="history-heading"><h3>相遇记录 <span id="count">0</span></h3><button class="quiet" id="export" disabled>导出记录</button></div>
+    <ol id="history"><li class="empty">还没有抽签记录，幸运即将登场。</li></ol>
+    <footer><span id="save-state">进度自动保存在当前浏览器</span><button class="quiet" id="reset">重置奖池</button></footer>
+  </aside>
+</main>
+<dialog id="confirm"><h2>开始新一轮抽签？</h2><p>本轮记录将清空，100 张签全部放回奖池。<br>需要留存时，请先导出记录。</p><div><button id="cancel" class="quiet">继续本轮</button><button id="confirm-reset" class="primary">确认重置</button></div></dialog>
+<script src="app.js"></script>
+</body></html>
+

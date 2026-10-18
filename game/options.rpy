@@ -36,6 +36,7 @@ init python:
     build.classify("tests/**", None)
     build.classify("game/tests/**", None)
     build.classify("server/**", None)
+    build.classify("lottery/**", None)
     build.classify("assets_src/**", None)
     build.classify("renpy-8.5.3-sdk/**", None)
     build.classify("renpy-*.tar.bz2", None)

@@ -87,3 +87,7 @@ whalegal/
 模型候选：VOICEVOX（免费、HTTP API、沙雕感强）或 Style-Bert-VITS2
 （本地部署、可调情感）。ogg 在 Safari 不走 webaudio，如需兼容
 配置 `config.webaudio_required_types = ["audio/mpeg"]` 并改用 mp3。
+
+## 活动抽奖程序
+
+抽奖程序位于 [`lottery/`](lottery/README.md)，与游戏源码放在同一个仓库。下载仓库并解压后，双击 `lottery/index.html` 即可使用，无需安装 Ren’Py。

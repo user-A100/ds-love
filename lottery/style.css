@@ -1,0 +1,70 @@
+@font-face{font-family:"WhalePoster";src:local("STXingkai"),local("华文行楷");font-display:swap}
+:root{color-scheme:light;--ink:#213d65;--blue:#397dc5;--muted:#70829a;--line:#cedff0;--paper:#f7fbff;--gold:#cba66c}*{box-sizing:border-box}body{margin:0;color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:linear-gradient(110deg,#e5f3ffdf,#edf6ffbd),url('assets/campus.png') center/cover fixed;min-height:100vh}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:disabled{cursor:default;opacity:.5}button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}header{max-width:1480px;margin:auto;padding:28px 42px;display:flex;justify-content:space-between;align-items:center}header a{font-family:"STKaiti","KaiTi",serif;font-size:25px;font-weight:bold;text-decoration:none;color:var(--ink);letter-spacing:3px}header a span{display:block;font:10px "Microsoft YaHei",sans-serif;letter-spacing:5px;margin-top:8px;color:var(--muted)}.quiet{border:0;background:none;color:var(--muted);font-size:12px;padding:8px}.quiet:hover{color:var(--blue)}main{max-width:1480px;margin:0 auto;padding:12px 42px 32px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(360px,1fr);gap:28px}.stage{position:relative;min-height:710px;border-radius:10px;overflow:hidden;background:linear-gradient(180deg,#e6f4ff45,#b6dbf2a6),url('assets/campus.png') center/cover;border:1px solid #ffffff;box-shadow:0 16px 60px #265b8e15}.intro{position:relative;z-index:2;padding:34px}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--blue)}h1{font:40px/1.5 "STKaiti","KaiTi",serif;margin:15px 0;color:#234b79;letter-spacing:3px}.intro p{font-size:13px;line-height:1.9;color:#486b8f}.character{position:absolute;height:94%;right:-75px;bottom:-30px;filter:drop-shadow(0 8px 16px #34517b20);pointer-events:none}.draw-panel{position:absolute;z-index:3;bottom:30px;left:34px;width:265px;text-align:center}.ticket{position:relative;background:linear-gradient(135deg,#fff,#edf7ff);border:1px solid #fff;outline:1px solid #90b8d8;outline-offset:-9px;box-shadow:0 12px 40px #274b7833;padding:25px 15px 22px;border-radius:5px;transform:rotate(-3deg);margin:0 12px 22px}.ticket:before,.ticket:after{content:'✦';position:absolute;color:var(--gold);top:15px;font-size:12px}.ticket:before{left:17px}.ticket:after{right:17px}.ticket span{display:block;font-size:11px;letter-spacing:2px;color:var(--muted)}.ticket strong{display:block;font:100px/1.25 Georgia,serif;color:var(--blue);font-variant-numeric:tabular-nums}.ticket span:last-child{font-size:10px;letter-spacing:1px}.primary{border:1px solid #69a2dc;border-radius:5px;background:var(--blue);color:white;padding:15px 20px;box-shadow:0 5px 18px #397dc52a;font-size:15px;letter-spacing:2px}.draw-panel .primary{width:100%}.primary:hover:enabled{background:#296bb1}.primary span{margin-left:15px;color:#e9d3a4}.draw-panel p{font-size:11px;line-height:1.8;background:#f4faffdf;border-radius:4px;padding:8px 4px;color:#486b8f}.pool-panel{padding:28px;background:#fafdfff0;border:1px solid white;border-radius:10px;box-shadow:0 12px 40px #265b8e0c}.pool-heading{display:flex;justify-content:space-between;align-items:center}h2{font-size:22px;font-weight:500;margin:9px 0 17px}h2 b{font:32px Georgia,serif;color:var(--blue)}.total{font-size:11px;color:var(--muted)}progress{display:block;appearance:none;width:100%;height:4px;border:0;background:#e2ecf6;border-radius:5px}progress::-webkit-progress-bar{background:#e2ecf6}progress::-webkit-progress-value{background:#78acd9}progress::-moz-progress-bar{background:#78acd9}.legend{display:flex;justify-content:space-between;margin:17px 0;font-size:10px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(10,1fr);gap:6px}.cell{aspect-ratio:1;border:1px solid var(--line);display:grid;place-items:center;border-radius:4px;color:#6381a1;font:12px Georgia,serif;background:#fff}.cell.drawn{color:#fff;background:#75a4d3;border-color:#75a4d3}.cell.latest{background:var(--ink);border-color:var(--ink);box-shadow:0 0 0 2px #d4e5f7}.history-heading{display:flex;justify-content:space-between;align-items:center;margin-top:24px;border-top:1px solid var(--line);padding-top:12px}h3{font-size:13px;font-weight:500}h3 span{font:12px Georgia,serif;color:var(--muted);margin-left:8px}ol{list-style:none;margin:0;padding:0;height:126px;overflow-y:auto}ol li{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e8eff6;padding:9px 2px;font-size:11px;color:var(--muted)}ol b{font:18px Georgia,serif;color:var(--blue);margin:0 8px}.empty{justify-content:center;padding:32px 0;border:0}footer{display:flex;justify-content:space-between;align-items:center;margin-top:16px;gap:8px}footer span{font-size:10px;color:var(--muted)}dialog{border:1px solid var(--line);border-radius:10px;padding:28px;color:var(--ink);max-width:90vw;background:var(--paper)}dialog::backdrop{background:#203b6470;backdrop-filter:blur(4px)}dialog p{font-size:13px;line-height:1.9;color:var(--muted)}dialog>div{display:flex;justify-content:flex-end;gap:16px;margin-top:24px}.revealed{animation:reveal .5s ease-out}@keyframes reveal{from{transform:rotate(-3deg) translateY(-16px);opacity:.4}to{transform:rotate(-3deg);opacity:1}}@media(min-width:1400px){.stage{min-height:770px}.character{right:-30px}.draw-panel{bottom:45px}}@media(max-width:1000px){header{padding:24px}main{padding:0 24px 24px;gap:18px;grid-template-columns:1fr 1fr}.pool-panel{padding:20px}.grid{gap:4px}.stage{min-height:690px}.intro{padding:24px}h1{font-size:32px}.character{right:-140px;opacity:.9}.draw-panel{left:20px;width:235px}}@media(max-width:740px){main{display:block;padding:0 16px 20px}header{padding:22px 18px}header a{font-size:21px}.stage{min-height:620px;margin-bottom:18px}.character{height:85%;right:-50px}.intro{padding:26px}.draw-panel{bottom:18px;left:24px;width:220px}.ticket strong{font-size:82px}.pool-panel{padding:24px}.cell{font-size:13px}.grid{gap:6px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+
+/* 手写海报标题：优先使用本机华文行楷。 */
+header a{font-family:"WhalePoster","STXingkai","华文行楷","STKaiti","KaiTi",cursive;font-size:32px;font-weight:400;letter-spacing:4px;line-height:1.2;display:inline-block;transform:rotate(-3deg);text-shadow:0 2px 0 #ffffffb3}
+header a span{transform:rotate(3deg);font-size:10px;letter-spacing:5px;margin-top:10px}
+@media(max-width:740px){header a{font-size:28px}}
+
+.ticket.drawing{animation:ticket-shuffle .28s ease-in-out infinite}
+.ticket.drawing strong{color:var(--ink)}
+.ticket.revealed{animation:lucky-reveal .65s cubic-bezier(.2,.8,.3,1) both}
+.cell.latest{animation:lucky-cell .8s ease-out}
+@keyframes ticket-shuffle{
+  0%,100%{transform:rotate(-4deg) translateY(0)}
+  50%{transform:rotate(-1deg) translateY(-6px)}
+}
+@keyframes lucky-reveal{
+  0%{transform:rotate(-3deg) scale(.92);box-shadow:0 0 0 0 #cba66c80}
+  45%{transform:rotate(0deg) scale(1.06);box-shadow:0 0 0 18px #cba66c00}
+  100%{transform:rotate(-3deg) scale(1);box-shadow:0 12px 40px #274b7833}
+}
+@keyframes lucky-cell{from{box-shadow:0 0 0 9px #cba66c88}to{box-shadow:0 0 0 2px #d4e5f7}}
+
+/* 独立横屏展示：主舞台与签池共享可用屏高，只有相遇记录内部滚动。 */
+body{background:linear-gradient(110deg,#e5f3ffdf,#edf6ffbd),url('assets/rooftop.png') center/cover fixed}
+.stage{background:linear-gradient(90deg,#f0f8ffdc 0%,#e6f4ff38 55%,#b6dbf226),url('assets/rooftop.png') center/cover}
+@media(min-width:900px) and (min-height:540px){
+  body{height:100vh;height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+  header{width:100%;max-width:none;flex:0 0 auto;padding:20px 32px}
+  main{width:100%;max-width:none;flex:1;min-height:0;margin:0;padding:8px 32px 24px;gap:24px;grid-template-columns:minmax(0,1.6fr) minmax(350px,1fr)}
+  .stage{height:100%;min-height:0;margin:0}
+  .intro{padding:clamp(22px,3vw,48px)}
+  h1{font-size:clamp(30px,3.2vw,60px);line-height:1.4;margin:12px 0}
+  .intro p{font-size:clamp(12px,1vw,18px)}
+  .character{height:98%;max-width:68%;object-fit:contain;object-position:bottom;right:-2%;bottom:-3%;opacity:1}
+  .draw-panel{left:clamp(22px,3vw,48px);bottom:20px;width:clamp(220px,22vw,350px)}
+  .ticket{padding:20px 15px;margin-bottom:20px}
+  .ticket strong{font-size:clamp(82px,9vw,152px);line-height:1.15}
+  .ticket span{font-size:13px}
+  .draw-panel .primary{font-size:clamp(15px,1.2vw,22px)}
+  .draw-panel p{margin-bottom:0;font-size:12px}
+  .pool-panel{height:100%;min-height:0;padding:clamp(18px,2vw,32px);display:flex;flex-direction:column}
+  .pool-heading,.legend,.history-heading,footer,progress{flex-shrink:0}
+  h2{font-size:clamp(20px,1.6vw,30px);margin:6px 0 12px}
+  h2 b{font-size:clamp(28px,2.4vw,42px)}
+  .legend{margin:12px 0}
+  .grid{flex:0 1 auto;min-height:0;height:min(44vh,32vw);grid-template-rows:repeat(10,minmax(0,1fr));gap:5px}
+  .cell{aspect-ratio:auto;min-height:0;font-size:clamp(12px,1.1vw,20px)}
+  .history-heading{margin-top:16px;padding-top:4px}
+  ol{flex:1;min-height:36px;height:auto;overscroll-behavior:contain}
+  ol li{font-size:12px}
+  footer{margin-top:10px}
+}
+@media(min-width:900px) and (min-height:540px) and (max-height:800px){
+  header{padding:14px 24px}
+  header a{font-size:28px}
+  main{padding:4px 24px 16px;gap:18px}
+  .intro{padding:22px 28px}
+  h1{font-size:34px;margin:8px 0}
+  .intro p{margin:6px 0}
+  .draw-panel{left:28px;bottom:16px;width:240px}
+  .ticket{padding:18px 12px;margin-bottom:16px}
+  .ticket strong{font-size:86px}
+  .primary{padding:12px 16px}
+  .pool-panel{padding:18px 22px}
+  .history-heading{margin-top:10px}
+  .history-heading h3{margin:8px 0}
+  .grid{height:min(42vh,30vw);gap:4px}
+}
+
