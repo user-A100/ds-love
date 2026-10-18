@@ -1,10 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T07:59:43.046Z",
-  "status": "complete_planned_draft_pack",
+  "updated_at": "2026-10-18T08:03:11.508Z",
+  "status": "generating",
   "scope": "C6-01–C6-06 only",
-  "planned_assets": 7,
-  "pending_assets": [],
+  "planned_assets": 10,
+  "pending_assets": [
+    "ds_win_determined",
+    "claude_win_invitation",
+    "gpt_work_determined"
+  ],
   "assets": [
     {
       "id": "ds_win_earnest",
