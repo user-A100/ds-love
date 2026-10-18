@@ -21,6 +21,8 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
+import struct
 import sys
 
 from story_text import parse_markdown, align_chapter
@@ -59,6 +61,16 @@ def esc(text):
 def voice_id(speaker, text):
     h = hashlib.md5((speaker + "\x00" + text.strip()).encode("utf-8")).hexdigest()
     return "v_" + h[:12]
+
+
+def png_size(path):
+    """读 PNG IHDR 宽高（stdlib，无 PIL 依赖）"""
+    with open(path, "rb") as f:
+        head = f.read(24)
+    if head[:8] != b"\x89PNG\r\n\x1a\n":
+        return None
+    w, h = struct.unpack(">II", head[16:24])
+    return w, h
 
 
 class Importer:
@@ -176,7 +188,13 @@ class Importer:
             exists = bool(conf.get("file")) and os.path.exists(
                 os.path.join(ROOT, "game", conf["file"]))
             if exists:
-                image_lines.append('image {} = "{}"'.format(key, conf["file"]))
+                size = png_size(os.path.join(ROOT, "game", conf["file"]))
+                if size:
+                    zoom = round(self.sprites.get("_target_height", 700) / size[1], 4)
+                    image_lines.append('image {} = Transform("{}", zoom={})'.format(
+                        key, conf["file"], zoom))
+                else:
+                    image_lines.append('image {} = "{}"'.format(key, conf["file"]))
             else:
                 image_lines.append('image {} = Placeholder("girl")'.format(key))
 
