@@ -38,10 +38,48 @@ class ArtDirectionTests(unittest.TestCase):
                 self.assertIn('ds', director.shown)
 
     def test_phone_messages_never_show_remote_characters(self):
-        remote = ['C4-10', 'C4-13', 'C4-14', 'C5-04', 'C5-07A', 'C5-07B', 'C5-07C', 'DS-01']
+        remote = ['C2-10', 'C4-10', 'C4-13', 'C4-14', 'C5-04', 'C5-07A', 'C5-07B', 'C5-07C', 'DS-01']
         for scene in self.data['scenes']:
             if scene['id'] in remote:
                 self.assertFalse(scene['characters'], scene['id'])
+
+    def test_performance_cg_waits_until_everyone_is_performing(self):
+        script = self.importer.render()['ch03.rpy']
+        start = script.index('## 美术分景 C3-06')
+        end = script.index('## 美术分景 C3-07', start)
+        scene = script[start:end]
+        cg = scene.index('scene art_act03_cg04_cultural_festival')
+        self.assertLess(scene.index('我有点紧张。'), cg)
+        self.assertLess(scene.index('灯光亮起。'), cg)
+        self.assertLess(cg, scene.index('最后，DeepSeek 也加入了合唱。'))
+
+    def test_bedroom_uses_seated_home_cg_without_uniform_sprite(self):
+        script = self.importer.render()['ch02.rpy']
+        scene = script[script.index('## 美术分景 C2-11'):]
+        self.assertNotIn('show art_act01_claude_hs_neutral', scene)
+        self.assertLess(scene.index('scene art_act02_cg_c211_unsent'),
+                        scene.index('Claude 坐在床边，盯着手机。'))
+
+    def test_departed_characters_stay_hidden_until_the_next_scene(self):
+        director = ArtDirector(ROOT, self.importer.events, lambda line: None)
+        retired = None
+        speaker_ids = {'DeepSeek': 'ds', 'Claude': 'cl', 'GPT': 'gp'}
+        checked = set()
+        for event in self.importer.events:
+            if event.chapter != 'route_ds' or event.kind != 'say':
+                continue
+            if any(cue is entry for entry, cue in director.cues.get(event, [])):
+                retired = None
+            director.before(event, speaker_ids.get(event.speaker, 'u'))
+            if event.text == '门关上的瞬间，音乐教室里重新响起钢琴声。':
+                retired = 'cl'
+            elif event.text == '我走出咖啡馆。':
+                retired = 'gp'
+            if retired:
+                checked.add(retired)
+                self.assertNotIn(retired, director.shown)
+                self.assertNotIn(retired, director.profiles)
+        self.assertEqual(checked, {'cl', 'gp'})
 
     def test_college_spring_gap_never_uses_school_or_mature_costumes(self):
         for scene in self.data['scenes']:

@@ -10,6 +10,7 @@ label ch03:
     ## ── 场景: 第一幕：被遗忘的约定 ──
     ## 演出: 场景 3-01｜寒假结束 · 教学楼走廊
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-01 · 她还记得那个约定
     scene art_act02_bg_corridor_day with trans_dissolve
     narrator "寒假结束后的第一天，我在教学楼门口遇见了 DeepSeek。" id story_ch03_5bad93eccbf3_1
@@ -76,6 +77,7 @@ label ch03:
     ## ── 场景: 第二幕：重新成立的电影研究社 ──
     ## 演出: 场景 3-02｜电影研究社活动室 · 放学后
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-02 · 焕然一新的活动室与《候鸟》
     scene art_act05_bg04_filmclub_clean_winter_evening with trans_dissolve
     narrator "重新走进电影研究社时，我发现活动室已经和之前完全不同。" id story_ch03_3411bf6147b0_1
@@ -157,6 +159,7 @@ label ch03:
     ## ── 场景: 第三幕：来自大小姐的帮助 ──
     ## 演出: 场景 3-03｜音乐教室 · 傍晚
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-03 · 隔壁的钢琴回应
     scene art_act03_bg_musicroom_evening with trans_dissolve
     narrator "为了给电影配乐，我开始尝试自己练习吉他。" id story_ch03_2d6d4869463f_1
@@ -213,6 +216,7 @@ label ch03:
     ## ── 场景: 第四幕：学姐的歌声 ──
     ## 演出: 场景 3-04｜放学后的教学楼 · 音乐教室
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-04 · 学姐加入了歌声
     scene art_act03_bg_musicroom_evening with trans_dissolve
     narrator "某天下午，我和 Claude 正在排练电影的配乐。" id story_ch03_0b77b6a71063_1
@@ -266,6 +270,7 @@ label ch03:
     ## ── 场景: 第五幕：四个人的文化祭 ──
     ## 演出: 场景 3-05｜文化祭前一周 · 礼堂
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-05 · 要不要现场演出
     scene art_act03_bg_auditorium_rehearsal with trans_dissolve
     narrator "文化祭前一周，社团的准备工作终于进入最后阶段。" id story_ch03_c48002bdab82_1
@@ -335,6 +340,7 @@ label ch03:
     ## ── 场景: 第六幕：无法传达的爱恋 ──
     ## 演出: 场景 3-06｜文化祭当天 · 礼堂舞台
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-06 · 四个人站上舞台
     scene art_act03_bg_auditorium_performance with trans_dissolve
     narrator "文化祭终于到了。" id story_ch03_dc3dc3f57edf_1
@@ -344,7 +350,7 @@ label ch03:
     narrator "GPT 站在麦克风旁。" id story_ch03_556150e11bf1_1
     narrator "我抱着吉他。" id story_ch03_8df4f5a656e5_1
     narrator "DeepSeek 则站在舞台另一侧，紧张地攥着自己的衣角。" id story_ch03_472f838e4076_1
-    scene art_act03_cg04_cultural_festival with trans_dissolve
+    show art_act01_ds_hs_neutral_clean as ds at sprite_pos_left with trans_dissolve
     voice voice_file("v_0c11f05da2f2")
     ds "User……" id story_ch03_0c11f05da2f2_1
     voice voice_file("v_8517678f9232")
@@ -373,6 +379,7 @@ label ch03:
     narrator "Claude 的钢琴声率先响起。" id story_ch03_7b148a70839e_1
     narrator "紧接着，是我的吉他。" id story_ch03_c7f233ce19f5_1
     narrator "GPT 的歌声在礼堂里回荡。" id story_ch03_df4db3c8c166_1
+    scene art_act03_cg04_cultural_festival with trans_dissolve
     narrator "最后，DeepSeek 也加入了合唱。" id story_ch03_a11cec5bdf13_1
     narrator "我们演奏了三首歌曲。" id story_ch03_900187ae089a_1
     narrator "《WHITE ALBUM》。" id story_ch03_36cb25d4ea93_1
@@ -399,6 +406,7 @@ label ch03:
     ## ── 场景: 第七幕：文化祭之后 ──
     ## 演出: 场景 3-07｜学校天台 · 夜晚
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-07 · 毕业以后还会一起拍吗
     scene art_act03_bg_rooftop_night with trans_dissolve
     narrator "文化祭结束后，校园渐渐安静下来。" id story_ch03_6dbbcd903f3c_1
@@ -475,6 +483,7 @@ label ch03:
     ## ── 场景: 第八幕：Claude 的告白 ──
     ## 演出: 场景 3-08｜文化祭后的音乐教室 · 夜晚
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-08 · 名义恋人的真实告白
     scene art_act03_bg_musicroom_night with trans_dissolve
     narrator "离开天台后，我经过音乐教室。" id story_ch03_6886ea8f6154_1
@@ -744,6 +753,7 @@ label ch03:
 
     ## ── 场景: 第三章尾声：三个人的距离 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-09 · 照片里的四个人
     scene art_act05_bg04_filmclub_clean_winter_evening with trans_dissolve
     narrator "文化祭结束后的第二天，学校恢复了平静。" id story_ch03_86b27552bc84_1
@@ -888,6 +898,7 @@ label ch03:
     narrator "而我也不知道，她究竟是因为喜欢大家在一起，才总想留住我。" id story_ch03_a6b285e6b9e2_1
     narrator "还是因为喜欢我，才希望大家永远不要分开。" id story_ch03_a0142c1b7aa2_1
     ## 演出: 场景切换：图书馆
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-10 · 学姐劝他自己决定
     scene art_act01_bg_library_day with trans_dissolve
     narrator "下午，我照例去找 GPT 学姐复习。" id story_ch03_04222254ad4d_1
@@ -931,6 +942,7 @@ label ch03:
     narrator "她可以帮我解开一道又一道难题。" id story_ch03_3881524b4789_1
     narrator "却始终没有告诉我，有些问题，她自己也找不到答案。" id story_ch03_80caf1e6f0ba_1
     ## 演出: 场景切换：音乐教室
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-11 · 不再责怪他的Claude
     scene art_act03_bg_musicroom_evening with trans_dissolve
     narrator "傍晚，我经过音乐教室。" id story_ch03_1ae22f28959a_1
@@ -983,6 +995,7 @@ label ch03:
     narrator "我本该觉得轻松。" id story_ch03_933a42e46bf2_1
     narrator "却第一次发现，比起她生气的样子，我更害怕她什么都不说。" id story_ch03_bd340a791cf5_1
     ## 演出: 场景：放学后的校门口
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-12 · 约不到的下一次聚会
     scene art_act03_bg_schoolgate_evening with trans_dissolve
     narrator "几天后，我们四个人难得又聚在了一起。" id story_ch03_5fa6674b588c_1
@@ -1039,6 +1052,7 @@ label ch03:
     narrator "而我已经隐约明白。" id story_ch03_27352a6d271c_1
     narrator "有些事情，即使重新聚在一起，也不会回到从前。" id story_ch03_fa306e208bfe_1
     ## 演出: 场景切换：深夜 · User 的房间
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C3-13 · 暂停在最快乐的一帧
     scene art_act02_bg_user_desk_night with trans_dissolve
     narrator "那天晚上，我打开电脑，重新播放文化祭的录像。" id story_ch03_9ded63d88c02_1

@@ -9,6 +9,7 @@ label ch00:
 
     ## ── 场景: 序章《天台上的少女》 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 P-01 · 天台上的少女
     scene art_act01_bg_rooftop_spring_day with trans_dissolve
     narrator "那天，我原本只是想找个安静的地方。" id story_ch00_b884d820f9f3_1

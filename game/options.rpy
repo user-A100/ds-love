@@ -57,3 +57,6 @@ init python:
 
     build.documentation = "README.md"
 
+
+## Project title theme; scene music is generated from story/art_direction.json.
+define config.main_menu_music = "audio/bgm/titile_theme.mp3"

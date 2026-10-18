@@ -32,3 +32,7 @@ Ren'Py 引擎检查：`renpy.sh . lint --error-code`；`renpy.sh . test art --ov
 完成核对后，请将接入代码、源映射和运行时图片一起上传 GitHub。
 
 2026-10-18 试玩问题复核：重新同步145张图片并重建剧本，中文/日文序章人物截图及Claude/GPT两种语言入场检查通过。GitHub `70c011b` 起包含完整美术接入；此前 `acf147d` 不含本次接入。拉取最新 master 后重新构建，从新游戏核对天台摔倒CG及随后立绘。
+
+## BGM 接入
+
+2026-10-18：拉取 GitHub `056bc09` 的7首音乐及日文配音更新。菜单使用 `audio/bgm/titile_theme.mp3`；90个分景的 `bgm` 字段指定日常、角色、离别或过渡音乐。导入器生成带1秒淡入淡出及 `if_changed` 的循环播放指令，同曲切场不重启；缺失音乐文件会在导入时直接报错。调整音乐修改 `story/art_direction.json` 后重建剧本。`test bgm` 验证菜单与中日文场景的实际播放曲目。

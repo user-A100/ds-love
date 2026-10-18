@@ -10,6 +10,7 @@ label ch06:
     ## ── 场景: 场景 6-01｜最后的期限 ──
     ## 演出: 时间：一月上旬 · User 的住处
     ## 演出: 旁白
+    play music "audio/bgm/bgm_transition.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C6-01 · 日历上的三个日期
     scene art_act06_bg18_student_room_night_continuity with trans_dissolve
     narrator "新年过去以后，一切似乎都在催促着我做出决定。" id story_ch06_b1e8d4115369_1
@@ -32,6 +33,7 @@ label ch06:
     ## ── 场景: 场景 6-02｜DeepSeek 的最后一次邀请 ──
     ## 演出: 时间：一月二十日 · 大学电影研究社
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C6-02 · 最后一次请你认真回答
     scene art_act06_bg26_filmclub_day_continuity with trans_dissolve
     narrator "DeepSeek 的小说终于完成了。" id story_ch06_56b9524c55f1_1
@@ -123,6 +125,7 @@ label ch06:
     ## ── 场景: 场景 6-03｜Claude 的最后一场演奏 ──
     ## 演出: 时间：一月二十三日 · 音乐厅
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C6-03 · 这次和我一起走吧
     scene art_act06_bg27_backstage_musiccase with trans_dissolve
     narrator "Claude 回国后的最后一场音乐会，安排在一月二十三日。" id story_ch06_aa51d9695a36_1
@@ -202,6 +205,7 @@ label ch06:
     ## ── 场景: 场景 6-04｜GPT 学姐的最后一道题 ──
     ## 演出: 时间：一月二十七日 · 出版社
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C6-04A · 把面试交给自己的努力
     scene art_act06_bg22_publisher_lobby_day with trans_dissolve
     narrator "影像改编项目的面试安排在一月二十七日。" id story_ch06_d303901346b9_1
@@ -236,6 +240,7 @@ label ch06:
     voice voice_file("v_02256439ef41")
     gp "那就好。" id story_ch06_02256439ef41_1
     narrator "她露出安心的笑容。" id story_ch06_d738f8311c12_1
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C6-04B · 学姐也想成为被陪伴的人
     scene art_act06_bg28_publisher_street_snow with trans_dissolve
     show art_act06_gpt_work_relieved as gp at sprite_pos_right with trans_dissolve
@@ -288,6 +293,7 @@ label ch06:
 
     ## ── 场景: 场景 6-05｜选择的代价 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_transition.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C6-05 · 栏杆升起以后
     scene art_act06_bg29_crossing_sunset with trans_dissolve
     narrator "面试结束后的傍晚，我独自走在回家的路上。" id story_ch06_68097a3e3696_1

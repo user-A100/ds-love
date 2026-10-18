@@ -10,6 +10,7 @@ label ch04:
     ## ── 场景: 第一幕：没有告诉任何人的决定 ──
     ## 演出: 场景 4-01｜文化祭结束后 · 音乐教室
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-01 · 从别人那里听见她要走
     scene art_act03_bg_musicroom_evening with trans_dissolve
     narrator "文化祭结束后的日子，比想象中平静。" id story_ch04_a1367476fb43_1
@@ -112,6 +113,7 @@ label ch04:
     ## ── 场景: 第二幕：一直没有改变的心意 ──
     ## 演出: 场景 4-02｜电影研究社 · 傍晚
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-02 · 希望重要的人来送行
     scene art_act05_bg04_filmclub_clean_winter_evening with trans_dissolve
     narrator "Claude 即将离开的消息，很快传到了 DeepSeek 耳中。" id story_ch04_4daab9aa3371_1
@@ -184,6 +186,7 @@ label ch04:
     ## ── 场景: 第三幕：学姐的劝告 ──
     ## 演出: 场景 4-03｜图书馆 · 晚自习后
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-03 · 舍不得究竟意味着什么
     scene art_act01_bg_library_day with trans_dissolve
     narrator "Claude 的事情让我很难集中精神。" id story_ch04_0e3a8507401d_1
@@ -273,6 +276,7 @@ label ch04:
     ## ── 场景: 第四幕：最后一次排练 ──
     ## 演出: 场景 4-04｜音乐教室 · 毕业前
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-04 · 最后一次纠正那个和弦
     scene art_act03_bg_musicroom_evening with trans_dissolve
     narrator "距离毕业越来越近。" id story_ch04_39eaf5aa5191_1
@@ -382,6 +386,7 @@ label ch04:
     ## ── 场景: 第五幕：迟来的坦白 ──
     ## 演出: 场景 4-05｜Claude 家 · 出国前夜
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-05 · 前夜终于坦白
     scene art_act02_bg_claude_bedroom_night with trans_dissolve
     narrator "Claude 出国的前一天，我收到了一条消息。" id story_ch04_62741382df53_1
@@ -519,6 +524,7 @@ label ch04:
     ## ── 场景: 第六幕：机场告别 ──
     ## 演出: 场景 4-06｜国际机场 · 次日上午
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-06A · 被DeepSeek推向机场
     scene art_act02_bg_classroom_day with trans_dissolve
     scene art_act04_cg_c406a_waiting with trans_dissolve
@@ -595,6 +601,7 @@ label ch04:
     ds "……一定要回来啊。" id story_ch04_006a7dce9c42_1
     ## 演出: 场景切换：机场出发大厅
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-06B · 安检口的吻别
     scene art_act04_bg_airport_depart_day with trans_dissolve
     narrator "等我赶到机场时，距离登机已经没有多少时间。" id story_ch04_3e46848882f2_1
@@ -679,6 +686,7 @@ label ch04:
     ## ── 场景: 第七幕：没有恢复原样的日常 ──
     ## 演出: 场景 4-07｜学校 · Claude 离开后一周
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-07 · 故事里的少年没有等到她
     scene art_act05_bg04_filmclub_clean_winter_evening with trans_dissolve
     narrator "Claude 离开后，电影研究社少了一个人。" id story_ch04_55398a767d00_1
@@ -731,6 +739,7 @@ label ch04:
     ## ── 场景: 第八幕：未寄出的消息 ──
     ## 演出: 场景 4-08｜深夜 · User 的房间
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-08A · 每天聊天渐渐变成问候
     scene art_act02_bg_user_desk_night with trans_dissolve
     narrator "Claude 离开后的第一个月，我们仍然保持联系。" id story_ch04_1418aa9e6724_1
@@ -793,6 +802,7 @@ label ch04:
     narrator "我们都在向前走。" id story_ch04_5fcf3129e5d4_1
     narrator "只是走向了不同的地方。" id story_ch04_9d455f7e4eb4_1
     ## 演出: 场景切换：欧洲 · Claude 的公寓
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-08B · 她也删掉了思念
     scene art_act04_bg_europe_apartment_night with trans_dissolve
     narrator "深夜。" id story_ch04_9712c2144eb8_1
@@ -820,6 +830,7 @@ label ch04:
     narrator "我们都在等待对方先开口。" id story_ch04_72f6c8104eba_1
     narrator "却又害怕自己的思念，会成为对方的负担。" id story_ch04_dc7f1891dbad_1
     ## 演出: 场景切换：学校 · 放学后
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-08C · 如果连试都不试
     scene art_act04_bg_rooftop_evening with trans_dissolve
     narrator "那段时间，DeepSeek 仍然经常来找我。" id story_ch04_76b841fd8f9b_1
@@ -867,6 +878,7 @@ label ch04:
     narrator "我没有回答。" id story_ch04_3045611bcabc_3
     narrator "那一瞬间，我忽然觉得，她似乎比我想象中更加明白一些事情。" id story_ch04_e5b19e48d4ca_1
     ## 演出: 场景切换：图书馆 · 晚自习
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-08D · 喜欢与陪伴是两道题
     scene art_act01_bg_library_day with trans_dissolve
     narrator "GPT 学姐依然坐在熟悉的位置。" id story_ch04_73faccd49024_1
@@ -916,6 +928,7 @@ label ch04:
     narrator "是她一点一点教会我，从最基础的知识开始重新学习。" id story_ch04_f65fe7628ddf_1
     narrator "可现在，我遇到的问题，却连她也无法替我解答。" id story_ch04_d0e00b8bf647_1
     ## 演出: 场景切换：深夜 · User 的房间
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-08E · 没有提出分手的一年
     scene art_act02_bg_user_desk_night with trans_dissolve
     narrator "那天晚上，我再次打开与 Claude 的聊天窗口。" id story_ch04_495751759e79_1
@@ -972,6 +985,7 @@ label ch04:
     ## ── 场景: 场景 4-09｜三年之后 ──
     ## 演出: 时间：三年后 · 大学三年级 · 初冬
     ## 演出: 旁白
+    play music "audio/bgm/bgm_transition.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-09A · 一本录取与新的生活
     scene art_act04_bg_university_day with trans_dissolve
     narrator "三年过去了。" id story_ch04_906e40312cc2_1
@@ -988,6 +1002,7 @@ label ch04:
     ## 演出: 旁白
     narrator "大学里，我加入了影像创作社团。" id story_ch04_1658215f7259_1
     narrator "偶尔也会接一些剪辑和摄影的兼职。" id story_ch04_b4b80e467421_1
+    play music "audio/bgm/bgm_transition.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-09B · 三个人各自的三年
     scene art_act04_bg_university_winter_evening with trans_dissolve
     narrator "DeepSeek 进入了同一座城市的另一所大学，继续写她那些充满奇思妙想的故事。" id story_ch04_9ff572389d14_1
@@ -1013,6 +1028,7 @@ label ch04:
 
     ## ── 场景: 场景 4-10｜冬天的歌 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-10 · 冬日广播与周末邀请
     scene art_act04_bg_university_winter_evening with trans_dissolve
     narrator "十二月的某个傍晚，我刚结束兼职，独自走在回宿舍的路上。" id story_ch04_ac9ebf81a453_1
@@ -1076,6 +1092,7 @@ label ch04:
 
     ## ── 场景: 场景 4-11｜水族馆的约会 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-11 · 蓝色水光里的搭档
     scene art_act04_bg_aquarium_blue with trans_dissolve
     narrator "周末，我按照约定来到水族馆。" id story_ch04_08f65951264b_1
@@ -1121,6 +1138,7 @@ label ch04:
     narrator "她告诉我最近写作遇到的困难。" id story_ch04_0ab9493b3510_1
     narrator "我则和她讨论拍摄计划。" id story_ch04_1ca07f1cc19e_1
     narrator "不知不觉，已经到了傍晚。" id story_ch04_25e5f4830304_1
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-12 · 第一次把喜欢说完整
     scene art_act04_bg_lakeside_sunset with trans_dissolve
     narrator "离开水族馆后，我们来到附近的公园。" id story_ch04_294a801f005e_1
@@ -1297,6 +1315,7 @@ label ch04:
     ## ── 场景: 场景 4-13｜没有发送的消息 ──
     ## 演出: 场景：User 的房间 · 深夜
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-13 · 旧恋人突然要回来了
     scene art_act05_bg18_user_university_night with trans_dissolve
     narrator "回到宿舍后，我一直无法平静下来。" id story_ch04_df5a1307a09f_1
@@ -1339,6 +1358,7 @@ label ch04:
     ## ── 场景: 场景 4-14｜GPT 学姐的来信 ──
     ## 演出: 场景：大学图书馆 · 次日上午
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C4-14 · 学姐发来的第三个邀请
     scene art_act04_bg_university_library_day with trans_dissolve
     narrator "第二天上午，我收到了 GPT 学姐发来的邮件。" id story_ch04_2a7a1917d1dc_1

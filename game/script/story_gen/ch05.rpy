@@ -10,6 +10,7 @@ label ch05:
     ## ── 场景: 场景 5-01｜三年后的重逢 ──
     ## 演出: 时间：十二月 · 下午 · 国际机场
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-01 · 从送别到接机
     scene art_act05_bg13_arrive_winter with trans_dissolve
     narrator "Claude 回国的那天，下着小雪。" id story_ch05_bbf0ab01fc30_1
@@ -112,6 +113,7 @@ label ch05:
     ## ── 场景: 场景 5-02｜熟悉的钢琴声 ──
     ## 演出: 时间：回国后的第三天 · 音乐排练厅
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-02 · 两个人都没忘的旋律
     scene art_act05_bg20_rehearsal_day with trans_dissolve
     narrator "Claude 这次回国，是为了参加一场钢琴独奏音乐会。" id story_ch05_b4db8f5c10eb_1
@@ -197,16 +199,17 @@ label ch05:
     ## ── 场景: 场景 5-03｜她并没有变得坚强 ──
     ## 演出: 时间：音乐会前一周 · Claude 的临时住处
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-03 · 礼服之外仍需要人照顾
     scene art_act05_bg21_temporary_evening with trans_dissolve
     narrator "随着音乐会临近，Claude 的状态开始变得不太好。" id story_ch05_4c0c0237c2c5_1
     narrator "她每天练习很长时间。" id story_ch05_1549fd761f2f_1
     narrator "有时候连饭都顾不上吃。" id story_ch05_0400e61968ca_1
     narrator "我去找她时，发现房间里到处堆着乐谱和演出资料。" id story_ch05_26b0f3a429ca_1
-    show art_act05_claude_win_worried as cl at sprite_pos_center with trans_dissolve
     narrator "厨房几乎没有使用过的痕迹。" id story_ch05_5af3133bf2e4_1
     voice voice_file("v_3993d9f14490")
     u "你今天吃饭了吗？" id story_ch05_3993d9f14490_1
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_8f33bff9097f")
     cl "吃了。" id story_ch05_8f33bff9097f_1
     voice voice_file("v_6b60102d3e4f")
@@ -300,6 +303,7 @@ label ch05:
     ## ── 场景: 场景 5-04｜另一边的等待 ──
     ## 演出: 时间：同一周 · DeepSeek 的大学
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-04 · 新剧本里的女孩继续写作
     scene art_act05_bg18_user_university_day with trans_dissolve
     narrator "Claude 回国以后，我开始频繁往返于学校和排练厅之间。" id story_ch05_7b5aeeb4d714_1
@@ -351,6 +355,7 @@ label ch05:
     ## ── 场景: 场景 5-05｜学姐的邀请 ──
     ## 演出: 时间：周五下午 · 出版社
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-05 · 学姐记得他的导演梦想
     scene art_act05_bg22_publisher_day with trans_dissolve
     narrator "周五下午，我按照约定来到 GPT 学姐工作的出版社。" id story_ch05_27ec42cdf190_1
@@ -428,6 +433,7 @@ label ch05:
     ## ── 场景: 场景 5-06｜没有说出口的答案 ──
     ## 演出: 时间：出版社附近的咖啡馆 · 傍晚
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-06 · 她说曾经喜欢过一个人
     scene art_act05_bg23_cafe_snow_evening with trans_dissolve
     narrator "离开出版社后，GPT 学姐提议一起吃晚饭。" id story_ch05_cd9d30af1d62_1
@@ -526,6 +532,7 @@ label ch05:
     ## ── 场景: 场景 5-07｜三封消息 ──
     ## 演出: 时间：深夜 · User 的房间
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-07A · DeepSeek说她不后悔
     scene art_act05_bg18_user_university_night with trans_dissolve
     narrator "回到住处时，已经接近晚上十一点。" id story_ch05_5397bc6efef3_1
@@ -605,6 +612,7 @@ label ch05:
 
     ## ── 场景: 第二封消息：Claude ──
     ## 演出: 手机消息：Claude
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-07B · 她只再给这一次机会
     scene art_act05_bg18_user_university_night with trans_dissolve
     voice voice_file("v_2bd46d4b1ecb")
@@ -716,6 +724,7 @@ label ch05:
 
     ## ── 场景: 第三封消息：GPT ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-07C · 保存了三年的成绩记录
     scene art_act05_bg18_user_university_night with trans_dissolve
     narrator "放下手机后，我重新坐回电脑前。" id story_ch05_884c763e0044_1
@@ -824,6 +833,7 @@ label ch05:
 
     ## ── 场景: 场景尾声：三个没有答案的问题 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_transition.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-07D · 三段珍惜与三个未答的问题
     scene art_act05_bg18_user_university_night with trans_dissolve
     narrator "那天晚上，我很久都没有睡着。" id story_ch05_09856a012ac1_1
@@ -870,6 +880,7 @@ label ch05:
 
     ## ── 场景: 场景 5-08｜音乐会之前 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-08 · 候诊走廊里抓住衣袖
     scene art_act05_bg24_hospital_day with trans_dissolve
     narrator "第二天上午，我按照约定来到医院。" id story_ch05_78d761132463_1
@@ -953,6 +964,7 @@ label ch05:
 
     ## ── 场景: 场景 5-09｜演出前的崩溃 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-09 · 弹不完熟悉的曲子
     scene art_act05_bg25_empty_stage_night with trans_dissolve
     narrator "医院的检查暂时没有给出明确结论。" id story_ch05_40efec516cd6_1
@@ -998,6 +1010,7 @@ label ch05:
     cl "每天都在练。" id story_ch05_d021a263c8c8_1
     voice voice_file("v_7c7fc19ffce0")
     cl "为什么偏偏现在……" id story_ch05_7c7fc19ffce0_1
+    show art_ds_route_claude_indoor_hurt as cl at sprite_pos_center with trans_dissolve
     narrator "她的声音开始颤抖。" id story_ch05_68c32f9ad8e7_1
     voice voice_file("v_37f91ecb60b9")
     cl "如果明天演出失败怎么办？" id story_ch05_37f91ecb60b9_1
@@ -1006,12 +1019,14 @@ label ch05:
     voice voice_file("v_77f896d4eb41")
     cl "如果我回欧洲以后，她又出了什么事……" id story_ch05_77f896d4eb41_1
     narrator "她终于抬起头。" id story_ch05_101db3854a94_1
+    show art_ds_route_claude_indoor_cry as cl at sprite_pos_center with trans_dissolve
     narrator "眼泪顺着脸颊落下。" id story_ch05_7329ca0f2949_1
     voice voice_file("v_dff63a7aed41")
     cl "我不知道该怎么办了。" id story_ch05_dff63a7aed41_1
     ## 演出: 旁白
     narrator "我第一次看见她如此无助。" id story_ch05_4fa58dca3de7_1
     narrator "那个曾经在文化祭上自信地坐在钢琴前的少女，如今连最熟悉的曲子都无法完整弹完。" id story_ch05_4880d9d8ff74_1
+    hide cl with trans_dissolve
     narrator "我走过去，轻轻抱住她。" id story_ch05_e7c720ee2705_1
     voice voice_file("v_8a7ae31768a2")
     u "没关系。" id story_ch05_8a7ae31768a2_1
@@ -1049,6 +1064,7 @@ label ch05:
 
     ## ── 场景: 场景 5-10｜DeepSeek 的决定 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-10 · 我不能一直等下去
     scene art_act06_bg26_filmclub_day_continuity with trans_dissolve
     narrator "音乐会结束后，Claude 的状态逐渐恢复。" id story_ch05_f91bfb8cfa11_1
@@ -1137,6 +1153,7 @@ label ch05:
 
     ## ── 场景: 场景 5-11｜学姐最后的温柔 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-11 · 学姐终于说出自己的答案
     scene art_act05_bg23_cafe_snow_day with trans_dissolve
     narrator "几天后，我再次来到出版社。" id story_ch05_d3df752f73ff_1
@@ -1267,6 +1284,7 @@ label ch05:
     ## ── 场景: 场景 5-12｜无法继续的四人关系 ──
     ## 演出: 时间：十二月底 · 高中母校 · 旧音乐教室
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-12A · 四个人重新站回原处
     scene art_act05_bg10_musicroom_winter_day with trans_dissolve
     narrator "年底，母校举办了一场校友活动。" id story_ch05_12dc7e57a348_1
@@ -1292,6 +1310,7 @@ label ch05:
     narrator "窗外的景色也几乎没有改变。" id story_ch05_120237db5835_1
     narrator "DeepSeek 兴奋地翻看以前的照片。" id story_ch05_c57e8bd920ec_1
     narrator "GPT 学姐站在窗边，安静地回忆着过去。" id story_ch05_e3c85efcc542_1
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     narrator "Claude 则走到钢琴前，轻轻按下几个琴键。" id story_ch05_f06c3c96184c_1
     narrator "熟悉的旋律响起。" id story_ch05_5822e877cd84_1
     narrator "《届かない恋》。" id story_ch05_62eaaa5379c9_2
@@ -1404,6 +1423,7 @@ label ch05:
 
     ## ── 场景: 场景：旧音乐教室 · 黄昏 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-12B · Claude不想再过另一个三年
     scene art_act05_bg10_musicroom_winter_evening with trans_dissolve
     narrator "校友活动结束后，我们留在教室里整理东西。" id story_ch05_68ffdf57e4e7_1
@@ -1411,7 +1431,7 @@ label ch05:
     narrator "GPT 学姐正在整理乐谱。" id story_ch05_5a01a4d2d95c_1
     narrator "Claude 则独自站在钢琴旁。" id story_ch05_21d79fb76228_1
     narrator "我走过去，准备帮她把琴盖合上。" id story_ch05_f8a7508667f4_1
-    show art_act05_claude_win_neutral as cl at sprite_pos_center with trans_dissolve
+    show art_act05_claude_indoor_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_7919dbafb866")
     cl "……User。" id story_ch05_7919dbafb866_2
     voice voice_file("v_7235f2204469")
@@ -1483,6 +1503,7 @@ label ch05:
 
     ## ── 场景: 场景：电影研究社旧活动室 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-12C · 把最初的约定交给他保管
     scene art_act05_bg04_filmclub_clean_winter_evening with trans_dissolve
     narrator "离开音乐教室后，我去找 DeepSeek。" id story_ch05_e54a10385d27_1
@@ -1588,6 +1609,7 @@ label ch05:
 
     ## ── 场景: 场景：教学楼走廊 · 傍晚 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-12D · 她要的是喜欢而非报答
     scene art_act05_bg08_corridor_winter_evening with trans_dissolve
     narrator "GPT 学姐正在走廊里等我。" id story_ch05_f837e8b91e56_1
@@ -1678,6 +1700,7 @@ label ch05:
 
     ## ── 场景: 场景 5-12 尾声｜空无一人的音乐教室 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_transition.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C5-12E · 三样东西与三条道路
     scene art_act05_bg10_musicroom_winter_night with trans_dissolve
     narrator "天色完全暗下来时，她们都已经离开。" id story_ch05_b474e4b0b29c_1

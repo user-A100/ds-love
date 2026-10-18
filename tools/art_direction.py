@@ -23,6 +23,8 @@ def load_direction(root, events):
         if asset['kind'] not in ('background', 'cg', 'sprite', 'prop'):
             raise ValueError('Invalid asset kind: ' + key)
     for entry in data['scenes']:
+        if entry.get('bgm') and not (Path(root) / 'game' / entry['bgm']).is_file():
+            raise FileNotFoundError(entry['bgm'])
         refs = [entry['background'], *entry.get('characters', {}).values()]
         for cue in entry.get('cues', []):
             refs += [cue[k] for k in ('cg', 'background', 'prop') if cue.get(k)]
@@ -63,6 +65,8 @@ class ArtDirector:
         next_cg = any(cue.get('cg') for _, cue in event_cues)
         for entry, cue in event_cues:
             if cue is entry:
+                if entry.get('bgm'):
+                    self.emit('play music {} fadeout 1.0 fadein 1.0 if_changed'.format(json.dumps(entry['bgm'])))
                 self.emit('## 美术分景 {} · {}'.format(entry['id'], entry['title']))
                 self.background = entry['background']
                 self.profiles = dict(entry.get('characters', {}))

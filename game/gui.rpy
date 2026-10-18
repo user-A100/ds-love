@@ -94,8 +94,8 @@ define gui.title_text_size = 50
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = Transform("images/story/act01/backgrounds/bg_rooftop_spring_day_v001.png", xysize=(config.screen_width, config.screen_height))
+define gui.game_menu_background = gui.main_menu_background
 
 ## The color of the main menu.
 define gui.main_menu_text_color = "#ffaa22"

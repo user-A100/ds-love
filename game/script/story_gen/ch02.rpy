@@ -11,6 +11,7 @@ label ch02:
 
     ## ── 场景: 场景 1：停滞的电影研究社 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-01 · 停滞的电影研究社
     scene art_act02_bg_filmclub_dust_day with trans_dissolve
     narrator "电影研究社的活动室比我想象中还要破旧。" id story_ch02_6d7a54622636_1
@@ -65,6 +66,7 @@ label ch02:
 
     ## ── 场景: 场景 2：被忽视的成绩 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-02 · 糟糕的成绩单
     scene art_act02_bg_classroom_day with trans_dissolve
     narrator "我一直觉得，自己不是一个擅长学习的人。" id story_ch02_40d41917a32d_1
@@ -87,6 +89,7 @@ label ch02:
 
     ## ── 场景: 场景 3：母亲的眼泪 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_farewell.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-03 · 花坛旁的眼泪
     scene art_act02_bg_flowerbed_overcast with trans_dissolve
     narrator "因为一次违纪，我被学校停学一周。" id story_ch02_268fabb367e8_1
@@ -99,6 +102,7 @@ label ch02:
     narrator "我这样想着。" id story_ch02_e5c6cd5a7aad_1
     narrator "可母亲没有骂我。" id story_ch02_f2151464c254_1
     narrator "她只是带着我，走到教学楼前面的花坛旁坐下。" id story_ch02_25e2606b40ae_1
+    scene art_act02_cg_c203_mother with trans_dissolve
     voice voice_file("v_8cc4b93555f5")
     mother "最近在学校过得怎么样？" id story_ch02_8cc4b93555f5_1
     voice voice_file("v_2e8c69e49a2a")
@@ -123,7 +127,6 @@ label ch02:
     narrator "我低着头，看着地面。" id story_ch02_b09badcfbf12_1
     voice voice_file("v_0619479c7df7")
     mother "可你总不能一直这样下去啊。" id story_ch02_0619479c7df7_1
-    scene art_act02_cg_c203_mother with trans_dissolve
     narrator "她的声音有些颤抖。" id story_ch02_f0ac9403763b_1
     voice voice_file("v_5c57d3a049db")
     mother "我们也不指望你一定考多好的大学。" id story_ch02_5c57d3a049db_1
@@ -164,6 +167,7 @@ label ch02:
 
     ## ── 场景: 场景 4：从零开始 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-04 · 从课本第一页重新开始
     scene art_act02_bg_user_desk_night with trans_dissolve
     narrator "回家之前，我又去了一趟宿舍。" id story_ch02_fbca35ebeb9f_1
@@ -182,6 +186,7 @@ label ch02:
     narrator "一周后，我回到了学校。" id story_ch02_e77d22656217_1
     narrator "没有带手机。" id story_ch02_a7a09eb94b09_1
     narrator "没有带闲书。" id story_ch02_d3cf32d700a3_1
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-05 · 向老师开口
     scene art_act02_bg_corridor_evening with trans_dissolve
     narrator "头发也剪成了学校要求的长度。" id story_ch02_433067a54502_1
@@ -216,6 +221,7 @@ label ch02:
 
     ## ── 场景: 场景 5：第一次进步 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-06 · 第一次看见努力的结果
     scene art_act02_bg_corridor_day with trans_dissolve
     narrator "高二期末考试，我第一次考进了年级四千名以内。" id story_ch02_96cc2ab69929_1
@@ -235,6 +241,7 @@ label ch02:
 
     ## ── 场景: 场景 6：普通班里的学姐 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-07 · 前排的学姐
     scene art_act02_bg_classroom_night with trans_dissolve
     narrator "高三分班时，我被分到了普通班。" id story_ch02_ee1d7ced66a7_1
@@ -257,6 +264,7 @@ label ch02:
 
     ## ── 场景: 场景 7：第一次交谈 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-08 · 不会的地方要说出来
     scene art_act02_bg_classroom_evening with trans_dissolve
     narrator "因为座位相邻，我们经常被安排在同一个值日小组。" id story_ch02_0fea0acc4301_1
@@ -332,6 +340,7 @@ label ch02:
 
     ## ── 场景: 场景 8：逐渐靠近的距离 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-09 · 一点点靠近的课桌
     scene art_act02_bg_classroom_evening with trans_dissolve
     narrator "从那天开始，我经常向 GPT 请教问题。" id story_ch02_beca6b6cc3d6_1
@@ -391,6 +400,7 @@ label ch02:
 
     ## ── 场景: 场景 9：来自 Claude 的消息 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_daily.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-10 · 被推迟的甜品邀约
     scene art_act02_bg_classroom_evening with trans_dissolve
     narrator "那天放学后，我正在整理书包。" id story_ch02_5ab3668dd456_1
@@ -464,6 +474,7 @@ label ch02:
     narrator "我一直以为，她只是觉得有趣。" id story_ch02_e6ace97ab7fb_1
     narrator "可如果真是这样，她为什么会因为我没有时间陪她而生气呢？" id story_ch02_e64c83f974ba_1
     ## 演出: 场景切换
+    play music "audio/bgm/bgm_gpt.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C2-11 · 没有发出的第二句话
     scene art_act02_bg_claude_bedroom_night with trans_dissolve
     narrator "Claude 的房间。" id story_ch02_b9859ba3fd4e_1
@@ -471,8 +482,8 @@ label ch02:
     narrator "书桌旁放着两个包装漂亮的小盒子。" id story_ch02_71bc43760227_1
     narrator "其中一个已经打开。" id story_ch02_3406819b2936_1
     narrator "里面是一块做工精致的蛋糕。" id story_ch02_63f3739c4691_1
+    scene art_act02_cg_c211_unsent with trans_dissolve
     narrator "Claude 坐在床边，盯着手机。" id story_ch02_6803b6be535c_1
-    show art_act01_claude_hs_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_2903b343018a")
     cl "……笨蛋。" id story_ch02_2903b343018a_1
     narrator "她把手机扔到一旁。" id story_ch02_9a555526be47_1
@@ -488,7 +499,6 @@ label ch02:
     cl "……" id story_ch02_d6bb00ebdcec_1
     voice voice_file("v_318c9df8a78e")
     cl "明明是你先告白的。" id story_ch02_318c9df8a78e_1
-    scene art_act02_cg_c211_unsent with trans_dissolve
     narrator "她轻轻抱住膝盖。" id story_ch02_70063fc2e127_1
     voice voice_file("v_cdf4eac545c7")
     cl "结果现在，反倒像是我一直在追着你跑一样。" id story_ch02_cdf4eac545c7_1

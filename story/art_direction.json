@@ -1356,7 +1356,8 @@
           "cg": "act01.cg_p01_notebook_reveal"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C1-01",
@@ -1371,8 +1372,21 @@
       "characters": {
         "cl": "act01.claude_hs_neutral"
       },
-      "cues": [],
-      "notes": []
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch01",
+            "speaker": "narrator",
+            "text": "我半信半疑。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act01.claude_hs_neutral"
+          }
+        }
+      ],
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C1-02",
@@ -1418,7 +1432,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C1-03",
@@ -1475,7 +1490,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C1-04",
@@ -1519,7 +1535,8 @@
           "cg": "act01.cg_c104_writing_together"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C2-01",
@@ -1554,7 +1571,8 @@
           "clear_prop": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C2-02",
@@ -1568,7 +1586,8 @@
       "background": "act02.bg_classroom_day",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C2-03",
@@ -1585,14 +1604,15 @@
         {
           "anchor": {
             "chapter": "ch02",
-            "speaker": "narrator",
-            "text": "她的声音有些颤抖。",
+            "speaker": "母亲",
+            "text": "最近在学校过得怎么样？",
             "occurrence": 1
           },
           "cg": "act02.cg_c203_mother"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C2-04",
@@ -1616,7 +1636,8 @@
           "prop": "act02.pr06_study_materials"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C2-05",
@@ -1630,7 +1651,8 @@
       "background": "act02.bg_corridor_evening",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C2-06",
@@ -1644,7 +1666,8 @@
       "background": "act02.bg_corridor_day",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C2-07",
@@ -1672,7 +1695,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C2-08",
@@ -1700,7 +1724,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C2-09",
@@ -1746,7 +1771,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C2-10",
@@ -1760,7 +1786,8 @@
       "background": "act02.bg_classroom_evening",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C2-11",
@@ -1784,7 +1811,8 @@
           "cg": "act02.cg_c211_unsent"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C3-01",
@@ -1800,7 +1828,8 @@
         "ds": "act01.ds_hs_neutral_clean"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C3-02",
@@ -1818,7 +1847,8 @@
       "cues": [],
       "notes": [
         "暂复用干净旧社团冬日晚景；高中日间/傍晚同机位差分待补，不能视为最终连续性验收。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C3-03",
@@ -1844,7 +1874,8 @@
           "cg": "act03.cg_c303_piano_guidance"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C3-04",
@@ -1873,7 +1904,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C3-05",
@@ -1891,7 +1923,8 @@
         "gp": "act02.gpt_hs_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C3-06",
@@ -1919,7 +1952,8 @@
           "cg": "act03.cg04_cultural_festival"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C3-07",
@@ -1963,7 +1997,8 @@
           "cg": "act03.cg_c307_rooftop_promise"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C3-08",
@@ -1989,7 +2024,8 @@
           "cg": "act03.cg_c308_claude_confession"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C3-09",
@@ -2026,7 +2062,8 @@
       ],
       "notes": [
         "暂复用干净旧社团冬日晚景；高中日间/傍晚同机位差分待补，不能视为最终连续性验收。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C3-10",
@@ -2056,7 +2093,8 @@
       ],
       "notes": [
         "图书馆傍晚差分尚缺，暂复用同地点日景。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C3-11",
@@ -2072,7 +2110,8 @@
         "cl": "act01.claude_hs_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C3-12",
@@ -2090,7 +2129,8 @@
         "gp": "act02.gpt_hs_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C3-13",
@@ -2123,7 +2163,8 @@
           "restore": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-01",
@@ -2139,7 +2180,8 @@
         "cl": "act01.claude_hs_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-02",
@@ -2157,7 +2199,8 @@
       "cues": [],
       "notes": [
         "暂复用干净旧社团冬日晚景；高中日间/傍晚同机位差分待补，不能视为最终连续性验收。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-03",
@@ -2175,7 +2218,8 @@
       "cues": [],
       "notes": [
         "图书馆傍晚差分尚缺，暂复用同地点日景。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C4-04",
@@ -2210,7 +2254,8 @@
           "clear_prop": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C4-05",
@@ -2274,7 +2319,8 @@
           "cg": "act04.cg05_eve_farewell"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-06A",
@@ -2309,7 +2355,8 @@
           "restore": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-06B",
@@ -2346,7 +2393,8 @@
           "cg": "act04.cg06_airport_farewell"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-07",
@@ -2364,7 +2412,8 @@
       "cues": [],
       "notes": [
         "暂复用干净旧社团冬日晚景；高中日间/傍晚同机位差分待补，不能视为最终连续性验收。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-08A",
@@ -2378,7 +2427,8 @@
       "background": "act02.bg_user_desk_night",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-08B",
@@ -2404,7 +2454,8 @@
           "cg": "act04.cg_c408b_unsent"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-08C",
@@ -2420,7 +2471,8 @@
         "ds": "act01.ds_hs_neutral_clean"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C4-08D",
@@ -2457,7 +2509,8 @@
       ],
       "notes": [
         "图书馆傍晚差分尚缺，暂复用同地点日景。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C4-08E",
@@ -2471,7 +2524,8 @@
       "background": "act02.bg_user_desk_night",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C4-09A",
@@ -2504,7 +2558,8 @@
           "clear_prop": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_transition.mp3"
     },
     {
       "id": "C4-09B",
@@ -2537,7 +2592,8 @@
           "clear_prop": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_transition.mp3"
     },
     {
       "id": "C4-10",
@@ -2551,7 +2607,8 @@
       "background": "act04.bg_university_winter_evening",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C4-11",
@@ -2577,7 +2634,8 @@
           "cg": "act04.cg07_aquarium_partner"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C4-12",
@@ -2656,7 +2714,8 @@
           ]
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C4-13",
@@ -2670,7 +2729,8 @@
       "background": "act05.bg18_user_university_night",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C4-14",
@@ -2684,7 +2744,8 @@
       "background": "act04.bg_university_library_day",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C5-01",
@@ -2712,7 +2773,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C5-02",
@@ -2728,7 +2790,8 @@
         "cl": "act05.claude_indoor_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C5-03",
@@ -2746,7 +2809,8 @@
       "cues": [],
       "notes": [
         "成年室内便服已替换冬大衣；坐姿、疲惫与担忧差分尚待补齐。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C5-04",
@@ -2760,7 +2824,8 @@
       "background": "act05.bg18_user_university_day",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C5-05",
@@ -2776,7 +2841,8 @@
         "gp": "act05.gpt_work_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C5-06",
@@ -2792,7 +2858,8 @@
         "gp": "act05.gpt_work_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C5-07A",
@@ -2806,7 +2873,8 @@
       "background": "act05.bg18_user_university_night",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C5-07B",
@@ -2820,7 +2888,8 @@
       "background": "act05.bg18_user_university_night",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C5-07C",
@@ -2834,7 +2903,8 @@
       "background": "act05.bg18_user_university_night",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C5-07D",
@@ -2848,7 +2918,8 @@
       "background": "act05.bg18_user_university_night",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_transition.mp3"
     },
     {
       "id": "C5-08",
@@ -2876,7 +2947,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C5-09",
@@ -2929,7 +3001,8 @@
       "notes": [
         "成年排练便服哭泣/拥抱CG尚缺；保持便服基准与原对白，不使用高中或机场拥抱CG。",
         "已接成年排练便服含泪与哭泣；拥抱时隐藏站姿，以空镜承接，待专用拥抱CG。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C5-10",
@@ -2945,7 +3018,8 @@
         "ds": "act05.ds_indoor_firm_tear"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "C5-11",
@@ -2961,7 +3035,8 @@
         "gp": "act05.gpt_work_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C5-12A",
@@ -2991,7 +3066,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_daily.mp3"
     },
     {
       "id": "C5-12B",
@@ -3007,7 +3083,8 @@
         "cl": "act05.claude_indoor_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C5-12C",
@@ -3042,7 +3119,8 @@
           "clear_prop": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C5-12D",
@@ -3058,7 +3136,8 @@
         "gp": "act05.gpt_work_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C5-12E",
@@ -3091,7 +3170,8 @@
           "clear_prop": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_transition.mp3"
     },
     {
       "id": "C6-01",
@@ -3105,7 +3185,8 @@
       "background": "act06.bg18_student_room_night_continuity",
       "characters": {},
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_transition.mp3"
     },
     {
       "id": "C6-02",
@@ -3180,7 +3261,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "C6-03",
@@ -3235,7 +3317,8 @@
           "cg": "act06.cg_c603_claude_handhold"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "C6-04A",
@@ -3270,7 +3353,8 @@
           "clear_prop": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C6-04B",
@@ -3320,7 +3404,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "C6-05",
@@ -3407,7 +3492,8 @@
           "background": "act06.bg29_crossing_sunset"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_transition.mp3"
     },
     {
       "id": "DS-01",
@@ -3449,7 +3535,8 @@
           "background": "ds_route.bg30_university_night"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "DS-02",
@@ -3484,7 +3571,8 @@
       ],
       "notes": [
         "现有室内表情立绘均抱蓝本，而本场蓝本先由男主持有后放桌；暂以夜景与道具演出，待空手室内表情。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "DS-03",
@@ -3563,7 +3651,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_claude.mp3"
     },
     {
       "id": "DS-04",
@@ -3631,7 +3720,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_gpt.mp3"
     },
     {
       "id": "DS-05",
@@ -3647,7 +3737,8 @@
         "ds": "act05.ds_win_neutral"
       },
       "cues": [],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "DS-06",
@@ -3663,7 +3754,8 @@
       "cues": [],
       "notes": [
         "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "DS-07",
@@ -3698,7 +3790,8 @@
       ],
       "notes": [
         "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "DS-08",
@@ -3714,7 +3807,8 @@
       "cues": [],
       "notes": [
         "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "DS-09",
@@ -3749,7 +3843,8 @@
       ],
       "notes": [
         "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
-      ]
+      ],
+      "bgm": "audio/bgm/bgm_farewell.mp3"
     },
     {
       "id": "DS-10",
@@ -3800,7 +3895,8 @@
           "clear_prop": true
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_transition.mp3"
     },
     {
       "id": "DS-11",
@@ -3862,7 +3958,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_transition.mp3"
     },
     {
       "id": "DS-12",
@@ -3921,7 +4018,8 @@
           "cg": "ending.cg19_park_short_kiss"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "DS-13A",
@@ -3947,7 +4045,8 @@
           "cg": "ending.cg_ds13a_creating_together"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "DS-13B",
@@ -4011,7 +4110,8 @@
           }
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "DS-14A",
@@ -4037,7 +4137,8 @@
           "cg": "ending.cg_ds14a_daily_care"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     },
     {
       "id": "DS-14B",
@@ -4085,7 +4186,8 @@
           "cg": "ending.cg21_rooftop_tomorrow"
         }
       ],
-      "notes": []
+      "notes": [],
+      "bgm": "audio/bgm/bgm_deepseek.mp3"
     }
   ]
 }

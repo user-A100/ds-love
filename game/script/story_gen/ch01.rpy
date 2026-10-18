@@ -11,6 +11,7 @@ label ch01:
 
     ## ── 场景: 场景 1：寻找天台上的少女 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C1-01 · 寻找的人与眼前的人
     scene art_act01_bg_playground_evening with trans_dissolve
     narrator "第二天，我开始寻找笔记本的主人。" id story_ch01_6c8b68ac22b8_1
@@ -27,11 +28,11 @@ label ch01:
     u "可我记得她是蓝头发……" id story_ch01_9c9b85ad70af_1
     voice voice_file("v_d9d6c2adfa58")
     classmate "你看错了吧？学校里哪有那么多漂亮女生。" id story_ch01_d9d6c2adfa58_1
+    show art_act01_claude_hs_neutral as cl at sprite_pos_center with trans_dissolve
     narrator "我半信半疑。" id story_ch01_8a584abeaf67_1
     narrator "直到放学后，在操场附近看到了 Claude。" id story_ch01_7bb0d4af69ce_1
     narrator "橙色长发，精致的发饰，干净整齐的制服。" id story_ch01_5092d1f49369_1
     narrator "她身边似乎总有一种让人难以靠近的气场。" id story_ch01_abc06a15584e_1
-    show art_act01_claude_hs_neutral as cl at sprite_pos_center with trans_dissolve
     voice voice_file("v_80ae254d4021")
     cl "你从刚才开始就在看我吧？" id story_ch01_80ae254d4021_1
     voice voice_file("v_c84255281569")
@@ -60,6 +61,7 @@ label ch01:
     voice voice_file("v_d9e53fa8f82b")
     u "Claude！" id story_ch01_d9e53fa8f82b_1
     narrator "她回过头。" id story_ch01_39a99d15c762_1
+    play music "audio/bgm/bgm_claude.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C1-02 · 单杠上的告白
     scene art_act01_bg_playground_evening with trans_dissolve
     show art_act01_claude_hs_neutral as cl at sprite_pos_center with trans_dissolve
@@ -116,6 +118,7 @@ label ch01:
 
     ## ── 场景: 场景 2：笔记本的主人 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C1-03 · 归还笔记本
     scene art_act01_bg_library_day with trans_dissolve
     narrator "几天后，我终于在图书馆找到了 DeepSeek。" id story_ch01_370cba7e7652_1
@@ -173,6 +176,7 @@ label ch01:
 
     ## ── 场景: 场景 3：第一次合作 ──
     ## 演出: 旁白
+    play music "audio/bgm/bgm_deepseek.mp3" fadeout 1.0 fadein 1.0 if_changed
     ## 美术分景 C1-04 · 想飞的鲸鱼与第一次合作
     scene art_act01_bg_library_day with trans_dissolve
     narrator "我原本以为，答应 DeepSeek 拍电影，只是一句随口说出的承诺。" id story_ch01_84c57957821f_1
