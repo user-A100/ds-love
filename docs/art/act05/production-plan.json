@@ -166,6 +166,50 @@
       ],
       "transparent": false,
       "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 EMPTY background. Adult university student's modest small rented room in winter afternoon, clearly different from high school room. Wide work desk LEFT foreground, laptop with blank screen, compact modern camera and lens on shelf, a few closed blank manuscript folders, task lamp off, gray single bed right rear, corkboard with small abstract storyboard thumbnails no lettering at rear, winter window left, simple wardrobe at back center. Credible tight apartment, adult aspiring director work area, pale cool winter daylight with restrained warm floor reflections, generous empty center foreground for protagonist POV. Reference only painterly finish, no blue-haired character or library."
+    },
+    {
+      "id": "claude_win_blush",
+      "file": "characters/claude/claude_win_blush_v001.png",
+      "label": "Claude｜成年冬装·嘴硬脸红",
+      "scene": "C5-01/08",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: identity-preserve. Edit ONLY expression of exact reference full-body Claude winter sprite. Keep exact silhouette, hair, LEFT orange flower, amber eyes, charcoal coat, amber scarf, ivory turtleneck, dark midi skirt, tights, boots, hands, camera, scale and light. Expression: surprised to see someone she cares about, obvious soft blush, mouth small slightly open trying to act composed, brows lightly knit, gaze toward viewer. No pose change, no new props. True transparent empty background, preserve alpha, no glow."
+    },
+    {
+      "id": "claude_win_worried",
+      "file": "characters/claude/claude_win_worried_v001.png",
+      "label": "Claude｜成年冬装·担忧含泪",
+      "scene": "C5-08/12B",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: identity-preserve. Edit ONLY facial expression of exact full-body winter Claude reference. Keep exact hair silhouette, flower and ribbon on HER LEFT, outfit, body, hands and light. Expression: anxious vulnerability while waiting for mother's medical check, amber eyes moist with small restrained tears, brows gently pinched, lips slightly parted, direct pleading look, not angry, not smiling. Tears subtle, no exaggerated streams. Genuinely transparent background preserve alpha. No added backdrop, glow or objects."
+    },
+    {
+      "id": "claude_indoor_neutral",
+      "file": "characters/claude/claude_indoor_neutral_v001.png",
+      "label": "Claude｜成年排练便服·专注",
+      "scene": "C5-02/03/09",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: identity-preserve. Adapt same adult Claude full-body standing reference to INDOOR winter rehearsal outfit: remove ONLY charcoal coat and amber scarf, preserve ivory ribbed turtleneck sweater tucked into charcoal high-waist dark midi skirt, dark opaque tights and same black ankle boots. Same orange hair, amber eyes and HER LEFT flower/black ribbon; same full-body pose and framing. Composed focused neutral expression, tiny softened smile. Correct natural hands. True transparent background with no vignette, glow or shadow."
+    },
+    {
+      "id": "ds_indoor_firm_tear",
+      "file": "characters/deepseek/ds_indoor_firm_tear_v001.png",
+      "label": "DeepSeek｜大学室内·含泪坚定",
+      "scene": "C5-10",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: identity-preserve. Same adult university DeepSeek identity and full-body style as reference, remove pale blue coat ONLY for indoor outfit, keep ivory cable-knit high-neck sweater, navy midi skirt, dark tights and same blue boots; same gradient blue wavy hair, ahoge, fin ears, cyan bows, whale tail, hold same light-blue A5 notebook at waist. Expression: tear-bright blue eyes looking DIRECTLY toward viewer with resolve, brows earnest, lips small and firm, no cheerful smile, dignified boundary, no begging or collapse. No other people. Actual transparent background, no colored glow or cast shadow, full silhouette inside margins."
     }
   ]
 }

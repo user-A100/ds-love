@@ -1,6 +1,6 @@
 # 第五幕美术制作状态
 
-已保存并校验 15 / 15 项。
+已保存并校验 19 / 19 项。
 
 - C5-01/08/12 · [Claude｜成年冬装·自持](characters/claude/claude_win_neutral_v001.png)
 - C5-10/12C · [DeepSeek｜大学冬装·温柔](characters/deepseek/ds_win_neutral_v001.png)
@@ -17,6 +17,10 @@
 - C5-12D · [高中走廊｜冬日黄昏](backgrounds/bg08_corridor_winter_evening_v001.png)
 - C5-12C · [旧电影社｜冬日傍晚](backgrounds/bg04_filmclub_clean_winter_evening_v001.png)
 - C5-04 · [User大学住处｜白昼](backgrounds/bg18_user_university_day_v001.png)
+- C5-01/08 · [Claude｜成年冬装·嘴硬脸红](characters/claude/claude_win_blush_v001.png)
+- C5-08/12B · [Claude｜成年冬装·担忧含泪](characters/claude/claude_win_worried_v001.png)
+- C5-02/03/09 · [Claude｜成年排练便服·专注](characters/claude/claude_indoor_neutral_v001.png)
+- C5-10 · [DeepSeek｜大学室内·含泪坚定](characters/deepseek/ds_indoor_firm_tear_v001.png)
 
 待生成：无
 
