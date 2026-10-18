@@ -33,20 +33,24 @@ testsuite art:
 
     testcase all_heroines_in_both_languages:
         run Start("ch01")
-        advance until eval renpy.showing("cl")
+        advance until "你从刚才开始就在看我吧？"
+        pause 1.0
         screenshot "chinese-claude.png"
         run MainMenu(confirm=False)
         run Start("ch02")
-        advance until eval renpy.showing("gp")
+        advance until "之前有一次考试没发挥好"
+        pause 1.0
         screenshot "chinese-gpt.png"
         run MainMenu(confirm=False)
         run Language("japanese")
         run Start("ch01")
-        advance until eval renpy.showing("cl")
+        advance until "あんた、さっきからずっと私を見てるわよね？"
+        pause 1.0
         screenshot "japanese-claude.png"
         run MainMenu(confirm=False)
         run Start("ch02")
-        advance until eval renpy.showing("gp")
+        advance until "前に一度テストでうまくいかなくて"
+        pause 1.0
         screenshot "japanese-gpt.png"
 
     testcase handover_and_route_choice:
