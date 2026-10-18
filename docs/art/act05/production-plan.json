@@ -1,0 +1,16 @@
+{
+  "scope": "C5-01–C5-12E",
+  "jobs": [
+    {
+      "id": "claude_win_neutral",
+      "file": "characters/claude/claude_win_neutral_v001.png",
+      "label": "Claude｜成年冬装·自持",
+      "scene": "C5-01/08/12",
+      "refs": [
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Asset: Claude adult winter full-body standing sprite, neutral guarded expression. Identity reference is image 1: same very long orange hair, amber eyes, orange flower with black ribbon on HER LEFT (viewer right). Age about 21, subtly mature face. Replace school uniform with tailored charcoal long wool coat over ivory turtleneck and dark midi skirt, opaque dark tights and dark ankle boots. Small amber scarf, no bag. Same three-quarter front standing angle and soft upper-left illumination. All hair, shoes and hands fully inside frame with margins. Genuinely transparent background, no ground, glow or shadow."
+    }
+  ]
+}
