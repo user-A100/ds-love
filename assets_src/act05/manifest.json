@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T08:14:23.827Z",
+  "updated_at": "2026-10-18T08:15:12.361Z",
   "status": "generating",
   "plan_is_final": false,
   "scope": "C5-01–C5-12E",
-  "planned_assets": 19,
+  "planned_assets": 23,
   "pending_assets": [],
   "assets": [
     {
@@ -442,6 +442,98 @@
       "edge_alpha_max": 5,
       "bytes": 2148574,
       "sha256": "e1407e32ae6663c78355350f151ca2e224384b76e8b2b96e015e9b5d3c18096e",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg10_musicroom_winter_evening",
+      "label": "旧音乐教室｜冬日黄昏",
+      "scene": "C5-12B",
+      "file": "backgrounds/bg10_musicroom_winter_evening_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg10_musicroom_winter_day_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg10_musicroom_winter_evening.txt",
+      "path": "assets_src/act05/backgrounds/bg10_musicroom_winter_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2035176,
+      "sha256": "982d48053b2d6eafcc043d5cd0acc2ef79caa53118a0a6a9ff99c109cadb6420",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg10_musicroom_winter_night",
+      "label": "旧音乐教室｜冬日深夜",
+      "scene": "C5-12E",
+      "file": "backgrounds/bg10_musicroom_winter_night_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg10_musicroom_winter_day_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg10_musicroom_winter_night.txt",
+      "path": "assets_src/act05/backgrounds/bg10_musicroom_winter_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2028534,
+      "sha256": "6c5711efab570202fcad1e0863966e59dae110d869818d678d4975dbb94d6302",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg18_user_university_night",
+      "label": "User大学住处｜深夜",
+      "scene": "C5-07A/B/C/D",
+      "file": "backgrounds/bg18_user_university_night_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg18_user_university_day_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg18_user_university_night.txt",
+      "path": "assets_src/act05/backgrounds/bg18_user_university_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 1933015,
+      "sha256": "621a8abf5da43e4e3e0868e4ed937159d64da7b4fd3d63d678418e3802aeb42c",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg23_cafe_snow_day",
+      "label": "咖啡馆｜冬日飘雪白昼",
+      "scene": "C5-11",
+      "file": "backgrounds/bg23_cafe_snow_day_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg23_cafe_snow_evening_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg23_cafe_snow_day.txt",
+      "path": "assets_src/act05/backgrounds/bg23_cafe_snow_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2112862,
+      "sha256": "413dea4724792bb3d9140fe67382bd4c74aac26d2cb43b55dc8d6f93aded572c",
       "tool": "built-in imagegen",
       "status": "generated_draft"
     }
