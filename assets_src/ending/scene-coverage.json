@@ -1,0 +1,393 @@
+{
+  "scope": [
+    "DS-10",
+    "DS-11",
+    "DS-12",
+    "DS-13A",
+    "DS-13B",
+    "DS-14A",
+    "DS-14B"
+  ],
+  "scene_count": 7,
+  "beat_count": 34,
+  "covered_beats": 34,
+  "missing_assets": [],
+  "beats": [
+    {
+      "scene": "DS-10",
+      "beat": "DS-10-B01",
+      "label": "独立导演逐步成长",
+      "background": "bg31_director_studio_day",
+      "assets": [
+        "cg_ds10_growth_work"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-10",
+      "beat": "DS-10-B02",
+      "label": "投稿出版与逐渐拥有读者",
+      "background": "bg31_director_studio_day",
+      "assets": [
+        "pr27_creative_works"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-10",
+      "beat": "DS-10-B03",
+      "label": "节日问候与作品互发",
+      "background": "bg31_director_studio_day",
+      "assets": [
+        "pr27_creative_works"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-10",
+      "beat": "DS-10-B04",
+      "label": "各自承担未来",
+      "background": "bg31_director_studio_day",
+      "assets": [
+        "cg_ds10_growth_work"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-11",
+      "beat": "DS-11-B01",
+      "label": "工作人员递来名单",
+      "background": "bg32_adaptation_forum_day",
+      "assets": [
+        "pr28_forum_book_list"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-11",
+      "beat": "DS-11-B02",
+      "label": "认出姓名与候鸟简介",
+      "background": "bg32_adaptation_forum_day",
+      "assets": [
+        "pr28_forum_book_list"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-11",
+      "beat": "DS-11-B03",
+      "label": "熟悉声音与转身",
+      "background": "bg32_adaptation_forum_day",
+      "assets": [
+        "ds_mat_spring_neutral"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-11",
+      "beat": "DS-11-B04",
+      "label": "跑近并及时停步",
+      "background": "bg32_adaptation_forum_day",
+      "assets": [
+        "cg18_forum_reunion"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-11",
+      "beat": "DS-11-B05",
+      "label": "笑着说好久不见",
+      "background": "bg32_adaptation_forum_day",
+      "assets": [
+        "ds_mat_spring_blush"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-12",
+      "beat": "DS-12-B01",
+      "label": "分享失败与成长",
+      "background": "bg33_reunion_park_sunset",
+      "assets": [
+        "ds_mat_spring_neutral"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-12",
+      "beat": "DS-12-B02",
+      "label": "确认彼此单身",
+      "background": "bg33_reunion_park_sunset",
+      "assets": [
+        "ds_mat_spring_blush"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-12",
+      "beat": "DS-12-B03",
+      "label": "重新回应机场约定",
+      "background": "bg33_reunion_park_sunset",
+      "assets": [
+        "ds_mat_spring_tender"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-12",
+      "beat": "DS-12-B04",
+      "label": "写作也为自己的人生",
+      "background": "bg33_reunion_park_sunset",
+      "assets": [
+        "ds_mat_spring_teary_smile"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-12",
+      "beat": "DS-12-B05",
+      "label": "握手与具体相处需求",
+      "background": "bg33_reunion_park_sunset",
+      "assets": [
+        "ds_mat_spring_tender"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-12",
+      "beat": "DS-12-B06",
+      "label": "主动短吻",
+      "background": "bg33_reunion_park_sunset",
+      "assets": [
+        "cg19_park_short_kiss"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13A",
+      "beat": "DS-13A-B01",
+      "label": "小说进入电影改编",
+      "background": "bg31_director_studio_day",
+      "assets": [
+        "pr29_adaptation_script",
+        "ds_mat_daily_neutral"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13A",
+      "beat": "DS-13A-B02",
+      "label": "讨论情节与结局",
+      "background": "bg31_director_studio_day",
+      "assets": [
+        "cg_ds13a_creating_together"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13A",
+      "beat": "DS-13A-B03",
+      "label": "次日仍一起完成工作",
+      "background": "bg31_director_studio_day",
+      "assets": [
+        "pr29_adaptation_script",
+        "ds_mat_daily_earnest"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13A",
+      "beat": "DS-13A-B04",
+      "label": "完成片与片名转场",
+      "background": "bg31_director_studio_day",
+      "assets": [
+        "pr29_adaptation_script"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13B",
+      "beat": "DS-13B-B01",
+      "label": "慌张寻找旧本",
+      "background": "bg34_premiere_backstage_evening",
+      "assets": [
+        "ds_mat_premiere_flustered"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13B",
+      "beat": "DS-13B-B02",
+      "label": "泛黄纸页与归还约定",
+      "background": "bg34_premiere_backstage_evening",
+      "assets": [
+        "pr01_aged_blue_notebook"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13B",
+      "beat": "DS-13B-B03",
+      "label": "理解梦想兑现后的拥抱",
+      "background": "bg34_premiere_backstage_evening",
+      "assets": [
+        "cg20_premiere_notebook_embrace"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13B",
+      "beat": "DS-13B-B04",
+      "label": "工作人员催场与回头邀请",
+      "background": "bg34_premiere_backstage_evening",
+      "assets": [
+        "ds_mat_premiere_neutral"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-13B",
+      "beat": "DS-13B-B05",
+      "label": "回答下一部仍一起拍",
+      "background": "bg34_premiere_backstage_evening",
+      "assets": [
+        "ds_mat_premiere_neutral"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14A",
+      "beat": "DS-14A-B01",
+      "label": "忘钥匙与忙到忘吃饭",
+      "background": "bg31_director_studio_evening",
+      "assets": [
+        "cg_ds14a_daily_care"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14A",
+      "beat": "DS-14A-B02",
+      "label": "轻快带过生活小事",
+      "background": "bg31_director_studio_evening",
+      "assets": [
+        "ds_mat_daily_neutral"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14A",
+      "beat": "DS-14A-B03",
+      "label": "争论后为彼此留时间",
+      "background": "bg31_director_studio_evening",
+      "assets": [
+        "ds_mat_daily_earnest"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14A",
+      "beat": "DS-14A-B04",
+      "label": "春日回到母校",
+      "background": "bg31_director_studio_evening",
+      "assets": [
+        "bg01_refurbished_spring_day"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14B",
+      "beat": "DS-14B-B01",
+      "label": "翻新的栏杆与并肩回忆",
+      "background": "bg01_refurbished_spring_day",
+      "assets": [
+        "ds_mat_spring_neutral"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14B",
+      "beat": "DS-14B-B02",
+      "label": "回忆初遇时的轻松拌嘴",
+      "background": "bg01_refurbished_spring_day",
+      "assets": [
+        "ds_mat_spring_pout"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14B",
+      "beat": "DS-14B-B03",
+      "label": "愿意再次相遇并主动牵手",
+      "background": "bg01_refurbished_spring_day",
+      "assets": [
+        "ds_mat_spring_tender"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14B",
+      "beat": "DS-14B-B04",
+      "label": "牵手走向楼梯门",
+      "background": "bg01_refurbished_spring_day",
+      "assets": [
+        "cg21_rooftop_tomorrow"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14B",
+      "beat": "DS-14B-B05",
+      "label": "明早仍能相见",
+      "background": "bg01_refurbished_spring_day",
+      "assets": [
+        "ds_mat_spring_happy"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    },
+    {
+      "scene": "DS-14B",
+      "beat": "DS-14B-B06",
+      "label": "通关仅解锁实际制作CG",
+      "background": "bg01_refurbished_spring_day",
+      "assets": [
+        "cg21_rooftop_tomorrow"
+      ],
+      "available": true,
+      "text_layer": "Original screenplay dialogue, UI messages, lists, titles, calendar and version numbers are typeset by the game; not baked into artwork."
+    }
+  ]
+}

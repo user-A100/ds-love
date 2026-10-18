@@ -3,6 +3,7 @@ import hashlib
 import io
 import json
 import subprocess
+import argparse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from PIL import Image
@@ -13,6 +14,9 @@ def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT)
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--working-tree', action='store_true', help='Include saved local artwork that has not been committed yet.')
+    args = parser.parse_args()
     sources = [('act01', 'origin/master', 'manifest.json'),
                ('act02', 'origin/master', 'draft-manifest.json'),
                ('act03', 'origin/master', 'draft-manifest.json'),
@@ -20,11 +24,13 @@ def main():
                ('ending', 'origin/master', 'manifest.json')]
     rows, packs, errors = [], [], []
     for pack, ref, filename in sources:
-        manifest = json.loads(git('show', f'{ref}:assets_src/{pack}/{filename}'))
+        def read(path):
+            return (ROOT/path).read_bytes() if args.working_tree else git('show', f'{ref}:{path}')
+        manifest = json.loads(read(f'assets_src/{pack}/{filename}'))
         counts = dict(backgrounds=0, characters=0, cg=0, props=0)
         for asset in manifest['assets']:
             path = asset['path']
-            data = git('show', f'{ref}:{path}')
+            data = read(path)
             digest = hashlib.sha256(data).hexdigest()
             with Image.open(io.BytesIO(data)) as im:
                 im.load()
@@ -36,16 +42,17 @@ def main():
                 errors.append(f'{path}: dimensions mismatch')
             category = path.split('/')[2]
             counts[category] += 1
-            rows.append(dict(pack=pack, id=asset['id'], path=path, ref=ref,
+            rows.append(dict(pack=pack, id=asset['id'], path=path, ref='working-tree' if args.working_tree else ref,
                              sha256=digest, size=size, alpha_range=alpha))
-        packs.append(dict(pack=pack, ref=ref, commit=git('rev-parse', ref).decode().strip(),
+        packs.append(dict(pack=pack, ref='working-tree' if args.working_tree else ref, commit=git('rev-parse', 'HEAD' if args.working_tree else ref).decode().strip(),
                           count=sum(counts.values()), categories=counts))
     now = datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
-    result = dict(checked_at=now, total=len(rows), unique_image_hashes=len({r['sha256'] for r in rows}),
+    result = dict(checked_at=now, source='working-tree' if args.working_tree else 'fetched-github', total=len(rows), unique_image_hashes=len({r['sha256'] for r in rows}),
                   packs=packs, errors=errors, assets=rows)
     out = ROOT / 'docs/art'
     (out / 'progress-summary.json').write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-    lines = ['# 绘画进度汇总', '', f'核查时间：{now}。依据已抓取的 GitHub 分支逐项读取 PNG、校验尺寸与 SHA-256；未合并分支。', '',
+    source = '本地工作区（含尚未上传素材）' if args.working_tree else '已抓取的 GitHub 主分支'
+    lines = ['# 绘画进度汇总', '', f'核查时间：{now}。依据{source}逐项读取 PNG、校验尺寸与 SHA-256。', '',
              '| 范围 | 背景 | 立绘/表情 | CG | 道具 | 已出图/当前批次 |', '|---|---:|---:|---:|---:|---:|']
     for p in packs:
         c = p['categories']
@@ -59,7 +66,7 @@ def main():
               '## 全剧情剩余工作', '',
               '- 第四章、第六章：尚无独立完成素材包；已有资产可复用，不等于这些章节完全没有可用素材。',
               '- 第五章：目前新增三位女主的成年冬装基础立绘，其余背景、角色差分、CG和道具仍需按分景补齐。',
-              '- DS 线：仅 DS-14B 当前6项素材完成，DS-10～DS-14A及更早路线素材未形成完整交付包。',
+              f"- 终章 DS-10～DS-14B：当前已保存 {packs[4]['count']} 项；以 assets_src/ending/scene-coverage.json 的节拍覆盖记录判断完整性。DS-01～DS-09不属于本轮终章计划。",
               '- 正式验收、差分配准及完整游戏接入尚未完成。当前批次出图率100%，全游戏完成率因完整执行清单尚未建立而不计算。', '',
               '## 记录纠正', '',
               '- 第二幕 README 的10张仅为背景数量，完整试稿包实际21项。',

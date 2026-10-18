@@ -1,16 +1,16 @@
 {
   "scope": [
-    "DS-14B",
-    "DS-14A",
-    "DS-13B",
-    "DS-13A",
-    "DS-12",
+    "DS-10",
     "DS-11",
-    "DS-10"
+    "DS-12",
+    "DS-13A",
+    "DS-13B",
+    "DS-14A",
+    "DS-14B"
   ],
-  "order": "reverse_story",
+  "order": "dependency_order",
   "base_commit": "2841ceca620836abef135a628654d696d8dd5aad",
-  "status": "generating",
+  "status": "complete_full_ending_draft_pack",
   "jobs": [
     {
       "id": "bg01_refurbished_spring_day",
@@ -79,10 +79,247 @@
         "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
       ],
       "prompt": "Visual novel production draft, same clean anime character drawing and painted environment as supplied teammate references. Same adult DeepSeek identity, blue eyes, cobalt-to-cyan wavy long hair, ahoge, whale-fin ears with cyan bows, whale tail. Exact light ivory open hip-length coat, pale blue blouse, muted navy midi skirt, white socks and low navy loafers as mature spring master. No uniform, apron or maid headband. Natural upper-left spring daylight. No watermark, text, label, UI, border, panels, ring, marriage or child. EDIT attached mature spring sprite with slightly puffed cheeks and playful mildly reproachful expression, adult affectionate banter, not crying or true anger. One hand rests lightly at her waist with relaxed fingers, other arm lowered; preserve outfit, facial identity, hair and tail, full-body proportions and canvas1024x1536, complete shoes and hair visible with transparent margins. Five correct fingers. Genuine transparent alpha with no studio halo or floor shadow."
+    },
+    {
+      "id": "bg31_director_studio_day",
+      "label": "导演工作室·日",
+      "scene": "DS-10/DS-13A",
+      "file": "backgrounds/bg31_director_studio_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/cg/cg21_rooftop_tomorrow_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. Landscape16:9 empty modest adult film director working studio. Pale wooden editing desk left, two monitors with abstract timeline blocks, camera, binders, central collaboration table and two chairs, large left window, ordinary city trees. Right foreground empty for sprites, lower24% quiet. Soft upper-left daylight. No people or readable monitor text."
+    },
+    {
+      "id": "bg31_director_studio_evening",
+      "label": "导演工作室·晚",
+      "scene": "DS-14A",
+      "file": "backgrounds/bg31_director_studio_evening_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. EDIT supplied studio background: preserve EXACT camera, furniture, window and room layout, change only to evening blue outside and warm practical desk lamps. Empty room. Landscape16:9, no people, no readable text."
+    },
+    {
+      "id": "bg32_adaptation_forum_day",
+      "label": "文学改编交流会",
+      "scene": "DS-11",
+      "file": "backgrounds/bg32_adaptation_forum_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. Landscape16:9 empty literary adaptation networking venue, modest contemporary conference foyer. Book display tables on left, standing discussion tables at rear, open central approach, tall windows left with autumn trees, blank cream event signboard right for later text overlay. Natural warm daylight, no readable lettering, no people, no awards. Lower24% quiet. Reference is ONLY empty-environment painting style. MUST contain NO people, NO character, NO hand, NO hair, NO tail."
+    },
+    {
+      "id": "bg33_reunion_park_sunset",
+      "label": "重逢公园·夕阳",
+      "scene": "DS-12",
+      "file": "backgrounds/bg33_reunion_park_sunset_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. Landscape16:9 empty autumn park near conference venue, quiet lakeside path and simple wooden bench on right, low stone lakeside edging, golden autumn trees, distant ordinary buildings behind trees. Eye-level intimate conversation foreground clear, lake sunset upper-left warm light. No people or landmarks, not a school campus. Lower24% quiet. Reference is ONLY empty-environment painting style. MUST contain NO people, NO character, NO hand, NO hair, NO tail."
+    },
+    {
+      "id": "bg34_premiere_backstage_evening",
+      "label": "电影首映后台",
+      "scene": "DS-13B",
+      "file": "backgrounds/bg34_premiere_backstage_evening_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. Landscape16:9 empty intimate film premiere backstage dressing room. Vanity mirror and warm bulbs left, modest counter, clothing rack rear, slightly open door right toward dim cinema corridor, blank film poster board with abstract migratory bird artwork no text. Space center for two adults. No piano or concert instruments. Lower24% quiet. Reference is ONLY empty-environment painting style. MUST contain NO people, NO character, NO hand, NO hair, NO tail."
+    },
+    {
+      "id": "ds_mat_spring_blush",
+      "label": "成熟春装·害羞",
+      "scene": "DS-11/DS-12",
+      "file": "characters/deepseek/ds_mat_spring_blush_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. EDIT supplied full-body master sprite: ONLY facial expression changes to shy warm blush, blue eyes looking toward viewer, small hesitant smile. Exact ivory jacket, pale blue blouse, navy midi skirt, socks, shoes, same pose, scale, hair, tail and canvas1024x1536. Genuinely transparent background and margins, no aura or floor shadow."
+    },
+    {
+      "id": "ds_mat_spring_teary_smile",
+      "label": "成熟春装·泪笑",
+      "scene": "DS-12",
+      "file": "characters/deepseek/ds_mat_spring_teary_smile_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. EDIT master full-body sprite ONLY expression to restrained adult happy tears in blue eyes, tender relieved smile. Preserve exact clothing, pose, body scale, canvas1024x1536, hair, shoes and tail. Genuine transparent background, no aura or floor shadow."
+    },
+    {
+      "id": "ds_mat_daily_neutral",
+      "label": "成熟日常便服·基础",
+      "scene": "DS-13A/DS-14A",
+      "file": "characters/deepseek/ds_mat_daily_neutral_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. One adult full-body sprite1024x1536. Same face and hair as master, relaxed attentive smile. Ordinary home work clothes: soft light-blue long-sleeved cardigan over ivory blouse, navy midi skirt, simple navy flats, no jacket, no apron. Both hands relaxed. Whole hair tail shoes inside margins. Upper-left soft light, genuinely transparent background, no halo or floor shadow."
+    },
+    {
+      "id": "ds_mat_daily_earnest",
+      "label": "成熟日常便服·认真讨论",
+      "scene": "DS-13A",
+      "file": "characters/deepseek/ds_mat_daily_earnest_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. EDIT daily master, same outfit, face, scale, canvas1024x1536. Earnest slightly furrowed thoughtful expression, one hand open in calm explanation near chest, other lowered. Adult respectful creative disagreement, not rage. Genuine transparent background, no halo."
+    },
+    {
+      "id": "ds_mat_premiere_neutral",
+      "label": "成熟首映装·基础",
+      "scene": "DS-13B",
+      "file": "characters/deepseek/ds_mat_premiere_neutral_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. One adult full-body sprite1024x1536 with same identity as master. Modest elegant midnight-blue long-sleeved midi dress, thin light ivory short jacket, simple navy low heels, no jewelry or wedding cues. Attentive warm smile, hands relaxed. Full hair and tail visible with margins, genuine transparency no halo."
+    },
+    {
+      "id": "ds_mat_premiere_flustered",
+      "label": "成熟首映装·慌张找本",
+      "scene": "DS-13B",
+      "file": "characters/deepseek/ds_mat_premiere_flustered_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_premiere_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. EDIT supplied premiere master same exact outfit and identity, canvas1024x1536. Slightly flustered searching expression eyes widened, one hand near jacket pocket, other held open low. Adult comedic worry, no tears. Full silhouette transparent margins, no glow."
+    },
+    {
+      "id": "pr27_creative_works",
+      "label": "双方作品与预告物料",
+      "scene": "DS-10",
+      "file": "props/pr27_creative_works_v001.png",
+      "transparent": true,
+      "refs": [],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. One transparent prop still life landscape: small stack of plain literary paperback books, unbranded camera beside two flat film storyboard cards featuring abstract landscapes only. Delicate anime objects, no people, no text or trophies. Clear separate silhouettes with real alpha, no surface background or floor shadow. Blank title areas for game text."
+    },
+    {
+      "id": "pr28_forum_book_list",
+      "label": "作品名单与候鸟出版物",
+      "scene": "DS-11",
+      "file": "props/pr28_forum_book_list_v001.png",
+      "transparent": true,
+      "refs": [],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. One transparent prop still life: cream event clipboard with blank list lines and one literary paperback with minimalist migratory bird silhouettes over pale blue sky on cover, blank title areas, no readable text. Anime delicate linework, three-quarter view, believable paper and binding, no hands, no environment, genuine alpha margins."
+    },
+    {
+      "id": "pr29_adaptation_script",
+      "label": "候鸟改编剧本与版本稿",
+      "scene": "DS-13A/DS-14A",
+      "file": "props/pr29_adaptation_script_v001.png",
+      "transparent": true,
+      "refs": [],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. One transparent prop still life: two cream bound screenplay drafts, loose storyboard page with abstract frame drawings, blue pencil, small blank sticky notes. No readable text or actual UI. Anime delicate linework, three-quarter view, no hands, no environment, real alpha margins."
+    },
+    {
+      "id": "pr01_aged_blue_notebook",
+      "label": "旧蓝本·泛黄纸页",
+      "scene": "DS-13B",
+      "file": "props/pr01_aged_blue_notebook_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One standalone anime visual novel asset. No people, no human body parts, no characters, no hair, no tail. No readable text, watermark, logo, grid or collage. EDIT referenced notebook into several-years-later gently worn version. Preserve EXACT pale blue fabric A5 cover, dark blue left spine and cream blank name patch. Open three-quarter angle with gently yellowed blank pages and subtle worn cover edges, no readable text, no hands, genuine transparent background. No invented inscription."
+    },
+    {
+      "id": "cg18_forum_reunion",
+      "label": "CG18·交流会及时停步",
+      "scene": "DS-11",
+      "file": "cg/cg18_forum_reunion_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg32_adaptation_forum_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. Landscape16:9 cinematic medium-wide event CG. Same adult DeepSeek in exact ivory coat pale blue blouse navy skirt approaches first-person viewer in conference foyer, having run a few steps and just stopped safely, slightly forward posture, happy surprised blue eyes and warm smile. One hand steadies plain book at chest, other gently raised, no collision or embrace. Show book display and autumn windows from background reference. Lower24% quiet."
+    },
+    {
+      "id": "cg19_park_short_kiss",
+      "label": "CG19·四年后主动短吻",
+      "scene": "DS-12",
+      "file": "cg/cg19_park_short_kiss_v002.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg33_reunion_park_sunset_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. Landscape16:9 cinematic intimate close event CG. Adult DeepSeek in exact ivory coat and pale blue blouse initiates a brief tender closed-mouth kiss with adult protagonist shown ONLY back of shoulder and a tiny obscured cheek edge, absolutely no identifiable face or hair. Equal standing height, her hand rests gently on his shoulder. Same autumn lakeside park warm sunset. Blue hair fin ears tail identity consistent. No wedding, no sexualization. Faces above lower24% dialogue area."
+    },
+    {
+      "id": "cg20_premiere_notebook_embrace",
+      "label": "CG20·旧本兑现后的拥抱",
+      "scene": "DS-13B",
+      "file": "cg/cg20_premiere_notebook_embrace_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_premiere_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg34_premiere_backstage_evening_v001.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. Landscape16:9 event CG. Adult DeepSeek in exact modest premiere outfit warmly embraces adult protagonist seen ONLY from back shoulder with face fully outside frame, happy relieved moist blue eyes over shoulder. Familiar old pale blue notebook held visibly between their hands to side, not obstructing hug. Warm vanity backstage lighting and blank migratory bird film poster. No other heroines, rings, trophies or extra people. Lower24% quiet."
+    },
+    {
+      "id": "cg_ds10_growth_work",
+      "label": "成长·独立导演工作",
+      "scene": "DS-10",
+      "file": "cg/cg_ds10_growth_work_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "prompt": "Anime visual novel CG, landscape 16:9. Ordinary adult human male director with short dark brown hair sits at editing workstation in the reference daylight studio. Show back of his entire head, normal short neck, shoulders and two hands using keyboard/mouse. No face visible, grey shirt. No girl, blue hair, long hair, fins or whale tail. Camera, simple blue book and blank storyboards on wooden desk. Abstract colored editing timeline blocks, no legible text or logos. Quiet independent career growth. Full coherent view including his head, not headless torso."
+    },
+    {
+      "id": "cg_ds13a_creating_together",
+      "label": "共同改编·认真讨论",
+      "scene": "DS-13A",
+      "file": "cg/cg_ds13a_creating_together_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. Landscape16:9 ONE coherent cinematic scene. Adult DeepSeek in exact daily cardigan outfit seated at collaboration table, calmly explaining screenplay changes with one hand pointing to blank storyboard draft. Protagonist represented only forearm and hand across table, no face. Two people collaborating respectfully, her earnest eyes engaged, blue hair and tail consistent, same studio layout daylight. No readable text. Lower24% quiet."
+    },
+    {
+      "id": "cg_ds14a_daily_care",
+      "label": "日常·为彼此留时间",
+      "scene": "DS-14A",
+      "file": "cg/cg_ds14a_daily_care_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg31_director_studio_evening_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One production asset for anime visual novel 未抵达的心意. Match attached established clean anime drawing and softly painted environments. DeepSeek is adult late twenties: same blue eyes, cobalt-to-cyan long wavy hair, ahoge, fin ears with cyan bows, whale tail. Preserve identity. No readable text, logos, watermark, UI, panels or collage. No marriage, children, awards or invented major plot. User is first-person hand, shoulder or back only, no defined face. Landscape16:9 ONE coherent cinematic scene. Adult DeepSeek in daily light-blue cardigan outfit stands beside editing desk gently offering ordinary covered meal container and tea toward first-person protagonist hand near keyboard. Warm affectionate amused smile, gentle everyday care after work. Same studio evening blue window and warm lamp. No children, rings, luxury, extra people or text. Lower24% quiet."
     }
   ],
   "current_scene": "DS-14B",
   "completed_scenes": [
+    "DS-10",
+    "DS-11",
+    "DS-12",
+    "DS-13A",
+    "DS-13B",
+    "DS-14A",
     "DS-14B"
   ]
 }

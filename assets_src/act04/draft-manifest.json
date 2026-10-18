@@ -1,0 +1,477 @@
+{
+  "status": "generated_draft",
+  "assets": [
+    {
+      "id": "bg_airport_depart_day",
+      "path": "assets_src/act04/backgrounds/bg_airport_depart_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5a316542206a8639029491eac98dbbe3dfff7f744091be52dbd31ca45ba63680",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-06B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_airport_depart_day.txt"
+    },
+    {
+      "id": "bg_europe_apartment_night",
+      "path": "assets_src/act04/backgrounds/bg_europe_apartment_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "710f09bfb6fb4d11507bd0b2fad57813a4e3a2013b1079d491e7abba0383ba09",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-08B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_europe_apartment_night.txt"
+    },
+    {
+      "id": "bg_university_day",
+      "path": "assets_src/act04/backgrounds/bg_university_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d24f43a1c2cb65230de55f133ae9109c4358867dba9c31cf07e56bf52533faea",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-09A"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_university_day.txt"
+    },
+    {
+      "id": "bg_university_winter_evening",
+      "path": "assets_src/act04/backgrounds/bg_university_winter_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d6eb9cd692bab1c9b18d9e9a5cc3a37c0ccf060b3d3734f146f69e67317a1e90",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-09B",
+        "C4-10"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_university_winter_evening.txt"
+    },
+    {
+      "id": "bg_aquarium_blue",
+      "path": "assets_src/act04/backgrounds/bg_aquarium_blue_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4809e83e37f124ec1d69635ecaae48fcca6cf53f5bf3c387e5f28d12108bee39",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-11"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_aquarium_blue.txt"
+    },
+    {
+      "id": "bg_lakeside_sunset",
+      "path": "assets_src/act04/backgrounds/bg_lakeside_sunset_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "174a080d5e239b92917bd4f079b5680080ce1867fafef0bd2384a497f9b3559d",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-12"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_lakeside_sunset.txt"
+    },
+    {
+      "id": "bg_university_home_night",
+      "path": "assets_src/act04/backgrounds/bg_university_home_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3623597db5ff7bb73deeba8a8d0ab95b09cd1891a2336c02764100be51b0bca4",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-13"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_university_home_night.txt"
+    },
+    {
+      "id": "bg_university_library_day",
+      "path": "assets_src/act04/backgrounds/bg_university_library_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "487166c8175fe57a3d70f7a0aadbb1007078ae780b2a61b1055dc372c7212af5",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-14"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_university_library_day.txt"
+    },
+    {
+      "id": "bg_rooftop_evening",
+      "path": "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "592b63b5ea8770ebc181994854fa35408f719153bbc83c51db570315b2a6c537",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-08C"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_rooftop_evening.txt"
+    },
+    {
+      "id": "claude_home_neutral",
+      "path": "assets_src/act04/characters/claude_home_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "09444d2268704606f209954e58f3f74ec3e202c3256b170add9b6379b5f713d7",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-05",
+        "C4-08B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/claude_home_neutral.txt"
+    },
+    {
+      "id": "claude_home_teary",
+      "path": "assets_src/act04/characters/claude_home_teary_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "6b434c4ac09255c3525dd6707d5be14787ec4951752a08c447af2a370be069e1",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-05",
+        "C4-08B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/claude_home_teary.txt"
+    },
+    {
+      "id": "claude_travel_neutral",
+      "path": "assets_src/act04/characters/claude_travel_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "52da282baf761eab297a737f8b6c9be626ac82241dd639525aa68788446efb09",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-06B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/claude_travel_neutral.txt"
+    },
+    {
+      "id": "claude_travel_cry",
+      "path": "assets_src/act04/characters/claude_travel_cry_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "fb42de75cee46bf38e2d94746377dd30111ff8dae60da0e3438e388fedd68416",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-06B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/claude_travel_cry.txt"
+    },
+    {
+      "id": "ds_university_neutral",
+      "path": "assets_src/act04/characters/ds_university_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "572c76dae59c5fceabaefce46077085034d3757c6ed1b011072b914f7031221d",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-09B",
+        "C4-10",
+        "C4-11",
+        "C4-12"
+      ],
+      "prompt_file": "docs/art/act04/prompts/ds_university_neutral.txt"
+    },
+    {
+      "id": "ds_university_happy",
+      "path": "assets_src/act04/characters/ds_university_happy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "df436727f01cd329b0e3136582f6c131b69b31394bfcf7773d62448d29a310cc",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-11"
+      ],
+      "prompt_file": "docs/art/act04/prompts/ds_university_happy.txt"
+    },
+    {
+      "id": "ds_university_shy",
+      "path": "assets_src/act04/characters/ds_university_shy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "7def6cbe20ca7cf2a08ab62bd8081fd34607216b05f4e9513d1422e69bfd5b0b",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-12"
+      ],
+      "prompt_file": "docs/art/act04/prompts/ds_university_shy.txt"
+    },
+    {
+      "id": "ds_university_tearsmile",
+      "path": "assets_src/act04/characters/ds_university_tearsmile_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4f2da8f872881a05379cb7356b6c7314a085b3b0677fb965e46380674f9ea29d",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-12"
+      ],
+      "prompt_file": "docs/art/act04/prompts/ds_university_tearsmile.txt"
+    },
+    {
+      "id": "gpt_work_neutral",
+      "path": "assets_src/act04/characters/gpt_work_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "530cfbde77e0d1e3d441a1c0cccdecf7e1cc178bc39c1d91ed2565a436991810",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-09B",
+        "C4-14"
+      ],
+      "prompt_file": "docs/art/act04/prompts/gpt_work_neutral.txt"
+    },
+    {
+      "id": "pr13_memory_envelope",
+      "path": "assets_src/act04/props/pr13_memory_envelope_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "3676019d8354bf522512e0973e87d9b47d2d1d0277764e69f5daca65155436bd",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-05"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr13_memory_envelope.txt"
+    },
+    {
+      "id": "pr14_suitcase",
+      "path": "assets_src/act04/props/pr14_suitcase_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "476a7d39fe88eae068aaa5abb832a6ea87a9f84d8fd2497a374fb45e9ec2b81e",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-05",
+        "C4-06B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr14_suitcase.txt"
+    },
+    {
+      "id": "pr15_schoolbag",
+      "path": "assets_src/act04/props/pr15_schoolbag_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "52414d37cc6104e2d059f9eab81212135391df039e3ce1828f8505739259b235",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-06A"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr15_schoolbag.txt"
+    },
+    {
+      "id": "pr16_hot_drink",
+      "path": "assets_src/act04/props/pr16_hot_drink_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "68700876eb2793b9d7cddcb9f6da6ba531a2eef14bac712f2f79477637dcbcbc",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-08D"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr16_hot_drink.txt"
+    },
+    {
+      "id": "pr17_admission",
+      "path": "assets_src/act04/props/pr17_admission_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "025def22c23efc3c7f7245ee2c86b56a0b394aceb240e5a972b40746572a55c5",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-09A"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr17_admission.txt"
+    },
+    {
+      "id": "pr19_camera",
+      "path": "assets_src/act04/props/pr19_camera_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "64eeea1b3912f3713a7022dbf2e3dfecaf2d6e5b78620a60623704ae8d37f552",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-11"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr19_camera.txt"
+    },
+    {
+      "id": "pr09_score_box",
+      "path": "assets_src/act04/props/pr09_score_box_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "ca48b08cded41aebd1bcf0c278f1ff36113bf66b05c678701b395a38fc9fb482",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "scenes": [
+        "C4-04"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr09_score_box.txt"
+    },
+    {
+      "id": "cg05_eve_farewell",
+      "path": "assets_src/act04/cg/cg05_eve_farewell_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2564ef2f722aaa46f81a4ac70acae56d0f05330dba593d7f85c7086becb52a0b",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-05"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg05_eve_farewell.txt"
+    },
+    {
+      "id": "cg06_airport_farewell",
+      "path": "assets_src/act04/cg/cg06_airport_farewell_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9ae5ff5976513e2445d0a07100f1fe909e8260dfc9162144f74a96ef3fff2b8f",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-06B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg06_airport_farewell.txt"
+    },
+    {
+      "id": "cg_c406a_waiting",
+      "path": "assets_src/act04/cg/cg_c406a_waiting_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7c1bcb3945040250bd987f6d2286f6b0c2040a07c8251a9c0784d760f013b8aa",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-06A"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg_c406a_waiting.txt"
+    },
+    {
+      "id": "cg_c408b_unsent",
+      "path": "assets_src/act04/cg/cg_c408b_unsent_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "602201348d25b0bce702c32c7f9e5ea53b7f36e4a75445fe49ac27e591074678",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-08B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg_c408b_unsent.txt"
+    },
+    {
+      "id": "cg07_aquarium_partner",
+      "path": "assets_src/act04/cg/cg07_aquarium_partner_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "277c95e291607817cbfbb2ad92940e02d81e3fa25eb6ae49d40e04df6429c7ec",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-11"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg07_aquarium_partner.txt"
+    },
+    {
+      "id": "cg08_ds_confession",
+      "path": "assets_src/act04/cg/cg08_ds_confession_v001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1c627f2358c19ec7185f9246d7b83dbe51a5ca07c5f51dd3ab625984cad65fef",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-12"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg08_ds_confession.txt"
+    },
+    {
+      "id": "pr18_concert_photo",
+      "path": "assets_src/act04/cg/pr18_concert_photo_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5f20f778f93d0d27c8b5c5c0206572d7e06963a90224fdc3dcd9e133b6026d7f",
+      "alpha_range": null,
+      "status": "generated_draft",
+      "scenes": [
+        "C4-09B"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr18_concert_photo.txt"
+    }
+  ]
+}

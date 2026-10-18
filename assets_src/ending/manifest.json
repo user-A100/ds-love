@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T15:21:28+08:00",
-  "order": "reverse_story",
-  "status": "complete_planned_draft_pack",
+  "updated_at": "2026-10-18T16:20:46+08:00",
+  "order": "dependency_order",
+  "status": "complete_full_ending_draft_pack",
   "scope": [
-    "DS-14B",
-    "DS-14A",
-    "DS-13B",
-    "DS-13A",
-    "DS-12",
+    "DS-10",
     "DS-11",
-    "DS-10"
+    "DS-12",
+    "DS-13A",
+    "DS-13B",
+    "DS-14A",
+    "DS-14B"
   ],
-  "planned_assets": 6,
+  "planned_assets": 27,
   "pending_assets": [],
   "assets": [
     {
@@ -148,7 +148,472 @@
       "edge_alpha_max": 6,
       "tool": "built-in imagegen",
       "status": "generated_draft"
+    },
+    {
+      "id": "bg31_director_studio_day",
+      "label": "导演工作室·日",
+      "scene": "DS-10/DS-13A",
+      "path": "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png",
+      "prompt": "docs/art/ending/prompts/bg31_director_studio_day.txt",
+      "references": [
+        "assets_src/ending/cg/cg21_rooftop_tomorrow_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2073964,
+      "sha256": "91adb11872b3a32c9ae96df93bade4e57290654be2d57b8f8da74d9bed109df5",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg31_director_studio_evening",
+      "label": "导演工作室·晚",
+      "scene": "DS-14A",
+      "path": "assets_src/ending/backgrounds/bg31_director_studio_evening_v001.png",
+      "prompt": "docs/art/ending/prompts/bg31_director_studio_evening.txt",
+      "references": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 1966956,
+      "sha256": "1e636bb85b51c5aac304480d8ba9f7dbe31dd0e7e29233ac53389cca340e3f06",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg32_adaptation_forum_day",
+      "label": "文学改编交流会",
+      "scene": "DS-11",
+      "path": "assets_src/ending/backgrounds/bg32_adaptation_forum_day_v001.png",
+      "prompt": "docs/art/ending/prompts/bg32_adaptation_forum_day.txt",
+      "references": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2270564,
+      "sha256": "eec38e851cf9eeddc2742078cdd773e1e87f53158d91e19e75c757587ba39807",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg33_reunion_park_sunset",
+      "label": "重逢公园·夕阳",
+      "scene": "DS-12",
+      "path": "assets_src/ending/backgrounds/bg33_reunion_park_sunset_v001.png",
+      "prompt": "docs/art/ending/prompts/bg33_reunion_park_sunset.txt",
+      "references": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2895777,
+      "sha256": "ec1128cd1d93647be3a96ef71cfec7b6ec36a80274bde126ef7d5fb2b66f44a4",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg34_premiere_backstage_evening",
+      "label": "电影首映后台",
+      "scene": "DS-13B",
+      "path": "assets_src/ending/backgrounds/bg34_premiere_backstage_evening_v001.png",
+      "prompt": "docs/art/ending/prompts/bg34_premiere_backstage_evening.txt",
+      "references": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2080113,
+      "sha256": "e4a4f4470d36da186b8fd9ca7100a72445bcf9c8da7b78cd7688f4e649454d2d",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_spring_blush",
+      "label": "成熟春装·害羞",
+      "scene": "DS-11/DS-12",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_spring_blush_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_spring_blush.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1875277,
+      "sha256": "cc04244cde30f0b2d5bdf40ea9535db6490efc3a3ddb093061e4aea2956b9519",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 3,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_spring_teary_smile",
+      "label": "成熟春装·泪笑",
+      "scene": "DS-12",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_spring_teary_smile_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_spring_teary_smile.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1883629,
+      "sha256": "112fef6a2a1620421cbee5c1f5720b17897175bde45a3a778d36416e16f56322",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_daily_neutral",
+      "label": "成熟日常便服·基础",
+      "scene": "DS-13A/DS-14A",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_daily_neutral.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1938405,
+      "sha256": "ccb5f3882142f790eae50dba10f647bb35578fff08399ad184d307dce6cc2fcf",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_daily_earnest",
+      "label": "成熟日常便服·认真讨论",
+      "scene": "DS-13A",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_daily_earnest_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_daily_earnest.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1985937,
+      "sha256": "9d079d68077fec9577fc9145a14f8827274d190428ca0e5fdee5ad2dc90b2f0f",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_premiere_neutral",
+      "label": "成熟首映装·基础",
+      "scene": "DS-13B",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_premiere_neutral_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_premiere_neutral.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2065284,
+      "sha256": "b438fa51eb5298a9765e1a8f111c2139cfc9dfead280f697ee9d63aa418fa1c5",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        253
+      ],
+      "edge_alpha_max": 235,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_mat_premiere_flustered",
+      "label": "成熟首映装·慌张找本",
+      "scene": "DS-13B",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_premiere_flustered_v001.png",
+      "prompt": "docs/art/ending/prompts/ds_mat_premiere_flustered.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_premiere_neutral_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1999711,
+      "sha256": "c6e293564983d5cee47530e1008a65d8ba733630c034e31a801556b4061e0a0d",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 8,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr27_creative_works",
+      "label": "双方作品与预告物料",
+      "scene": "DS-10",
+      "path": "assets_src/ending/props/pr27_creative_works_v001.png",
+      "prompt": "docs/art/ending/prompts/pr27_creative_works.txt",
+      "references": [],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2388517,
+      "sha256": "52af1dd5ac33fdfca0b35143878195e078f32a5b857e4e99d1966c4ab02a4998",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr28_forum_book_list",
+      "label": "作品名单与候鸟出版物",
+      "scene": "DS-11",
+      "path": "assets_src/ending/props/pr28_forum_book_list_v001.png",
+      "prompt": "docs/art/ending/prompts/pr28_forum_book_list.txt",
+      "references": [],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2020149,
+      "sha256": "0bab015b8b4b675f4714cabf426599549c75f558147e44f8ffd2c622127be4cf",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr29_adaptation_script",
+      "label": "候鸟改编剧本与版本稿",
+      "scene": "DS-13A/DS-14A",
+      "path": "assets_src/ending/props/pr29_adaptation_script_v001.png",
+      "prompt": "docs/art/ending/prompts/pr29_adaptation_script.txt",
+      "references": [],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1952474,
+      "sha256": "3064ee3d5d6f7664c083a9ed6be0e1846874dffd2ae82937d957a37594d154ef",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 0,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr01_aged_blue_notebook",
+      "label": "旧蓝本·泛黄纸页",
+      "scene": "DS-13B",
+      "path": "assets_src/ending/props/pr01_aged_blue_notebook_v001.png",
+      "prompt": "docs/art/ending/prompts/pr01_aged_blue_notebook.txt",
+      "references": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "width": 1312,
+      "height": 1199,
+      "bytes": 1826448,
+      "sha256": "f93a564a001333fa43022486badb0b0184dbfeb8ace8a13bb9047a2601b491ad",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 38,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg18_forum_reunion",
+      "label": "CG18·交流会及时停步",
+      "scene": "DS-11",
+      "path": "assets_src/ending/cg/cg18_forum_reunion_v001.png",
+      "prompt": "docs/art/ending/prompts/cg18_forum_reunion.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg32_adaptation_forum_day_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2234374,
+      "sha256": "86a5d2d51f1d4195f96d614871db1674e08c5b3b925a5942ae37c915df2752d3",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg19_park_short_kiss",
+      "label": "CG19·四年后主动短吻",
+      "scene": "DS-12",
+      "path": "assets_src/ending/cg/cg19_park_short_kiss_v002.png",
+      "prompt": "docs/art/ending/prompts/cg19_park_short_kiss.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg33_reunion_park_sunset_v001.png"
+      ],
+      "width": 1671,
+      "height": 941,
+      "bytes": 2284566,
+      "sha256": "77e340a57b26b511994f3430e793efde95b637952a6edd58a96d2a1b3fa8984a",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg20_premiere_notebook_embrace",
+      "label": "CG20·旧本兑现后的拥抱",
+      "scene": "DS-13B",
+      "path": "assets_src/ending/cg/cg20_premiere_notebook_embrace_v001.png",
+      "prompt": "docs/art/ending/prompts/cg20_premiere_notebook_embrace.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_premiere_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg34_premiere_backstage_evening_v001.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2233098,
+      "sha256": "5b27a7cfa07fa40a6d833ee216f6cd299b98be868a35fa57728666551ac90043",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_ds10_growth_work",
+      "label": "成长·独立导演工作",
+      "scene": "DS-10",
+      "path": "assets_src/ending/cg/cg_ds10_growth_work_v001.png",
+      "prompt": "docs/art/ending/prompts/cg_ds10_growth_work.txt",
+      "references": [
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2216103,
+      "sha256": "81fe63f506df58ec508e0cb0c8961635646ac25e28ed3d7f17e7cd1705bc5137",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_ds13a_creating_together",
+      "label": "共同改编·认真讨论",
+      "scene": "DS-13A",
+      "path": "assets_src/ending/cg/cg_ds13a_creating_together_v001.png",
+      "prompt": "docs/art/ending/prompts/cg_ds13a_creating_together.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2193632,
+      "sha256": "26bdceced28bef3fa7c347f348f30b70f9112fef26a2a8a9d4bc6a89642eb7ee",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_ds14a_daily_care",
+      "label": "日常·为彼此留时间",
+      "scene": "DS-14A",
+      "path": "assets_src/ending/cg/cg_ds14a_daily_care_v001.png",
+      "prompt": "docs/art/ending/prompts/cg_ds14a_daily_care.txt",
+      "references": [
+        "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png",
+        "assets_src/ending/backgrounds/bg31_director_studio_evening_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2168528,
+      "sha256": "f9ceb1995b702c4dd905f5c240721629cd5a079b1e4c185da9f4a5539a330a3e",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": null,
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
     }
   ],
-  "notes": "Original PNG bytes preserved. Reference-based production drafts; not layered Live2D and not runtime integration."
+  "notes": "Original PNG bytes preserved. Reference-based production drafts; not layered Live2D and not runtime integration.",
+  "scene_count": 7,
+  "beat_count": 34,
+  "covered_beats": 34
 }

@@ -1,0 +1,313 @@
+{
+  "updated_at": "2026-10-18T16:22:20.272527+08:00",
+  "completed": 32,
+  "total": 32,
+  "percent": 100.0,
+  "assets": [
+    {
+      "id": "bg_airport_depart_day",
+      "path": "assets_src/act04/backgrounds/bg_airport_depart_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_europe_apartment_night",
+      "path": "assets_src/act04/backgrounds/bg_europe_apartment_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_university_day",
+      "path": "assets_src/act04/backgrounds/bg_university_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_university_winter_evening",
+      "path": "assets_src/act04/backgrounds/bg_university_winter_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_aquarium_blue",
+      "path": "assets_src/act04/backgrounds/bg_aquarium_blue_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_lakeside_sunset",
+      "path": "assets_src/act04/backgrounds/bg_lakeside_sunset_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_university_home_night",
+      "path": "assets_src/act04/backgrounds/bg_university_home_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_university_library_day",
+      "path": "assets_src/act04/backgrounds/bg_university_library_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_rooftop_evening",
+      "path": "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_home_neutral",
+      "path": "assets_src/act04/characters/claude_home_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_home_teary",
+      "path": "assets_src/act04/characters/claude_home_teary_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_travel_neutral",
+      "path": "assets_src/act04/characters/claude_travel_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_travel_cry",
+      "path": "assets_src/act04/characters/claude_travel_cry_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_university_neutral",
+      "path": "assets_src/act04/characters/ds_university_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_university_happy",
+      "path": "assets_src/act04/characters/ds_university_happy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_university_shy",
+      "path": "assets_src/act04/characters/ds_university_shy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_university_tearsmile",
+      "path": "assets_src/act04/characters/ds_university_tearsmile_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_work_neutral",
+      "path": "assets_src/act04/characters/gpt_work_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr13_memory_envelope",
+      "path": "assets_src/act04/props/pr13_memory_envelope_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr14_suitcase",
+      "path": "assets_src/act04/props/pr14_suitcase_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr15_schoolbag",
+      "path": "assets_src/act04/props/pr15_schoolbag_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr16_hot_drink",
+      "path": "assets_src/act04/props/pr16_hot_drink_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr17_admission",
+      "path": "assets_src/act04/props/pr17_admission_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr19_camera",
+      "path": "assets_src/act04/props/pr19_camera_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr09_score_box",
+      "path": "assets_src/act04/props/pr09_score_box_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg05_eve_farewell",
+      "path": "assets_src/act04/cg/cg05_eve_farewell_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg06_airport_farewell",
+      "path": "assets_src/act04/cg/cg06_airport_farewell_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c406a_waiting",
+      "path": "assets_src/act04/cg/cg_c406a_waiting_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c408b_unsent",
+      "path": "assets_src/act04/cg/cg_c408b_unsent_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg07_aquarium_partner",
+      "path": "assets_src/act04/cg/cg07_aquarium_partner_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg08_ds_confession",
+      "path": "assets_src/act04/cg/cg08_ds_confession_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr18_concert_photo",
+      "path": "assets_src/act04/cg/pr18_concert_photo_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": null,
+      "status": "generated_draft"
+    }
+  ],
+  "pending_assets": []
+}

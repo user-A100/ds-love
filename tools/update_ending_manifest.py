@@ -47,15 +47,23 @@ def update():
             "tool": "built-in imagegen", "status": "generated_draft"
         })
     stamp = datetime.now(timezone(timedelta(hours=8))).isoformat(timespec="seconds")
-    manifest = {"schema_version":1, "updated_at":stamp, "order":"reverse_story",
+    manifest = {"schema_version":1, "updated_at":stamp, "order":plan.get("order", "reverse_story"),
                 "status":"generating" if pending else "complete_planned_draft_pack",
                 "scope":plan["scope"], "planned_assets":len(plan["jobs"]),
                 "pending_assets":pending, "assets":assets,
                 "notes":"Original PNG bytes preserved. Reference-based production drafts; not layered Live2D and not runtime integration."}
+    coverage_path = PACK / 'scene-coverage.json'
+    if coverage_path.is_file():
+        coverage = json.loads(coverage_path.read_text(encoding='utf-8'))
+        manifest['scene_count'] = coverage['scene_count']
+        manifest['beat_count'] = coverage['beat_count']
+        manifest['covered_beats'] = coverage['covered_beats']
+        if not pending and coverage['covered_beats'] == coverage['beat_count']:
+            manifest['status'] = 'complete_full_ending_draft_pack'
     (PACK/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    lines = ["# 后半段美术实时状态", "", "更新：" + stamp, "",
+    lines = ["# 终章全量美术实时状态", "", "更新：" + stamp, "",
              f"已保存并校验 {len(assets)} / {len(plan['jobs'])} 项当前计划素材。", "",
-             "按剧情倒序制作：DS-14B → DS-14A → DS-13B → DS-13A → DS-12 → DS-11 → DS-10，随后继续向前补缺。",
+             "全量制作范围：DS-10、DS-11、DS-12、DS-13A、DS-13B、DS-14A、DS-14B；按场地和服装基准的依赖顺序出图。",
              "角色脸、蓝眼睛、渐变长发、呆毛、鳍耳、青蓝发结与鲸尾以第一幕队友基准为身份参照；成年便服单独建立基准。",
              "原图、角色来源与上游署名见 ../characters/README.md 及 ../characters/sources/ai-girls/NOTICE.md。生成改编不改写原素材许可。", "",
              "## 已完成", ""]
@@ -70,6 +78,8 @@ def update():
         rel=Path(a["path"]).relative_to("assets_src/ending").as_posix()
         cards.append('<article><a href="'+html.escape(rel)+'" target="_blank"><img loading="lazy" src="'+html.escape(rel)+'" alt="'+html.escape(a["label"])+'"></a><h2>'+html.escape(a["label"])+'</h2><p>'+html.escape(a["scene"])+' · '+str(a["width"])+' × '+str(a["height"])+'</p><code>'+html.escape(a["id"])+'</code></article>')
     page='<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未抵达的心意 · 后半段美术</title><style>body{margin:0;background:#101829;color:#e7ecf7;font:16px system-ui,sans-serif}header,main{max-width:1450px;margin:auto;padding:28px}header p{color:#aebbd2}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}article{padding:14px;background:#1e2b42;border-radius:12px;overflow:hidden}img{width:100%;height:340px;object-fit:contain;background:repeating-conic-gradient(#39445c 0% 25%,#46526c 0% 50%) 50%/20px 20px}h2{font-size:17px}p,code{font-size:13px}a{color:#8dc9ff}</style><header><h1>未抵达的心意 · 后半段美术</h1><p>剧情倒序 / 原始 PNG / '+str(len(assets))+' 项已完成 / 点击查看原图</p><p>人物时期、同场景布局、旧笔记本形制保持连续；所有版本均为生成试稿。</p><a href="manifest.json">机器可读清单</a> · <a href="LIVE_STATUS.md">制作状态</a></header><main>'+"".join(cards)+'</main></html>'
+    page = page.replace('后半段美术','终章全量美术').replace('剧情倒序 / 原始 PNG','全分景覆盖 / 原始 PNG')
+    page = page.replace('<a href="manifest.json">', '<a href="scenes.html">34节拍分景预览</a> · <a href="manifest.json">')
     (PACK/"index.html").write_text(page,encoding="utf-8")
     print(json.dumps({"completed":len(assets),"planned":len(plan["jobs"]),"pending":pending},ensure_ascii=False))
 

@@ -1,12 +1,13 @@
 {
-  "checked_at": "2026-10-18T15:55:04+08:00",
-  "total": 71,
-  "unique_image_hashes": 71,
+  "checked_at": "2026-10-18T16:20:52+08:00",
+  "source": "working-tree",
+  "total": 92,
+  "unique_image_hashes": 92,
   "packs": [
     {
       "pack": "act01",
-      "ref": "origin/master",
-      "commit": "ed0e054b8ba606c41db049f6c8ab42b6414e8a0d",
+      "ref": "working-tree",
+      "commit": "f12a1dc897455746c1b274ee363fee8ffd77dede",
       "count": 26,
       "categories": {
         "backgrounds": 3,
@@ -17,8 +18,8 @@
     },
     {
       "pack": "act02",
-      "ref": "origin/master",
-      "commit": "ed0e054b8ba606c41db049f6c8ab42b6414e8a0d",
+      "ref": "working-tree",
+      "commit": "f12a1dc897455746c1b274ee363fee8ffd77dede",
       "count": 21,
       "categories": {
         "backgrounds": 10,
@@ -29,8 +30,8 @@
     },
     {
       "pack": "act03",
-      "ref": "origin/master",
-      "commit": "ed0e054b8ba606c41db049f6c8ab42b6414e8a0d",
+      "ref": "working-tree",
+      "commit": "f12a1dc897455746c1b274ee363fee8ffd77dede",
       "count": 15,
       "categories": {
         "backgrounds": 6,
@@ -41,8 +42,8 @@
     },
     {
       "pack": "act05",
-      "ref": "origin/master",
-      "commit": "ed0e054b8ba606c41db049f6c8ab42b6414e8a0d",
+      "ref": "working-tree",
+      "commit": "f12a1dc897455746c1b274ee363fee8ffd77dede",
       "count": 3,
       "categories": {
         "backgrounds": 0,
@@ -53,14 +54,14 @@
     },
     {
       "pack": "ending",
-      "ref": "origin/master",
-      "commit": "ed0e054b8ba606c41db049f6c8ab42b6414e8a0d",
-      "count": 6,
+      "ref": "working-tree",
+      "commit": "f12a1dc897455746c1b274ee363fee8ffd77dede",
+      "count": 27,
       "categories": {
-        "backgrounds": 1,
-        "characters": 4,
-        "cg": 1,
-        "props": 0
+        "backgrounds": 6,
+        "characters": 10,
+        "cg": 7,
+        "props": 4
       }
     }
   ],
@@ -70,7 +71,7 @@
       "pack": "act01",
       "id": "bg_rooftop_spring_day",
       "path": "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "08e4fbc8a3032745ff4026439bc5f7273545fc91a583291a187cbcf7e42f590a",
       "size": [
         1672,
@@ -82,7 +83,7 @@
       "pack": "act01",
       "id": "bg_playground_evening",
       "path": "assets_src/act01/backgrounds/bg_playground_evening_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "efaaf5660f8275025e5712f536b477107567a0c7d36bbcba6362477bf9b1f322",
       "size": [
         1672,
@@ -94,7 +95,7 @@
       "pack": "act01",
       "id": "bg_library_day",
       "path": "assets_src/act01/backgrounds/bg_library_day_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "86c2fe681b511b79598316db6d7b08bfa1abbc31f903f823d9a071ae410182c6",
       "size": [
         1672,
@@ -106,7 +107,7 @@
       "pack": "act01",
       "id": "pr01_blue_notebook",
       "path": "assets_src/act01/props/pr01_blue_notebook_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "865b9772924e41abbb0e69f79188816fc006b95280bbcf3b518582f3f9696518",
       "size": [
         1312,
@@ -121,7 +122,7 @@
       "pack": "act01",
       "id": "ds_hs_neutral_clean",
       "path": "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "cbdc349a885fb15f0a0e11e6aaa3b2362c3f766bae68e62a26d67816758d8b78",
       "size": [
         1024,
@@ -136,7 +137,7 @@
       "pack": "act01",
       "id": "claude_hs_neutral",
       "path": "assets_src/act01/characters/claude/claude_hs_neutral_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "351215257ee4d4fdf629ded8bd732c7becd0269d98bfa5d5375afc7245bb2c51",
       "size": [
         1024,
@@ -151,7 +152,7 @@
       "pack": "act01",
       "id": "pr02_flying_whale_sketch",
       "path": "assets_src/act01/props/pr02_flying_whale_sketch_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "f661514db7fba20ea2cc4e9afb8f06acf43bb3b9696737b6903a1c8e71fce01c",
       "size": [
         1312,
@@ -166,7 +167,7 @@
       "pack": "act01",
       "id": "pr_manuscript_stack",
       "path": "assets_src/act01/props/pr_manuscript_stack_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "79cfc22fc0ba44f757a9ea1a90f705478d7ec744d9da5490667874bf5efb8795",
       "size": [
         1312,
@@ -181,7 +182,7 @@
       "pack": "act01",
       "id": "cg_p01_offbalance",
       "path": "assets_src/act01/cg/cg_p01_offbalance_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "c8702d01dd527300540a7098112d13e35869cfc0975308a876392457b7b18ebe",
       "size": [
         1672,
@@ -193,7 +194,7 @@
       "pack": "act01",
       "id": "ds_hs_pain",
       "path": "assets_src/act01/characters/deepseek/ds_hs_pain_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "cd1184a5ecf34f2fa761aed3a3a5dcc23e6eb5ba7e1087418ad454705d572e0f",
       "size": [
         1024,
@@ -208,7 +209,7 @@
       "pack": "act01",
       "id": "claude_hs_annoyed",
       "path": "assets_src/act01/characters/claude/claude_hs_annoyed_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "f802f1524a66b7844ff39d0e25e1b198c71ab53cfeb6fc7fbc7d6d04beece64e",
       "size": [
         1024,
@@ -223,7 +224,7 @@
       "pack": "act01",
       "id": "cg01_rooftop_collision",
       "path": "assets_src/act01/cg/cg01_rooftop_collision_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "bacb5f4834ad65aa8655720726518e800dfc92d82a17583db0dda3f668242326",
       "size": [
         1672,
@@ -235,7 +236,7 @@
       "pack": "act01",
       "id": "ds_hs_happy",
       "path": "assets_src/act01/characters/deepseek/ds_hs_happy_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "497500c88d9bef7a67d3e26bdabec8ab63aeb14e7c478fdb634bcb39fc96e62a",
       "size": [
         1024,
@@ -250,7 +251,7 @@
       "pack": "act01",
       "id": "claude_hs_surprised",
       "path": "assets_src/act01/characters/claude/claude_hs_surprised_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "123e4ceb235846f8fb068d32c94a691c532f1912c55d2ce10157827fa1e6e78a",
       "size": [
         1024,
@@ -265,7 +266,7 @@
       "pack": "act01",
       "id": "cg_p01_notebook_pickup",
       "path": "assets_src/act01/cg/cg_p01_notebook_pickup_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "8f29f1a0fe8a8352eef278c1e63765e0fd05c2cd29e8394b51536a3467523adc",
       "size": [
         1672,
@@ -277,7 +278,7 @@
       "pack": "act01",
       "id": "ds_hs_apology",
       "path": "assets_src/act01/characters/deepseek/ds_hs_apology_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "ab40083ce937a98a54685301000ca9b89dcc2501ac897b3d391fff75973c332f",
       "size": [
         1024,
@@ -292,7 +293,7 @@
       "pack": "act01",
       "id": "claude_hs_blush",
       "path": "assets_src/act01/characters/claude/claude_hs_blush_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "4b737f2bbb92c7115efc8d35aa2f40355ca4131fe616defb252e5eb4b5b5b324",
       "size": [
         1024,
@@ -307,7 +308,7 @@
       "pack": "act01",
       "id": "cg_p01_notebook_reveal",
       "path": "assets_src/act01/cg/cg_p01_notebook_reveal_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "90073e0a0da8d8cb7656d75abf84bd921e3a36581673dfcfae4d53ac8505f808",
       "size": [
         1672,
@@ -319,7 +320,7 @@
       "pack": "act01",
       "id": "ds_hs_alarmed",
       "path": "assets_src/act01/characters/deepseek/ds_hs_alarmed_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "f2b4989cfc7decd277f272e17b4a73b89882db9e4103bf819ca68f818c120d81",
       "size": [
         1024,
@@ -334,7 +335,7 @@
       "pack": "act01",
       "id": "ds_hs_flustered",
       "path": "assets_src/act01/characters/deepseek/ds_hs_flustered_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "48705112b9c9b97890d5277be2f5cd3bdf4ad9dafb5d05b80f4500c629698b4c",
       "size": [
         1024,
@@ -349,7 +350,7 @@
       "pack": "act01",
       "id": "cg02_pullup_confession",
       "path": "assets_src/act01/cg/cg02_pullup_confession_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "d98e1e200310e171065eac93373b6bb1963dad13e02b58458f756d6bcf558d43",
       "size": [
         1672,
@@ -361,7 +362,7 @@
       "pack": "act01",
       "id": "ds_hs_book_happy",
       "path": "assets_src/act01/characters/deepseek/ds_hs_book_happy_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "fcde3b7f016afcf150408c113b052c33d630c33f9df3bb714e569880e6be0af4",
       "size": [
         1024,
@@ -376,7 +377,7 @@
       "pack": "act01",
       "id": "ds_hs_sad",
       "path": "assets_src/act01/characters/deepseek/ds_hs_sad_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "45413dcd82277fc2cd75ed4a140496482d7af23ca95acf62db8ff0f35818a6bc",
       "size": [
         1024,
@@ -391,7 +392,7 @@
       "pack": "act01",
       "id": "cg_c103_notebook_return",
       "path": "assets_src/act01/cg/cg_c103_notebook_return_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "dd0418495de56275d4401bb9763b7ea97ec3a94449714ce4fe721aa6eeb94577",
       "size": [
         1672,
@@ -403,7 +404,7 @@
       "pack": "act01",
       "id": "ds_hs_proud",
       "path": "assets_src/act01/characters/deepseek/ds_hs_proud_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "54c76b11dccd37888b570ff5ebea8bb92f3abd3919de10afd9212bd15d639105",
       "size": [
         1024,
@@ -418,7 +419,7 @@
       "pack": "act01",
       "id": "cg_c104_writing_together",
       "path": "assets_src/act01/cg/cg_c104_writing_together_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "95208677fb20f453fa55f440c445ca344a9fdd1a4634b6a3d26f0c34e6004330",
       "size": [
         1672,
@@ -430,7 +431,7 @@
       "pack": "act02",
       "id": "bg_filmclub_dust_day",
       "path": "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "86574f53cd6622ed0e60d12b5f304e2fe19d8af5f2a16473deec06c4ad05f8a5",
       "size": [
         1672,
@@ -442,7 +443,7 @@
       "pack": "act02",
       "id": "bg_classroom_day",
       "path": "assets_src/act02/backgrounds/bg_classroom_day_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "26bda5da1442b8580d0900e2e7eb28fb458d6b12057933ed9cd0dec0242f9849",
       "size": [
         1672,
@@ -454,7 +455,7 @@
       "pack": "act02",
       "id": "bg_classroom_evening",
       "path": "assets_src/act02/backgrounds/bg_classroom_evening_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "090c61093eed5c89a23e8bc3c1c58d356b29d40646b402050a700aa4207b2e41",
       "size": [
         1672,
@@ -466,7 +467,7 @@
       "pack": "act02",
       "id": "bg_classroom_night",
       "path": "assets_src/act02/backgrounds/bg_classroom_night_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "4834354f14115a3b81aec5dabf1b5848fc912ef828570693b555805e64fb3a4d",
       "size": [
         1672,
@@ -478,7 +479,7 @@
       "pack": "act02",
       "id": "bg_flowerbed_overcast",
       "path": "assets_src/act02/backgrounds/bg_flowerbed_overcast_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "2d47b7a1a78089fb1c02611a2da04f1624bfff4bb9ba4d7c26fe479ec48eb157",
       "size": [
         1672,
@@ -490,7 +491,7 @@
       "pack": "act02",
       "id": "bg_user_desk_day",
       "path": "assets_src/act02/backgrounds/bg_user_desk_day_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "f7d5b1e8341c41c05bce30d389b9dc1b931caae58df3358b47d2580c24f434fb",
       "size": [
         1672,
@@ -502,7 +503,7 @@
       "pack": "act02",
       "id": "bg_user_desk_night",
       "path": "assets_src/act02/backgrounds/bg_user_desk_night_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "85aab3d3acac2aacb8009bf794a118cbd0e8df4634410505e6112502ea302e0c",
       "size": [
         1672,
@@ -514,7 +515,7 @@
       "pack": "act02",
       "id": "bg_corridor_day",
       "path": "assets_src/act02/backgrounds/bg_corridor_day_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "288e7182609afee6f2b4ad93b4f49610bef3848fd84e90bf4b50dae3eb77ac41",
       "size": [
         1672,
@@ -526,7 +527,7 @@
       "pack": "act02",
       "id": "bg_corridor_evening",
       "path": "assets_src/act02/backgrounds/bg_corridor_evening_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "d94fda6521939ed04243202224730b515da245c85f699f9973d0144ded975677",
       "size": [
         1672,
@@ -538,7 +539,7 @@
       "pack": "act02",
       "id": "bg_claude_bedroom_night",
       "path": "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "17009fe6208cd1e443543f7f8309351981cdab29366b852309881ff84fad6800",
       "size": [
         1672,
@@ -550,7 +551,7 @@
       "pack": "act02",
       "id": "gpt_hs_neutral",
       "path": "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "a97b32f7e67803f10511b1d25daf0e42c34be532ba725bde1716e18cac9495ef",
       "size": [
         1024,
@@ -565,7 +566,7 @@
       "pack": "act02",
       "id": "gpt_hs_reading",
       "path": "assets_src/act02/characters/gpt/gpt_hs_reading_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "53a7ed54afd24a3eebea39b7a35ae1b1a8b4f250367ed854da6aad05dcf63c54",
       "size": [
         1024,
@@ -580,7 +581,7 @@
       "pack": "act02",
       "id": "gpt_hs_explain",
       "path": "assets_src/act02/characters/gpt/gpt_hs_explain_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "bfc206f4fd4b9f189e2ee549b0d5ddccf5f54fe2dc1c1f864695aaf9c6abb376",
       "size": [
         1024,
@@ -595,7 +596,7 @@
       "pack": "act02",
       "id": "gpt_hs_smile",
       "path": "assets_src/act02/characters/gpt/gpt_hs_smile_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "a344d5e97f432467cc389f8ffcde6e22e70677d2ceee62f75d73d595fba297a4",
       "size": [
         1024,
@@ -610,7 +611,7 @@
       "pack": "act02",
       "id": "pr03_old_camcorder",
       "path": "assets_src/act02/props/pr03_old_camcorder_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "1aa4f327aed77d929b33546c0d0ab1190775a18d2048dab0c691d2f57d884d64",
       "size": [
         1365,
@@ -625,7 +626,7 @@
       "pack": "act02",
       "id": "pr04_tripod",
       "path": "assets_src/act02/props/pr04_tripod_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "7afc888c27be3205a5a14a0b80d1c5d75dbaf402256500db5850d63e3647f6ae",
       "size": [
         1024,
@@ -640,7 +641,7 @@
       "pack": "act02",
       "id": "pr06_study_materials",
       "path": "assets_src/act02/props/pr06_study_materials_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "49f20d849f7d85cd7103820a1678df6ac4a7b3020674b3f24eee01b2ce6e8ece",
       "size": [
         1312,
@@ -655,7 +656,7 @@
       "pack": "act02",
       "id": "pr07_two_cakes",
       "path": "assets_src/act02/props/pr07_two_cakes_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "76745aa94aa40fa855530e272e9b0e2412f291f7e9afe19dca41cb4c18c6a0eb",
       "size": [
         1536,
@@ -670,7 +671,7 @@
       "pack": "act02",
       "id": "cg_c203_mother",
       "path": "assets_src/act02/cg/cg_c203_mother_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "8f39c7079a82d8ce3ca751eeffb61b64aaad9062511f02611b7562eac1e764ca",
       "size": [
         1672,
@@ -682,7 +683,7 @@
       "pack": "act02",
       "id": "cg03_tutoring",
       "path": "assets_src/act02/cg/cg03_tutoring_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "2dabf4aa4f0b64e93b11a07ab3cbb35da2d6d275eecabc34e37e891b1ec25f44",
       "size": [
         1672,
@@ -694,7 +695,7 @@
       "pack": "act02",
       "id": "cg_c211_unsent",
       "path": "assets_src/act02/cg/cg_c211_unsent_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "d26d007ca447885c1ccc66fc0fc7809d896145ddf6ff8d5ef7b738912739749a",
       "size": [
         1672,
@@ -706,7 +707,7 @@
       "pack": "act03",
       "id": "bg_musicroom_evening",
       "path": "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "719103869d65adb19b4e0eeec184229e397db304fc9c9eae01177a2a193c1a1b",
       "size": [
         1672,
@@ -718,7 +719,7 @@
       "pack": "act03",
       "id": "bg_musicroom_night",
       "path": "assets_src/act03/backgrounds/bg_musicroom_night_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "a1ba0158216e26f4cc224e86b88d87c6df1f458206127758074ebd67b325faf6",
       "size": [
         1672,
@@ -730,7 +731,7 @@
       "pack": "act03",
       "id": "bg_auditorium_rehearsal",
       "path": "assets_src/act03/backgrounds/bg_auditorium_rehearsal_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "d17743a6264facaa72cf9e32e85a2d4cda25fc8332c6435b24cb5648a2551c26",
       "size": [
         1672,
@@ -742,7 +743,7 @@
       "pack": "act03",
       "id": "bg_auditorium_performance",
       "path": "assets_src/act03/backgrounds/bg_auditorium_performance_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "48afeaeb889f504f9a85da7d03c0a0a2575fbf9c5b6a6941511242d249266a40",
       "size": [
         1672,
@@ -754,7 +755,7 @@
       "pack": "act03",
       "id": "bg_rooftop_night",
       "path": "assets_src/act03/backgrounds/bg_rooftop_night_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "5a6ef22949128724ba4f0043cd4e01e7bc8ab6053d8f9ea92dd488b02f1fe7be",
       "size": [
         1672,
@@ -766,7 +767,7 @@
       "pack": "act03",
       "id": "bg_schoolgate_evening",
       "path": "assets_src/act03/backgrounds/bg_schoolgate_evening_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "0ee2ea1079f907a5ceb28ebcfd4aa07120b1b69607032faee609e6d40793e528",
       "size": [
         1672,
@@ -778,7 +779,7 @@
       "pack": "act03",
       "id": "gpt_hs_neutral",
       "path": "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "ab5e36674851e3d83d1a16b91ec231abf117bfa237d50aa4f5a881ec3163b523",
       "size": [
         1024,
@@ -793,7 +794,7 @@
       "pack": "act03",
       "id": "gpt_hs_shy",
       "path": "assets_src/act03/characters/gpt/gpt_hs_shy_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "f2d348c65ac1d501b97d9c5b687a64b1a223a3f11f0841d3b8f44a9858db8323",
       "size": [
         1024,
@@ -808,7 +809,7 @@
       "pack": "act03",
       "id": "gpt_hs_lonely",
       "path": "assets_src/act03/characters/gpt/gpt_hs_lonely_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "148b93bd9403d4c36d5918a442c1761542fe62aac30e7df0b3bbe53f02bc0a0c",
       "size": [
         1024,
@@ -823,7 +824,7 @@
       "pack": "act03",
       "id": "pr09_guitar_score",
       "path": "assets_src/act03/props/pr09_guitar_score_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "5e52f2e7efa3bc962692d32dd2870cf91686d7f656fb7bf5d1f460cf40810abe",
       "size": [
         1295,
@@ -838,7 +839,7 @@
       "pack": "act03",
       "id": "pr12_two_drink_cans",
       "path": "assets_src/act03/props/pr12_two_drink_cans_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "4c504252e6a22ebb89963ff7236e71f399bb2c62b74674d29d4bb3e18a9f1251",
       "size": [
         1312,
@@ -853,7 +854,7 @@
       "pack": "act03",
       "id": "cg_c303_piano_guidance",
       "path": "assets_src/act03/cg/cg_c303_piano_guidance_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "ad4b536344f2e8033d375c9a5f302261fd385756478df23cf6741ee41c387259",
       "size": [
         1672,
@@ -865,7 +866,7 @@
       "pack": "act03",
       "id": "cg04_cultural_festival",
       "path": "assets_src/act03/cg/cg04_cultural_festival_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "03e6fd4eb7cd31b459ce89af50069501dd8bf2558aab9d2c91ba192e8a420eff",
       "size": [
         1672,
@@ -877,7 +878,7 @@
       "pack": "act03",
       "id": "cg_c307_rooftop_promise",
       "path": "assets_src/act03/cg/cg_c307_rooftop_promise_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "5526756ab1fe772fe48cf15e07e940e4c057dbf7d76b88b9ecd2734039eea0bc",
       "size": [
         1672,
@@ -889,7 +890,7 @@
       "pack": "act03",
       "id": "cg_c308_claude_confession",
       "path": "assets_src/act03/cg/cg_c308_claude_confession_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "22387e7aba94f46bdced6c7be4639bbb3c614310b90fa2f9fa256f2848788660",
       "size": [
         1672,
@@ -901,7 +902,7 @@
       "pack": "act05",
       "id": "claude_win_neutral",
       "path": "assets_src/act05/characters/claude/claude_win_neutral_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "f215161f6993f41039ffcbeed6a0d5fee5118a5ae30b6575a011447aee8e8717",
       "size": [
         1024,
@@ -916,7 +917,7 @@
       "pack": "act05",
       "id": "ds_win_neutral",
       "path": "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "4423f33dc40478719b41b992f4732841939aca91780090cbe78af1a1b704709d",
       "size": [
         1024,
@@ -931,7 +932,7 @@
       "pack": "act05",
       "id": "gpt_work_neutral",
       "path": "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "b83a3b2d8ad530089d0c82b52cb885805b30afd336c753006fefaa9c47fa25ba",
       "size": [
         1024,
@@ -946,7 +947,7 @@
       "pack": "ending",
       "id": "bg01_refurbished_spring_day",
       "path": "assets_src/ending/backgrounds/bg01_refurbished_spring_day_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "71193fb209842af315059cd0af9533f47560cdbccb52a4126917f53636f5ad8a",
       "size": [
         1672,
@@ -958,7 +959,7 @@
       "pack": "ending",
       "id": "ds_mat_spring_neutral",
       "path": "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "09b9f015430e83bb4745fd4c93c74b2a7a21df84181cd66ea38add1cf4650c58",
       "size": [
         1024,
@@ -973,7 +974,7 @@
       "pack": "ending",
       "id": "cg21_rooftop_tomorrow",
       "path": "assets_src/ending/cg/cg21_rooftop_tomorrow_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "3999cfe48f1fd599269f8ce95bd1532ba1b3b3850074fff1018f5437b40b4cab",
       "size": [
         1672,
@@ -985,7 +986,7 @@
       "pack": "ending",
       "id": "ds_mat_spring_tender",
       "path": "assets_src/ending/characters/deepseek/ds_mat_spring_tender_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "6ff919b4222722c4684942d868fc54e95a0b670499414d1f1c90d43088770aea",
       "size": [
         1024,
@@ -1000,7 +1001,7 @@
       "pack": "ending",
       "id": "ds_mat_spring_happy",
       "path": "assets_src/ending/characters/deepseek/ds_mat_spring_happy_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "9177154afff12c12cf63c9e5fcf5c030f4f6e348d69d7148251982c52a4c3ee5",
       "size": [
         1024,
@@ -1015,7 +1016,7 @@
       "pack": "ending",
       "id": "ds_mat_spring_pout",
       "path": "assets_src/ending/characters/deepseek/ds_mat_spring_pout_v001.png",
-      "ref": "origin/master",
+      "ref": "working-tree",
       "sha256": "37c5a881a147916d0543b0d7f9b557bf8248a7aba943f60b6f87da1457433be9",
       "size": [
         1024,
@@ -1025,6 +1026,288 @@
         0,
         254
       ]
+    },
+    {
+      "pack": "ending",
+      "id": "bg31_director_studio_day",
+      "path": "assets_src/ending/backgrounds/bg31_director_studio_day_v001.png",
+      "ref": "working-tree",
+      "sha256": "91adb11872b3a32c9ae96df93bade4e57290654be2d57b8f8da74d9bed109df5",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "bg31_director_studio_evening",
+      "path": "assets_src/ending/backgrounds/bg31_director_studio_evening_v001.png",
+      "ref": "working-tree",
+      "sha256": "1e636bb85b51c5aac304480d8ba9f7dbe31dd0e7e29233ac53389cca340e3f06",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "bg32_adaptation_forum_day",
+      "path": "assets_src/ending/backgrounds/bg32_adaptation_forum_day_v001.png",
+      "ref": "working-tree",
+      "sha256": "eec38e851cf9eeddc2742078cdd773e1e87f53158d91e19e75c757587ba39807",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "bg33_reunion_park_sunset",
+      "path": "assets_src/ending/backgrounds/bg33_reunion_park_sunset_v001.png",
+      "ref": "working-tree",
+      "sha256": "ec1128cd1d93647be3a96ef71cfec7b6ec36a80274bde126ef7d5fb2b66f44a4",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "bg34_premiere_backstage_evening",
+      "path": "assets_src/ending/backgrounds/bg34_premiere_backstage_evening_v001.png",
+      "ref": "working-tree",
+      "sha256": "e4a4f4470d36da186b8fd9ca7100a72445bcf9c8da7b78cd7688f4e649454d2d",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "ds_mat_spring_blush",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_spring_blush_v001.png",
+      "ref": "working-tree",
+      "sha256": "cc04244cde30f0b2d5bdf40ea9535db6490efc3a3ddb093061e4aea2956b9519",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "ds_mat_spring_teary_smile",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_spring_teary_smile_v001.png",
+      "ref": "working-tree",
+      "sha256": "112fef6a2a1620421cbee5c1f5720b17897175bde45a3a778d36416e16f56322",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "ds_mat_daily_neutral",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_daily_neutral_v001.png",
+      "ref": "working-tree",
+      "sha256": "ccb5f3882142f790eae50dba10f647bb35578fff08399ad184d307dce6cc2fcf",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "ds_mat_daily_earnest",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_daily_earnest_v001.png",
+      "ref": "working-tree",
+      "sha256": "9d079d68077fec9577fc9145a14f8827274d190428ca0e5fdee5ad2dc90b2f0f",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "ds_mat_premiere_neutral",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_premiere_neutral_v001.png",
+      "ref": "working-tree",
+      "sha256": "b438fa51eb5298a9765e1a8f111c2139cfc9dfead280f697ee9d63aa418fa1c5",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        253
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "ds_mat_premiere_flustered",
+      "path": "assets_src/ending/characters/deepseek/ds_mat_premiere_flustered_v001.png",
+      "ref": "working-tree",
+      "sha256": "c6e293564983d5cee47530e1008a65d8ba733630c034e31a801556b4061e0a0d",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "pr27_creative_works",
+      "path": "assets_src/ending/props/pr27_creative_works_v001.png",
+      "ref": "working-tree",
+      "sha256": "52af1dd5ac33fdfca0b35143878195e078f32a5b857e4e99d1966c4ab02a4998",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "pr28_forum_book_list",
+      "path": "assets_src/ending/props/pr28_forum_book_list_v001.png",
+      "ref": "working-tree",
+      "sha256": "0bab015b8b4b675f4714cabf426599549c75f558147e44f8ffd2c622127be4cf",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "pr29_adaptation_script",
+      "path": "assets_src/ending/props/pr29_adaptation_script_v001.png",
+      "ref": "working-tree",
+      "sha256": "3064ee3d5d6f7664c083a9ed6be0e1846874dffd2ae82937d957a37594d154ef",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "pr01_aged_blue_notebook",
+      "path": "assets_src/ending/props/pr01_aged_blue_notebook_v001.png",
+      "ref": "working-tree",
+      "sha256": "f93a564a001333fa43022486badb0b0184dbfeb8ace8a13bb9047a2601b491ad",
+      "size": [
+        1312,
+        1199
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "pack": "ending",
+      "id": "cg18_forum_reunion",
+      "path": "assets_src/ending/cg/cg18_forum_reunion_v001.png",
+      "ref": "working-tree",
+      "sha256": "86a5d2d51f1d4195f96d614871db1674e08c5b3b925a5942ae37c915df2752d3",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "cg19_park_short_kiss",
+      "path": "assets_src/ending/cg/cg19_park_short_kiss_v002.png",
+      "ref": "working-tree",
+      "sha256": "77e340a57b26b511994f3430e793efde95b637952a6edd58a96d2a1b3fa8984a",
+      "size": [
+        1671,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "cg20_premiere_notebook_embrace",
+      "path": "assets_src/ending/cg/cg20_premiere_notebook_embrace_v001.png",
+      "ref": "working-tree",
+      "sha256": "5b27a7cfa07fa40a6d833ee216f6cd299b98be868a35fa57728666551ac90043",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "cg_ds10_growth_work",
+      "path": "assets_src/ending/cg/cg_ds10_growth_work_v001.png",
+      "ref": "working-tree",
+      "sha256": "81fe63f506df58ec508e0cb0c8961635646ac25e28ed3d7f17e7cd1705bc5137",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "cg_ds13a_creating_together",
+      "path": "assets_src/ending/cg/cg_ds13a_creating_together_v001.png",
+      "ref": "working-tree",
+      "sha256": "26bdceced28bef3fa7c347f348f30b70f9112fef26a2a8a9d4bc6a89642eb7ee",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
+    },
+    {
+      "pack": "ending",
+      "id": "cg_ds14a_daily_care",
+      "path": "assets_src/ending/cg/cg_ds14a_daily_care_v001.png",
+      "ref": "working-tree",
+      "sha256": "f9ceb1995b702c4dd905f5c240721629cd5a079b1e4c185da9f4a5539a330a3e",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null
     }
   ]
 }

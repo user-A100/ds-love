@@ -1,0 +1,726 @@
+{
+  "date": "2026-10-18",
+  "scope": "第四章 C4-01～C4-14（含A/B/C等分场），全量美术试稿",
+  "tool": "built-in imagegen",
+  "jobs": [
+    {
+      "id": "bg_airport_depart_day",
+      "label": "BG13 · 国际出发大厅",
+      "file": "backgrounds/bg_airport_depart_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_airport_depart_day.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. New anonymous international airport departure hall in daytime, eye-level wide view. Glass curtain wall viewer left with diffuse daylight, seating lower left, open public concourse center, security checkpoint and clear public/restricted boundary far right. Abstract blank overhead boards with no letters or numbers. No airlines, flags, airplanes close-up or location landmarks. Believable airport architecture, no arrival baggage belts. Reserve foreground space for farewell and suitcase.",
+      "scenes": [
+        "C4-06B"
+      ]
+    },
+    {
+      "id": "bg_europe_apartment_night",
+      "label": "BG14 · 欧洲独居公寓夜景",
+      "file": "backgrounds/bg_europe_apartment_night_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png",
+        "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_europe_apartment_night.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. New small modest European student apartment at night, distinctly unlike large high-school bedroom reference. Single bed left, compact practice upright piano rear right, small desk by left window, closed blank exercise books and one chair. Cool anonymous courtyard outside window, small warm desk lamp. Restrained beige plaster and pale wood, intimate tired mood, no national landmarks or luxury decor. Phone and sheet music will be separate layers.",
+      "scenes": [
+        "C4-08B"
+      ]
+    },
+    {
+      "id": "bg_university_day",
+      "label": "BG15 · 大学校园日间",
+      "file": "backgrounds/bg_university_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_university_day.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. New university campus pedestrian path in daylight, eye-level medium-wide view. Mature trees, low modern brick-and-glass academic building on left, a modest dormitory far right, broad pedestrian path receding center. No high-school classroom, fences or playground. Quiet anonymous university without emblems, signs, cars or specific country landmarks. Neutral sophisticated campus palette, soft daylight.",
+      "scenes": [
+        "C4-09A"
+      ]
+    },
+    {
+      "id": "bg_university_winter_evening",
+      "label": "BG15 · 大学校园初冬傍晚",
+      "file": "backgrounds/bg_university_winter_evening_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act04/backgrounds/bg_university_day_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_university_winter_evening.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. Reference 1 is edit target. Preserve exact camera, campus architecture, path and trees. Change only season and light to early winter evening: sparse bare branches, muted leaves, cold blue air, small warm building windows, soft low sunset at upper left. Dry pavement without thick snow, no decorations, people or new structures.",
+      "scenes": [
+        "C4-09B",
+        "C4-10"
+      ]
+    },
+    {
+      "id": "bg_aquarium_blue",
+      "label": "BG16 · 水族馆蓝色主水槽",
+      "file": "backgrounds/bg_aquarium_blue_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_aquarium_blue.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. New public aquarium main viewing gallery, eye-level wide view. Vast deep-blue glass tank across left and center, softly glowing small schooling fish and one large harmless fish beyond glass. Curved dark floor, discreet ceiling, empty safe standing space at viewer right, side jellyfish cylinder partially visible at far right. Dreamlike but realistic restrained blue caustics, no ocean beach, giant whale, labels, signs or people.",
+      "scenes": [
+        "C4-11"
+      ]
+    },
+    {
+      "id": "bg_lakeside_sunset",
+      "label": "BG17 · 冬日湖岸夕阳",
+      "file": "backgrounds/bg_lakeside_sunset_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_lakeside_sunset.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. New quiet public park near aquarium on early winter afternoon at sunset. Eye-level view along safe paved lakeside path, low stone curb along calm lake left, wooden bench right, sparse trees and pale reeds, distant anonymous low buildings. Warm amber light upper left meets cool lavender shadows. Stable open foreground for face-to-face confession, no snow, cherry blossoms, railing drop, crowds or signage. This exact camera is future reunion reference.",
+      "scenes": [
+        "C4-12"
+      ]
+    },
+    {
+      "id": "bg_university_home_night",
+      "label": "BG18 · 大学住处工作桌夜景",
+      "file": "backgrounds/bg_university_home_night_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_university_home_night.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. New modest university student rented room at night, distinctly different from high-school room. Compact editing desk left with a large completely blank dark monitor, anonymous small camera lens on shelf, simple narrow bed right, pinboard with blank papers at rear, small window center with quiet anonymous city lights. Restrained navy-grey and warm wood, single desk lamp, credible practical living space. No text, interfaces, fancy piano or permanent phone.",
+      "scenes": [
+        "C4-13"
+      ]
+    },
+    {
+      "id": "bg_university_library_day",
+      "label": "BG19 · 大学图书馆日间",
+      "file": "backgrounds/bg_university_library_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_university_library_day.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. New university library reading area, preserve general painting style but not high-school room. Tall double-height glass windows viewer left, long oak shared reading tables, slim quiet desk lights, rear two-level bookshelves and stairway. Eye-level seated medium-wide composition with empty foreground tabletop for laptop overlay. Soft neutral daylight, sophisticated spacious architecture. No people, lettering, signs or permanent screens.",
+      "scenes": [
+        "C4-14"
+      ]
+    },
+    {
+      "id": "bg_rooftop_evening",
+      "label": "BG01 · 高中天台傍晚",
+      "file": "backgrounds/bg_rooftop_evening_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/bg_rooftop_evening.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 background plate, no people. Keep lower 24 percent quiet for dialogue. Reference 1 is edit target. Preserve exact rooftop camera, safe high perimeter fence, low inner wall left, stairwell right, concrete floor and distant town geometry. Change only time to warm late-afternoon sunset, peach sky and long soft shadows. No people, sea, new structures or props.",
+      "scenes": [
+        "C4-08C"
+      ]
+    },
+    {
+      "id": "claude_home_neutral",
+      "label": "Claude · 高中过渡便服基准",
+      "file": "characters/claude_home_neutral_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/claude_home_neutral.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Claude identity lock: orange long hair, amber eyes, orange flower and black ribbon HER LEFT / VIEWER RIGHT. Replace school uniform with modest pale-apricot long-sleeved cardigan, ivory collared blouse, loose full-length cream trousers and simple indoor flats. Same adolescent identity and covered everyday outfit. Natural standing posture, hands gently clasped, restrained hesitant neutral expression. No revealing nightwear or accessories.",
+      "scenes": [
+        "C4-05",
+        "C4-08B"
+      ]
+    },
+    {
+      "id": "claude_home_teary",
+      "label": "Claude · 便服含泪",
+      "file": "characters/claude_home_teary_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act04/characters/claude_home_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/claude_home_teary.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Edit reference 1. Preserve exact clothing, identity, silhouette and framing. Change only expression to vulnerable restrained tears pooled at lower eyelids, lips barely parted, brows gently lifted. Hands softly clasped at own waist, no other hands or contact, no streaming tears or theatrical crying.",
+      "scenes": [
+        "C4-05",
+        "C4-08B"
+      ]
+    },
+    {
+      "id": "claude_travel_neutral",
+      "label": "Claude · 出国外套基准",
+      "file": "characters/claude_travel_neutral_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/claude_travel_neutral.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Claude identity and flower side unchanged. Modest knee-length warm beige travel coat over existing ivory blouse and amber ribbon, navy pleated skirt hem, opaque dark tights and simple dark loafers. Entire character visible. Hands loosely together, startled almost hopeful expression at being called. No suitcase built into sprite, scarf covering face or new jewelry.",
+      "scenes": [
+        "C4-06B"
+      ]
+    },
+    {
+      "id": "claude_travel_cry",
+      "label": "Claude · 机场含泪",
+      "file": "characters/claude_travel_cry_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act04/characters/claude_travel_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/claude_travel_cry.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Edit reference 1. Preserve exact travel coat, clothes, face, hair, flower side and framing. Change only face and hands: restrained tears at eyelids and one small tear on cheek, eyebrows drawn upward, soft parted mouth, one hand lightly held near own chest. Emotion hurt and relief, no hysterical sobbing or other person.",
+      "scenes": [
+        "C4-06B"
+      ]
+    },
+    {
+      "id": "ds_university_neutral",
+      "label": "DeepSeek · 大学浅蓝外套基准",
+      "file": "characters/ds_university_neutral_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/ds_university_neutral.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Same DeepSeek three years older, preserve blue eyes, cobalt-to-cyan long curls, fin ears, cyan bows, ahoge and whale tail. Young adult university student. Replace school uniform with light sky-blue thigh-length wool coat worn open over ivory knit sweater, modest navy knee-length skirt, dark opaque tights and simple navy ankle boots. No school ribbon, emblem or gold uniform piping. Calm warm expression, hands relaxed at waist. Subtle grown-up poise, no changes to identity.",
+      "scenes": [
+        "C4-09B",
+        "C4-10",
+        "C4-11",
+        "C4-12"
+      ]
+    },
+    {
+      "id": "ds_university_happy",
+      "label": "DeepSeek · 大学开心",
+      "file": "characters/ds_university_happy_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act04/characters/ds_university_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/ds_university_happy.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Edit reference 1. Preserve exact young-adult identity, light blue coat, sweater, skirt, tights, boots, accessories and framing. Change only expression and hands: Bright natural happy smile, one empty hand lightly raised as if pointing out fish, relaxed playful shoulders.",
+      "scenes": [
+        "C4-11"
+      ]
+    },
+    {
+      "id": "ds_university_shy",
+      "label": "DeepSeek · 大学紧张告白",
+      "file": "characters/ds_university_shy_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act04/characters/ds_university_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/ds_university_shy.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Edit reference 1. Preserve exact young-adult identity, light blue coat, sweater, skirt, tights, boots, accessories and framing. Change only expression and hands: Shy earnest expression, slight blush, direct eye contact, both hands gently holding own coat hem at waist.",
+      "scenes": [
+        "C4-12"
+      ]
+    },
+    {
+      "id": "ds_university_tearsmile",
+      "label": "DeepSeek · 大学泪中强笑",
+      "file": "characters/ds_university_tearsmile_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act04/characters/ds_university_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/ds_university_tearsmile.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Edit reference 1. Preserve exact young-adult identity, light blue coat, sweater, skirt, tights, boots, accessories and framing. Change only expression and hands: Forced small trembling smile and restrained glossy tears at eyelids, gaze slightly averted, hands loosely together. No broad joyful smile or exaggerated crying.",
+      "scenes": [
+        "C4-12"
+      ]
+    },
+    {
+      "id": "gpt_work_neutral",
+      "label": "GPT · 编辑工作装基准",
+      "file": "characters/gpt_work_neutral_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/gpt_work_neutral.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Portrait 2:3 full-body single character on genuine transparent background. Entire hair, horns, wings, tail, hands and shoes inside frame with margins. NO vignette, glow, backdrop, floor or ground shadow; outside silhouette alpha zero. Preserve reference face, eyes, hair and signature accessories exactly; natural proportions and soft upper-left light. Same GPT three years later as young adult literary editor. Preserve white-lilac long hair, lilac eyes, two pale horns, pointed ears, viewer-right knot hairpin, wings and scaled tail. Replace school uniform with simple muted charcoal tailored blazer, ivory high-neck blouse, modest grey midi skirt, opaque tights and dark flats. No gold school trim, school ribbon, glasses or fantasy dress. Quiet intelligent warm smile, empty hands gently clasped.",
+      "scenes": [
+        "C4-09B",
+        "C4-14"
+      ]
+    },
+    {
+      "id": "pr13_memory_envelope",
+      "label": "PR13 · 照片乐谱文件袋",
+      "file": "props/pr13_memory_envelope_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr13_memory_envelope.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Single isolated coherent prop grouping on genuine transparency, no halo, cast shadow or background. Soft upper-left light. One plain cream document envelope opened slightly with two blank music sheets and back of a small photograph visible. No readable music, printed photos of new people, phone, text or recording device.",
+      "scenes": [
+        "C4-05"
+      ]
+    },
+    {
+      "id": "pr14_suitcase",
+      "label": "PR14 · Claude行李箱",
+      "file": "props/pr14_suitcase_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr14_suitcase.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Single isolated coherent prop grouping on genuine transparency, no halo, cast shadow or background. Soft upper-left light. One modest upright warm beige hard-shell carry-on suitcase, extended handle and four small wheels, three-quarter view. Unbranded, no stickers or tags. Entire handle and wheels in frame.",
+      "scenes": [
+        "C4-05",
+        "C4-06B"
+      ]
+    },
+    {
+      "id": "pr15_schoolbag",
+      "label": "PR15 · 男主书包",
+      "file": "props/pr15_schoolbag_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr15_schoolbag.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Single isolated coherent prop grouping on genuine transparency, no halo, cast shadow or background. Soft upper-left light. One plain navy student backpack, two shoulder straps, handle and small front pocket, three-quarter view. No logo, name, keychain or fixed wearer.",
+      "scenes": [
+        "C4-06A"
+      ]
+    },
+    {
+      "id": "pr16_hot_drink",
+      "label": "PR16 · 学姐热饮",
+      "file": "props/pr16_hot_drink_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr16_hot_drink.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Single isolated coherent prop grouping on genuine transparency, no halo, cast shadow or background. Soft upper-left light. One simple warm ivory paper hot-drink cup with charcoal lid and blank pale lavender sleeve, slight subtle steam kept close above lid. No logo, lettering, hands or saucer.",
+      "scenes": [
+        "C4-08D"
+      ]
+    },
+    {
+      "id": "pr17_admission",
+      "label": "PR17 · 录取与成绩单底板",
+      "file": "props/pr17_admission_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr17_admission.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Single isolated coherent prop grouping on genuine transparency, no halo, cast shadow or background. Soft upper-left light. One cream unlettered admission folder with two blank white paper sheets and a simple unmarked navy pen. Paper deliberately empty for real editable typesetting later; no fake text, marks, numbers or seals.",
+      "scenes": [
+        "C4-09A"
+      ]
+    },
+    {
+      "id": "pr19_camera",
+      "label": "PR19 · 大学摄影相机",
+      "file": "props/pr19_camera_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr19_camera.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Single isolated coherent prop grouping on genuine transparency, no halo, cast shadow or background. Soft upper-left light. One unbranded compact charcoal mirrorless camera with standard small lens and simple dark strap, three-quarter view, believable buttons and lens construction. No lettering, screen UI or tripod.",
+      "scenes": [
+        "C4-11"
+      ]
+    },
+    {
+      "id": "pr09_score_box",
+      "label": "PR09 · 告别时乐谱纸箱",
+      "file": "props/pr09_score_box_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr09_score_box.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Single isolated coherent prop grouping on genuine transparency, no halo, cast shadow or background. Soft upper-left light. One small open plain brown cardboard box holding a few closed ivory music booklets with entirely blank covers; one booklet rests against box edge. No text, instruments or hands.",
+      "scenes": [
+        "C4-04"
+      ]
+    },
+    {
+      "id": "cg05_eve_farewell",
+      "label": "CG05 · 出国前夜坦白",
+      "file": "cg/cg05_eve_farewell_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png",
+        "assets_src/act04/characters/claude_home_teary_v001.png",
+        "assets_src/act04/props/pr14_suitcase_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg05_eve_farewell.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 narrative CG, focal faces above lower 24 percent dialogue zone. Preserve all reference character identities and established room geometry. Protagonist only cropped navy sleeve/hands or faceless rear shoulder, never invent face or hair color. First-person medium shot of Claude beside established bedroom piano, modest apricot cardigan and cream trousers exact reference. She looks toward viewer with restrained tears and honest vulnerable expression. Only our cropped hand gently holding ONE of her hands in foreground, her other hand relaxed. Packed beige suitcase visible beside bed. Warm bedroom lamps, blue night outside. Quiet affectionate farewell, no kiss, sexual behavior, bed intimacy or protagonist face.",
+      "scenes": [
+        "C4-05"
+      ]
+    },
+    {
+      "id": "cg06_airport_farewell",
+      "label": "CG06 · 安检口拥抱告别",
+      "file": "cg/cg06_airport_farewell_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act04/backgrounds/bg_airport_depart_day_v001.png",
+        "assets_src/act04/characters/claude_travel_cry_v001.png",
+        "assets_src/act04/props/pr14_suitcase_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg06_airport_farewell.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 narrative CG, focal faces above lower 24 percent dialogue zone. Preserve all reference character identities and established room geometry. Protagonist only cropped navy sleeve/hands or faceless rear shoulder, never invent face or hair color. Close first-person farewell embrace before security boundary. Claude in exact beige travel coat leans gently against faceless protagonist navy shoulder cropped along extreme lower-left, tearful face visible looking slightly up, one hand on sleeve. Suitcase at her side, public concourse and distant checkpoint remain readable right. Both remain on public side. Tender restrained hug, no kiss necessary, no extra people near them, no explicit imagery or protagonist face.",
+      "scenes": [
+        "C4-06B"
+      ]
+    },
+    {
+      "id": "cg_c406a_waiting",
+      "label": "C4-06A · 留在教室的人",
+      "file": "cg/cg_c406a_waiting_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act02/backgrounds/bg_classroom_day_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act04/props/pr15_schoolbag_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg_c406a_waiting.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 narrative CG, focal faces above lower 24 percent dialogue zone. Preserve all reference character identities and established room geometry. Protagonist only cropped navy sleeve/hands or faceless rear shoulder, never invent face or hair color. Independent character viewpoint: DeepSeek in exact HIGH-SCHOOL uniform alone in established classroom, gently hugging protagonist navy backpack against chest. Three-quarter medium shot, lowered gaze and a small wistful almost-smile, gentle daylight from left. Empty doorway remains visible right, no protagonist or new characters, no tears pouring, preserve fin ears and whale tail.",
+      "scenes": [
+        "C4-06A"
+      ]
+    },
+    {
+      "id": "cg_c408b_unsent",
+      "label": "C4-08B · 公寓删去思念",
+      "file": "cg/cg_c408b_unsent_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act04/backgrounds/bg_europe_apartment_night_v001.png",
+        "assets_src/act04/characters/claude_home_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg_c408b_unsent.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 narrative CG, focal faces above lower 24 percent dialogue zone. Preserve all reference character identities and established room geometry. Protagonist only cropped navy sleeve/hands or faceless rear shoulder, never invent face or hair color. Claude alone seated naturally at small apartment desk beside window, exact modest apricot cardigan and cream trousers. Three-quarter medium view, tired wistful eyes lowered to plain phone held in one hand, screen angled away and blank. Other hand rests near closed music booklet. Cool courtyard night and dim warm lamp, piano recognizable at rear. No tears streaming, message text, luxury bedroom, protagonist or extra people.",
+      "scenes": [
+        "C4-08B"
+      ]
+    },
+    {
+      "id": "cg07_aquarium_partner",
+      "label": "CG07 · 蓝色水光里的搭档",
+      "file": "cg/cg07_aquarium_partner_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act04/backgrounds/bg_aquarium_blue_v001.png",
+        "assets_src/act04/characters/ds_university_happy_v001.png",
+        "assets_src/act04/props/pr19_camera_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg07_aquarium_partner.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 narrative CG, focal faces above lower 24 percent dialogue zone. Preserve all reference character identities and established room geometry. Protagonist only cropped navy sleeve/hands or faceless rear shoulder, never invent face or hair color. DeepSeek young adult in exact light-blue coat stands safely before aquarium glass. Three-quarter medium view, holding referenced camera at waist with both hands, delighted smile looking toward viewer after a harmless big fish approached. Blue water reflections on hair and face, main tank left, safe walkway right. Preserve tail and fin ears; not underwater, no scuba gear, no contact with fish or new characters.",
+      "scenes": [
+        "C4-11"
+      ]
+    },
+    {
+      "id": "cg08_ds_confession",
+      "label": "CG08 · 湖边第一次认真告白",
+      "file": "cg/cg08_ds_confession_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act04/backgrounds/bg_lakeside_sunset_v001.png",
+        "assets_src/act04/characters/ds_university_shy_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/cg08_ds_confession.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 narrative CG, focal faces above lower 24 percent dialogue zone. Preserve all reference character identities and established room geometry. Protagonist only cropped navy sleeve/hands or faceless rear shoulder, never invent face or hair color. First-person eye-level medium frontal portrait of young-adult DeepSeek at established lakeside path. Exact light-blue coat, ivory sweater and modest skirt. Both hands gripping OWN coat hem, hopeful vulnerable direct blue-eye contact, slight blush and tiny glossy tear at lower eyelid, lips softly parted asking for answer. Warm winter sunset upper left, bench and lake recognizable. No protagonist hands, touching, hug, kiss, proposal, ring or accepted relationship. Leave quiet distance and unresolved emotion.",
+      "scenes": [
+        "C4-12"
+      ]
+    },
+    {
+      "id": "pr18_concert_photo",
+      "label": "PR18 · Claude成年音乐会宣传照",
+      "file": "cg/pr18_concert_photo_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt_file": "docs/art/act04/prompts/pr18_concert_photo.txt",
+      "prompt": "Use case: illustration-story. Production draft for visual novel 未抵达的心意 Act 4. Match reference delicate clean anime linework and softly painted materials. One finished image, no collage, panels, UI, readable lettering, logos or watermark. Landscape 16:9 narrative CG, focal faces above lower 24 percent dialogue zone. Preserve all reference character identities and established room geometry. Protagonist only cropped navy sleeve/hands or faceless rear shoulder, never invent face or hair color. One original portrait-format 2:3 concert publicity photograph painted in matching anime style, no border or text. Claude three years older young adult pianist, same orange hair, amber eyes, flower HER LEFT / VIEWER RIGHT. Modest full-length deep navy concert gown with covered shoulders and elegant sleeves, no school uniform. Seated in profile at professional grand piano, hands plausibly over keys, looking calmly toward camera. Dark quiet professional hall and soft warm spotlight; distinct from school stage. No logo, audience, title, dates or fixed country.",
+      "scenes": [
+        "C4-09B"
+      ]
+    }
+  ],
+  "reuse": [
+    {
+      "id": "bg_rooftop_spring_day",
+      "path": "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+    },
+    {
+      "id": "bg_playground_evening",
+      "path": "assets_src/act01/backgrounds/bg_playground_evening_v001.png"
+    },
+    {
+      "id": "bg_library_day",
+      "path": "assets_src/act01/backgrounds/bg_library_day_v001.png"
+    },
+    {
+      "id": "pr01_blue_notebook",
+      "path": "assets_src/act01/props/pr01_blue_notebook_v001.png"
+    },
+    {
+      "id": "ds_hs_neutral_clean",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+    },
+    {
+      "id": "claude_hs_neutral",
+      "path": "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+    },
+    {
+      "id": "pr02_flying_whale_sketch",
+      "path": "assets_src/act01/props/pr02_flying_whale_sketch_v001.png"
+    },
+    {
+      "id": "pr_manuscript_stack",
+      "path": "assets_src/act01/props/pr_manuscript_stack_v001.png"
+    },
+    {
+      "id": "cg_p01_offbalance",
+      "path": "assets_src/act01/cg/cg_p01_offbalance_v001.png"
+    },
+    {
+      "id": "ds_hs_pain",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_pain_v001.png"
+    },
+    {
+      "id": "claude_hs_annoyed",
+      "path": "assets_src/act01/characters/claude/claude_hs_annoyed_v001.png"
+    },
+    {
+      "id": "cg01_rooftop_collision",
+      "path": "assets_src/act01/cg/cg01_rooftop_collision_v001.png"
+    },
+    {
+      "id": "ds_hs_happy",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_happy_v001.png"
+    },
+    {
+      "id": "claude_hs_surprised",
+      "path": "assets_src/act01/characters/claude/claude_hs_surprised_v001.png"
+    },
+    {
+      "id": "cg_p01_notebook_pickup",
+      "path": "assets_src/act01/cg/cg_p01_notebook_pickup_v001.png"
+    },
+    {
+      "id": "ds_hs_apology",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_apology_v001.png"
+    },
+    {
+      "id": "claude_hs_blush",
+      "path": "assets_src/act01/characters/claude/claude_hs_blush_v001.png"
+    },
+    {
+      "id": "cg_p01_notebook_reveal",
+      "path": "assets_src/act01/cg/cg_p01_notebook_reveal_v001.png"
+    },
+    {
+      "id": "ds_hs_alarmed",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_alarmed_v001.png"
+    },
+    {
+      "id": "ds_hs_flustered",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_flustered_v001.png"
+    },
+    {
+      "id": "cg02_pullup_confession",
+      "path": "assets_src/act01/cg/cg02_pullup_confession_v001.png"
+    },
+    {
+      "id": "ds_hs_book_happy",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_book_happy_v001.png"
+    },
+    {
+      "id": "ds_hs_sad",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_sad_v001.png"
+    },
+    {
+      "id": "cg_c103_notebook_return",
+      "path": "assets_src/act01/cg/cg_c103_notebook_return_v001.png"
+    },
+    {
+      "id": "ds_hs_proud",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_proud_v001.png"
+    },
+    {
+      "id": "cg_c104_writing_together",
+      "path": "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+    },
+    {
+      "id": "bg_filmclub_dust_day",
+      "path": "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png"
+    },
+    {
+      "id": "bg_classroom_day",
+      "path": "assets_src/act02/backgrounds/bg_classroom_day_v001.png"
+    },
+    {
+      "id": "bg_classroom_evening",
+      "path": "assets_src/act02/backgrounds/bg_classroom_evening_v001.png"
+    },
+    {
+      "id": "bg_classroom_night",
+      "path": "assets_src/act02/backgrounds/bg_classroom_night_v001.png"
+    },
+    {
+      "id": "bg_flowerbed_overcast",
+      "path": "assets_src/act02/backgrounds/bg_flowerbed_overcast_v001.png"
+    },
+    {
+      "id": "bg_user_desk_day",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_day_v001.png"
+    },
+    {
+      "id": "bg_user_desk_night",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_night_v001.png"
+    },
+    {
+      "id": "bg_corridor_day",
+      "path": "assets_src/act02/backgrounds/bg_corridor_day_v001.png"
+    },
+    {
+      "id": "bg_corridor_evening",
+      "path": "assets_src/act02/backgrounds/bg_corridor_evening_v001.png"
+    },
+    {
+      "id": "bg_claude_bedroom_night",
+      "path": "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png"
+    },
+    {
+      "id": "gpt_hs_neutral",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png"
+    },
+    {
+      "id": "gpt_hs_reading",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_reading_v001.png"
+    },
+    {
+      "id": "gpt_hs_explain",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_explain_v001.png"
+    },
+    {
+      "id": "gpt_hs_smile",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_smile_v001.png"
+    },
+    {
+      "id": "pr03_old_camcorder",
+      "path": "assets_src/act02/props/pr03_old_camcorder_v001.png"
+    },
+    {
+      "id": "pr04_tripod",
+      "path": "assets_src/act02/props/pr04_tripod_v001.png"
+    },
+    {
+      "id": "pr06_study_materials",
+      "path": "assets_src/act02/props/pr06_study_materials_v001.png"
+    },
+    {
+      "id": "pr07_two_cakes",
+      "path": "assets_src/act02/props/pr07_two_cakes_v001.png"
+    },
+    {
+      "id": "cg_c203_mother",
+      "path": "assets_src/act02/cg/cg_c203_mother_v001.png"
+    },
+    {
+      "id": "cg03_tutoring",
+      "path": "assets_src/act02/cg/cg03_tutoring_v001.png"
+    },
+    {
+      "id": "cg_c211_unsent",
+      "path": "assets_src/act02/cg/cg_c211_unsent_v001.png"
+    },
+    {
+      "id": "bg_musicroom_evening",
+      "path": "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png"
+    },
+    {
+      "id": "bg_musicroom_night",
+      "path": "assets_src/act03/backgrounds/bg_musicroom_night_v001.png"
+    },
+    {
+      "id": "bg_auditorium_rehearsal",
+      "path": "assets_src/act03/backgrounds/bg_auditorium_rehearsal_v001.png"
+    },
+    {
+      "id": "bg_auditorium_performance",
+      "path": "assets_src/act03/backgrounds/bg_auditorium_performance_v001.png"
+    },
+    {
+      "id": "bg_rooftop_night",
+      "path": "assets_src/act03/backgrounds/bg_rooftop_night_v001.png"
+    },
+    {
+      "id": "bg_schoolgate_evening",
+      "path": "assets_src/act03/backgrounds/bg_schoolgate_evening_v001.png"
+    },
+    {
+      "id": "gpt_hs_neutral",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png"
+    },
+    {
+      "id": "gpt_hs_shy",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_shy_v001.png"
+    },
+    {
+      "id": "gpt_hs_lonely",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_lonely_v001.png"
+    },
+    {
+      "id": "pr09_guitar_score",
+      "path": "assets_src/act03/props/pr09_guitar_score_v001.png"
+    },
+    {
+      "id": "pr12_two_drink_cans",
+      "path": "assets_src/act03/props/pr12_two_drink_cans_v001.png"
+    },
+    {
+      "id": "cg_c303_piano_guidance",
+      "path": "assets_src/act03/cg/cg_c303_piano_guidance_v001.png"
+    },
+    {
+      "id": "cg04_cultural_festival",
+      "path": "assets_src/act03/cg/cg04_cultural_festival_v001.png"
+    },
+    {
+      "id": "cg_c307_rooftop_promise",
+      "path": "assets_src/act03/cg/cg_c307_rooftop_promise_v001.png"
+    },
+    {
+      "id": "cg_c308_claude_confession",
+      "path": "assets_src/act03/cg/cg_c308_claude_confession_v001.png"
+    }
+  ],
+  "reuse_policy": "高中音乐室/卧室/教室/书桌/电影社/图书馆、现有制服表情、文化祭定格、笔记本和稿件直接复用。电影社/高中图书馆傍晚用可逆显示调光。稿件版本、聊天、录取文字、邮件与剪辑界面由真实文字UI层绘制，不生成假文字。",
+  "continuity": "地域与绝对月份未定，不画校名、年份、国家标志。成年阶段按三年后青年形象，不改变物种与身份。"
+}
