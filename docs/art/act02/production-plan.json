@@ -1,0 +1,335 @@
+{
+  "date": "2026-10-18",
+  "scope": "第二章 C2-01～C2-11：背景、角色、道具、关键CG及49个演出节拍",
+  "tool": "built-in imagegen",
+  "jobs": [
+    {
+      "id": "bg_filmclub_dust_day",
+      "label": "BG04 · 落灰电影社",
+      "scenes": [
+        "C2-01"
+      ],
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: clean background plate for the visual novel 未抵达的心意, Act 2. Create one finished landscape 16:9 anime visual novel background, matching the attached first-act school library reference: finely drawn believable architecture, luminous hand-painted surfaces, restrained soft cel-painted shading, warm pale wood, ivory walls, realistic perspective; no characters. Keep the lower 24 percent visually quiet for a dialogue box, with important setting details above it. No readable text, logos, watermarks, UI, collage or inset panels. Reference image 1 is STYLE AND SAME-CAMPUS MATERIAL reference only, not the room to copy. A neglected high-school film club activity room after school. Eye-level wide shot from doorway, left wall tall metal-framed windows, rear right closed grey door, rear centre old wooden worktable, right wall glass-front equipment cabinet with indistinct unbranded storage cases and a small old camcorder inside. A couple of empty wooden chairs sit around the worktable; foreground floor centre clear for actors and a separately animated tripod. Several faded wordless abstract film posters on the rear wall. Thin dust on furniture, a few loosely stacked papers at the table edge, sparse dust motes in soft late-afternoon light from upper left. Neglected but safe and usable, no ruined building, no extravagant film studio, no tripod across the foreground.",
+      "file": "backgrounds/bg_filmclub_dust_day_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_filmclub_dust_day.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_classroom_day",
+      "label": "BG05 · 教室日间柔阴光",
+      "scenes": [
+        "C2-02"
+      ],
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: clean background plate for the visual novel 未抵达的心意, Act 2. Create one finished landscape 16:9 anime visual novel background, matching the attached first-act school library reference: finely drawn believable architecture, luminous hand-painted surfaces, restrained soft cel-painted shading, warm pale wood, ivory walls, realistic perspective; no characters. Keep the lower 24 percent visually quiet for a dialogue box, with important setting details above it. No readable text, logos, watermarks, UI, collage or inset panels. Reference 1 is style and same-campus materials only. Empty ordinary high-school classroom seen from a seated student's middle-back-row viewpoint, camera looking toward the front blackboard. Tall aluminium-framed windows along the left wall, blank dark green blackboard and simple teacher's lectern at front centre, grey front entrance door on the right, beige ceiling with aligned fluorescent lights, pale wood desks on grey metal legs in clear parallel rows and central aisle. A desk surface edge low in the foreground, a distinct empty seat one row ahead at centre-right for a future GPT character layer. The seating axis and room layout must be unmistakable. Soft neutral overcast daylight enters left windows, muted gentle shadows, subdued mood for bad exam results; outside trees and an anonymous campus building. Blank desktops, no exam papers, no students, no blackboard writing or flags.",
+      "file": "backgrounds/bg_classroom_day_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_classroom_day.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_classroom_evening",
+      "label": "BG05 · 教室放学傍晚",
+      "scenes": [
+        "C2-08",
+        "C2-09",
+        "C2-10"
+      ],
+      "refs": [
+        "assets_src/act02/backgrounds/bg_classroom_day_v001.png"
+      ],
+      "prompt": "Use case: lighting-weather. Edit target: reference image 1, the established Act 2 classroom. Produce the exact same 16:9 classroom camera and architecture at late afternoon just before sunset, for quiet tutoring and after-school cleaning. Change ONLY light, shadow and sky: warm golden light enters the existing left windows, soft amber patches on the existing desks, a pale peach sky outside; ceiling fluorescent fixtures off. Preserve every desk and chair, the foreground desk edge, clear seat one row ahead at centre-right, window count and frames, dark green blank blackboard, lectern, right-side door, room perspective and background trees/building. No people, added props, lettering, phone UI, posters, logos or watermark. Keep bottom 24 percent quiet. Render as the same delicate hand-painted anime background.",
+      "file": "backgrounds/bg_classroom_evening_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_classroom_evening.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_classroom_night",
+      "label": "BG05 · 教室晚自习",
+      "scenes": [
+        "C2-07"
+      ],
+      "refs": [
+        "assets_src/act02/backgrounds/bg_classroom_day_v001.png"
+      ],
+      "prompt": "Use case: lighting-weather. Edit target: reference image 1, the established Act 2 classroom. Produce exactly the same camera, desk positions, empty front-row tutoring seat, windows, blackboard, lectern and right door at night for evening study. Change only illumination and outside sky: the existing ceiling fluorescent fixtures illuminate the classroom in soft ivory-white, cool deep blue night beyond the left windows, faint distant campus lights; no sunlight or sunset reflections. Keep desks clearly readable rather than dark horror lighting. No characters, text, papers, logos or UI. One 16:9 finished hand-painted anime background; preserve lower 24 percent dialogue area.",
+      "file": "backgrounds/bg_classroom_night_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_classroom_night.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_flowerbed_overcast",
+      "label": "BG06 · 花坛与长椅阴天",
+      "scenes": [
+        "C2-03"
+      ],
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: clean background plate for the visual novel 未抵达的心意, Act 2. Create one finished landscape 16:9 anime visual novel background, matching the attached first-act school library reference: finely drawn believable architecture, luminous hand-painted surfaces, restrained soft cel-painted shading, warm pale wood, ivory walls, realistic perspective; no characters. Keep the lower 24 percent visually quiet for a dialogue box, with important setting details above it. No readable text, logos, watermarks, UI, collage or inset panels. Reference 1 is style and same-campus exterior materials only. A quiet flowerbed and bench outside the established anonymous high school, overcast afternoon. Medium-wide eye-level shot at conversation distance. A modest weathered wooden bench at left-centre beside a low concrete planter filled with restrained green shrubs and small pale flowers, two adults could sit separated on the bench; tiled pedestrian path extends toward the rear right leaving a distant standing space for a separate father silhouette. Pale concrete teaching building with aluminium-framed windows and a simple entrance in the rear, no school name. Soft cloud-filtered grey daylight, tender understated stillness for a mother-child conversation, dry ground, no storm, rain or dramatic funeral imagery. Bench seating and upper half fully readable above bottom dialogue zone, no people or personal belongings.",
+      "file": "backgrounds/bg_flowerbed_overcast_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_flowerbed_overcast.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_user_desk_day",
+      "label": "BG07 · 高中家中书桌日间",
+      "scenes": [
+        "C2-04",
+        "C2-06"
+      ],
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: clean background plate for the visual novel 未抵达的心意, Act 2. Create one finished landscape 16:9 anime visual novel background, matching the attached first-act school library reference: finely drawn believable architecture, luminous hand-painted surfaces, restrained soft cel-painted shading, warm pale wood, ivory walls, realistic perspective; no characters. Keep the lower 24 percent visually quiet for a dialogue box, with important setting details above it. No readable text, logos, watermarks, UI, collage or inset panels. Reference 1 is painting-style reference only. The protagonist's modest high-school bedroom at home, a believable ordinary family room, not a university dorm. Camera at seated working height looking slightly diagonally across a simple pale wooden study desk; left wall window with plain blue-grey curtains, centre desk and unbranded laptop with dark blank screen, small adjustable desk lamp at back-left, a few closed unlabelled textbooks neatly stacked at rear-right, empty central desktop for separate homework overlays. A narrow bookcase on right wall, edge of a plain single bed in far-right background, no luxury decor. Daylight through left window, an ordinary quiet afternoon with soft warm ivory walls and cool muted fabric. No handwriting, equations, video player UI, calendar dates, phone, camera or people. Stable room layout suitable for a night variant.",
+      "file": "backgrounds/bg_user_desk_day_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_user_desk_day.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_user_desk_night",
+      "label": "BG07 · 高中家中书桌夜间",
+      "scenes": [
+        "C2-04"
+      ],
+      "refs": [
+        "assets_src/act02/backgrounds/bg_user_desk_day_v001.png"
+      ],
+      "prompt": "Use case: lighting-weather. Edit target: reference image 1, protagonist's high-school bedroom study desk. Change ONLY time and illumination to night. Keep exactly the same seated-height camera, desk shape, laptop, lamp position, book stack, left window and curtains, right bookcase and far-right bed edge. Existing desk lamp switched on casting a focused warm pool onto the empty writing surface; laptop remains dark blank; cool dark-blue night outside left window, dim but readable room. Quiet determined solitary studying mood, no people, no additional objects or pages, no letters, equations, text, UI, logos, watermark. Maintain 16:9 and bottom 24 percent quiet.",
+      "file": "backgrounds/bg_user_desk_night_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_user_desk_night.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_corridor_day",
+      "label": "BG08 · 校内走廊日间",
+      "scenes": [
+        "C2-06"
+      ],
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: clean background plate for the visual novel 未抵达的心意, Act 2. Create one finished landscape 16:9 anime visual novel background, matching the attached first-act school library reference: finely drawn believable architecture, luminous hand-painted surfaces, restrained soft cel-painted shading, warm pale wood, ivory walls, realistic perspective; no characters. Keep the lower 24 percent visually quiet for a dialogue box, with important setting details above it. No readable text, logos, watermarks, UI, collage or inset panels. Reference 1 is painting style and same-campus materials only. Wide eye-level shot along a quiet high-school indoor corridor, long left side aluminium-framed windows, classroom doors on the right, rear staircase at the far end with a clearly visible handrail turning up to the right. Ivory walls, muted grey lower wall band, simple tile floor, a blank pinboard on right foreground wall reserved for editable exam result sheets; no papers or letters on it. A broad empty space on centre-right for a student speaking to a teacher, room for a separate character layer, no excessive fisheye. Soft clear daytime light enters from left, green campus trees and anonymous building visible through glass. Warm hopeful but everyday mood. No students, cleaning tools, signage, names or other lettering.",
+      "file": "backgrounds/bg_corridor_day_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_corridor_day.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_corridor_evening",
+      "label": "BG08 · 校内走廊黄昏",
+      "scenes": [
+        "C2-05"
+      ],
+      "refs": [
+        "assets_src/act02/backgrounds/bg_corridor_day_v001.png"
+      ],
+      "prompt": "Use case: lighting-weather. Edit target: reference image 1, same high-school corridor. Change only time to early evening dinner hour, with low warm orange-gold light entering existing left windows and long soft shadows crossing the tiled floor. Preserve exactly the camera, window frames and count, right classroom doors, blank pinboard, rear stair turning right and handrail, wall bands, tiles and clear speaking space. Outside sky peach and pale lavender, no dramatic clouds, room still readable. Same soft hand-painted anime style, 16:9 background, lower 24 percent quiet. No people, text, signs, new props, UI, logos or watermark.",
+      "file": "backgrounds/bg_corridor_evening_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_corridor_evening.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "bg_claude_bedroom_night",
+      "label": "BG09 · Claude高中卧室夜景",
+      "scenes": [
+        "C2-11"
+      ],
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: clean background plate for the visual novel 未抵达的心意, Act 2. Create one finished landscape 16:9 anime visual novel background, matching the attached first-act school library reference: finely drawn believable architecture, luminous hand-painted surfaces, restrained soft cel-painted shading, warm pale wood, ivory walls, realistic perspective; no characters. Keep the lower 24 percent visually quiet for a dialogue box, with important setting details above it. No readable text, logos, watermarks, UI, collage or inset panels. Reference 1 is illustration finish reference only. Claude's spacious but lived-in upper-middle-class high-school bedroom at night, elegant restrained ivory and warm apricot palette with subtle amber details. Eye-level medium-wide shot: bed against rear-left wall with cream upholstered headboard and a plain soft peach duvet, an intimate upholstered bedside seat at left-centre for a future seated character, an empty small round side table centre foreground with surface above the bottom dialogue-safe zone for two cake props to be added later. A study desk and chair on rear-right, a black upright piano with closed keyboard cover along the far-right wall, both fit naturally in a real bedroom, tall rear window with ivory curtains and dark blue night beyond. Warm bedside lamp, small practical desk lamp, gentle quiet shadows, a lonely waiting mood. No cake or packaging baked into background, no phone, no luggage, no character, no ornate ballroom, chandelier, royal palace or visible lettering. Keep the layout legible, everything at coherent scale.",
+      "file": "backgrounds/bg_claude_bedroom_night_v001.png",
+      "prompt_file": "docs/art/act02/prompts/bg_claude_bedroom_night.txt",
+      "transparent": false,
+      "category": "backgrounds"
+    },
+    {
+      "id": "gpt_hs_neutral",
+      "label": "GPT · 制服平静",
+      "file": "characters/gpt/gpt_hs_neutral_v001.png",
+      "transparent": true,
+      "scenes": [
+        "C2-07",
+        "C2-08"
+      ],
+      "refs": [
+        "assets_src/characters/gpt/references/zipzippipe-pixiv-148186519-p03.jpg",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE full-body transparent PNG sprite for anime visual novel 未抵达的心意 Act 2. Reference 1 defines GPT identity: long flowing white-lilac hair and ahoge, lilac eyes, pale scaled dragon horns, pointed ears, interwoven black-white knot hairpin with tassel on HER LEFT / VIEWER RIGHT, pale dragon wings, long white scaled tail. References 2 and 3 define the existing same-school uniform and clean softly painted anime style. Dress GPT in navy blazer with two brass buttons and fine gold piping, ivory collared blouse, small pale lavender neck ribbon, knee-length navy gold-hem pleated skirt, white calf socks, navy loafers. Modest ordinary school clothing. Stand slightly three-quarter facing viewer, gentle calm attentive expression, hands naturally together. Keep full horns, wings compactly behind body, tail and shoes within portrait 2:3 canvas with margins. Soft upper-left light. No dress, glasses, mascot, text, logo, book or furniture. Genuine transparent background: ALL pixels outside silhouette must be alpha=0 except edge antialiasing; NO colored glow, halo, haze, shadow, gradient or checkerboard, even if reference has one.",
+      "prompt_file": "docs/art/act02/prompts/gpt_hs_neutral.txt",
+      "category": "characters"
+    },
+    {
+      "id": "gpt_hs_reading",
+      "label": "GPT · 坐姿阅读",
+      "file": "characters/gpt/gpt_hs_reading_v001.png",
+      "transparent": true,
+      "scenes": [
+        "C2-07"
+      ],
+      "refs": [
+        "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit reference 1 into ONE new expression and pose variant of the SAME GPT school-uniform character. Preserve her exact face, long white-lilac hair, ahoge, lilac eyes, pale dragon horns, ears, viewer-right knot hairpin and tassel, wings, tail, navy gold-piped uniform, lavender ribbon, knee skirt, white socks, navy loafers. Portrait 2:3 full body with entire silhouette in frame. Same soft upper-left light. Genuine transparent background, no ground plane, haze, vignette or halo; all non-character pixels alpha=0, no gradient or checkerboard. No extra people or text. Change ONLY the following pose and expression: She is seated on a simple school chair, torso turned slightly toward camera, looking down at a plain open textbook supported in both hands. Draw actual seated anatomy with bent knees and feet on floor, NOT a cropped standing sprite. Chair is included, desk is NOT included, no readable text on book. Quiet concentrated expression, wings folded compactly behind chair.",
+      "prompt_file": "docs/art/act02/prompts/gpt_hs_reading.txt",
+      "category": "characters"
+    },
+    {
+      "id": "gpt_hs_explain",
+      "label": "GPT · 耐心讲解",
+      "file": "characters/gpt/gpt_hs_explain_v001.png",
+      "transparent": true,
+      "scenes": [
+        "C2-08",
+        "C2-09"
+      ],
+      "refs": [
+        "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit reference 1 into ONE new expression and pose variant of the SAME GPT school-uniform character. Preserve her exact face, long white-lilac hair, ahoge, lilac eyes, pale dragon horns, ears, viewer-right knot hairpin and tassel, wings, tail, navy gold-piped uniform, lavender ribbon, knee skirt, white socks, navy loafers. Portrait 2:3 full body with entire silhouette in frame. Same soft upper-left light. Genuine transparent background, no ground plane, haze, vignette or halo; all non-character pixels alpha=0, no gradient or checkerboard. No extra people or text. Change ONLY the following pose and expression: Standing naturally, eyes focused patiently toward viewer, right hand raised in a small open-palm explaining gesture at waist height, left hand supports a closed plain notebook. Gentle serious teaching expression, no pointing aggressively.",
+      "prompt_file": "docs/art/act02/prompts/gpt_hs_explain.txt",
+      "category": "characters"
+    },
+    {
+      "id": "gpt_hs_smile",
+      "label": "GPT · 温柔微笑",
+      "file": "characters/gpt/gpt_hs_smile_v001.png",
+      "transparent": true,
+      "scenes": [
+        "C2-08",
+        "C2-09"
+      ],
+      "refs": [
+        "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit reference 1 into ONE new expression and pose variant of the SAME GPT school-uniform character. Preserve her exact face, long white-lilac hair, ahoge, lilac eyes, pale dragon horns, ears, viewer-right knot hairpin and tassel, wings, tail, navy gold-piped uniform, lavender ribbon, knee skirt, white socks, navy loafers. Portrait 2:3 full body with entire silhouette in frame. Same soft upper-left light. Genuine transparent background, no ground plane, haze, vignette or halo; all non-character pixels alpha=0, no gradient or checkerboard. No extra people or text. Change ONLY the following pose and expression: Same standing posture as master, hands lightly together, warm small open-eyed smile, soft reassuring eyebrows. Keep identity and modest mature calm, no blush or romantic pose.",
+      "prompt_file": "docs/art/act02/prompts/gpt_hs_smile.txt",
+      "category": "characters"
+    },
+    {
+      "id": "pr03_old_camcorder",
+      "label": "PR03 · 旧摄像机",
+      "file": "props/pr03_old_camcorder_v001.png",
+      "transparent": true,
+      "scenes": [
+        "C2-01"
+      ],
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One finished anime visual novel asset for 未抵达的心意 Act 2. Delicate clean linework, softly painted shading matching the references. No panels, collage, logos, watermark or lettering. Single isolated unbranded old compact school-club handheld camcorder, charcoal-grey body, flip-out blank screen, lens, wrist strap; three-quarter view. Transparent background, clean alpha, no shadow, no stand, no brand, no labels. Entire object in frame. Soft upper-left light, restrained navy and grey palette.",
+      "prompt_file": "docs/art/act02/prompts/pr03_old_camcorder.txt",
+      "category": "props"
+    },
+    {
+      "id": "pr04_tripod",
+      "label": "PR04 · 三脚架",
+      "file": "props/pr04_tripod_v001.png",
+      "transparent": true,
+      "scenes": [
+        "C2-01"
+      ],
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One finished anime visual novel asset for 未抵达的心意 Act 2. Delicate clean linework, softly painted shading matching the references. No panels, collage, logos, watermark or lettering. Single isolated old black-and-grey camera tripod, all three legs fully visible spread on invisible level floor, small mounting head and pan handle, NO camera attached. Portrait composition, transparent background, no cast shadow or glow. Realistic stable simple mechanical construction suitable for rotating as a separate falling prop.",
+      "prompt_file": "docs/art/act02/prompts/pr04_tripod.txt",
+      "category": "props"
+    },
+    {
+      "id": "pr06_study_materials",
+      "label": "PR06 · 课本与草稿",
+      "file": "props/pr06_study_materials_v001.png",
+      "transparent": true,
+      "scenes": [
+        "C2-04",
+        "C2-05",
+        "C2-09",
+        "C2-10"
+      ],
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One finished anime visual novel asset for 未抵达的心意 Act 2. Delicate clean linework, softly painted shading matching the references. No panels, collage, logos, watermark or lettering. One coherent tabletop still-life group isolated on actual transparency: open unbranded high-school textbook, two overlapping blank pale ivory draft sheets, simple blue pencil and eraser. Three-quarter slightly overhead view suitable for overlaying a wooden study desk. Blank writing surfaces for editable text later. No equations, letters, names or numbers. No table plane, no floor, no halo or shadow outside objects.",
+      "prompt_file": "docs/art/act02/prompts/pr06_study_materials.txt",
+      "category": "props"
+    },
+    {
+      "id": "pr07_two_cakes",
+      "label": "PR07 · 两份蛋糕",
+      "file": "props/pr07_two_cakes_v001.png",
+      "transparent": true,
+      "scenes": [
+        "C2-11"
+      ],
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One finished anime visual novel asset for 未抵达的心意 Act 2. Delicate clean linework, softly painted shading matching the references. No panels, collage, logos, watermark or lettering. One coherent pair of modest elegant small unbranded pastry takeaway boxes on transparent background, one box CLOSED with a simple amber ribbon, the other OPEN showing a single delicate strawberry cream cake slice. Both boxes same design and size, side by side, entire objects within frame, three-quarter view. No brand names, no writing, no price tags, no extra food or utensils. Warm soft light, no ground plane or cast-shadow halo.",
+      "prompt_file": "docs/art/act02/prompts/pr07_two_cakes.txt",
+      "category": "props"
+    },
+    {
+      "id": "cg_c203_mother",
+      "label": "C2-03 · 花坛旁的眼泪",
+      "file": "cg/cg_c203_mother_v001.png",
+      "transparent": false,
+      "scenes": [
+        "C2-03"
+      ],
+      "refs": [
+        "assets_src/act02/backgrounds/bg_flowerbed_overcast_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One finished anime visual novel asset for 未抵达的心意 Act 2. Delicate clean linework, softly painted shading matching the references. No panels, collage, logos, watermark or lettering. Landscape 16:9 emotional scene. Reference 1 defines exact campus flowerbed, bench, overcast soft lighting and painting style. First-person seated viewpoint beside protagonist mother on the established bench. Mother is an ordinary middle-aged woman, dark shoulder-length hair with a few visible silver strands, plain modest beige cardigan over muted blouse and dark skirt. Medium close shot of her kind tired face with a small tear at outer eye, eyes turned toward viewer with restrained worry, hands resting near a blank exam sheet on lap. No dramatic sobbing, no hugging. In rear right, father is a small distant anonymous adult silhouette standing quietly on the path, never dominant. Protagonist only a navy-uniform sleeve and hand near bottom left, no male face or new identity. Preserve dry ground and overcast daylight, no rain. Faces and hands above lower 24 percent dialogue-safe zone. No lettering on paper.",
+      "prompt_file": "docs/art/act02/prompts/cg_c203_mother.txt",
+      "category": "cg"
+    },
+    {
+      "id": "cg03_tutoring",
+      "label": "CG03 · 课桌辅导",
+      "file": "cg/cg03_tutoring_v001.png",
+      "transparent": false,
+      "scenes": [
+        "C2-09"
+      ],
+      "refs": [
+        "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png",
+        "assets_src/act02/backgrounds/bg_classroom_evening_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One finished anime visual novel asset for 未抵达的心意 Act 2. Delicate clean linework, softly painted shading matching the references. No panels, collage, logos, watermark or lettering. Landscape 16:9 complete CG. Reference 1 defines GPT exact face, hair, horns, knot ornament, folded wings, tail and lavender-ribbon school uniform. Reference 2 defines existing classroom windows on left, blackboard at front, desks in parallel rows and warm evening light. Camera close side-front at adjoining student desks; GPT sits on far/right side, gently points with one index finger to a BLANK draft sheet on desk; protagonist only navy-uniform sleeve and hand holding blue pencil at near/left, no male face. Calm patient teaching expression, small friendly smile, no romantic touch, no hugging. Anatomically plausible arms and hands, not duplicated. Focus on the paper and lesson, preserve clear classroom continuity. No equations or text. Important face, hands and paper above lower 24 percent dialogue zone.",
+      "prompt_file": "docs/art/act02/prompts/cg03_tutoring.txt",
+      "category": "cg"
+    },
+    {
+      "id": "cg_c211_unsent",
+      "label": "C2-11 · 没有发出的第二句话",
+      "file": "cg/cg_c211_unsent_v001.png",
+      "transparent": false,
+      "scenes": [
+        "C2-11"
+      ],
+      "refs": [
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png",
+        "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. One finished anime visual novel asset for 未抵达的心意 Act 2. Delicate clean linework, softly painted shading matching the references. No panels, collage, logos, watermark or lettering. Landscape 16:9 complete CG. Reference 1 defines Claude identity: same orange long straight hair, amber eyes, orange flower and black ribbon on HER LEFT / VIEWER RIGHT. Reference 2 defines her bedroom layout: bed on left, round table centre, desk and upright piano on right, warm lamps and blue night outside. She wears modest pale apricot long-sleeved home cardigan over ivory blouse and loose long pyjama trousers, no uniform blazer, no nightgown or revealing clothes. Seated naturally at left bed edge, knees gently drawn close, one hand holding plain unbranded smartphone with screen facing her and NOT readable to viewer, other hand around knee. Expression restrained hurt and hesitation, lowered gaze, no hysterical crying. Waist-up three-quarter medium shot preserving enough room to identify bed and right piano; table remains EMPTY so cakes can be a separate layer. No words, chat bubbles or UI, no male character. Face above lower 24 percent dialogue-safe zone.",
+      "prompt_file": "docs/art/act02/prompts/cg_c211_unsent.txt",
+      "category": "cg"
+    }
+  ]
+}

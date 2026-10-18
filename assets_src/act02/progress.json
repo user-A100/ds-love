@@ -1,0 +1,201 @@
+{
+  "updated_at": "2026-10-18T15:38:11.725308+08:00",
+  "completed": 21,
+  "total": 21,
+  "percent": 100.0,
+  "assets": [
+    {
+      "id": "bg_filmclub_dust_day",
+      "path": "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_classroom_day",
+      "path": "assets_src/act02/backgrounds/bg_classroom_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_classroom_evening",
+      "path": "assets_src/act02/backgrounds/bg_classroom_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_classroom_night",
+      "path": "assets_src/act02/backgrounds/bg_classroom_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_flowerbed_overcast",
+      "path": "assets_src/act02/backgrounds/bg_flowerbed_overcast_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_user_desk_day",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_user_desk_night",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_corridor_day",
+      "path": "assets_src/act02/backgrounds/bg_corridor_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_corridor_evening",
+      "path": "assets_src/act02/backgrounds/bg_corridor_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_claude_bedroom_night",
+      "path": "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_hs_neutral",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_hs_reading",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_reading_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_hs_explain",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_explain_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_hs_smile",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_smile_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr03_old_camcorder",
+      "path": "assets_src/act02/props/pr03_old_camcorder_v001.png",
+      "width": 1365,
+      "height": 1152,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr04_tripod",
+      "path": "assets_src/act02/props/pr04_tripod_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr06_study_materials",
+      "path": "assets_src/act02/props/pr06_study_materials_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr07_two_cakes",
+      "path": "assets_src/act02/props/pr07_two_cakes_v001.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c203_mother",
+      "path": "assets_src/act02/cg/cg_c203_mother_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg03_tutoring",
+      "path": "assets_src/act02/cg/cg03_tutoring_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c211_unsent",
+      "path": "assets_src/act02/cg/cg_c211_unsent_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    }
+  ],
+  "pending_assets": []
+}

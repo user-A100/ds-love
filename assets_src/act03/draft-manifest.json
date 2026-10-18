@@ -1,0 +1,163 @@
+{
+  "updated_at": "2026-10-18T15:45:40.217400+08:00",
+  "completed": 15,
+  "total": 15,
+  "percent": 100.0,
+  "assets": [
+    {
+      "id": "bg_musicroom_evening",
+      "path": "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "719103869d65adb19b4e0eeec184229e397db304fc9c9eae01177a2a193c1a1b"
+    },
+    {
+      "id": "bg_musicroom_night",
+      "path": "assets_src/act03/backgrounds/bg_musicroom_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "a1ba0158216e26f4cc224e86b88d87c6df1f458206127758074ebd67b325faf6"
+    },
+    {
+      "id": "bg_auditorium_rehearsal",
+      "path": "assets_src/act03/backgrounds/bg_auditorium_rehearsal_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "d17743a6264facaa72cf9e32e85a2d4cda25fc8332c6435b24cb5648a2551c26"
+    },
+    {
+      "id": "bg_auditorium_performance",
+      "path": "assets_src/act03/backgrounds/bg_auditorium_performance_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "48afeaeb889f504f9a85da7d03c0a0a2575fbf9c5b6a6941511242d249266a40"
+    },
+    {
+      "id": "bg_rooftop_night",
+      "path": "assets_src/act03/backgrounds/bg_rooftop_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "5a6ef22949128724ba4f0043cd4e01e7bc8ab6053d8f9ea92dd488b02f1fe7be"
+    },
+    {
+      "id": "bg_schoolgate_evening",
+      "path": "assets_src/act03/backgrounds/bg_schoolgate_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "0ee2ea1079f907a5ceb28ebcfd4aa07120b1b69607032faee609e6d40793e528"
+    },
+    {
+      "id": "gpt_hs_neutral",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "ab5e36674851e3d83d1a16b91ec231abf117bfa237d50aa4f5a881ec3163b523"
+    },
+    {
+      "id": "gpt_hs_shy",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_shy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "f2d348c65ac1d501b97d9c5b687a64b1a223a3f11f0841d3b8f44a9858db8323"
+    },
+    {
+      "id": "gpt_hs_lonely",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_lonely_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "148b93bd9403d4c36d5918a442c1761542fe62aac30e7df0b3bbe53f02bc0a0c"
+    },
+    {
+      "id": "pr09_guitar_score",
+      "path": "assets_src/act03/props/pr09_guitar_score_v001.png",
+      "width": 1295,
+      "height": 1215,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "sha256": "5e52f2e7efa3bc962692d32dd2870cf91686d7f656fb7bf5d1f460cf40810abe"
+    },
+    {
+      "id": "pr12_two_drink_cans",
+      "path": "assets_src/act03/props/pr12_two_drink_cans_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "sha256": "4c504252e6a22ebb89963ff7236e71f399bb2c62b74674d29d4bb3e18a9f1251"
+    },
+    {
+      "id": "cg_c303_piano_guidance",
+      "path": "assets_src/act03/cg/cg_c303_piano_guidance_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "ad4b536344f2e8033d375c9a5f302261fd385756478df23cf6741ee41c387259"
+    },
+    {
+      "id": "cg04_cultural_festival",
+      "path": "assets_src/act03/cg/cg04_cultural_festival_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "03e6fd4eb7cd31b459ce89af50069501dd8bf2558aab9d2c91ba192e8a420eff"
+    },
+    {
+      "id": "cg_c307_rooftop_promise",
+      "path": "assets_src/act03/cg/cg_c307_rooftop_promise_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "5526756ab1fe772fe48cf15e07e940e4c057dbf7d76b88b9ecd2734039eea0bc"
+    },
+    {
+      "id": "cg_c308_claude_confession",
+      "path": "assets_src/act03/cg/cg_c308_claude_confession_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "22387e7aba94f46bdced6c7be4639bbb3c614310b90fa2f9fa256f2848788660"
+    }
+  ],
+  "pending_assets": [],
+  "quality_notes": [
+    "试稿已出齐，尚未接入游戏。透明立绘和部分道具可见光晕，需在正式接入前复核边缘。",
+    "cg_c308_claude_confession 出现计划外牵手，待修稿；文化祭钢琴开盖与背景闭盖有差异，待统一。"
+  ]
+}

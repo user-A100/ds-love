@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-18T15:10:47+08:00",
+  "scope": "第二幕／第二章 C2-01～C2-11，背景限定",
+  "status": "complete_background_draft_pack",
+  "planned_assets": 10,
+  "pending_assets": [],
+  "assets": [
+    {
+      "id": "bg_filmclub_dust_day",
+      "label": "BG04 · 落灰电影社",
+      "path": "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_filmclub_dust_day.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "scenes": [
+        "C2-01"
+      ],
+      "refinement_prompt": null,
+      "refinement_reference": null,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2094106,
+      "sha256": "86574f53cd6622ed0e60d12b5f304e2fe19d8af5f2a16473deec06c4ad05f8a5",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_classroom_day",
+      "label": "BG05 · 教室日间柔阴光",
+      "path": "assets_src/act02/backgrounds/bg_classroom_day_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_classroom_day.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "scenes": [
+        "C2-02"
+      ],
+      "refinement_prompt": "docs/art/act02/prompts/bg_classroom_day.refinement.txt",
+      "refinement_reference": "assets_src/act02/trials/bg_classroom_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1853358,
+      "sha256": "26bda5da1442b8580d0900e2e7eb28fb458d6b12057933ed9cd0dec0242f9849",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_classroom_evening",
+      "label": "BG05 · 教室放学傍晚",
+      "path": "assets_src/act02/backgrounds/bg_classroom_evening_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_classroom_evening.txt",
+      "references": [
+        "assets_src/act02/backgrounds/bg_classroom_day_v001.png"
+      ],
+      "scenes": [
+        "C2-08",
+        "C2-09",
+        "C2-10"
+      ],
+      "refinement_prompt": null,
+      "refinement_reference": null,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1843530,
+      "sha256": "090c61093eed5c89a23e8bc3c1c58d356b29d40646b402050a700aa4207b2e41",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_classroom_night",
+      "label": "BG05 · 教室晚自习",
+      "path": "assets_src/act02/backgrounds/bg_classroom_night_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_classroom_night.txt",
+      "references": [
+        "assets_src/act02/backgrounds/bg_classroom_day_v001.png"
+      ],
+      "scenes": [
+        "C2-07"
+      ],
+      "refinement_prompt": null,
+      "refinement_reference": null,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1839973,
+      "sha256": "4834354f14115a3b81aec5dabf1b5848fc912ef828570693b555805e64fb3a4d",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_flowerbed_overcast",
+      "label": "BG06 · 花坛与长椅阴天",
+      "path": "assets_src/act02/backgrounds/bg_flowerbed_overcast_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_flowerbed_overcast.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "scenes": [
+        "C2-03"
+      ],
+      "refinement_prompt": "docs/art/act02/prompts/bg_flowerbed_overcast.refinement.txt",
+      "refinement_reference": "assets_src/act02/trials/bg_flowerbed_overcast_v001.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2815122,
+      "sha256": "2d47b7a1a78089fb1c02611a2da04f1624bfff4bb9ba4d7c26fe479ec48eb157",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_user_desk_day",
+      "label": "BG07 · 高中家中书桌日间",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_day_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_user_desk_day.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "scenes": [
+        "C2-04",
+        "C2-06"
+      ],
+      "refinement_prompt": null,
+      "refinement_reference": null,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1860143,
+      "sha256": "f7d5b1e8341c41c05bce30d389b9dc1b931caae58df3358b47d2580c24f434fb",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_user_desk_night",
+      "label": "BG07 · 高中家中书桌夜间",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_night_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_user_desk_night.txt",
+      "references": [
+        "assets_src/act02/backgrounds/bg_user_desk_day_v001.png"
+      ],
+      "scenes": [
+        "C2-04"
+      ],
+      "refinement_prompt": null,
+      "refinement_reference": null,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1651924,
+      "sha256": "85aab3d3acac2aacb8009bf794a118cbd0e8df4634410505e6112502ea302e0c",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_corridor_day",
+      "label": "BG08 · 校内走廊日间",
+      "path": "assets_src/act02/backgrounds/bg_corridor_day_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_corridor_day.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "scenes": [
+        "C2-06"
+      ],
+      "refinement_prompt": null,
+      "refinement_reference": null,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2005846,
+      "sha256": "288e7182609afee6f2b4ad93b4f49610bef3848fd84e90bf4b50dae3eb77ac41",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_corridor_evening",
+      "label": "BG08 · 校内走廊黄昏",
+      "path": "assets_src/act02/backgrounds/bg_corridor_evening_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_corridor_evening.txt",
+      "references": [
+        "assets_src/act02/backgrounds/bg_corridor_day_v001.png"
+      ],
+      "scenes": [
+        "C2-05"
+      ],
+      "refinement_prompt": null,
+      "refinement_reference": null,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1924211,
+      "sha256": "d94fda6521939ed04243202224730b515da245c85f699f9973d0144ded975677",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_claude_bedroom_night",
+      "label": "BG09 · Claude高中卧室夜景",
+      "path": "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png",
+      "prompt": "docs/art/act02/prompts/bg_claude_bedroom_night.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "scenes": [
+        "C2-11"
+      ],
+      "refinement_prompt": null,
+      "refinement_reference": null,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2106917,
+      "sha256": "17009fe6208cd1e443543f7f8309351981cdab29366b852309881ff84fad6800",
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    }
+  ],
+  "shots": [
+    {
+      "id": "C2-01",
+      "title": "停滞的电影研究社",
+      "bg": "bg_filmclub_dust_day",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-02",
+      "title": "糟糕的成绩单",
+      "bg": "bg_classroom_day",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-03",
+      "title": "花坛旁的眼泪",
+      "bg": "bg_flowerbed_overcast",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-04",
+      "title": "从课本第一页重新开始",
+      "bg": "bg_user_desk_night",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-05",
+      "title": "向老师开口",
+      "bg": "bg_corridor_evening",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-06",
+      "title": "第一次看见努力的结果",
+      "bg": "bg_corridor_day",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-07",
+      "title": "前排的学姐",
+      "bg": "bg_classroom_night",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-08",
+      "title": "不会的地方要说出来",
+      "bg": "bg_classroom_evening",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-09",
+      "title": "一点点靠近的课桌",
+      "bg": "bg_classroom_evening",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-10",
+      "title": "被推迟的甜品邀约",
+      "bg": "bg_classroom_evening",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C2-11",
+      "title": "没有发出的第二句话",
+      "bg": "bg_claude_bedroom_night",
+      "sprite": null,
+      "prop": null
+    }
+  ],
+  "excluded_trials": [
+    "assets_src/act02/trials/bg_classroom_day_v001.png",
+    "assets_src/act02/trials/bg_flowerbed_overcast_v001.png"
+  ],
+  "notes": "Backgrounds only. Original imagegen PNGs preserved; not integrated into runtime."
+}

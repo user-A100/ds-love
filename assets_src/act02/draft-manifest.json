@@ -1,0 +1,225 @@
+{
+  "updated_at": "2026-10-18T15:38:11.725308+08:00",
+  "completed": 21,
+  "total": 21,
+  "percent": 100.0,
+  "assets": [
+    {
+      "id": "bg_filmclub_dust_day",
+      "path": "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "86574f53cd6622ed0e60d12b5f304e2fe19d8af5f2a16473deec06c4ad05f8a5"
+    },
+    {
+      "id": "bg_classroom_day",
+      "path": "assets_src/act02/backgrounds/bg_classroom_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "26bda5da1442b8580d0900e2e7eb28fb458d6b12057933ed9cd0dec0242f9849"
+    },
+    {
+      "id": "bg_classroom_evening",
+      "path": "assets_src/act02/backgrounds/bg_classroom_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "090c61093eed5c89a23e8bc3c1c58d356b29d40646b402050a700aa4207b2e41"
+    },
+    {
+      "id": "bg_classroom_night",
+      "path": "assets_src/act02/backgrounds/bg_classroom_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "4834354f14115a3b81aec5dabf1b5848fc912ef828570693b555805e64fb3a4d"
+    },
+    {
+      "id": "bg_flowerbed_overcast",
+      "path": "assets_src/act02/backgrounds/bg_flowerbed_overcast_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "2d47b7a1a78089fb1c02611a2da04f1624bfff4bb9ba4d7c26fe479ec48eb157"
+    },
+    {
+      "id": "bg_user_desk_day",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "f7d5b1e8341c41c05bce30d389b9dc1b931caae58df3358b47d2580c24f434fb"
+    },
+    {
+      "id": "bg_user_desk_night",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "85aab3d3acac2aacb8009bf794a118cbd0e8df4634410505e6112502ea302e0c"
+    },
+    {
+      "id": "bg_corridor_day",
+      "path": "assets_src/act02/backgrounds/bg_corridor_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "288e7182609afee6f2b4ad93b4f49610bef3848fd84e90bf4b50dae3eb77ac41"
+    },
+    {
+      "id": "bg_corridor_evening",
+      "path": "assets_src/act02/backgrounds/bg_corridor_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "d94fda6521939ed04243202224730b515da245c85f699f9973d0144ded975677"
+    },
+    {
+      "id": "bg_claude_bedroom_night",
+      "path": "assets_src/act02/backgrounds/bg_claude_bedroom_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "17009fe6208cd1e443543f7f8309351981cdab29366b852309881ff84fad6800"
+    },
+    {
+      "id": "gpt_hs_neutral",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "a97b32f7e67803f10511b1d25daf0e42c34be532ba725bde1716e18cac9495ef"
+    },
+    {
+      "id": "gpt_hs_reading",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_reading_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "53a7ed54afd24a3eebea39b7a35ae1b1a8b4f250367ed854da6aad05dcf63c54"
+    },
+    {
+      "id": "gpt_hs_explain",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_explain_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "bfc206f4fd4b9f189e2ee549b0d5ddccf5f54fe2dc1c1f864695aaf9c6abb376"
+    },
+    {
+      "id": "gpt_hs_smile",
+      "path": "assets_src/act02/characters/gpt/gpt_hs_smile_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "a344d5e97f432467cc389f8ffcde6e22e70677d2ceee62f75d73d595fba297a4"
+    },
+    {
+      "id": "pr03_old_camcorder",
+      "path": "assets_src/act02/props/pr03_old_camcorder_v001.png",
+      "width": 1365,
+      "height": 1152,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "sha256": "1aa4f327aed77d929b33546c0d0ab1190775a18d2048dab0c691d2f57d884d64"
+    },
+    {
+      "id": "pr04_tripod",
+      "path": "assets_src/act02/props/pr04_tripod_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "7afc888c27be3205a5a14a0b80d1c5d75dbaf402256500db5850d63e3647f6ae"
+    },
+    {
+      "id": "pr06_study_materials",
+      "path": "assets_src/act02/props/pr06_study_materials_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft",
+      "sha256": "49f20d849f7d85cd7103820a1678df6ac4a7b3020674b3f24eee01b2ce6e8ece"
+    },
+    {
+      "id": "pr07_two_cakes",
+      "path": "assets_src/act02/props/pr07_two_cakes_v001.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft",
+      "sha256": "76745aa94aa40fa855530e272e9b0e2412f291f7e9afe19dca41cb4c18c6a0eb"
+    },
+    {
+      "id": "cg_c203_mother",
+      "path": "assets_src/act02/cg/cg_c203_mother_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "8f39c7079a82d8ce3ca751eeffb61b64aaad9062511f02611b7562eac1e764ca"
+    },
+    {
+      "id": "cg03_tutoring",
+      "path": "assets_src/act02/cg/cg03_tutoring_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "2dabf4aa4f0b64e93b11a07ab3cbb35da2d6d275eecabc34e37e891b1ec25f44"
+    },
+    {
+      "id": "cg_c211_unsent",
+      "path": "assets_src/act02/cg/cg_c211_unsent_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft",
+      "sha256": "d26d007ca447885c1ccc66fc0fc7809d896145ddf6ff8d5ef7b738912739749a"
+    }
+  ],
+  "pending_assets": [],
+  "quality_notes": [
+    "试稿已出齐，尚未接入游戏。透明立绘和部分道具可见光晕，需在正式接入前复核边缘。"
+  ]
+}

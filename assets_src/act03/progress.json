@@ -1,0 +1,144 @@
+{
+  "updated_at": "2026-10-18T15:45:40.217400+08:00",
+  "completed": 15,
+  "total": 15,
+  "percent": 100.0,
+  "assets": [
+    {
+      "id": "bg_musicroom_evening",
+      "path": "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_musicroom_night",
+      "path": "assets_src/act03/backgrounds/bg_musicroom_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_auditorium_rehearsal",
+      "path": "assets_src/act03/backgrounds/bg_auditorium_rehearsal_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_auditorium_performance",
+      "path": "assets_src/act03/backgrounds/bg_auditorium_performance_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_rooftop_night",
+      "path": "assets_src/act03/backgrounds/bg_rooftop_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg_schoolgate_evening",
+      "path": "assets_src/act03/backgrounds/bg_schoolgate_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_hs_neutral",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_hs_shy",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_shy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_hs_lonely",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_lonely_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr09_guitar_score",
+      "path": "assets_src/act03/props/pr09_guitar_score_v001.png",
+      "width": 1295,
+      "height": 1215,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "pr12_two_drink_cans",
+      "path": "assets_src/act03/props/pr12_two_drink_cans_v001.png",
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c303_piano_guidance",
+      "path": "assets_src/act03/cg/cg_c303_piano_guidance_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg04_cultural_festival",
+      "path": "assets_src/act03/cg/cg04_cultural_festival_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c307_rooftop_promise",
+      "path": "assets_src/act03/cg/cg_c307_rooftop_promise_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c308_claude_confession",
+      "path": "assets_src/act03/cg/cg_c308_claude_confession_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": null,
+      "status": "generated_draft"
+    }
+  ],
+  "pending_assets": []
+}

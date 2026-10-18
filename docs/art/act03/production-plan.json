@@ -1,0 +1,314 @@
+{
+  "date": "2026-10-18",
+  "scope": "第三幕／第三章 C3-01～C3-13，完整美术试稿；复用第一、二幕背景与立绘",
+  "tool": "built-in imagegen",
+  "jobs": [
+    {
+      "id": "bg_musicroom_evening",
+      "label": "BG10 · 音乐教室傍晚",
+      "file": "backgrounds/bg_musicroom_evening_v001.png",
+      "prompt_file": "docs/art/act03/prompts/bg_musicroom_evening.txt",
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Landscape 16:9 clean background plate, NO people. Lower 24 percent quiet for dialogue. Reference 1 supplies same-campus materials and rendering style only. New ordinary high-school music classroom, eye-level view from open right entrance. Tall aluminium windows on left, warm pale-wood floor, ivory walls, closed unlabelled storage at rear. One believable modest black grand piano at left-middle, keyboard facing diagonally toward viewer and matching plain bench; lid closed, no music sheet. Right-side grey classroom door and some doorframe visible, center-right empty floor for standing characters and guitarist. Subtle acoustic ceiling panels, a few neatly stacked chairs at back. Afternoon golden sunlight enters upper-left; room is intimate and ordinary, not luxury concert hall. No guitar permanently painted into background, no banners, no writing.",
+      "transparent": false
+    },
+    {
+      "id": "bg_musicroom_night",
+      "label": "BG10 · 音乐教室夜间",
+      "file": "backgrounds/bg_musicroom_night_v001.png",
+      "prompt_file": "docs/art/act03/prompts/bg_musicroom_night.txt",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Landscape 16:9 clean background plate, NO people. Lower 24 percent quiet for dialogue. Reference 1 is the EDIT TARGET. Change ONLY light and sky to night: blue night beyond existing left windows, existing ceiling light softly on illuminating the piano and standing space, mild cool ambient shadows, tender intimate mood. Preserve exact camera, piano, bench, floor, closed piano lid, windows, back storage, grey right door and framing. No candles, extra furniture or romantic decorations.",
+      "transparent": false
+    },
+    {
+      "id": "bg_auditorium_rehearsal",
+      "label": "BG11 · 礼堂排练",
+      "file": "backgrounds/bg_auditorium_rehearsal_v001.png",
+      "prompt_file": "docs/art/act03/prompts/bg_auditorium_rehearsal.txt",
+      "refs": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png",
+        "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Landscape 16:9 clean background plate, NO people. Lower 24 percent quiet for dialogue. References supply school material and painting style, not camera. New modest high-school auditorium stage viewed from audience center, broad slightly elevated wooden stage, restrained burgundy side curtains, ivory acoustic rear wall, blank rolled-up projection screen high at rear. A modest black grand piano and bench fixed stage-left (viewer LEFT), piano keyboard oriented to allow pianist profile; one unbranded standing microphone center, a second standing microphone viewer RIGHT for backing singer. Leave clear viewer center-right position for a separately drawn guitarist, guitar not yet present. Warm neutral overhead work lights, daylight leaking high left windows, modest empty front seat silhouettes only along bottom. These are exactly the same stage and instrument positions to reuse for performance. No people, sheet music, school emblems, screens with text, bunting or professional arena lights.",
+      "transparent": false
+    },
+    {
+      "id": "bg_auditorium_performance",
+      "label": "BG11 · 文化祭正式舞台",
+      "file": "backgrounds/bg_auditorium_performance_v001.png",
+      "prompt_file": "docs/art/act03/prompts/bg_auditorium_performance.txt",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_auditorium_rehearsal_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Landscape 16:9 clean background plate, NO people. Lower 24 percent quiet for dialogue. Reference 1 is the EDIT TARGET. Same exact stage camera, piano at viewer left, center lead microphone, viewer right backing microphone, burgundy curtains, rear projection screen and floor geometry. Change only illumination for school cultural-festival performance: auditorium ambient dim, soft warm white spots above piano, lead mic and backing mic, restrained blue fill at rear, projection screen dark blank. Bottom front audience area remains dark empty silhouettes of seats, no people. No extravagant lasers, smoke, LED wall, text or additional instruments.",
+      "transparent": false
+    },
+    {
+      "id": "bg_rooftop_night",
+      "label": "BG01 · 文化祭后夜晚天台",
+      "file": "backgrounds/bg_rooftop_night_v001.png",
+      "prompt_file": "docs/art/act03/prompts/bg_rooftop_night.txt",
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Landscape 16:9 clean background plate, NO people. Lower 24 percent quiet for dialogue. Reference 1 is the EDIT TARGET. Change ONLY light, sky and distant window illumination from day to peaceful night. Preserve exact camera, left low INNER wall, high protective perimeter fence, right-rear stairwell structure and door, conduit, ladder and concrete tile seams. Deep navy clear sky with a sparse scattering of subtle stars, distant anonymous town windows softly glowing, faint cool moonlight from upper left and dim warm light near stairwell. The familiar campus rooftop, no ocean, sea, new railing, snow, fireworks or extra props. Night light leaves foreground readable.",
+      "transparent": false
+    },
+    {
+      "id": "bg_schoolgate_evening",
+      "label": "BG12 · 放学后的校门",
+      "file": "backgrounds/bg_schoolgate_evening_v001.png",
+      "prompt_file": "docs/art/act03/prompts/bg_schoolgate_evening.txt",
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png",
+        "assets_src/act01/backgrounds/bg_library_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Landscape 16:9 clean background plate, NO people. Lower 24 percent quiet for dialogue. References supply exact established campus material and hand-painted style only. Eye-level medium-wide shot looking outward through ordinary open school gates toward a quiet residential street at late afternoon. Pale concrete school gate pillars at left and right with NO writing, small empty unlabelled nameplate, teaching building corner at far left, modest trees, pavement splitting toward two directions beyond gate. Clear curbside pickup area at right for a separate future car overlay, no parked car currently. Warm low sunlight from upper left, gentle sky, clear safe sidewalk for students to stand. Anonymous place, no landmark, flag, people, signs or street letters.",
+      "transparent": false
+    },
+    {
+      "id": "gpt_hs_neutral",
+      "label": "GPT · 制服基准",
+      "file": "characters/gpt/gpt_hs_neutral_v001.png",
+      "prompt_file": "docs/art/act03/prompts/gpt_hs_neutral.txt",
+      "refs": [
+        "assets_src/characters/gpt/references/zipzippipe-pixiv-148186519-p03.jpg",
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Portrait 2:3 full-body single character sprite with actual TRANSPARENT background and clean alpha edges, no halo, gradient backdrop, checkerboard, ground plane or cast shadow. Keep entire hair, feet, accessories and tail/wings inside canvas with clear margin. Normal anime body proportions matching reference, soft upper-left light, same linework and costume shading. Reference 1 is GPT IDENTITY reference: preserve her distinctive long flowing white-lilac hair with ahoge, lilac eyes, two pale scaled dragon horns, pointed ears, black-and-white interwoven knot hairpin at HER LEFT / VIEWER RIGHT with small hanging tassel, pale dragon wings and long white scaled tail. References 2 and 3 set same-school uniform and exact illustration style. Replace ONLY her fantasy dress with modest ordinary navy gold-piped blazer, ivory collared blouse, pale LAVENDER neck ribbon, knee-length navy gold-hem pleated skirt, white knee socks and navy loafers. Wings and tail arranged compactly behind full body, horns fully in frame. Friendly calm intelligent expression, hands relaxed gently together in front. One high-school uniform design, no cleavage, bare midriff, slit dress, floating mascot, magic, book, glasses, extra jewelry, emblems or words.",
+      "transparent": true
+    },
+    {
+      "id": "gpt_hs_shy",
+      "label": "GPT · 被邀请后的害羞",
+      "file": "characters/gpt/gpt_hs_shy_v001.png",
+      "prompt_file": "docs/art/act03/prompts/gpt_hs_shy.txt",
+      "refs": [
+        "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Portrait 2:3 full-body single character sprite with actual TRANSPARENT background and clean alpha edges, no halo, gradient backdrop, checkerboard, ground plane or cast shadow. Keep entire hair, feet, accessories and tail/wings inside canvas with clear margin. Normal anime body proportions matching reference, soft upper-left light, same linework and costume shading. Reference 1 is the EDIT TARGET. Preserve exact face, white-lilac hair, lilac eyes, two horns, pointed ears, left knot hairpin, compact pale wings and scaled tail, navy gold-piped uniform, lavender ribbon, full-body framing and light. Change ONLY expression and the small hand gesture described: A quiet shy relieved smile, light natural pink cheeks, gaze slightly averted and hands loosely clasped at waist. Understated response to being praised for singing, no cartoon embarrassment symbols.",
+      "transparent": true
+    },
+    {
+      "id": "gpt_hs_lonely",
+      "label": "GPT · 隐忍落寞",
+      "file": "characters/gpt/gpt_hs_lonely_v001.png",
+      "prompt_file": "docs/art/act03/prompts/gpt_hs_lonely.txt",
+      "refs": [
+        "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Portrait 2:3 full-body single character sprite with actual TRANSPARENT background and clean alpha edges, no halo, gradient backdrop, checkerboard, ground plane or cast shadow. Keep entire hair, feet, accessories and tail/wings inside canvas with clear margin. Normal anime body proportions matching reference, soft upper-left light, same linework and costume shading. Reference 1 is the EDIT TARGET. Preserve exact face, white-lilac hair, lilac eyes, two horns, pointed ears, left knot hairpin, compact pale wings and scaled tail, navy gold-piped uniform, lavender ribbon, full-body framing and light. Change ONLY expression and the small hand gesture described: A restrained melancholy expression, gaze lowered toward an unseen book, lips neutral almost smiling politely, fingers gently clasped. No tears, blush, dramatic crying or visible book; convey affection quietly kept to herself.",
+      "transparent": true
+    },
+    {
+      "id": "pr09_guitar_score",
+      "label": "PR09 · 吉他与末曲乐谱",
+      "file": "props/pr09_guitar_score_v001.png",
+      "prompt_file": "docs/art/act03/prompts/pr09_guitar_score.txt",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Single coherent object illustration on actual TRANSPARENT background, clean edges, no glow, ground shadow, room, hands, people or checkerboard. Match existing school-prop cel-painted rendering, soft upper-left light. One standard warm honey-brown six-string acoustic guitar, complete neck, six tuning pegs, sensible body and bridge, standing slightly diagonally alongside a neatly closed cream sheet-music booklet resting against its lower side. Booklet cover is completely unlettered with tiny abstract five-line musical staff emblem only; no legible music, brand or text. One integrated reusable prop grouping, all edges visible, no stand or piano.",
+      "transparent": true
+    },
+    {
+      "id": "pr12_two_drink_cans",
+      "label": "PR12 · 两罐饮料",
+      "file": "props/pr12_two_drink_cans_v001.png",
+      "prompt_file": "docs/art/act03/prompts/pr12_two_drink_cans.txt",
+      "refs": [
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. Single coherent object illustration on actual TRANSPARENT background, clean edges, no glow, ground shadow, room, hands, people or checkerboard. Match existing school-prop cel-painted rendering, soft upper-left light. Exactly TWO modest cylindrical aluminium soft-drink cans upright side by side at slight three-quarter view, one pale sky-blue and one cream with restrained peach color band. Silver tops with intact pull tabs, believable equal proportions, anonymous blank packaging with NO lettering, logo, barcode or pictograms. Gentle highlights, no liquid, glass, straw, ice or third can.",
+      "transparent": true
+    },
+    {
+      "id": "cg_c303_piano_guidance",
+      "label": "C3-03 · 钢琴回应与指导",
+      "file": "cg/cg_c303_piano_guidance_v001.png",
+      "prompt_file": "docs/art/act03/prompts/cg_c303_piano_guidance.txt",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png",
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. One landscape 16:9 story CG, faces and focal hands above lower 24 percent dialogue-safe area. Same delicate anime linework and luminous hand-painted school background as references. No captions, text, panels, UI, watermark or decorative romantic symbols. User is represented only by cropped hands, rear shoulder or faceless body; never fix a frontal face or eye/hair color. Reference 1 is exact room layout and lighting, reference 2 locks Claude's identity, flower side and modest complete uniform. Medium-wide first-person guitar student's view facing Claude seated correctly on existing bench at black grand piano, keyboard and both her hands anatomically believable. She looks gently sideways toward us with a tiny proud blush as she demonstrates a chord. At lower-left foreground ONLY our navy uniform sleeve and the edge of a honey-brown guitar neck, hand resting on fretboard. No second pianist, extra people, floating fingers, grown-up gown or new piano.",
+      "transparent": false
+    },
+    {
+      "id": "cg04_cultural_festival",
+      "label": "CG04 / PR11 · 四人文化祭演出定格",
+      "file": "cg/cg04_cultural_festival_v001.png",
+      "prompt_file": "docs/art/act03/prompts/cg04_cultural_festival.txt",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_auditorium_performance_v001.png",
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png",
+        "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. One landscape 16:9 story CG, faces and focal hands above lower 24 percent dialogue-safe area. Same delicate anime linework and luminous hand-painted school background as references. No captions, text, panels, UI, watermark or decorative romantic symbols. User is represented only by cropped hands, rear shoulder or faceless body; never fix a frontal face or eye/hair color. Reference 1 fixes exact school stage. References 2 Claude, 3 GPT, 4 DeepSeek lock identities, uniforms, hair accessories, wings and tails. Four performers and correct roles: VIEWER LEFT Claude seated in profile at grand piano, amber ribbon and orange flower at her left; CENTER GPT lead singer at microphone, white-lilac hair, lilac ribbon, pale horns and compact wings/tail; VIEWER RIGHT DeepSeek singing harmony at second microphone, blue gradient curls, fin ears and whale tail, blue ribbon. User guitarist stands between GPT and DeepSeek, positioned slightly rear and turned sideways/away, face obscured by back view and shoulder, navy uniform blazer and trousers, honey-brown acoustic guitar. Warm modest school stage spotlights, dark soft audience silhouettes ONLY along extreme bottom, shared natural joyful smiles at end of performance. Exactly three girls plus one faceless protagonist, no duplicate singer or extra instrument. This image also serves as the SAME frozen frame in the later photo/video memory; no separate contradictory photo.",
+      "transparent": false
+    },
+    {
+      "id": "cg_c307_rooftop_promise",
+      "label": "C3-07 · 夜晚天台的约定",
+      "file": "cg/cg_c307_rooftop_promise_v001.png",
+      "prompt_file": "docs/art/act03/prompts/cg_c307_rooftop_promise.txt",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_rooftop_night_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act03/props/pr12_two_drink_cans_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. One landscape 16:9 story CG, faces and focal hands above lower 24 percent dialogue-safe area. Same delicate anime linework and luminous hand-painted school background as references. No captions, text, panels, UI, watermark or decorative romantic symbols. User is represented only by cropped hands, rear shoulder or faceless body; never fix a frontal face or eye/hair color. References 1 exact rooftop, 2 DeepSeek identity and complete uniform, 3 exact two plain drink cans. Medium first-person eye-level conversation, DeepSeek standing safely on INNER side of high perimeter fence, hands loosely around a single blue can at chest/waist level, second cream can near cropped protagonist sleeve at lower left. She looks up toward us with a quiet hopeful uncertain smile in cool moonlight, her long blue hair gently moved by light breeze. Stairwell right and inner low wall left remain recognizable. Tender question about filmmaking after graduation, no love declaration, embrace, kiss, falling or leaning beyond fence.",
+      "transparent": false
+    },
+    {
+      "id": "cg_c308_claude_confession",
+      "label": "C3-08 · Claude真实告白",
+      "file": "cg/cg_c308_claude_confession_v001.png",
+      "prompt_file": "docs/art/act03/prompts/cg_c308_claude_confession.txt",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_musicroom_night_v001.png",
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: production draft for anime visual novel 未抵达的心意, Act 3. One finished image, no collage, panels, text, logos, watermark or UI. Match the established reference artwork, delicate clean anime linework, softly painted believable architecture, gentle coherent light. One landscape 16:9 story CG, faces and focal hands above lower 24 percent dialogue-safe area. Same delicate anime linework and luminous hand-painted school background as references. No captions, text, panels, UI, watermark or decorative romantic symbols. User is represented only by cropped hands, rear shoulder or faceless body; never fix a frontal face or eye/hair color. Reference 1 fixes the night music room, reference 2 Claude identity, orange flower at HER LEFT / VIEWER RIGHT and complete navy uniform with amber ribbon. First-person medium portrait, Claude standing beside the existing closed piano with piano lid edge and left dark windows recognizable. Hands lightly clasped, direct vulnerable amber-eye contact toward viewer, a tiny tear caught at lower eyelid and slight blush, mouth barely parted as she speaks honestly. Restrained self-possession and hurt rather than angry theatrical crying. Soft existing overhead light warms her face, quiet blue night behind; no kiss, contact, new jewelry, candles or concert gown.",
+      "transparent": false
+    }
+  ],
+  "reuse": [
+    {
+      "id": "bg_corridor_day",
+      "label": "BG08 · 走廊日间（第二幕共用）",
+      "path": "assets_src/act02/backgrounds/bg_corridor_day_v001.png"
+    },
+    {
+      "id": "bg_user_desk_night",
+      "label": "BG07 · 家中书桌夜间（第二幕共用）",
+      "path": "assets_src/act02/backgrounds/bg_user_desk_night_v001.png"
+    },
+    {
+      "id": "ds_hs_happy",
+      "label": "DeepSeek · 共用 ds_hs_happy",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_happy_v001.png"
+    },
+    {
+      "id": "ds_hs_flustered",
+      "label": "DeepSeek · 共用 ds_hs_flustered",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_flustered_v001.png"
+    },
+    {
+      "id": "ds_hs_proud",
+      "label": "DeepSeek · 共用 ds_hs_proud",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_proud_v001.png"
+    },
+    {
+      "id": "ds_hs_sad",
+      "label": "DeepSeek · 共用 ds_hs_sad",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_sad_v001.png"
+    },
+    {
+      "id": "ds_hs_book_happy",
+      "label": "DeepSeek · 共用 ds_hs_book_happy",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_book_happy_v001.png"
+    },
+    {
+      "id": "claude_hs_neutral",
+      "label": "Claude · 共用 claude_hs_neutral",
+      "path": "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+    },
+    {
+      "id": "claude_hs_blush",
+      "label": "Claude · 共用 claude_hs_blush",
+      "path": "assets_src/act01/characters/claude/claude_hs_blush_v001.png"
+    },
+    {
+      "id": "claude_hs_surprised",
+      "label": "Claude · 共用 claude_hs_surprised",
+      "path": "assets_src/act01/characters/claude/claude_hs_surprised_v001.png"
+    },
+    {
+      "id": "claude_hs_annoyed",
+      "label": "Claude · 共用 claude_hs_annoyed",
+      "path": "assets_src/act01/characters/claude/claude_hs_annoyed_v001.png"
+    },
+    {
+      "id": "bg_filmclub_clean_day",
+      "label": "BG04 · 电影社（直接复用第二幕原图）",
+      "path": "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png",
+      "note": "相同电影社直接引用；原图已经足够整洁，不额外生成整理版。"
+    },
+    {
+      "id": "bg_filmclub_clean_evening",
+      "label": "BG04 · 电影社傍晚（共用同一原图）",
+      "path": "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png",
+      "display_treatment": "warm_evening",
+      "note": "预览仅加可逆的傍晚显示滤镜；源文件不变。"
+    },
+    {
+      "id": "bg_library_evening",
+      "label": "BG03 · 图书馆傍晚（直接复用第一幕）",
+      "path": "assets_src/act01/backgrounds/bg_library_day_v001.png",
+      "display_treatment": "warm_evening"
+    },
+    {
+      "id": "ds_hs_pout",
+      "label": "DeepSeek · 提醒约定（复用得意表情）",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_proud_v001.png"
+    },
+    {
+      "id": "ds_hs_hesitant",
+      "label": "DeepSeek · 犹豫（复用沮丧表情）",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_sad_v001.png"
+    },
+    {
+      "id": "claude_hs_focused",
+      "label": "Claude · 专注（复用制服基准）",
+      "path": "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+    },
+    {
+      "id": "claude_hs_teary",
+      "label": "Claude · 克制（复用脸红表情；真实告白另用CG）",
+      "path": "assets_src/act01/characters/claude/claude_hs_blush_v001.png"
+    },
+    {
+      "id": "gpt_hs_smile",
+      "label": "GPT · 平静微笑（共用新制服基准）",
+      "path": "assets_src/act03/characters/gpt/gpt_hs_neutral_v001.png"
+    },
+    {
+      "id": "pr08_migratory_birds_script",
+      "label": "PR08 · 剧本稿（复用第一幕稿本堆叠）",
+      "path": "assets_src/act01/props/pr_manuscript_stack_v001.png",
+      "note": "标题《候鸟》以预览真实文字显示，不让模型重复画本子。"
+    },
+    {
+      "id": "pr01_blue_notebook",
+      "label": "PR01 · 第一幕浅蓝笔记本",
+      "path": "assets_src/act01/props/pr01_blue_notebook_v001.png"
+    },
+    {
+      "id": "ds_hs_neutral",
+      "label": "DeepSeek · 第一幕制服基准",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+    }
+  ],
+  "shots": [],
+  "reuse_policy": "先直接引用已有文件；同场景时刻差异优先显示层处理。仅夜晚天台等必要差分使用旧图编辑。新地点只有音乐室、礼堂、校门。第三幕补充的GPT制服可供第二幕使用；现有角色表情与笔记本道具不重画。",
+  "cancelled_jobs": [
+    "bg_filmclub_clean_day",
+    "bg_filmclub_clean_evening",
+    "bg_library_evening",
+    "ds_hs_pout",
+    "ds_hs_hesitant",
+    "claude_hs_focused",
+    "claude_hs_teary",
+    "gpt_hs_smile",
+    "pr08_migratory_birds_script"
+  ],
+  "interruption_note": "首批三项调用被用户中断；电影社整理试图已在默认生成目录返回但不选入，已有电影社仍直接复用。音乐室/GPT结果需核查，不自动重试。"
+}
