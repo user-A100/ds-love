@@ -29,8 +29,8 @@ for(const job of plan.jobs){const file=path.join(pack,job.file);if(!fs.existsSyn
   assets.push({...job,path:'assets_src/act05/'+job.file,prompt,...info,bytes:b.length,sha256:crypto.createHash('sha256').update(b).digest('hex'),tool:'built-in imagegen',status:'generated_draft'});
 }
 fs.mkdirSync(pack,{recursive:true});
-const status=pending.length?'generating':'complete_planned_draft_pack';
-fs.writeFileSync(path.join(pack,'manifest.json'),JSON.stringify({schema_version:1,updated_at:new Date().toISOString(),status,scope:plan.scope,planned_assets:plan.jobs.length,pending_assets:pending,assets},null,2)+'\n');
+const status=plan.production_complete&&!pending.length?'complete_planned_draft_pack':'generating';
+fs.writeFileSync(path.join(pack,'manifest.json'),JSON.stringify({schema_version:1,updated_at:new Date().toISOString(),status,plan_is_final:!!plan.production_complete,scope:plan.scope,planned_assets:plan.jobs.length,pending_assets:pending,assets},null,2)+'\n');
 fs.writeFileSync(path.join(pack,'LIVE_STATUS.md'),'# 第五幕美术制作状态\n\n已保存并校验 '+assets.length+' / '+plan.jobs.length+' 项。\n\n'+assets.map(a=>'- '+a.scene+' · ['+a.label+']('+a.file+')').join('\n')+'\n\n待生成：'+(pending.join('、')||'无')+'\n\n原始 PNG 未修改；透明素材验证真实 alpha。当前为生成试制包，尚未接入 Ren’Py，表情差分未逐像素配准。角色原型来源与署名见 ../characters/README.md。\n');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const cards=assets.map(a=>'<article data-kind="'+esc(a.file.split('/')[0])+'"><a href="'+esc(a.file)+'" target="_blank"><img loading="lazy" src="'+esc(a.file)+'" alt="'+esc(a.label)+'"></a><h2>'+esc(a.label)+'</h2><p>'+esc(a.scene)+' · '+a.width+' × '+a.height+'</p><a href="../../'+esc(a.prompt)+'">提示词</a><code>'+esc(a.id)+'</code></article>').join('');

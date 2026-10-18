@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T07:58:53.842Z",
-  "status": "complete_planned_draft_pack",
+  "updated_at": "2026-10-18T08:08:17.837Z",
+  "status": "generating",
+  "plan_is_final": false,
   "scope": "C5-01–C5-12E",
-  "planned_assets": 7,
+  "planned_assets": 15,
   "pending_assets": [],
   "assets": [
     {
@@ -165,6 +166,190 @@
       "edge_alpha_max": 255,
       "bytes": 2173499,
       "sha256": "098e209731ea702ceff7ea3671b15b692361e018a4fee17174e0eb5b13fa09a1",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg23_cafe_snow_evening",
+      "file": "backgrounds/bg23_cafe_snow_evening_v001.png",
+      "label": "咖啡馆｜雪夜窗边",
+      "scene": "C5-06",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg23_cafe_snow_evening.txt",
+      "path": "assets_src/act05/backgrounds/bg23_cafe_snow_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2122370,
+      "sha256": "5cd8db6fee7895cbb065d2f82164a764823098455b29bac545c217b2d3d281d6",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg24_hospital_day",
+      "file": "backgrounds/bg24_hospital_day_v001.png",
+      "label": "医院｜上午候诊区",
+      "scene": "C5-08",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg24_hospital_day.txt",
+      "path": "assets_src/act05/backgrounds/bg24_hospital_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2053063,
+      "sha256": "06fc0c28e49ab9c9322cbd31c676af2a68a220488031c740c8af0f0a6dc27d6a",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg25_empty_stage_night",
+      "file": "backgrounds/bg25_empty_stage_night_v001.png",
+      "label": "专业音乐厅｜前夜单灯",
+      "scene": "C5-09",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg25_empty_stage_night.txt",
+      "path": "assets_src/act05/backgrounds/bg25_empty_stage_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 1696930,
+      "sha256": "f63ee693d4d646db9f5ae85c10c44622b62495696d1f13248e646dec7299556b",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg26_university_filmclub_day",
+      "file": "backgrounds/bg26_university_filmclub_day_v001.png",
+      "label": "大学影像社｜日间讨论室",
+      "scene": "C5-10",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg26_university_filmclub_day.txt",
+      "path": "assets_src/act05/backgrounds/bg26_university_filmclub_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2347164,
+      "sha256": "d2aba06a63c427e820a27d0d009f700abe61cfd217d237f5d47fd3f2fda65cae",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg10_musicroom_winter_day",
+      "file": "backgrounds/bg10_musicroom_winter_day_v001.png",
+      "label": "旧音乐教室｜冬日白昼",
+      "scene": "C5-12A",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg10_musicroom_winter_day.txt",
+      "path": "assets_src/act05/backgrounds/bg10_musicroom_winter_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2143529,
+      "sha256": "b6f07c132d6b8d8e2437ecd262fdbf082d272a2d1f92ff16347b0a091a90b987",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg08_corridor_winter_evening",
+      "file": "backgrounds/bg08_corridor_winter_evening_v001.png",
+      "label": "高中走廊｜冬日黄昏",
+      "scene": "C5-12D",
+      "refs": [
+        "assets_src/act02/backgrounds/bg_corridor_evening_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg08_corridor_winter_evening.txt",
+      "path": "assets_src/act05/backgrounds/bg08_corridor_winter_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2026519,
+      "sha256": "0e936182fe41464d4a8cb062b47753d9653b1b3ccca4b69dafe2c90f319abbf1",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg04_filmclub_clean_winter_evening",
+      "file": "backgrounds/bg04_filmclub_clean_winter_evening_v001.png",
+      "label": "旧电影社｜冬日傍晚",
+      "scene": "C5-12C",
+      "refs": [
+        "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg04_filmclub_clean_winter_evening.txt",
+      "path": "assets_src/act05/backgrounds/bg04_filmclub_clean_winter_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2146158,
+      "sha256": "fe2265772242ce35b23346b502ddb8439b73e862918792478de91367e0d449e7",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg18_user_university_day",
+      "file": "backgrounds/bg18_user_university_day_v001.png",
+      "label": "User大学住处｜白昼",
+      "scene": "C5-04",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg18_user_university_day.txt",
+      "path": "assets_src/act05/backgrounds/bg18_user_university_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2147423,
+      "sha256": "a42f71f8535d57da11b0f16c7b9842e9f09d8bb26bc1297f6e9f4ade5690cdec",
       "tool": "built-in imagegen",
       "status": "generated_draft"
     }

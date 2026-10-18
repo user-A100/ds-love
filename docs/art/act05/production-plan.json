@@ -78,6 +78,94 @@
       ],
       "transparent": false,
       "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 empty background painting. Reference is PAINTING STYLE and quality only, do not copy its character or library. Professional small publishing office winter afternoon. Organized manuscript desk left midground, open aisle in center for two people talking, bookshelves along back wall, glass meeting room door at right rear, windows on left with cool daylight, tea tray on side table. Neat stacks of blank papers and folders, computers screens blank, literary workplace warm wood and muted ivory. No readable book spines, signs or text. Eye-level natural perspective, detailed credible architecture, generous unoccupied character stage, no characters or writing. Standalone clean background, no panels."
+    },
+    {
+      "id": "bg23_cafe_snow_evening",
+      "file": "backgrounds/bg23_cafe_snow_evening_v001.png",
+      "label": "咖啡馆｜雪夜窗边",
+      "scene": "C5-06",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 background painting, matching reference finish only (no reference character). Quiet intimate bookish cafe near publishing house, winter twilight snow. Eye-level from seated protagonist across a small light oak square table in foreground, empty chair on far side center-right for woman, tall window on LEFT overlooking snowy generic street with streetlamp and building from publisher neighborhood, warm pendant lights, dark green banquette on back right, distant bookshelves, two simple cream porcelain cups and saucers on table. Keep tabletop lower third and empty far-side seating unobstructed. No people. Natural credible perspective. No lettering anywhere, no UI, no montage."
+    },
+    {
+      "id": "bg24_hospital_day",
+      "file": "backgrounds/bg24_hospital_day_v001.png",
+      "label": "医院｜上午候诊区",
+      "scene": "C5-08",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 background painting, matching reference finish only (no reference character). Ordinary modern hospital outpatient waiting corridor in winter morning. Gray-blue upholstered bench on LEFT midground suitable for two adults seated, closed examination room door at right rear with blank plaque, frosted window at left with cold daylight, white and pale sage walls, potted plant, clean floor. Calm human-scale public waiting area, not emergency, no beds, no monitors, no IV, no medical diagnosis or signage. Empty. Natural credible perspective. No lettering anywhere, no UI, no montage."
+    },
+    {
+      "id": "bg25_empty_stage_night",
+      "file": "backgrounds/bg25_empty_stage_night_v001.png",
+      "label": "专业音乐厅｜前夜单灯",
+      "scene": "C5-09",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 background painting, matching reference finish only (no reference character). Professional concert hall viewed diagonally from side of large empty stage. Black grand piano on LEFT with closed keyboard cover and bench, single warm overhead stage pool of light, auditorium rows recede into black darkness at right and rear, tall professional acoustic wood panels. Large distinct adult concert venue, no school windows, no red school curtains, no staff or audience. Clear foreground next to piano for two people embracing. Melancholic quiet. Natural credible perspective. No lettering anywhere, no UI, no montage."
+    },
+    {
+      "id": "bg26_university_filmclub_day",
+      "file": "backgrounds/bg26_university_filmclub_day_v001.png",
+      "label": "大学影像社｜日间讨论室",
+      "scene": "C5-10",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 background painting, matching reference finish only (no reference character). University filmmaking club studio in winter afternoon, mature practical workspace distinct from high school film club. Wide wooden shared worktable toward left center, two chairs on opposite sides, modern editing workstation and turned-off monitors at rear, shelves of camera cases to right, small corkboard with blank storyboard cards, folded tripod near wall, winter window on left, stacks of unlettered manuscripts, open floor for sprites. No people, no school desks. Natural credible perspective. No lettering anywhere, no UI, no montage."
+    },
+    {
+      "id": "bg10_musicroom_winter_day",
+      "file": "backgrounds/bg10_musicroom_winter_day_v001.png",
+      "label": "旧音乐教室｜冬日白昼",
+      "scene": "C5-12A",
+      "refs": [
+        "assets_src/act03/backgrounds/bg_musicroom_evening_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: lighting-weather. Edit reference school music classroom to late December midday THREE YEARS LATER, keeping EXACT composition and room geometry: grand piano left, left windows, back central cabinets, right rear gray door, right foreground open doorway, wood floor, piano bench. Remove autumn golden foliage outside, show bare winter trees with light snow outside only. Cool pale winter noon daylight with subtle warm indoor fill, quiet reunion mood. Room clean and old, not abandoned, no new furniture, no characters, no lettering. Single 16:9 background."
+    },
+    {
+      "id": "bg08_corridor_winter_evening",
+      "file": "backgrounds/bg08_corridor_winter_evening_v001.png",
+      "label": "高中走廊｜冬日黄昏",
+      "scene": "C5-12D",
+      "refs": [
+        "assets_src/act02/backgrounds/bg_corridor_evening_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: lighting-weather. Edit this exact school corridor to late December sunset three years later. Preserve every wall, stair location at rear center, classroom doors right, bulletin board right foreground, window mullions and tile grid, identical viewpoint. Outside replace leafy autumn trees with bare winter trees lightly dusted snow; low pale peach sun against blue winter sky. Warm oblique sunset and cool ambient shadows, quieter and more restrained than reference. No characters, no writing on bulletin board. Widescreen 16:9."
+    },
+    {
+      "id": "bg04_filmclub_clean_winter_evening",
+      "file": "backgrounds/bg04_filmclub_clean_winter_evening_v001.png",
+      "label": "旧电影社｜冬日傍晚",
+      "scene": "C5-12C",
+      "refs": [
+        "assets_src/act02/backgrounds/bg_filmclub_dust_day_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: lighting-weather. Edit this same HIGH SCHOOL film club room three years later, clean and orderly rather than dusty. Preserve exact left windows, back wall four abstract posters, center worktable, chairs, back-right gray door, right glass camera cabinets and shelves. Late December evening with bare snowy branches outside, pale peach sunset light and cold blue shadows. Remove dust overlay, slightly worn surfaces remain. One small old light-blue notebook may sit on center table but no readable markings. No characters, no changed layout. Single widescreen 16:9."
+    },
+    {
+      "id": "bg18_user_university_day",
+      "file": "backgrounds/bg18_user_university_day_v001.png",
+      "label": "User大学住处｜白昼",
+      "scene": "C5-04",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 EMPTY background. Adult university student's modest small rented room in winter afternoon, clearly different from high school room. Wide work desk LEFT foreground, laptop with blank screen, compact modern camera and lens on shelf, a few closed blank manuscript folders, task lamp off, gray single bed right rear, corkboard with small abstract storyboard thumbnails no lettering at rear, winter window left, simple wardrobe at back center. Credible tight apartment, adult aspiring director work area, pale cool winter daylight with restrained warm floor reflections, generous empty center foreground for protagonist POV. Reference only painterly finish, no blue-haired character or library."
     }
   ]
 }
