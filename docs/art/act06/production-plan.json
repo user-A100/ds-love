@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "C6-01–C6-06 only",
-  "status": "complete_planned_draft_pack",
+  "status": "partial_chapter_draft_pack",
   "notes": "Chapter-six only. Reuse adult act05 identities. Expression and gesture variants are generated drafts, not pixel-registered layers; no runtime integration.",
   "jobs": [
     {
@@ -115,5 +115,8 @@
       ],
       "prompt": "Use case: identity-preserve. Edit the supplied adult character master into one visual novel standing sprite. Preserve EXACT identity, facial proportions, costume, body scale, hair silhouette, accessory sides and complete full-body framing 1024x1536. Match clean anime linework and delicate soft shading. Change ONLY facial expression to sincere quietly firm direct eye contact, tiny blush and slightly open mouth, a woman frankly expressing her own wish rather than reassuring a student. Preserve hands and dark plum folder, exact pale lavender coat, white blouse, dark plum midi skirt, white hair, purple eyes, horns, wings, white scaled tail and accessory sides. No tears and no coy downward glance. Genuine transparent background; no glow, haze, vignette, floor or shadow. All hair, horns, ears, wings, tail, fingertips and shoes inside canvas with margins. No text, logo, watermark or extra objects."
     }
-  ]
+  ],
+  "generation_status": "complete_planned_draft_pack",
+  "coverage_status": "incomplete",
+  "coverage_file": "docs/art/act06/coverage-gaps.json"
 }

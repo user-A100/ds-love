@@ -1,0 +1,92 @@
+{
+  "scope": "C6-01–C6-06 only",
+  "coverage_status": "incomplete",
+  "generated_image_count": 10,
+  "notes": "Ten generated PNGs are an initial batch, not a complete chapter art pack. Reusable existing files require shot-by-shot mapping. Optional CG11 is not counted as mandatory new illustration.",
+  "gaps": [
+    {
+      "scene": "C6-01",
+      "id": "PR25",
+      "missing": "可编辑的一月日历与20/23/27圈记、可推近构图；背景中的空白日历不能代替成品",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-01/C6-04A",
+      "id": "PR21",
+      "missing": "成年作品集和面试资料递交道具；GPT手持文件夹不等于可阅读或可递交的资料叠层",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-02",
+      "id": "PR08",
+      "missing": "《候鸟》最终稿、递稿动作及可编辑后记；第一幕稿纸可作基础，但尚无复用映射与最终稿版本",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-02",
+      "id": "DS_EMOTIONS",
+      "missing": "完稿开心→感谢→平静坚定的成年表情覆盖；当前抱本两姿态不等于全套情绪",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-03",
+      "id": "CLAUDE_EMOTIONS",
+      "missing": "演后自信轻笑→认真告知→坚定邀请的表情覆盖与映射",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-03",
+      "id": "CLAUDE_HAND_CONTACT",
+      "missing": "原文已握住男主手；当前伸手邀请图未表现接触，可用手部局部或CG补足",
+      "kind": "required_visual_beat"
+    },
+    {
+      "scene": "C6-03",
+      "id": "PR09_CASE",
+      "missing": "收谱进箱的乐谱与琴谱箱；后台显眼的吉他形琴盒不应冒充钢琴家的琴谱箱",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-04A/B",
+      "id": "GPT_EMOTIONS",
+      "missing": "微笑支持、面试后安心、认真告白的细分；第五章中性微笑可复用，尚缺安心变化与明确调度",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-04B",
+      "id": "GPT_HAIR_GESTURE",
+      "missing": "原文整理被风吹乱头发的动作；目前始终双手持文件夹",
+      "kind": "optional_gesture"
+    },
+    {
+      "scene": "C6-05",
+      "id": "CROSSING_BLOCKED",
+      "missing": "栏杆落下、列车遮挡与通过的画面状态；现图只有栏杆升起后的空道口",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-05",
+      "id": "FLASHBACK_MAP",
+      "missing": "花坛低谷、天台初遇、操场告白、教室辅导四段回忆的既有资产对应与高中服装核对",
+      "kind": "required_reuse_mapping"
+    },
+    {
+      "scene": "C6-05",
+      "id": "UI01",
+      "missing": "手机与三个联系人可编辑显示；README提及引擎文字不代表界面已经交付",
+      "kind": "required"
+    },
+    {
+      "scene": "C6-06",
+      "id": "UI04",
+      "missing": "已有通用四选项菜单逻辑可复用，但无本章专用美术/布局交付与选择前存档呈现验证；不能说完全没有菜单",
+      "kind": "required_verification"
+    },
+    {
+      "scene": "C6-01/C6-02/C6-04A",
+      "id": "SPATIAL_CONTINUITY",
+      "missing": "复核当前第五章BG18/BG26/BG22与第六章机位关系；住处床、窗、门关系明显不同，应以已确定空间做差分或明确合理反打",
+      "kind": "required_review"
+    }
+  ]
+}

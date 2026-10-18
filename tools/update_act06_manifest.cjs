@@ -31,7 +31,8 @@ for(const job of plan.jobs){const file=path.join(pack,job.file);if(!fs.existsSyn
   assets.push({...job,path:'assets_src/act06/'+job.file,prompt,...info,bytes:b.length,sha256:crypto.createHash('sha256').update(b).digest('hex'),tool:'built-in imagegen',status:'generated_draft'});
 }
 fs.mkdirSync(pack,{recursive:true});
-const status=pending.length?'generating':'complete_planned_draft_pack';
-fs.writeFileSync(path.join(pack,'manifest.json'),JSON.stringify({schema_version:1,updated_at:new Date().toISOString(),status,scope:plan.scope,planned_assets:plan.jobs.length,pending_assets:pending,assets},null,2)+'\n');
-fs.writeFileSync(path.join(pack,'LIVE_STATUS.md'),'# 第六章美术制作状态\n\n已保存并校验 '+assets.length+' / '+plan.jobs.length+' 项。\n\n'+assets.map(a=>'- '+a.scene+' · ['+a.label+']('+a.file+')').join('\n')+'\n\n待生成：'+(pending.join('、')||'无')+'\n\n原始 PNG 未修改；透明素材验证真实 alpha。当前为生成试制包，尚未接入 Ren’Py，表情差分未逐像素配准。角色原型来源与署名见 ../characters/README.md。\n');
+// File generation completion does not establish full chapter coverage.
+const status='partial_chapter_draft_pack';
+fs.writeFileSync(path.join(pack,'manifest.json'),JSON.stringify({schema_version:1,updated_at:new Date().toISOString(),status,generation_status:pending.length?'generating':'complete_planned_draft_pack',coverage_status:'incomplete',coverage_file:'docs/art/act06/coverage-gaps.json',scope:plan.scope,planned_assets:plan.jobs.length,pending_assets:pending,assets},null,2)+'\n');
+fs.writeFileSync(path.join(pack,'LIVE_STATUS.md'),'# 第六章美术制作状态\n\n已保存并校验 '+assets.length+' / '+plan.jobs.length+' 项当前批次图片，不代表整章美术完成。\n\n完整覆盖状态：未完成。缺口见 docs/art/act06/coverage-gaps.json。\n\n'+assets.map(a=>'- '+a.scene+' · ['+a.label+']('+a.file+')').join('\n')+'\n\n待生成：'+(pending.join('、')||'无')+'\n\n原始 PNG 未修改；透明素材验证真实 alpha。当前为生成试制包，尚未接入 Ren’Py，表情差分未逐像素配准。角色原型来源与署名见 ../characters/README.md。\n');
 console.log(JSON.stringify({completed:assets.length,planned:plan.jobs.length,pending}));

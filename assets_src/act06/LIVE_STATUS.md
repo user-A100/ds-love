@@ -1,6 +1,8 @@
 # 第六章美术制作状态
 
-已保存并校验 10 / 10 项。
+已保存并校验 10 / 10 项当前批次图片，不代表整章美术完成。
+
+完整覆盖状态：未完成。缺口见 docs/art/act06/coverage-gaps.json。
 
 - C6-02 · [DeepSeek｜大学冬装·认真抱本](characters/deepseek/ds_win_earnest_v001.png)
 - C6-01 · [BG18｜大学住处·深夜](backgrounds/bg18_student_room_night_v001.png)
