@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "completed_on": "2026-10-18",
+  "source": "../../未抵达的心意.md",
+  "source_sha256_utf8_lf": "94ef1c94d6157e6fda6f8ad1b2b5456fcd9977cdb8b98a7d17f22501775643d3",
+  "hash_normalization": "UTF-8 text with LF line endings",
+  "style_reference_files_unchanged": [
+    "标题设定 + 序章 + 第一章（全3幕）.md",
+    "第二章《重新开始》（全9个场景）.md",
+    "第三章《三个人的夏天》上半部分（第一幕～第七幕）.md",
+    "第三章《三个人的夏天》下半部分（第八幕：Claude 的告白 + 两段第三章尾声）.md"
+  ],
+  "scope": "中文原稿第四章至DeepSeek True End全文；不新增未写的Claude、GPT、Normal End",
+  "file_count": 7,
+  "translated_nonempty_units": 3213,
+  "unique_scene_ids": [
+    "4-01",
+    "4-02",
+    "4-03",
+    "4-04",
+    "4-05",
+    "4-06",
+    "4-07",
+    "4-08",
+    "4-09",
+    "4-10",
+    "4-11",
+    "4-12",
+    "4-13",
+    "4-14",
+    "5-01",
+    "5-02",
+    "5-03",
+    "5-04",
+    "5-05",
+    "5-06",
+    "5-07",
+    "5-08",
+    "5-09",
+    "5-10",
+    "5-11",
+    "5-12",
+    "6-01",
+    "6-02",
+    "6-03",
+    "6-04",
+    "6-05",
+    "DS-01",
+    "DS-02",
+    "DS-03",
+    "DS-04",
+    "DS-05",
+    "DS-06",
+    "DS-07",
+    "DS-08",
+    "DS-09",
+    "DS-10",
+    "DS-11",
+    "DS-12",
+    "DS-13",
+    "DS-14"
+  ],
+  "files": [
+    {
+      "file": "第四章《无法传达的爱恋》前篇（第一幕～第八幕）.md",
+      "source_start_line": 2655,
+      "source_end_line": 3917,
+      "translated_nonempty_units": 627,
+      "preserved_reference_lines": 4,
+      "scene_heading_ids": [
+        "4-01",
+        "4-02",
+        "4-03",
+        "4-04",
+        "4-05",
+        "4-06",
+        "4-07",
+        "4-08",
+        "4-08"
+      ],
+      "sha256_utf8_lf": "6fdc553918b7fb3923b84ce476d6981f3aaf6d0db13259cbd22536261c9ccbd4",
+      "checks": {
+        "unit_count": "pass",
+        "speaker_and_structure_sequence": "pass",
+        "scene_id_sequence": "pass",
+        "reference_lines": "pass"
+      }
+    },
+    {
+      "file": "第四章《无法传达的爱恋》后篇（场景4-09～4-14）.md",
+      "source_start_line": 3918,
+      "source_end_line": 4492,
+      "translated_nonempty_units": 284,
+      "preserved_reference_lines": 4,
+      "scene_heading_ids": [
+        "4-09",
+        "4-10",
+        "4-11",
+        "4-12",
+        "4-13",
+        "4-14"
+      ],
+      "sha256_utf8_lf": "09cb97b7ea623eada552b87b6fa704858a3459ad26af47a7d3a2fb0143151882",
+      "checks": {
+        "unit_count": "pass",
+        "speaker_and_structure_sequence": "pass",
+        "scene_id_sequence": "pass",
+        "reference_lines": "pass"
+      }
+    },
+    {
+      "file": "第五章《再一次，站在选择面前》前篇（场景5-01～5-07）.md",
+      "source_start_line": 4493,
+      "source_end_line": 5671,
+      "translated_nonempty_units": 589,
+      "preserved_reference_lines": 0,
+      "scene_heading_ids": [
+        "5-01",
+        "5-02",
+        "5-03",
+        "5-04",
+        "5-05",
+        "5-06",
+        "5-07"
+      ],
+      "sha256_utf8_lf": "5941d436f577eaeb9e18a324dfb0845f2354b50af92a41ec29d8b95cceb90620",
+      "checks": {
+        "unit_count": "pass",
+        "speaker_and_structure_sequence": "pass",
+        "scene_id_sequence": "pass",
+        "reference_lines": "pass"
+      }
+    },
+    {
+      "file": "第五章终篇《无法回避的选择》（场景5-08～5-12）.md",
+      "source_start_line": 5672,
+      "source_end_line": 6856,
+      "translated_nonempty_units": 584,
+      "preserved_reference_lines": 8,
+      "scene_heading_ids": [
+        "5-08",
+        "5-09",
+        "5-10",
+        "5-11",
+        "5-12",
+        "5-12"
+      ],
+      "sha256_utf8_lf": "c8d48daf4f3886f756e5f3e8d480dd41117942bd75dfbc21189cf8e54343608a",
+      "checks": {
+        "unit_count": "pass",
+        "speaker_and_structure_sequence": "pass",
+        "scene_id_sequence": "pass",
+        "reference_lines": "pass"
+      }
+    },
+    {
+      "file": "第六章《选择的代价》（共同路线全5个场景）.md",
+      "source_start_line": 6857,
+      "source_end_line": 7289,
+      "translated_nonempty_units": 214,
+      "preserved_reference_lines": 2,
+      "scene_heading_ids": [
+        "6-01",
+        "6-02",
+        "6-03",
+        "6-04",
+        "6-05"
+      ],
+      "sha256_utf8_lf": "10e64026d27598b57e7d21e680764c000f9c25c6b9f8ae249953d36917607028",
+      "checks": {
+        "unit_count": "pass",
+        "speaker_and_structure_sequence": "pass",
+        "scene_id_sequence": "pass",
+        "reference_lines": "pass"
+      }
+    },
+    {
+      "file": "DeepSeek真结局《最初的约定》前篇（DS-01～DS-06）.md",
+      "source_start_line": 7290,
+      "source_end_line": 7986,
+      "translated_nonempty_units": 343,
+      "preserved_reference_lines": 6,
+      "scene_heading_ids": [
+        "DS-01",
+        "DS-02",
+        "DS-03",
+        "DS-04",
+        "DS-05",
+        "DS-06"
+      ],
+      "sha256_utf8_lf": "c314ce0f22c1b5e8ad12228cd6580422b3d01802bc3e9a0cc4f7c928811b00ab",
+      "checks": {
+        "unit_count": "pass",
+        "speaker_and_structure_sequence": "pass",
+        "scene_id_sequence": "pass",
+        "reference_lines": "pass"
+      }
+    },
+    {
+      "file": "DeepSeek真结局《最初的约定》终篇（DS-06续～DS-14）.md",
+      "source_start_line": 7987,
+      "source_end_line": 9132,
+      "translated_nonempty_units": 572,
+      "preserved_reference_lines": 0,
+      "scene_heading_ids": [
+        "DS-06",
+        "DS-07",
+        "DS-08",
+        "DS-09",
+        "DS-10",
+        "DS-11",
+        "DS-12",
+        "DS-12",
+        "DS-13",
+        "DS-14"
+      ],
+      "sha256_utf8_lf": "a72ec58aad2cb5f93e4cd918e1d97a0cfb24a8071d17af15da493700ad3fe8f8",
+      "checks": {
+        "unit_count": "pass",
+        "speaker_and_structure_sequence": "pass",
+        "scene_id_sequence": "pass",
+        "reference_lines": "pass"
+      }
+    }
+  ]
+}
