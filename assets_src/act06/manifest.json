@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-18T07:59:43.046Z",
+  "status": "complete_planned_draft_pack",
+  "scope": "C6-01–C6-06 only",
+  "planned_assets": 7,
+  "pending_assets": [],
+  "assets": [
+    {
+      "id": "ds_win_earnest",
+      "label": "DeepSeek｜大学冬装·认真抱本",
+      "scene": "C6-02/DS-02",
+      "file": "characters/deepseek/ds_win_earnest_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/ds_win_earnest.txt",
+      "path": "assets_src/act06/characters/deepseek/ds_win_earnest_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "bytes": 2065634,
+      "sha256": "fb9ec52f2bdd15abad66e0e343496c6d5d9c6c9451d0cf6ace96bbb891738bf7",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg18_student_room_night",
+      "label": "BG18｜大学住处·深夜",
+      "scene": "C6-01",
+      "file": "backgrounds/bg18_student_room_night_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg18_student_room_night.txt",
+      "path": "assets_src/act06/backgrounds/bg18_student_room_night_v001.png",
+      "width": 1672,
+      "height": 940,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2117091,
+      "sha256": "3e8ec1059e1198207dd904fdbbe1313955b256229b7b84244f5705bb8601e6c3",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg26_film_club_day",
+      "label": "BG26｜大学影像社·白天",
+      "scene": "C6-02",
+      "file": "backgrounds/bg26_film_club_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg26_film_club_day.txt",
+      "path": "assets_src/act06/backgrounds/bg26_film_club_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2263004,
+      "sha256": "23342df59f31d5726c7929228d180e566dcc0596a25b509b8a0beae074cc5727",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg27_concert_backstage_evening",
+      "label": "BG27｜音乐厅后台·演后",
+      "scene": "C6-03",
+      "file": "backgrounds/bg27_concert_backstage_evening_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg27_concert_backstage_evening.txt",
+      "path": "assets_src/act06/backgrounds/bg27_concert_backstage_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 1989156,
+      "sha256": "2d72e24675a78e9d0c1bffeb023d107ed99052515290d47498f4543eef1c9182",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg22_publisher_lobby_day",
+      "label": "BG22｜出版社大厅·面试前",
+      "scene": "C6-04A",
+      "file": "backgrounds/bg22_publisher_lobby_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg22_publisher_lobby_day.txt",
+      "path": "assets_src/act06/backgrounds/bg22_publisher_lobby_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2373864,
+      "sha256": "5bf3245a4ef636930a8367d1e88201b6c3182075dfffbf82286ae93d61d7d2d1",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg28_publisher_street_snow",
+      "label": "BG28｜出版社外街道·积雪",
+      "scene": "C6-04B",
+      "file": "backgrounds/bg28_publisher_street_snow_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg28_publisher_street_snow.txt",
+      "path": "assets_src/act06/backgrounds/bg28_publisher_street_snow_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 3155317,
+      "sha256": "3b41845c97bc3999d7f63873ade5c39955826db134a0957d0cec465e7fc3577c",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg29_crossing_sunset",
+      "label": "BG29｜铁路道口·夕阳",
+      "scene": "C6-05/C6-06/DS-01",
+      "file": "backgrounds/bg29_crossing_sunset_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/bg29_crossing_sunset.txt",
+      "path": "assets_src/act06/backgrounds/bg29_crossing_sunset_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 3024083,
+      "sha256": "416d0c677176ffbb6e234d1ab88a5199c7210638c2b7001b9e12ceb019c1fb54",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    }
+  ]
+}
