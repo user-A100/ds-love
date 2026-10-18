@@ -210,6 +210,50 @@
       ],
       "transparent": true,
       "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: identity-preserve. Same adult university DeepSeek identity and full-body style as reference, remove pale blue coat ONLY for indoor outfit, keep ivory cable-knit high-neck sweater, navy midi skirt, dark tights and same blue boots; same gradient blue wavy hair, ahoge, fin ears, cyan bows, whale tail, hold same light-blue A5 notebook at waist. Expression: tear-bright blue eyes looking DIRECTLY toward viewer with resolve, brows earnest, lips small and firm, no cheerful smile, dignified boundary, no begging or collapse. No other people. Actual transparent background, no colored glow or cast shadow, full silhouette inside margins."
+    },
+    {
+      "id": "bg10_musicroom_winter_evening",
+      "label": "旧音乐教室｜冬日黄昏",
+      "scene": "C5-12B",
+      "file": "backgrounds/bg10_musicroom_winter_evening_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg10_musicroom_winter_day_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: lighting-weather. Single 16:9 widescreen background. Edit exact school music room to late December sunset; preserve every object and viewpoint. Pale low amber sunset through left windows, deep cool blue corner shadows, quiet bittersweet mood. Keep winter bare trees and light snow outside only. No characters, no lettering."
+    },
+    {
+      "id": "bg10_musicroom_winter_night",
+      "label": "旧音乐教室｜冬日深夜",
+      "scene": "C5-12E",
+      "file": "backgrounds/bg10_musicroom_winter_night_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg10_musicroom_winter_day_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: lighting-weather. Single 16:9 widescreen background. Edit exact school music room to late December night; preserve room geometry, piano, bench, cabinets, doors and camera. Interior ceiling lights switched off, blue moonlight and distant streetlight through left windows; piano and tabletop still readable, calm dark blue palette. No characters, no writing, no new props."
+    },
+    {
+      "id": "bg18_user_university_night",
+      "label": "User大学住处｜深夜",
+      "scene": "C5-07A/B/C/D",
+      "file": "backgrounds/bg18_user_university_night_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg18_user_university_day_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: lighting-weather. Single 16:9 widescreen background. Edit same adult university rented room to 23:00 winter NIGHT. Preserve exact desk, bed, camera equipment, cupboards, corkboard and viewpoint. Warm desk task lamp on, soft cool light from laptop blank display, window dark blue with distant tiny city lights. Quiet introspective night, readable objects, no person, no clocks or embedded screen UI."
+    },
+    {
+      "id": "bg23_cafe_snow_day",
+      "label": "咖啡馆｜冬日飘雪白昼",
+      "scene": "C5-11",
+      "file": "backgrounds/bg23_cafe_snow_day_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg23_cafe_snow_evening_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Use case: lighting-weather. Single 16:9 widescreen background. Edit exact same winter cafe to cloudy winter afternoon, pale daylight through LEFT window showing snow and same street, indoor pendant lamps dimmer. Preserve exact table, two cream cups, far-side center-right wooden chair, window mullions, green banquette, bookshelves, no changed architecture or viewpoint. Quiet neutral daylight for direct confession. No people, no text."
     }
   ]
 }
