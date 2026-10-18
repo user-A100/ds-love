@@ -1,13 +1,24 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T08:10:05.089Z",
+  "updated_at": "2026-10-18T08:16:18.313Z",
   "status": "partial_chapter_draft_pack",
-  "generation_status": "complete_planned_draft_pack",
+  "generation_status": "generating",
   "coverage_status": "incomplete",
   "coverage_file": "docs/art/act06/coverage-gaps.json",
   "scope": "C6-01–C6-06 only",
-  "planned_assets": 10,
-  "pending_assets": [],
+  "planned_assets": 24,
+  "pending_assets": [
+    "cg_c602_final_manuscript_handover",
+    "cg_c603_claude_handhold",
+    "pr08_final_manuscript",
+    "pr21_interview_portfolio",
+    "pr09_music_document_case",
+    "bg18_student_room_night_continuity",
+    "bg26_filmclub_day_continuity",
+    "bg27_backstage_musiccase",
+    "bg29_crossing_barrier_down",
+    "bg29_crossing_train_passing"
+  ],
   "assets": [
     {
       "id": "ds_win_earnest",
@@ -237,6 +248,98 @@
       "edge_alpha_max": 1,
       "bytes": 2099692,
       "sha256": "e8c69792e21ffa61526a1255bba63866ded3e9a4b9379bfa52ddab7ee3301bcc",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_win_completed_happy",
+      "label": "DeepSeek｜完稿喜悦",
+      "scene": "C6-02",
+      "file": "characters/deepseek/ds_win_completed_happy_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/ds_win_completed_happy.txt",
+      "path": "assets_src/act06/characters/deepseek/ds_win_completed_happy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 3,
+      "bytes": 2083725,
+      "sha256": "dbfa3ec780259d0c4da8e44269a9d8b55df5983eb9cdfb3815299cfeee2b73a8",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "claude_win_confident_smile",
+      "label": "Claude｜演后自信轻笑",
+      "scene": "C6-03",
+      "file": "characters/claude/claude_win_confident_smile_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/claude_win_confident_smile.txt",
+      "path": "assets_src/act06/characters/claude/claude_win_confident_smile_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 1992643,
+      "sha256": "4a8f32bc5758c06629da3623c4c0db8d4eae63e973d712c9723fec680693000c",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_work_relieved",
+      "label": "GPT｜面试后安心微笑",
+      "scene": "C6-04A",
+      "file": "characters/gpt/gpt_work_relieved_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/gpt_work_relieved.txt",
+      "path": "assets_src/act06/characters/gpt/gpt_work_relieved_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 2121084,
+      "sha256": "c973ced91f13147f9c456adf71d3a5e1bd46747e0e9c8c6b5601ff5ad2516f8e",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_work_hair_tuck",
+      "label": "GPT｜告白后整理头发",
+      "scene": "C6-04B",
+      "file": "characters/gpt/gpt_work_hair_tuck_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "prompt": "docs/art/act06/prompts/gpt_work_hair_tuck.txt",
+      "path": "assets_src/act06/characters/gpt/gpt_work_hair_tuck_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 2114977,
+      "sha256": "e3b75bd579bad11dd4ab6f4cdf34dbbd5af97bc04eeec427096482cbd49d478a",
       "tool": "built-in imagegen",
       "status": "generated_draft"
     }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "C6-01–C6-06 only",
-  "status": "partial_chapter_draft_pack",
+  "status": "supplement_in_progress",
   "notes": "Chapter-six only. Reuse adult act05 identities. Expression and gesture variants are generated drafts, not pixel-registered layers; no runtime integration.",
   "jobs": [
     {
@@ -114,9 +114,165 @@
         "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
       ],
       "prompt": "Use case: identity-preserve. Edit the supplied adult character master into one visual novel standing sprite. Preserve EXACT identity, facial proportions, costume, body scale, hair silhouette, accessory sides and complete full-body framing 1024x1536. Match clean anime linework and delicate soft shading. Change ONLY facial expression to sincere quietly firm direct eye contact, tiny blush and slightly open mouth, a woman frankly expressing her own wish rather than reassuring a student. Preserve hands and dark plum folder, exact pale lavender coat, white blouse, dark plum midi skirt, white hair, purple eyes, horns, wings, white scaled tail and accessory sides. No tears and no coy downward glance. Genuine transparent background; no glow, haze, vignette, floor or shadow. All hair, horns, ears, wings, tail, fingertips and shoes inside canvas with margins. No text, logo, watermark or extra objects."
+    },
+    {
+      "id": "ds_win_completed_happy",
+      "label": "DeepSeek｜完稿喜悦",
+      "scene": "C6-02",
+      "file": "characters/deepseek/ds_win_completed_happy_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT supplied adult standing master. Keep EXACT facial identity, hairstyle, accessory sides, costume, body scale and camera angle. Change expression to bright proud happy smile, blue eyes open, small blush. Keep same notebook-holding hands and navy-to-cyan wavy hair, ahoge, fin ears with cyan bows, whale tail, pale blue wool coat, ivory TURTLENECK cable-knit sweater, navy skirt, tights and boots. This is adult creative achievement, no childish extreme expression. Preserve whole body including hair, tail, wings where present, shoes and fingertips inside 1024x1536 portrait with margins. Genuine transparent background with no glow, haze, vignette or floor shadow."
+    },
+    {
+      "id": "claude_win_confident_smile",
+      "label": "Claude｜演后自信轻笑",
+      "scene": "C6-03",
+      "file": "characters/claude/claude_win_confident_smile_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT supplied adult standing master. Keep EXACT facial identity, hairstyle, accessory sides, costume, body scale and camera angle. Change ONLY facial expression to restrained self-confident warm small smile with amber eyes open. Preserve orange long hair, flower and black ribbon on HER LEFT/viewer right, charcoal long coat, ivory turtleneck, amber scarf, dark skirt, tights, ankle boots and exact arms. Preserve whole body including hair, tail, wings where present, shoes and fingertips inside 1024x1536 portrait with margins. Genuine transparent background with no glow, haze, vignette or floor shadow."
+    },
+    {
+      "id": "gpt_work_relieved",
+      "label": "GPT｜面试后安心微笑",
+      "scene": "C6-04A",
+      "file": "characters/gpt/gpt_work_relieved_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT supplied adult standing master. Keep EXACT facial identity, hairstyle, accessory sides, costume, body scale and camera angle. Change ONLY facial expression to soft relieved smile, eyes gently closed and relaxed brows, small natural smile. Preserve white hair, pale dragon horns, wings and scaled tail, lavender coat and plum skirt and folder-holding pose exactly. Preserve whole body including hair, tail, wings where present, shoes and fingertips inside 1024x1536 portrait with margins. Genuine transparent background with no glow, haze, vignette or floor shadow."
+    },
+    {
+      "id": "gpt_work_hair_tuck",
+      "label": "GPT｜告白后整理头发",
+      "scene": "C6-04B",
+      "file": "characters/gpt/gpt_work_hair_tuck_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT supplied adult standing master. Keep EXACT facial identity, hairstyle, accessory sides, costume, body scale and camera angle. A calm affectionate direct gaze and subtle smile. Change ONLY right arm pose (viewer left): raise that hand gently to tuck windblown hair by her own right temple, five natural fingers. Other arm holds the SAME plum work folder against her torso. Preserve exact white hair, horns, wing anatomy and scaled white tail, flower accessory viewer right, lavender coat, blouse, plum skirt and boots. Preserve whole body including hair, tail, wings where present, shoes and fingertips inside 1024x1536 portrait with margins. Genuine transparent background with no glow, haze, vignette or floor shadow."
+    },
+    {
+      "id": "cg_c602_final_manuscript_handover",
+      "label": "C6-02｜递出最终稿",
+      "scene": "C6-02",
+      "file": "cg/cg_c602_final_manuscript_handover_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png",
+        "assets_src/act05/backgrounds/bg26_university_filmclub_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. Landscape 16:9 narrative CG. Reference1 locks adult DeepSeek and EXACT winter costume including turtleneck, reference2 locks film club room furniture and windows. First-person eye-level view seated opposite her at shared wooden table, blue-haired fin-eared whale-tail girl leaning forward slightly, happily offering ONE thick clipped blank manuscript stack with both hands. Protagonist ONLY two hands enter foreground to receive its lower edge; no face or body. Fingers coherent, no duplicated hands. Capture joy at finishing novel, no romantic contact. Stack top paper blank, leave title and afterword to editable overlay. Main face and handover above bottom24% text area. Room same geometry as reference2."
+    },
+    {
+      "id": "cg_c603_claude_handhold",
+      "label": "C6-03｜这次和我一起走·握手",
+      "scene": "C6-03",
+      "file": "cg/cg_c603_claude_handhold_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png",
+        "assets_src/act06/backgrounds/bg27_concert_backstage_evening_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. Landscape16:9 first-person standing medium close CG, adult Claude in EXACT charcoal winter coat, ivory turtleneck, amber scarf, amber eyes, orange flower and black ribbon viewer right. She looks directly with composed tender vulnerability, gently ALREADY holding ONE protagonist hand between hers at lower chest level, clear actual finger contact, no reaching empty hand. Protagonist only hand and plain dark civilian sleeve visible, no face. Two adult people only. Backstage architecture reference2, warm evening light; eliminate guitar-shaped instrument case from view, include small RECTANGULAR music-document case on side table. Faces and joined hands above bottom24%. No ring, no kiss, no plane ticket, no concert dress."
+    },
+    {
+      "id": "pr08_final_manuscript",
+      "label": "PR08｜候鸟最终稿·无字底图",
+      "scene": "C6-01/C6-02",
+      "file": "props/pr08_final_manuscript_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/props/pr_manuscript_stack_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. Single isolated thick A4 manuscript paper stack, two small black binder clips on left edge, front page blank and clean for editable title overlay. Matching fine painted anime prop rendering. Three-quarter view slightly from above, clipped thick pages credible. No hands, writing, notebook, surface or shadow outside object. Landscape16:9 transparent canvas, one coherent paper object centered with generous margins."
+    },
+    {
+      "id": "pr21_interview_portfolio",
+      "label": "PR21｜作品集与面试资料",
+      "scene": "C6-01/C6-04A",
+      "file": "props/pr21_interview_portfolio_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. Single isolated open professional dark plum document portfolio folder matching adult GPT's plum folder material. A few blank A4 pages and two small abstract photo-print thumbnails tucked under straps, editable label blank. Credible hinge and paper geometry, three-quarter view from above. No readable writing, award certificate, false job offer or results. Landscape16:9 transparent canvas, one folder centered with margins, no hands or ground."
+    },
+    {
+      "id": "pr09_music_document_case",
+      "label": "PR09｜琴谱箱与收谱",
+      "scene": "C6-01/C6-03",
+      "file": "props/pr09_music_document_case_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act05/characters/claude/claude_win_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. One isolated RECTANGULAR black leather sheet-music document case for classical pianist, open lid showing several cream blank sheet-music booklets, a loose music booklet halfway tucked inside. Clearly a rectangular document case, absolutely NOT guitar/violin/cello-shaped instrument case. Restrained brass clasps, coherent perspective, anime painted prop, no notes or text. Landscape16:9 transparent canvas with margins, no hands, no ground shadow."
+    },
+    {
+      "id": "bg18_student_room_night_continuity",
+      "label": "BG18｜住处夜景·第五章同机位",
+      "scene": "C6-01",
+      "file": "backgrounds/bg18_student_room_night_continuity_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act05/backgrounds/bg18_user_university_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT reference environment by changing ONLY time to night and lighting. Preserve EXACT camera, window LEFT, foreground shared desk and laptop LEFT, chair center, tall wooden wardrobe rear center-left, entrance rear center-right, bed RIGHT, bookshelf rear right, pinboard over bed, every wall and furniture geometry. Cool night outside left windows, warm desk lamp at left switched on, muted monitor glow. No moved bed, no new window or door, no calendar embedded, no people. Landscape16:9."
+    },
+    {
+      "id": "bg26_filmclub_day_continuity",
+      "label": "BG26｜影像社日光·第五章同机位",
+      "scene": "C6-02",
+      "file": "backgrounds/bg26_filmclub_day_continuity_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act05/backgrounds/bg26_university_filmclub_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT reference changing ONLY sunlight from orange winter late afternoon to clear neutral mid-morning winter daylight. Preserve EXACT room, camera, left wall windows, large foreground discussion desk, dual-monitor editing desk rear center, equipment shelving far RIGHT and exposed conduits, board rear center-right, chairs, table props. Do not relocate racks or add doors. No people. Landscape16:9."
+    },
+    {
+      "id": "bg27_backstage_musiccase",
+      "label": "BG27｜后台·琴谱箱修正版",
+      "scene": "C6-03",
+      "file": "backgrounds/bg27_backstage_musiccase_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act06/backgrounds/bg27_concert_backstage_evening_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT supplied backstage background: remove ONLY the tall guitar-shaped instrument case leaning on rear-left wall. Replace that wall area with correctly continuing neutral painted wall and place a SMALL RECTANGULAR black leather pianist sheet-music DOCUMENT CASE on the left low coffee table beside closed blank music folios. Preserve EXACT architecture, coat rail, black coat, vanity right, warm lighting, open rear door, furniture and camera. No guitar or other instrument case. Landscape16:9 no people."
+    },
+    {
+      "id": "bg29_crossing_barrier_down",
+      "label": "BG29｜栏杆落下·等待",
+      "scene": "C6-05",
+      "file": "backgrounds/bg29_crossing_barrier_down_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act06/backgrounds/bg29_crossing_sunset_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT exact railway reference. ONLY lower the existing two yellow-and-black crossing barrier arms into correct HORIZONTAL closed positions across their road approaches, and turn red signal lamps on. Keep same safe waiting viewpoint, rails, street axis, buildings, snow, sunset and EVERY other object. No train yet. Both barriers hinge at existing bases and have physically credible single arms. Original landscape16:9 composition. No people."
+    },
+    {
+      "id": "bg29_crossing_train_passing",
+      "label": "BG29｜列车经过·遮挡",
+      "scene": "C6-05",
+      "file": "backgrounds/bg29_crossing_train_passing_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act06/backgrounds/bg29_crossing_sunset_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter SIX ONLY. Same refined Japanese anime visual novel art as reference: clean fine linework, softly shaded detailed hair and painted materials. No text, watermark, logos, frame, collage or UI. EDIT exact railway reference into same shot while a local commuter train passes LEFT TO RIGHT across midground tracks. Barrier arms both HORIZONTAL closed, red lamps on. Train side blocks road beyond rails, several credible carriage windows with vague anonymous distant passenger silhouettes only, modest horizontal motion blur, no readable train logos. Keep original safe waiting foreground, yellow tactile paving, signal poles, all camera geometry, buildings and warm winter sunset. Train on actual rails, no floating wheels. Landscape16:9."
     }
   ],
-  "generation_status": "complete_planned_draft_pack",
+  "generation_status": "generating",
   "coverage_status": "incomplete",
   "coverage_file": "docs/art/act06/coverage-gaps.json"
 }
