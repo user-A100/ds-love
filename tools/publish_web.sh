@@ -32,6 +32,7 @@ cat > server/public/_headers <<'EOF'
 EOF
 
 ## Workers 静态资产配置：Deploy command = npx wrangler deploy
+## 产物放在 public/ 子目录，避免把 .git 等仓库文件当资产上传
 ## 注意 name 必须与 CF 面板里的 Worker/项目名一致
 cat > server/public/wrangler.jsonc <<'EOF'
 {
@@ -40,7 +41,7 @@ cat > server/public/wrangler.jsonc <<'EOF'
   "name": "whalegal",
   "compatibility_date": "2025-01-01",
   "assets": {
-    "directory": ".",
+    "directory": "public",
     "html_handling": "auto-trailing-slash"
   }
 }
@@ -55,7 +56,12 @@ else
     git worktree add --orphan -b "${BRANCH}" "${WT}"
 fi
 
-rsync -a --delete --exclude '.git' "${ROOT}/server/public/" "${WT}/"
+## 清空工作树（保留 .git），产物进入 public/ 子目录
+find "${WT}" -mindepth 1 -maxdepth 1 -not -name '.git' -exec rm -rf {} +
+mkdir -p "${WT}/public"
+cp server/public/wrangler.jsonc "${WT}/wrangler.jsonc"
+rsync -a --delete --exclude '.git' "${ROOT}/server/public/" "${WT}/public/"
+rm -f "${WT}/public/wrangler.jsonc"
 
 cd "${WT}"
 git add -A

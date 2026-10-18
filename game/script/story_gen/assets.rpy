@@ -34,19 +34,19 @@ image bg_bg_002 = "images/bg/bg_playground_evening.png"
 image bg_bg_003 = "images/bg/bg_library_day.png"
 image bg_bg_004 = "images/bg/bg_library_day.png"
 image bg_scene_library = "images/bg/bg_library_day.png"
-image ds normal = "images/sprites/ds_neutral.png"
-image ds happy = "images/sprites/ds_happy.png"
-image ds sad = "images/sprites/ds_sad.png"
+image ds normal = Transform("images/sprites/ds_neutral.png", zoom=0.4557)
+image ds happy = Transform("images/sprites/ds_happy.png", zoom=0.4557)
+image ds sad = Transform("images/sprites/ds_sad.png", zoom=0.4557)
 image ds angry = Placeholder("girl")
-image ds shy = "images/sprites/ds_flustered.png"
-image ds pain = "images/sprites/ds_pain.png"
-image ds alarmed = "images/sprites/ds_alarmed.png"
-image cl normal = "images/sprites/cl_neutral.png"
+image ds shy = Transform("images/sprites/ds_flustered.png", zoom=0.4557)
+image ds pain = Transform("images/sprites/ds_pain.png", zoom=0.4557)
+image ds alarmed = Transform("images/sprites/ds_alarmed.png", zoom=0.4557)
+image cl normal = Transform("images/sprites/cl_neutral.png", zoom=0.4557)
 image cl happy = Placeholder("girl")
 image cl sad = Placeholder("girl")
-image cl angry = "images/sprites/cl_annoyed.png"
-image cl shy = "images/sprites/cl_blush.png"
-image cl surprised = "images/sprites/cl_surprised.png"
+image cl angry = Transform("images/sprites/cl_annoyed.png", zoom=0.4557)
+image cl shy = Transform("images/sprites/cl_blush.png", zoom=0.4557)
+image cl surprised = Transform("images/sprites/cl_surprised.png", zoom=0.4557)
 image gp normal = Placeholder("girl")
 image gp happy = Placeholder("girl")
 image gp sad = Placeholder("girl")

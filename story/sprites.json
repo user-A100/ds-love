@@ -1,5 +1,6 @@
 {
-  "_comment": "立绘映射：key 为「变量 表情」，file 为 game/ 下相对路径；file 为 null 或文件不存在时用 Placeholder 剪影。",
+  "_comment": "立绘映射：key 为「变量 表情」，file 为 game/ 下相对路径；file 为 null 或文件不存在时用 Placeholder 剪影。_target_height = 立绘归一化显示高度（像素），720p 舞台建议 650~750。",
+  "_target_height": 700,
   "ds normal": {"file": "images/sprites/ds_neutral.png"},
   "ds happy": {"file": "images/sprites/ds_happy.png"},
   "ds sad": {"file": "images/sprites/ds_sad.png"},
