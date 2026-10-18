@@ -17,7 +17,7 @@ cd "${ROOT}"
 echo "==> [1/3] 构建 Web 包"
 ./tools/build_web.sh
 
-echo "==> [2/3] 生成 Cloudflare Pages _headers"
+echo "==> [2/3] 生成 Cloudflare 配置（_headers + wrangler.jsonc）"
 cat > server/public/_headers <<'EOF'
 /game.zip
   Cache-Control: no-cache
@@ -29,6 +29,21 @@ cat > server/public/_headers <<'EOF'
   Cache-Control: public, max-age=3600
 /renpy.data
   Cache-Control: public, max-age=3600
+EOF
+
+## Workers 静态资产配置：Deploy command = npx wrangler deploy
+## 注意 name 必须与 CF 面板里的 Worker/项目名一致
+cat > server/public/wrangler.jsonc <<'EOF'
+{
+  // whalegal —— 纯静态资产 Worker（Ren'Py web 构建）
+  // 若 CF 面板中的项目名不是 whalegal，请同步修改此处 name
+  "name": "whalegal",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash"
+  }
+}
 EOF
 
 echo "==> [3/3] 发布到 ${BRANCH} 分支"
