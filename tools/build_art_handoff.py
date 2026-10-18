@@ -23,9 +23,9 @@ def main():
     now = datetime.now(timezone(timedelta(hours=8))).isoformat(timespec="seconds")
     route = read("docs/art/ds-route-reuse.json")
     errors, rows, packs = [], [], []
-    for pack in ("act01", "act02", "act03", "act04", "act05", "act06", "ending"):
+    for pack in ("act01", "act02", "act03", "act04", "act05", "act06", "ending", "ds_route"):
         plan = read(f"docs/art/{pack}/production-plan.json")
-        counts = dict(backgrounds=0, characters=0, cg=0, props=0)
+        counts = dict(backgrounds=0, characters=0, cg=0, props=0, details=0)
         missing = []
         for job in plan["jobs"]:
             rel = f"assets_src/{pack}/{job['file']}"
@@ -66,15 +66,15 @@ def main():
                   packs=packs, errors=errors, assets=rows)
     write("docs/art/拼接前资产核查.json", json.dumps(report, ensure_ascii=False, indent=2) + "\n")
     lines = ["# 拼接前资产核查", "", f"核查时间：{now}。逐项按当前 production-plan 读取 PNG、验证尺寸/透明通道并计算 SHA-256。", "",
-             "| 批次 | 背景 | 立绘 | CG | 道具 | 已落盘/计划 |", "|---|---:|---:|---:|---:|---:|"]
+             "| 批次 | 背景 | 立绘 | CG | 道具 | 局部 | 已落盘/计划 |", "|---|---:|---:|---:|---:|---:|---:|"]
     for p in packs:
         c = p["categories"]
-        lines.append(f"| {p['pack']} | {c['backgrounds']} | {c['characters']} | {c['cg']} | {c['props']} | {p['completed']}/{p['planned']} |")
+        lines.append(f"| {p['pack']} | {c['backgrounds']} | {c['characters']} | {c['cg']} | {c['props']} | {c['details']} | {p['completed']}/{p['planned']} |")
     lines += ["", f"当前批次合计 **{report['total']}/{report['planned']}**；独立文件内容 {report['unique_image_hashes']} 张；校验异常 {len(errors)}。",
-              "", "这是生产计划内试稿，不是全剧情完成率。DS-01～09待补任务未计入上述分母。",
+              "", "这是生产计划内试稿，不是全剧情完成率。包含DS-01～09本轮30张补图，两个旧版修订记录不重复计数。",
               "", "第六章新增：2张互动CG、3张透明道具、5张背景差分/修正。原图未缩放或改绘。提示词见 act06/prompts，逐图来源/尺寸/透明通道/哈希见 assets_src/act06/manifest.json。",
               "", "[DS线复用与补充清单](DS线复用与补充清单.md) · [第六章拼接交接](act06/拼接交接.md) · [新增10张预览](../../assets_src/act06/supplement-gallery.html)",
-              "", "游戏拼接可先开展现有章节；DS前半段完整画面仍需补齐清单中的P1项。正式接入后还需逐场验证遮挡、表情切换、存档与分支。完成后将原图、提示词和清单一起上传GitHub。"]
+              "", "DS前半段本轮绘图已齐；[30张预览](../../assets_src/ds_route/index.html)及[DS线拼接交接](ds_route/拼接交接.md)。剩余为引擎界面、文字层及正式接入后逐场验证遮挡、表情切换、存档与分支。完成后将原图、提示词和清单一起上传GitHub。"]
     if errors:
         lines += ["", "校验异常："] + [f"- {e}" for e in errors]
     write("docs/art/拼接前资产核查.md", "\n".join(lines) + "\n")
@@ -83,10 +83,12 @@ def main():
     for scene in route["scenes"]:
         lines += [f"## {scene['id']}｜{scene['title']}", "", "可复用文件：", ""]
         lines += [f"- [{rel.split('/')[-1]}](../../{rel})" for rel in scene["reuse"]]
+        lines += ["", "本轮已补图：", ""]
+        lines += [f"- [{rel.split('/')[-1]}](../../{rel})" for rel in scene.get("generated_assets", [])]
         lines += ["", "节拍安排：", ""] + [f"- {beat}" for beat in scene["beat_map"]]
-        lines += ["", "待补任务：" + "、".join(scene["supplements"]) + "。", "", scene["constraints"], ""]
-    lines += ["## 补充任务队列", "", "| ID | 类别 | 优先级 | 制作要求 |", "|---|---|---|---|"]
-    lines += [f"| {j['id']} | {j['kind']} | {j['priority']} | {j['need']} |" for j in route["supplement_jobs"]]
+        lines += ["", "剩余任务：" + ("、".join(scene.get("remaining_supplements", scene["supplements"])) or "无待生成图；需游戏接入验收") + "。", "", scene["constraints"], ""]
+    lines += ["## 补充任务状态", "", "| ID | 类别 | 优先级 | 状态 | 制作要求 |", "|---|---|---|---|---|"]
+    lines += [f"| {j['id']} | {j['kind']} | {j['priority']} | {j.get('status', 'pending')} | {j['need']} |" for j in route["supplement_jobs"]]
     lines += ["", "顺序：先做背景差分与服装基准，再补同服装表情和手部，最后生成CG12/CG17；UI01/UI03用Ren'Py真实文字层实现。完整引用与依赖保存在 [ds-route-reuse.json](ds-route-reuse.json)。",
               "", "拼接前复核：春季天台是否有积雪、PR16热茶是否带蒸汽、大学冬装衣领是否统一、机场出发机位与安检方向是否一致。候选不合格再补差分，避免无条件重画已有场景。"]
     write("docs/art/DS线复用与补充清单.md", "\n".join(lines) + "\n")

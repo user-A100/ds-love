@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-18T16:45:53+08:00",
+  "checked_at": "2026-10-18T17:57:20+08:00",
   "source": "working-tree-production-plans",
-  "total": 168,
-  "planned": 168,
-  "unique_image_hashes": 168,
+  "total": 198,
+  "planned": 198,
+  "unique_image_hashes": 198,
   "packs": [
     {
       "pack": "act01",
@@ -13,7 +13,8 @@
         "backgrounds": 3,
         "characters": 13,
         "cg": 7,
-        "props": 3
+        "props": 3,
+        "details": 0
       },
       "missing": []
     },
@@ -25,7 +26,8 @@
         "backgrounds": 10,
         "characters": 4,
         "cg": 3,
-        "props": 4
+        "props": 4,
+        "details": 0
       },
       "missing": []
     },
@@ -37,7 +39,8 @@
         "backgrounds": 6,
         "characters": 3,
         "cg": 4,
-        "props": 2
+        "props": 2,
+        "details": 0
       },
       "missing": []
     },
@@ -49,7 +52,8 @@
         "backgrounds": 9,
         "characters": 9,
         "cg": 7,
-        "props": 7
+        "props": 7,
+        "details": 0
       },
       "missing": []
     },
@@ -61,7 +65,8 @@
         "backgrounds": 16,
         "characters": 7,
         "cg": 0,
-        "props": 0
+        "props": 0,
+        "details": 0
       },
       "missing": []
     },
@@ -73,7 +78,8 @@
         "backgrounds": 11,
         "characters": 8,
         "cg": 2,
-        "props": 3
+        "props": 3,
+        "details": 0
       },
       "missing": []
     },
@@ -85,7 +91,21 @@
         "backgrounds": 6,
         "characters": 10,
         "cg": 7,
-        "props": 4
+        "props": 4,
+        "details": 0
+      },
+      "missing": []
+    },
+    {
+      "pack": "ds_route",
+      "completed": 30,
+      "planned": 30,
+      "categories": {
+        "backgrounds": 5,
+        "characters": 14,
+        "cg": 6,
+        "props": 1,
+        "details": 4
       },
       "missing": []
     }
@@ -2338,6 +2358,411 @@
       "alpha_range": null,
       "sha256": "f9ceb1995b702c4dd905f5c240721629cd5a079b1e4c185da9f4a5539a330a3e",
       "bytes": 2168528
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_spring_neutral",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "4d8002671fab583164c5e05020b4999ee060071237d5d8b5013be43c2635fd31",
+      "bytes": 2078453
+    },
+    {
+      "pack": "ds_route",
+      "id": "bg30_university_night",
+      "path": "assets_src/ds_route/backgrounds/bg30_university_night_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "7a286ea70d9a7f8d0a8051ea2f54b9b1175c45be0824f56ed6ed9b0f361eab92",
+      "bytes": 3209343
+    },
+    {
+      "pack": "ds_route",
+      "id": "bg26_filmclub_night",
+      "path": "assets_src/ds_route/backgrounds/bg26_filmclub_night_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "67f84f0b6ed80eb19a9a72690299a59314766440074b7edc5821999e9e6078bd",
+      "bytes": 2377744
+    },
+    {
+      "pack": "ds_route",
+      "id": "bg20_rehearsal_evening",
+      "path": "assets_src/ds_route/backgrounds/bg20_rehearsal_evening_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "3265d019019253983b21323408e4767e6f5198ed47908b6889da02b00b899d5b",
+      "bytes": 2092412
+    },
+    {
+      "pack": "ds_route",
+      "id": "bg26_filmclub_spring_day",
+      "path": "assets_src/ds_route/backgrounds/bg26_filmclub_spring_day_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "f7f1f65dda419dc8b68254dad317616de2978ab53b2766064ce6b3b60842b3d2",
+      "bytes": 2382844
+    },
+    {
+      "pack": "ds_route",
+      "id": "bg17_lakeside_spring_overcast",
+      "path": "assets_src/ds_route/backgrounds/bg17_lakeside_spring_overcast_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "51e2762db86afbeb645b2e427ad351cdefaf9f4b87a8a9aff4e3711f8b44d989",
+      "bytes": 2826747
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_indoor_surprised",
+      "path": "assets_src/ds_route/characters/deepseek/ds_indoor_surprised_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "da7f368d2c1cec68c6f50d53bc52db6ed84e0b64a11b21e6fc9818f65ea4004c",
+      "bytes": 2114511
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_indoor_shy",
+      "path": "assets_src/ds_route/characters/deepseek/ds_indoor_shy_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "e8d8de4fa1da076082db42246a7ba7147f9644a97b03edc2b176eef780e25e9b",
+      "bytes": 2134396
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_indoor_earnest",
+      "path": "assets_src/ds_route/characters/deepseek/ds_indoor_earnest_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "f2b7616a94dffa78efc1ff6d88a0540e8bfc6c308d3e1677dc26fa2052f6250c",
+      "bytes": 2139364
+    },
+    {
+      "pack": "ds_route",
+      "id": "claude_indoor_hurt",
+      "path": "assets_src/ds_route/characters/claude/claude_indoor_hurt_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "2725a95e4bde3ae632ea8d236424860072f05670462108900a6e769db3a7cc29",
+      "bytes": 1853430
+    },
+    {
+      "pack": "ds_route",
+      "id": "claude_indoor_cry",
+      "path": "assets_src/ds_route/characters/claude/claude_indoor_cry_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "735ea1407f43145a70dd7fb0f45970825d971123f0b3753232e2effb4697df62",
+      "bytes": 1845122
+    },
+    {
+      "pack": "ds_route",
+      "id": "claude_indoor_firm",
+      "path": "assets_src/ds_route/characters/claude/claude_indoor_firm_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "04d5fe8ab551dd11e1e619d7bf76a6403f468cfeb1ccb46b90bf93b8150867fb",
+      "bytes": 1849744
+    },
+    {
+      "pack": "ds_route",
+      "id": "gpt_work_lonely",
+      "path": "assets_src/ds_route/characters/gpt/gpt_work_lonely_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "eaadb3e4001fcff6fcefaed89fa2739494d5ac754f7949c9953af4d82bd4f8fe",
+      "bytes": 2096350
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_spring_happy",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_happy_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "bd57da57d872a20768599a8e3f1b99c41d82ffb08295ad50d1aa8f8b1d469386",
+      "bytes": 2052568
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_spring_hesitant",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_hesitant_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "67d6c5f1dc67ae1c5ad558db895f33868c324f0b50358d451a9b06a00e3d494e",
+      "bytes": 2051814
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_spring_surprised",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_surprised_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "2b7cc506434b546776b80eb635425978087dc531c69784345929ba0b0dea5794",
+      "bytes": 2045375
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_spring_cry",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_cry_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "e18dc9522c397ab7f24d9fbbc277ebd403e4f9c29d73b03fd98c30735e420afe",
+      "bytes": 2034275
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_spring_earnest",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_earnest_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "0a953e037bf895f5244c5803f94529afae075117b84e517dd5cdab44c09db8be",
+      "bytes": 2030528
+    },
+    {
+      "pack": "ds_route",
+      "id": "ds_spring_tearsmile",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_tearsmile_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "81a0010a865fc6551ee1315fd629c74f3fa1dfb40bbebfe8fb7376dcf8f048eb",
+      "bytes": 2047275
+    },
+    {
+      "pack": "ds_route",
+      "id": "pr26_whale_charm",
+      "path": "assets_src/ds_route/props/pr26_whale_charm_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "sha256": "eca6b99365f71064ea06d3bc6d3f0a51284edf5fa308912cd1a9dffcfdea8128",
+      "bytes": 1025909
+    },
+    {
+      "pack": "ds_route",
+      "id": "detail_piano_hand",
+      "path": "assets_src/ds_route/details/detail_piano_hand_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "8cdca5cd1adeb5d19c0f32f3da7f1bb50b366225564957f1e54965b50f2f17df",
+      "bytes": 1772055
+    },
+    {
+      "pack": "ds_route",
+      "id": "detail_spring_handhold",
+      "path": "assets_src/ds_route/details/detail_spring_handhold_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "a877aaef598964000ac6d986d4799c2835a92a6dd3f106a19ef8397c01cfcca0",
+      "bytes": 2110795
+    },
+    {
+      "pack": "ds_route",
+      "id": "detail_spring_pinky",
+      "path": "assets_src/ds_route/details/detail_spring_pinky_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "96b0efb0c83744f8133c66e48fa7f901e57e3f03f829675c117e55dbf7b7ad20",
+      "bytes": 1827187
+    },
+    {
+      "pack": "ds_route",
+      "id": "detail_spring_lean_shoulder",
+      "path": "assets_src/ds_route/details/detail_spring_lean_shoulder_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "037486e0699fc7d049abe6018af00135d6a9dca1325caad7a3028742bf52193a",
+      "bytes": 2312239
+    },
+    {
+      "pack": "ds_route",
+      "id": "cg12_lakeside_hug",
+      "path": "assets_src/ds_route/cg/cg12_lakeside_hug_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "2456d856a3f62b6d0216420dca6ea597c4b1ea696144264a866fe40c2f6492cb",
+      "bytes": 2491302
+    },
+    {
+      "pack": "ds_route",
+      "id": "cg17_airport_departure",
+      "path": "assets_src/ds_route/cg/cg17_airport_departure_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "47c00af72bbdd2d5a316465f77f121ba7d0c155edbddd669021be7b4feb0ce17",
+      "bytes": 2314927
+    },
+    {
+      "pack": "ds_route",
+      "id": "cg13_claude_alone_piano",
+      "path": "assets_src/ds_route/cg/cg13_claude_alone_piano_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "0b82fd46c8b3edd7e33566fdb6ff7776575dffbdf25c0e6e299b755bb813ed08",
+      "bytes": 2011721
+    },
+    {
+      "pack": "ds_route",
+      "id": "cg14_gpt_cold_tea",
+      "path": "assets_src/ds_route/cg/cg14_gpt_cold_tea_v002.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "1f952c0e486991e71d964ccfa0f787ae3049a7918f9927ea5790f2bba1c0e4d3",
+      "bytes": 2528222
+    },
+    {
+      "pack": "ds_route",
+      "id": "cg15_rooftop_promise",
+      "path": "assets_src/ds_route/cg/cg15_rooftop_promise_v002.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "f82b82d24ec11bedad2c15093d5f3d5b9d0e95edf7435df5d05bebfdcbcc4a85",
+      "bytes": 2352190
+    },
+    {
+      "pack": "ds_route",
+      "id": "cg16_park_boundary",
+      "path": "assets_src/ds_route/cg/cg16_park_boundary_v001.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_range": null,
+      "sha256": "d56205be29ce2e8f751fff29cdab6be29417f0f562fd1751ee69969fee5d459f",
+      "bytes": 2756012
     }
   ]
 }

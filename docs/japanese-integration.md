@@ -35,6 +35,6 @@ Windows 使用 SDK 内的 `lib/py3-windows-x86_64/python.exe renpy.py <项目绝
 
 `tts/synthesize.py --language jp` 读取日文运行台词，音频输出到 `game/tl/japanese/audio/voice/`，缓存使用 `tts/cache-jp.json`。中文仍使用 `game/audio/voice/`，两种语言独立生成、加载、清理。音频 ID 由规范角色名和对应语言台词计算。
 
-本次接入没有合成真实日语配音。默认 dummy 引擎生成的是静音占位；需要先配置 `tts/voices.py` 中的真实引擎再批量合成。缺少当前语言音频时，运行时使用 Ren'Py 的短静音，不会播放其他语言配音。
+已从 GitHub 同步全部 1,565 条真实日语配音：DeepSeek 500、Claude 370、GPT 222、User 443、次要角色 30。音频按行ID接入原生 voice 语句，全部通过完整解码与播放路径校验。详见 [配音接入清单](tts/README.md)。缺少当前语言音频时，运行时使用 Ren'Py 的短静音，不会播放其他语言配音。
 
 接入采用 [Ren'Py 原生翻译机制](https://www.renpy.org/doc/html/translation.html) 和 [voice 语句](https://www.renpy.org/doc/html/voice.html)，语言切换与语音重播由引擎管理。

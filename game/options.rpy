@@ -61,3 +61,13 @@ init python:
 
 ## Project title theme; scene music is generated from story/art_direction.json.
 define config.main_menu_music = "audio/bgm/titile_theme.mp3"
+
+## Lower music under speech, including with existing volume preferences.
+init python:
+    def dialogue_audio_balance(event, info, **kwargs):
+        if event == "play":
+            renpy.music.set_volume(0.25, delay=0.15, channel="music")
+        elif event == "stop":
+            renpy.music.set_volume(0.55, delay=0.4, channel="music")
+
+    config.voice_callbacks.append(dialogue_audio_balance)

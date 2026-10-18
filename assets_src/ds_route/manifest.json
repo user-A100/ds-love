@@ -1,0 +1,796 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-18T17:57:19+08:00",
+  "scope": "DS-01–DS-09 supplementary art",
+  "status": "complete_planned_draft_pack",
+  "planned_assets": 30,
+  "completed": 30,
+  "pending_assets": [],
+  "errors": [],
+  "runtime_integrated": false,
+  "pixel_registered": false,
+  "assets": [
+    {
+      "id": "ds_spring_neutral",
+      "label": "DeepSeek｜大学春装基准",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_neutral_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_spring_neutral.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 3,
+      "bytes": 2078453,
+      "sha256": "4d8002671fab583164c5e05020b4999ee060071237d5d8b5013be43c2635fd31",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "bg30_university_night",
+      "label": "大学校园｜冬夜",
+      "scene": "DS-01",
+      "group": "BG30_NIGHT",
+      "file": "backgrounds/bg30_university_night_v001.png",
+      "refs": [
+        "assets_src/act04/backgrounds/bg_university_winter_evening_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/bg30_university_night.txt",
+      "path": "assets_src/ds_route/backgrounds/bg30_university_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 3209343,
+      "sha256": "7a286ea70d9a7f8d0a8051ea2f54b9b1175c45be0824f56ed6ed9b0f361eab92",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "bg26_filmclub_night",
+      "label": "大学影像社｜冬夜",
+      "scene": "DS-02",
+      "group": "BG26_NIGHT",
+      "file": "backgrounds/bg26_filmclub_night_v001.png",
+      "refs": [
+        "assets_src/act06/backgrounds/bg26_filmclub_day_continuity_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/bg26_filmclub_night.txt",
+      "path": "assets_src/ds_route/backgrounds/bg26_filmclub_night_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2377744,
+      "sha256": "67f84f0b6ed80eb19a9a72690299a59314766440074b7edc5821999e9e6078bd",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "bg20_rehearsal_evening",
+      "label": "专业排练厅｜冬日下午",
+      "scene": "DS-03",
+      "group": "BG20_EVENING",
+      "file": "backgrounds/bg20_rehearsal_evening_v001.png",
+      "refs": [
+        "assets_src/act05/backgrounds/bg20_rehearsal_day_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/bg20_rehearsal_evening.txt",
+      "path": "assets_src/ds_route/backgrounds/bg20_rehearsal_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2092412,
+      "sha256": "3265d019019253983b21323408e4767e6f5198ed47908b6889da02b00b899d5b",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "bg26_filmclub_spring_day",
+      "label": "大学影像社｜春日",
+      "scene": "DS-06",
+      "group": "BG26_SPRING",
+      "file": "backgrounds/bg26_filmclub_spring_day_v001.png",
+      "refs": [
+        "assets_src/act06/backgrounds/bg26_filmclub_day_continuity_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/bg26_filmclub_spring_day.txt",
+      "path": "assets_src/ds_route/backgrounds/bg26_filmclub_spring_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2382844,
+      "sha256": "f7f1f65dda419dc8b68254dad317616de2978ab53b2766064ce6b3b60842b3d2",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "bg17_lakeside_spring_overcast",
+      "label": "旧公园｜春日柔阴",
+      "scene": "DS-08",
+      "group": "BG17_SPRING_OVERCAST",
+      "file": "backgrounds/bg17_lakeside_spring_overcast_v001.png",
+      "refs": [
+        "assets_src/act04/backgrounds/bg_lakeside_sunset_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/bg17_lakeside_spring_overcast.txt",
+      "path": "assets_src/ds_route/backgrounds/bg17_lakeside_spring_overcast_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2826747,
+      "sha256": "51e2762db86afbeb645b2e427ad351cdefaf9f4b87a8a9aff4e3711f8b44d989",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_indoor_surprised",
+      "label": "DeepSeek｜大学室内·惊讶",
+      "scene": "DS-02",
+      "group": "DS_INDOOR_EXPRESSIONS",
+      "file": "characters/deepseek/ds_indoor_surprised_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_indoor_firm_tear_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_indoor_surprised.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_indoor_surprised_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 5,
+      "bytes": 2114511,
+      "sha256": "da7f368d2c1cec68c6f50d53bc52db6ed84e0b64a11b21e6fc9818f65ea4004c",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_indoor_shy",
+      "label": "DeepSeek｜大学室内·害羞",
+      "scene": "DS-02",
+      "group": "DS_INDOOR_EXPRESSIONS",
+      "file": "characters/deepseek/ds_indoor_shy_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_indoor_firm_tear_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_indoor_shy.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_indoor_shy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 4,
+      "bytes": 2134396,
+      "sha256": "e8d8de4fa1da076082db42246a7ba7147f9644a97b03edc2b176eef780e25e9b",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_indoor_earnest",
+      "label": "DeepSeek｜大学室内·认真",
+      "scene": "DS-02",
+      "group": "DS_INDOOR_EXPRESSIONS",
+      "file": "characters/deepseek/ds_indoor_earnest_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_indoor_firm_tear_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_indoor_earnest.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_indoor_earnest_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 3,
+      "bytes": 2139364,
+      "sha256": "f2b7616a94dffa78efc1ff6d88a0540e8bfc6c308d3e1677dc26fa2052f6250c",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "claude_indoor_hurt",
+      "label": "Claude｜成年排练便服·受伤含泪",
+      "scene": "DS-03",
+      "group": "CLAUDE_INDOOR_EMOTIONS",
+      "file": "characters/claude/claude_indoor_hurt_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/claude_indoor_hurt.txt",
+      "path": "assets_src/ds_route/characters/claude/claude_indoor_hurt_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 1853430,
+      "sha256": "2725a95e4bde3ae632ea8d236424860072f05670462108900a6e769db3a7cc29",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "claude_indoor_cry",
+      "label": "Claude｜成年排练便服·哭泣",
+      "scene": "DS-03",
+      "group": "CLAUDE_INDOOR_EMOTIONS",
+      "file": "characters/claude/claude_indoor_cry_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/claude_indoor_cry.txt",
+      "path": "assets_src/ds_route/characters/claude/claude_indoor_cry_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 0,
+      "bytes": 1845122,
+      "sha256": "735ea1407f43145a70dd7fb0f45970825d971123f0b3753232e2effb4697df62",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "claude_indoor_firm",
+      "label": "Claude｜成年排练便服·坚决",
+      "scene": "DS-03",
+      "group": "CLAUDE_INDOOR_EMOTIONS",
+      "file": "characters/claude/claude_indoor_firm_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/claude_indoor_firm.txt",
+      "path": "assets_src/ds_route/characters/claude/claude_indoor_firm_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 1849744,
+      "sha256": "04d5fe8ab551dd11e1e619d7bf76a6403f468cfeb1ccb46b90bf93b8150867fb",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "gpt_work_lonely",
+      "label": "GPT｜成年工作装·克制失落",
+      "scene": "DS-04",
+      "group": "GPT_WORK_LONELY",
+      "file": "characters/gpt/gpt_work_lonely_v001.png",
+      "refs": [
+        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/gpt_work_lonely.txt",
+      "path": "assets_src/ds_route/characters/gpt/gpt_work_lonely_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 2096350,
+      "sha256": "eaadb3e4001fcff6fcefaed89fa2739494d5ac754f7949c9953af4d82bd4f8fe",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_spring_happy",
+      "label": "DeepSeek｜大学春装·开心",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_happy_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_spring_happy.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_happy_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "bytes": 2052568,
+      "sha256": "bd57da57d872a20768599a8e3f1b99c41d82ffb08295ad50d1aa8f8b1d469386",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_spring_hesitant",
+      "label": "DeepSeek｜大学春装·犹豫",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_hesitant_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_spring_hesitant.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_hesitant_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "bytes": 2051814,
+      "sha256": "67d6c5f1dc67ae1c5ad558db895f33868c324f0b50358d451a9b06a00e3d494e",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_spring_surprised",
+      "label": "DeepSeek｜大学春装·惊讶",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_surprised_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_spring_surprised.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_surprised_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 2045375,
+      "sha256": "2b7cc506434b546776b80eb635425978087dc531c69784345929ba0b0dea5794",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_spring_cry",
+      "label": "DeepSeek｜大学春装·哭泣",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_cry_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_spring_cry.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_cry_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "bytes": 2034275,
+      "sha256": "e18dc9522c397ab7f24d9fbbc277ebd403e4f9c29d73b03fd98c30735e420afe",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_spring_earnest",
+      "label": "DeepSeek｜大学春装·认真",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_earnest_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_spring_earnest.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_earnest_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 3,
+      "bytes": 2030528,
+      "sha256": "0a953e037bf895f5244c5803f94529afae075117b84e517dd5cdab44c09db8be",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "ds_spring_tearsmile",
+      "label": "DeepSeek｜大学春装·泪笑",
+      "scene": "DS-06/07/08/09",
+      "group": "DS_SPRING_SET",
+      "file": "characters/deepseek/ds_spring_tearsmile_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/ds_spring_tearsmile.txt",
+      "path": "assets_src/ds_route/characters/deepseek/ds_spring_tearsmile_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 3,
+      "bytes": 2047275,
+      "sha256": "81a0010a865fc6551ee1315fd629c74f3fa1dfb40bbebfe8fb7376dcf8f048eb",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "pr26_whale_charm",
+      "label": "PR26｜蓝色鲸鱼行李挂件",
+      "scene": "DS-09",
+      "group": "PR26_WHALE_CHARM",
+      "file": "props/pr26_whale_charm_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png"
+      ],
+      "transparent": true,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/pr26_whale_charm.txt",
+      "path": "assets_src/ds_route/props/pr26_whale_charm_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 0,
+      "bytes": 1025909,
+      "sha256": "eca6b99365f71064ea06d3bc6d3f0a51284edf5fa308912cd1a9dffcfdea8128",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "detail_piano_hand",
+      "label": "Claude｜按琴键局部",
+      "scene": "DS-03",
+      "group": "PIANO_HAND",
+      "file": "details/detail_piano_hand_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png",
+        "assets_src/act05/backgrounds/bg20_rehearsal_day_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/detail_piano_hand.txt",
+      "path": "assets_src/ds_route/details/detail_piano_hand_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 1772055,
+      "sha256": "8cdca5cd1adeb5d19c0f32f3da7f1bb50b366225564957f1e54965b50f2f17df",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "detail_spring_handhold",
+      "label": "春装｜握手支持",
+      "scene": "DS-06",
+      "group": "SPRING_HANDS",
+      "file": "details/detail_spring_handhold_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/ds_route/backgrounds/bg26_filmclub_spring_day_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/detail_spring_handhold.txt",
+      "path": "assets_src/ds_route/details/detail_spring_handhold_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2110795,
+      "sha256": "a877aaef598964000ac6d986d4799c2835a92a6dd3f106a19ef8397c01cfcca0",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "detail_spring_pinky",
+      "label": "PR10｜成年春袖拉钩",
+      "scene": "DS-07",
+      "group": "SPRING_HANDS",
+      "file": "details/detail_spring_pinky_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/detail_spring_pinky.txt",
+      "path": "assets_src/ds_route/details/detail_spring_pinky_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 1827187,
+      "sha256": "96b0efb0c83744f8133c66e48fa7f901e57e3f03f829675c117e55dbf7b7ad20",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "detail_spring_lean_shoulder",
+      "label": "春装｜靠肩局部",
+      "scene": "DS-07",
+      "group": "SPRING_HANDS",
+      "file": "details/detail_spring_lean_shoulder_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/detail_spring_lean_shoulder.txt",
+      "path": "assets_src/ds_route/details/detail_spring_lean_shoulder_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2312239,
+      "sha256": "037486e0699fc7d049abe6018af00135d6a9dca1325caad7a3028742bf52193a",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "cg12_lakeside_hug",
+      "label": "CG12｜正式交往拥抱",
+      "scene": "DS-05",
+      "group": "CG12_HUG",
+      "file": "cg/cg12_lakeside_hug_v001.png",
+      "refs": [
+        "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_lakeside_sunset_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/cg12_lakeside_hug.txt",
+      "path": "assets_src/ds_route/cg/cg12_lakeside_hug_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2491302,
+      "sha256": "2456d856a3f62b6d0216420dca6ea597c4b1ea696144264a866fe40c2f6492cb",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "cg17_airport_departure",
+      "label": "CG17｜机场与鲸鱼挂件",
+      "scene": "DS-09",
+      "group": "CG17_AIRPORT",
+      "file": "cg/cg17_airport_departure_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/act04/backgrounds/bg_airport_depart_day_v001.png",
+        "assets_src/ds_route/props/pr26_whale_charm_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P1",
+      "prompt": "docs/art/ds_route/prompts/cg17_airport_departure.txt",
+      "path": "assets_src/ds_route/cg/cg17_airport_departure_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2314927,
+      "sha256": "47c00af72bbdd2d5a316465f77f121ba7d0c155edbddd669021be7b4feb0ce17",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "cg13_claude_alone_piano",
+      "label": "CG13｜Claude独自弹琴",
+      "scene": "DS-03",
+      "group": "CG13_OPTIONAL",
+      "file": "cg/cg13_claude_alone_piano_v001.png",
+      "refs": [
+        "assets_src/act05/characters/claude/claude_indoor_neutral_v001.png",
+        "assets_src/ds_route/backgrounds/bg20_rehearsal_evening_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P2",
+      "prompt": "docs/art/ds_route/prompts/cg13_claude_alone_piano.txt",
+      "path": "assets_src/ds_route/cg/cg13_claude_alone_piano_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2011721,
+      "sha256": "0b82fd46c8b3edd7e33566fdb6ff7776575dffbdf25c0e6e299b755bb813ed08",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "cg14_gpt_cold_tea",
+      "label": "CG14｜GPT与凉茶",
+      "scene": "DS-04",
+      "group": "CG14_OPTIONAL",
+      "file": "cg/cg14_gpt_cold_tea_v002.png",
+      "refs": [
+        "assets_src/ds_route/cg/cg14_gpt_cold_tea_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P2",
+      "prompt": "docs/art/ds_route/prompts/cg14_gpt_cold_tea.txt",
+      "previous_versions": [
+        {
+          "file": "cg/cg14_gpt_cold_tea_v001.png",
+          "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG, winter cafe same window-table area as reference2. Adult GPT identity reference1: white long hair, purple eyes, horns, wings, scaled tail, pale lavender work coat and plum skirt; seated alone with composed downcast gaze and small tense neutral mouth, no smile or wave. Two cooled tea cups without steam on table, plum portfolio closed beside. View from just outside cafe window, quiet reflections but clear face, no protagonist or others. Winter soft daylight and restrained personal sadness, natural adult proportions.",
+          "refs": [
+            "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png",
+            "assets_src/act05/backgrounds/bg23_cafe_snow_day_v001.png"
+          ],
+          "status": "revision_record"
+        }
+      ],
+      "path": "assets_src/ds_route/cg/cg14_gpt_cold_tea_v002.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2528222,
+      "sha256": "1f952c0e486991e71d964ccfa0f787ae3049a7918f9927ea5790f2bba1c0e4d3",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "cg15_rooftop_promise",
+      "label": "CG15｜成年天台新约定",
+      "scene": "DS-07",
+      "group": "CG15_OPTIONAL",
+      "file": "cg/cg15_rooftop_promise_v002.png",
+      "refs": [
+        "assets_src/ds_route/cg/cg15_rooftop_promise_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P2",
+      "prompt": "docs/art/ds_route/prompts/cg15_rooftop_promise.txt",
+      "previous_versions": [
+        {
+          "file": "cg/cg15_rooftop_promise_v001.png",
+          "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG. Adult university-age DeepSeek in EXACT spring outfit reference1, at old rooftop inside parapet same geometry reference2. Main action ONE pinky promise: she extends one hand, links pinky with protagonist one hand from dark navy civilian sleeve foreground; no other protagonist face/body. Her other arm holds exact pale-blue cloth notebook/navy spine/blank cream label reference3 against torso. Tender serious hopeful smile, warm spring evening, no winter snow or refurbished ending railing, no simultaneous embrace or multiple actions. Fingers coherent, face and linked fingers above bottom24 percent.",
+          "refs": [
+            "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+            "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png",
+            "assets_src/act01/props/pr01_blue_notebook_v001.png"
+          ],
+          "status": "revision_record"
+        }
+      ],
+      "path": "assets_src/ds_route/cg/cg15_rooftop_promise_v002.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2352190,
+      "sha256": "f82b82d24ec11bedad2c15093d5f3d5b9d0e95edf7435df5d05bebfdcbcc4a85",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    },
+    {
+      "id": "cg16_park_boundary",
+      "label": "CG16｜春日公园平视反问",
+      "scene": "DS-08",
+      "group": "CG16_OPTIONAL",
+      "file": "cg/cg16_park_boundary_v001.png",
+      "refs": [
+        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+        "assets_src/ds_route/backgrounds/bg17_lakeside_spring_overcast_v001.png"
+      ],
+      "transparent": false,
+      "priority": "P2",
+      "prompt": "docs/art/ds_route/prompts/cg16_park_boundary.txt",
+      "path": "assets_src/ds_route/cg/cg16_park_boundary_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2756012,
+      "sha256": "d56205be29ce2e8f751fff29cdab6be29417f0f562fd1751ee69969fee5d459f",
+      "tool": "built-in imagegen",
+      "status": "generated_draft_visually_reviewed"
+    }
+  ]
+}

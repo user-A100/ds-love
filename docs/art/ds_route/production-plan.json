@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "DS-01–DS-09 supplementary art",
-  "status": "generating",
+  "status": "complete_planned_draft_pack",
   "tool": "built-in imagegen",
   "planned_assets": 30,
   "jobs": [
@@ -369,29 +369,49 @@
       "label": "CG14｜GPT与凉茶",
       "scene": "DS-04",
       "group": "CG14_OPTIONAL",
-      "file": "cg/cg14_gpt_cold_tea_v001.png",
+      "file": "cg/cg14_gpt_cold_tea_v002.png",
       "refs": [
-        "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png",
-        "assets_src/act05/backgrounds/bg23_cafe_snow_day_v001.png"
+        "assets_src/ds_route/cg/cg14_gpt_cold_tea_v001.png"
       ],
       "transparent": false,
       "priority": "P2",
-      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG, winter cafe same window-table area as reference2. Adult GPT identity reference1: white long hair, purple eyes, horns, wings, scaled tail, pale lavender work coat and plum skirt; seated alone with composed downcast gaze and small tense neutral mouth, no smile or wave. Two cooled tea cups without steam on table, plum portfolio closed beside. View from just outside cafe window, quiet reflections but clear face, no protagonist or others. Winter soft daylight and restrained personal sadness, natural adult proportions."
+      "prompt": "Use case: precise-object-edit. Edit target reference1 is finished CG of adult white-haired dragon woman at snowy cafe. Change ONLY the liquid surfaces in BOTH existing cups: plain clear amber-brown cold tea, absolutely no white milk foam, latte art, crema, steam or coffee. Keep both cups, saucers, woman identity and expression, horns, wings, scaled tail, exact pose, all clothing, window reflections, plum folder, camera, winter background and lighting IDENTICAL. Single full landscape16:9 finished illustration, no text.",
+      "previous_versions": [
+        {
+          "file": "cg/cg14_gpt_cold_tea_v001.png",
+          "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG, winter cafe same window-table area as reference2. Adult GPT identity reference1: white long hair, purple eyes, horns, wings, scaled tail, pale lavender work coat and plum skirt; seated alone with composed downcast gaze and small tense neutral mouth, no smile or wave. Two cooled tea cups without steam on table, plum portfolio closed beside. View from just outside cafe window, quiet reflections but clear face, no protagonist or others. Winter soft daylight and restrained personal sadness, natural adult proportions.",
+          "refs": [
+            "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png",
+            "assets_src/act05/backgrounds/bg23_cafe_snow_day_v001.png"
+          ],
+          "status": "revision_record"
+        }
+      ]
     },
     {
       "id": "cg15_rooftop_promise",
       "label": "CG15｜成年天台新约定",
       "scene": "DS-07",
       "group": "CG15_OPTIONAL",
-      "file": "cg/cg15_rooftop_promise_v001.png",
+      "file": "cg/cg15_rooftop_promise_v002.png",
       "refs": [
-        "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
-        "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png",
-        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+        "assets_src/ds_route/cg/cg15_rooftop_promise_v001.png"
       ],
       "transparent": false,
       "priority": "P2",
-      "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG. Adult university-age DeepSeek in EXACT spring outfit reference1, at old rooftop inside parapet same geometry reference2. Main action ONE pinky promise: she extends one hand, links pinky with protagonist one hand from dark navy civilian sleeve foreground; no other protagonist face/body. Her other arm holds exact pale-blue cloth notebook/navy spine/blank cream label reference3 against torso. Tender serious hopeful smile, warm spring evening, no winter snow or refurbished ending railing, no simultaneous embrace or multiple actions. Fingers coherent, face and linked fingers above bottom24 percent."
+      "prompt": "Use case: precise-object-edit. Edit target reference1 is adult DeepSeek spring outfit rooftop notebook promise CG. Correct ONLY the foreground pinky-promise hand anatomy: her hand from pastel-blue cardigan and protagonist hand from dark navy sleeve each have FIVE fingers; each little finger visibly extended and hooked around the other's little finger at center, with other fingers naturally curled into loose fist. Clear unmistakable pinky promise, not fist bump or ordinary handshake. Keep her face, hair, outfit, notebook, all background rooftop geometry, camera and lighting unchanged. Two hands participating in pinky promise, plus her existing other hand holding notebook; no extra hands. Landscape16:9, no text.",
+      "previous_versions": [
+        {
+          "file": "cg/cg15_rooftop_promise_v001.png",
+          "prompt": "Use case: illustration-story. Production draft for whalegal visual novel DS-01 to DS-09. Match supplied references' refined anime linework, softly painted materials and detailed hair. One finished image only, no collage, frame, text, logo, watermark, UI or readable lettering. Landscape16:9 narrative CG. Adult university-age DeepSeek in EXACT spring outfit reference1, at old rooftop inside parapet same geometry reference2. Main action ONE pinky promise: she extends one hand, links pinky with protagonist one hand from dark navy civilian sleeve foreground; no other protagonist face/body. Her other arm holds exact pale-blue cloth notebook/navy spine/blank cream label reference3 against torso. Tender serious hopeful smile, warm spring evening, no winter snow or refurbished ending railing, no simultaneous embrace or multiple actions. Fingers coherent, face and linked fingers above bottom24 percent.",
+          "refs": [
+            "assets_src/ds_route/characters/deepseek/ds_spring_neutral_v001.png",
+            "assets_src/act04/backgrounds/bg_rooftop_evening_v001.png",
+            "assets_src/act01/props/pr01_blue_notebook_v001.png"
+          ],
+          "status": "revision_record"
+        }
+      ]
     },
     {
       "id": "cg16_park_boundary",

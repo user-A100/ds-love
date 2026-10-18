@@ -1,0 +1,61 @@
+{
+  "packs": [
+    {
+      "pack": "act01",
+      "local": 26,
+      "plan": 26,
+      "on_origin_master": 26,
+      "missing_planned": []
+    },
+    {
+      "pack": "act02",
+      "local": 21,
+      "plan": 21,
+      "on_origin_master": 21,
+      "missing_planned": []
+    },
+    {
+      "pack": "act03",
+      "local": 15,
+      "plan": 15,
+      "on_origin_master": 15,
+      "missing_planned": []
+    },
+    {
+      "pack": "act04",
+      "local": 32,
+      "plan": 32,
+      "on_origin_master": 32,
+      "missing_planned": []
+    },
+    {
+      "pack": "act05",
+      "local": 23,
+      "plan": 23,
+      "on_origin_master": 23,
+      "missing_planned": []
+    },
+    {
+      "pack": "act06",
+      "local": 24,
+      "plan": 24,
+      "on_origin_master": 24,
+      "missing_planned": []
+    },
+    {
+      "pack": "ds_route",
+      "local": 30,
+      "plan": 30,
+      "on_origin_master": 24,
+      "missing_planned": []
+    },
+    {
+      "pack": "ending",
+      "local": 27,
+      "plan": 27,
+      "on_origin_master": 27,
+      "missing_planned": []
+    }
+  ],
+  "errors": []
+}
