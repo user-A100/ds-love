@@ -1,7 +1,6 @@
 """Validate and index original imagegen PNGs without editing pixels."""
 from pathlib import Path
-from datetime import datetime
-from zoneinfo import ZoneInfo
+from datetime import datetime, timezone, timedelta
 import hashlib, html, json
 from PIL import Image
 
@@ -47,7 +46,7 @@ def update():
             "edge_alpha_max": edge_max,
             "tool": "built-in imagegen", "status": "generated_draft"
         })
-    stamp = datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(timespec="seconds")
+    stamp = datetime.now(timezone(timedelta(hours=8))).isoformat(timespec="seconds")
     manifest = {"schema_version":1, "updated_at":stamp, "order":"reverse_story",
                 "status":"generating" if pending else "complete_planned_draft_pack",
                 "scope":plan["scope"], "planned_assets":len(plan["jobs"]),
