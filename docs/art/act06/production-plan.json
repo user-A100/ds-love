@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "scope": "C6-01–C6-06 only",
+  "status": "in_progress",
+  "notes": "User narrowed scope to chapter 6. Reuse adult act05 sprites. Excludes route-specific assets. PNG production drafts, not runtime integration.",
+  "jobs": [
+    {
+      "id": "ds_win_earnest",
+      "label": "DeepSeek｜大学冬装·认真抱本",
+      "scene": "C6-02/DS-02",
+      "file": "characters/deepseek/ds_win_earnest_v001.png",
+      "transparent": true,
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/ending/characters/deepseek/ds_mat_spring_neutral_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Single production transparent full-body sprite for whalegal, C6-02 and DS-02/05. Reference 1 locks DeepSeek identity and illustration style; reference 2 is her older adult design, keep this character university age 21. Preserve long voluminous navy to cyan wavy hair, blue eyes, ahoge, white underside fin ears with cyan bows, large blue whale tail on viewer right. Adult pale blue knee-length wool coat open over ivory cable-knit sweater, navy midi skirt, opaque navy tights, blue ankle boots. Hold a light blue A5 cloth notebook with navy spine and blank cream label in two anatomically correct hands at torso. Expression calm and earnest, steady forward gaze with a small hopeful smile. Match refined anime VN line art and soft shading of references. Complete silhouette centered inside generous margins, 1024x1536 portrait. Actual fully transparent background, no glow or vignette or ground shadow, no text or watermark."
+    },
+    {
+      "id": "bg18_student_room_night",
+      "label": "BG18｜大学住处·深夜",
+      "scene": "C6-01",
+      "file": "backgrounds/bg18_student_room_night_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Single polished Japanese anime visual novel production asset for whalegal. Match fine linework, soft painted shading, detailed materials and gentle cinematic lighting of supplied references. No text, logos, watermark, UI, speech bubbles or collage. Landscape 16:9 composition; keep main faces, hands and important props above bottom 24% dialogue zone. Empty environment only, no people. Reference is painting style only unless a matching room is supplied; preserve room architecture exactly for lighting variants. Modest university student's small rented room at night. Camera eye level from doorway, narrow bed left, practical wooden editing desk under rear window, desktop monitor with indistinct blank dark interface, camera body and lenses on shelf right, books and a closed notebook, amber desk lamp, cool city night outside. Blank paper calendar pinned on wall, no drawn numbers. Quiet introspective work space, comfortable empty central foreground for sprites."
+    },
+    {
+      "id": "bg26_film_club_day",
+      "label": "BG26｜大学影像社·白天",
+      "scene": "C6-02",
+      "file": "backgrounds/bg26_film_club_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Single polished Japanese anime visual novel production asset for whalegal. Match fine linework, soft painted shading, detailed materials and gentle cinematic lighting of supplied references. No text, logos, watermark, UI, speech bubbles or collage. Landscape 16:9 composition; keep main faces, hands and important props above bottom 24% dialogue zone. Empty environment only, no people. Reference is painting style only unless a matching room is supplied; preserve room architecture exactly for lighting variants. University film club writing and editing studio in clear winter daylight. Fixed layout: large rectangular shared wood discussion table center-left, tall windows across left wall, editing workstation and equipment cabinet along back wall, metal door rear right, right wall pinned blank storyboard cards. Two empty chairs, neat unlettered manuscript stack on table, compact camera and tripod near cabinet. Adult university space, natural restrained colors. Eye-level wide composition with clear character staging foreground."
+    },
+    {
+      "id": "bg27_concert_backstage_evening",
+      "label": "BG27｜音乐厅后台·演后",
+      "scene": "C6-03",
+      "file": "backgrounds/bg27_concert_backstage_evening_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Single polished Japanese anime visual novel production asset for whalegal. Match fine linework, soft painted shading, detailed materials and gentle cinematic lighting of supplied references. No text, logos, watermark, UI, speech bubbles or collage. Landscape 16:9 composition; keep main faces, hands and important props above bottom 24% dialogue zone. Empty environment only, no people. Reference is painting style only unless a matching room is supplied; preserve room architecture exactly for lighting variants. Professional classical concert hall backstage dressing and preparation room in winter late afternoon. Upright music case and closed sheet-music folders on low table left, coat rail and plain garment bag rear left, mirror and a modest vanity right, open doorway rear center revealing dim passage toward stage. Warm practical lamps and pale evening spill light. No piano on stage here, no film posters, no costumes permanently on chair, central space clear for adult Claude."
+    },
+    {
+      "id": "bg22_publisher_lobby_day",
+      "label": "BG22｜出版社大厅·面试前",
+      "scene": "C6-04A",
+      "file": "backgrounds/bg22_publisher_lobby_day_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Single polished Japanese anime visual novel production asset for whalegal. Match fine linework, soft painted shading, detailed materials and gentle cinematic lighting of supplied references. No text, logos, watermark, UI, speech bubbles or collage. Landscape 16:9 composition; keep main faces, hands and important props above bottom 24% dialogue zone. Empty environment only, no people. Reference is painting style only unless a matching room is supplied; preserve room architecture exactly for lighting variants. Contemporary modest literary publisher lobby and interview meeting room entrance. Reception counter left with closed document folders, glass meeting room door rear right, frosted partition, bookshelf with blank unlettered spines along back, winter daylight from street-facing windows on left. Welcoming professional editorial workspace, small plant and two waiting chairs, realistic scale, empty foreground for standing adult characters. No corporate logos or readable signage."
+    },
+    {
+      "id": "bg28_publisher_street_snow",
+      "label": "BG28｜出版社外街道·积雪",
+      "scene": "C6-04B",
+      "file": "backgrounds/bg28_publisher_street_snow_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Single polished Japanese anime visual novel production asset for whalegal. Match fine linework, soft painted shading, detailed materials and gentle cinematic lighting of supplied references. No text, logos, watermark, UI, speech bubbles or collage. Landscape 16:9 composition; keep main faces, hands and important props above bottom 24% dialogue zone. Empty environment only, no people. Reference is painting style only unless a matching room is supplied; preserve room architecture exactly for lighting variants. Quiet winter city sidewalk beside a literary publisher office, pale snow piled along curb and tree bases, dry safe pedestrian path, modest glass publisher entrance right with blank sign, neighborhood cafe across street left with oak window frames and cream facade, low-rise mixed architecture without national landmarks. Winter afternoon silver-blue light, delicate warm window reflections, no people or cars dominating foreground."
+    },
+    {
+      "id": "bg29_crossing_sunset",
+      "label": "BG29｜铁路道口·夕阳",
+      "scene": "C6-05/C6-06/DS-01",
+      "file": "backgrounds/bg29_crossing_sunset_v001.png",
+      "transparent": false,
+      "refs": [
+        "assets_src/act01/backgrounds/bg_rooftop_spring_day_v001.png"
+      ],
+      "prompt": "Use case: illustration-story. Single polished Japanese anime visual novel production asset for whalegal. Match fine linework, soft painted shading, detailed materials and gentle cinematic lighting of supplied references. No text, logos, watermark, UI, speech bubbles or collage. Landscape 16:9 composition; keep main faces, hands and important props above bottom 24% dialogue zone. Empty environment only, no people. Reference is painting style only unless a matching room is supplied; preserve room architecture exactly for lighting variants. Original ordinary suburban railway level crossing at winter sunset, viewed from SAFE pedestrian waiting area looking across tracks toward continuing road. Two credible parallel tracks run horizontally across midground, black-and-yellow crossing mechanisms on both sides, raised barrier arms and paired signal lamps, clear sidewalk and safety line visible on viewer side. No train currently. Warm amber sun from left, subdued cold winter buildings, power wires, strong readable route forward. No recognizable recreated film composition, no character on tracks."
+    }
+  ]
+}
