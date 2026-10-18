@@ -11,6 +11,29 @@
       ],
       "transparent": true,
       "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Asset: Claude adult winter full-body standing sprite, neutral guarded expression. Identity reference is image 1: same very long orange hair, amber eyes, orange flower with black ribbon on HER LEFT (viewer right). Age about 21, subtly mature face. Replace school uniform with tailored charcoal long wool coat over ivory turtleneck and dark midi skirt, opaque dark tights and dark ankle boots. Small amber scarf, no bag. Same three-quarter front standing angle and soft upper-left illumination. All hair, shoes and hands fully inside frame with margins. Genuinely transparent background, no ground, glow or shadow."
+    },
+    {
+      "id": "ds_win_neutral",
+      "file": "characters/deepseek/ds_win_neutral_v001.png",
+      "label": "DeepSeek｜大学冬装·温柔",
+      "scene": "C5-10/12C",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Full-body transparent standing adult university DeepSeek sprite. Preserve image 1 identity exactly: blue eyes, long voluminous navy-to-cyan wavy hair, ahoge, fin ears with cyan bows and large blue whale tail. About 21 with subtly mature features. Wear pale blue knee-length wool coat, ivory cable-knit sweater, navy midi skirt, opaque navy tights and blue ankle boots; no school uniform. Hold the same light-blue A5 cloth notebook with navy spine and blank cream label gently against torso, both hands correct. Calm affectionate small smile. Three-quarter front, upper-left soft neutral light, full silhouette inside margins. Actual transparent empty background; absolutely no colored glow, vignette, backdrop or ground shadow."
+    },
+    {
+      "id": "gpt_work_neutral",
+      "file": "characters/gpt/gpt_work_neutral_v001.png",
+      "label": "GPT｜成年工作冬装·微笑",
+      "scene": "C5-05/06/11/12D",
+      "refs": [
+        "assets_src/characters/gpt/references/zipzippipe-pixiv-148186519-p03.jpg",
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Full-body adult GPT standing sprite, about 23, kind self-possessed gentle smile. Image 1 is IDENTITY reference: long pearl-white hair with pale lavender shadows, lavender eyes, two ivory segmented dragon horns, pointed ears, black-and-white spiral rosette at HER LEFT temple (viewer right), small pale lavender dragon wings and long scaled white dragon tail. Preserve all, do not turn human. Image 2 is FINISH/LINEWORK reference only, do not copy its face/hair/clothes. Adapt to adult publishing editor winter outfit: muted lavender tailored long wool coat open over ivory blouse and dark violet midi skirt, dark opaque tights, practical lilac low-heel boots, small silver brooch. Hold a closed plum manuscript folder at waist. Full-body no cropping, neutral upper-left light, natural hands. Genuinely transparent background without vignette, colored glow or cast shadow. Ordinary office clothing, not ceremonial dress, not uniform."
     }
   ]
 }

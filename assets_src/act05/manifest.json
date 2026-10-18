@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T07:50:17.399Z",
+  "updated_at": "2026-10-18T07:53:00.259Z",
   "status": "complete_planned_draft_pack",
   "scope": "C5-01–C5-12E",
-  "planned_assets": 1,
+  "planned_assets": 3,
   "pending_assets": [],
   "assets": [
     {
@@ -26,6 +26,53 @@
       "edge_alpha_max": 1,
       "bytes": 2034680,
       "sha256": "f215161f6993f41039ffcbeed6a0d5fee5118a5ae30b6575a011447aee8e8717",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_win_neutral",
+      "file": "characters/deepseek/ds_win_neutral_v001.png",
+      "label": "DeepSeek｜大学冬装·温柔",
+      "scene": "C5-10/12C",
+      "refs": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "transparent": true,
+      "prompt": "docs/art/act05/prompts/ds_win_neutral.txt",
+      "path": "assets_src/act05/characters/deepseek/ds_win_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "bytes": 2103759,
+      "sha256": "4423f33dc40478719b41b992f4732841939aca91780090cbe78af1a1b704709d",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "gpt_work_neutral",
+      "file": "characters/gpt/gpt_work_neutral_v001.png",
+      "label": "GPT｜成年工作冬装·微笑",
+      "scene": "C5-05/06/11/12D",
+      "refs": [
+        "assets_src/characters/gpt/references/zipzippipe-pixiv-148186519-p03.jpg",
+        "assets_src/act01/characters/claude/claude_hs_neutral_v001.png"
+      ],
+      "transparent": true,
+      "prompt": "docs/art/act05/prompts/gpt_work_neutral.txt",
+      "path": "assets_src/act05/characters/gpt/gpt_work_neutral_v001.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 3,
+      "bytes": 2159559,
+      "sha256": "b83a3b2d8ad530089d0c82b52cb885805b30afd336c753006fefaa9c47fa25ba",
       "tool": "built-in imagegen",
       "status": "generated_draft"
     }
