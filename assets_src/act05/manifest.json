@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T07:53:00.259Z",
+  "updated_at": "2026-10-18T07:58:53.842Z",
   "status": "complete_planned_draft_pack",
   "scope": "C5-01–C5-12E",
-  "planned_assets": 3,
+  "planned_assets": 7,
   "pending_assets": [],
   "assets": [
     {
@@ -73,6 +73,98 @@
       "edge_alpha_max": 3,
       "bytes": 2159559,
       "sha256": "b83a3b2d8ad530089d0c82b52cb885805b30afd336c753006fefaa9c47fa25ba",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg13_arrive_winter",
+      "file": "backgrounds/bg13_arrive_winter_v001.png",
+      "label": "机场｜冬日到达厅",
+      "scene": "C5-01",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg13_arrive_winter.txt",
+      "path": "assets_src/act05/backgrounds/bg13_arrive_winter_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2445265,
+      "sha256": "783e6aa02be2dcf1f33603048911c7368e002a0adcf9d8ab94d3fc9d0aa41899",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg20_rehearsal_day",
+      "file": "backgrounds/bg20_rehearsal_day_v001.png",
+      "label": "专业排练厅｜冬日白昼",
+      "scene": "C5-02",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg20_rehearsal_day.txt",
+      "path": "assets_src/act05/backgrounds/bg20_rehearsal_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2128903,
+      "sha256": "a6a8deda2b87a854a26f25a4d4420576f1d057ad2bb89deb54581eb8e6748d13",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg21_temporary_evening",
+      "file": "backgrounds/bg21_temporary_evening_v001.png",
+      "label": "Claude临时住处｜黄昏",
+      "scene": "C5-03",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg21_temporary_evening.txt",
+      "path": "assets_src/act05/backgrounds/bg21_temporary_evening_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2040313,
+      "sha256": "3d018a15cef7d0790a2c262b1293d94fc20108c0b57c931bc1bb508a706da228",
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "bg22_publisher_day",
+      "file": "backgrounds/bg22_publisher_day_v001.png",
+      "label": "出版社｜日间编辑区",
+      "scene": "C5-05",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "docs/art/act05/prompts/bg22_publisher_day.txt",
+      "path": "assets_src/act05/backgrounds/bg22_publisher_day_v001.png",
+      "width": 1672,
+      "height": 941,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_alpha_max": 255,
+      "bytes": 2173499,
+      "sha256": "098e209731ea702ceff7ea3671b15b692361e018a4fee17174e0eb5b13fa09a1",
       "tool": "built-in imagegen",
       "status": "generated_draft"
     }

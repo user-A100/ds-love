@@ -34,6 +34,50 @@
       ],
       "transparent": true,
       "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Full-body adult GPT standing sprite, about 23, kind self-possessed gentle smile. Image 1 is IDENTITY reference: long pearl-white hair with pale lavender shadows, lavender eyes, two ivory segmented dragon horns, pointed ears, black-and-white spiral rosette at HER LEFT temple (viewer right), small pale lavender dragon wings and long scaled white dragon tail. Preserve all, do not turn human. Image 2 is FINISH/LINEWORK reference only, do not copy its face/hair/clothes. Adapt to adult publishing editor winter outfit: muted lavender tailored long wool coat open over ivory blouse and dark violet midi skirt, dark opaque tights, practical lilac low-heel boots, small silver brooch. Hold a closed plum manuscript folder at waist. Full-body no cropping, neutral upper-left light, natural hands. Genuinely transparent background without vignette, colored glow or cast shadow. Ordinary office clothing, not ceremonial dress, not uniform."
+    },
+    {
+      "id": "bg13_arrive_winter",
+      "file": "backgrounds/bg13_arrive_winter_v001.png",
+      "label": "机场｜冬日到达厅",
+      "scene": "C5-01",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 empty background painting. Reference is PAINTING STYLE and quality only, do not copy its character or library. International airport ARRIVALS public meeting hall, winter afternoon. View from waiting family side toward glass sliding exit doors, luggage trolleys and simple arrival pictograms, large windows on left show small snow outside. No security checkpoint, no aircraft gate, no boarding corridor. Quiet modern pale stone, brushed metal and glass, empty foreground for sprites, tiny indistinct distant silhouettes only. No legible signage. Eye-level natural perspective, detailed credible architecture, generous unoccupied character stage, no characters or writing. Standalone clean background, no panels."
+    },
+    {
+      "id": "bg20_rehearsal_day",
+      "file": "backgrounds/bg20_rehearsal_day_v001.png",
+      "label": "专业排练厅｜冬日白昼",
+      "scene": "C5-02",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 empty background painting. Reference is PAINTING STYLE and quality only, do not copy its character or library. Empty professional piano rehearsal studio, polished black grand piano on LEFT, open keyboard facing right and bench, acoustic timber wall panels, tall frosted high windows on left, empty chair and music stand on right, pale winter daylight. Architectural adult conservatory space distinct from school classroom, no school desks, no spectators. Eye-level natural perspective, detailed credible architecture, generous unoccupied character stage, no characters or writing. Standalone clean background, no panels."
+    },
+    {
+      "id": "bg21_temporary_evening",
+      "file": "backgrounds/bg21_temporary_evening_v001.png",
+      "label": "Claude临时住处｜黄昏",
+      "scene": "C5-03",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 empty background painting. Reference is PAINTING STYLE and quality only, do not copy its character or library. Modest rented apartment temporary home in winter dusk. One coherent main view: small wooden dining table and two chairs in foreground left, compact unused kitchenette behind at right, closed plain cupboards, soft curtain window at left, a few loose blank score pages on sideboard, gray sofa and packed case in back corner. Domestic warm pendant lamp and cold winter window fill. No people, no food on table yet, no luxury mansion or piano. Eye-level natural perspective, detailed credible architecture, generous unoccupied character stage, no characters or writing. Standalone clean background, no panels."
+    },
+    {
+      "id": "bg22_publisher_day",
+      "file": "backgrounds/bg22_publisher_day_v001.png",
+      "label": "出版社｜日间编辑区",
+      "scene": "C5-05",
+      "refs": [
+        "assets_src/act01/cg/cg_c104_writing_together_v001.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: illustration-story. Production asset for whalegal chapter 5 (three years after high school, adult winter). Match established polished Japanese anime visual novel art: clean fine linework, softly shaded detailed hair, restrained winter palette, gentle cinematic light. Preserve character identity and accessory sides from references. No lettering, logos, captions, watermarks or dialogue boxes. Keep key faces and hands above bottom 24% when landscape. Single widescreen 16:9 empty background painting. Reference is PAINTING STYLE and quality only, do not copy its character or library. Professional small publishing office winter afternoon. Organized manuscript desk left midground, open aisle in center for two people talking, bookshelves along back wall, glass meeting room door at right rear, windows on left with cool daylight, tea tray on side table. Neat stacks of blank papers and folders, computers screens blank, literary workplace warm wood and muted ivory. No readable book spines, signs or text. Eye-level natural perspective, detailed credible architecture, generous unoccupied character stage, no characters or writing. Standalone clean background, no panels."
     }
   ]
 }

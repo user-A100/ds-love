@@ -1,10 +1,14 @@
 # 第五幕美术制作状态
 
-已保存并校验 3 / 3 项。
+已保存并校验 7 / 7 项。
 
 - C5-01/08/12 · [Claude｜成年冬装·自持](characters/claude/claude_win_neutral_v001.png)
 - C5-10/12C · [DeepSeek｜大学冬装·温柔](characters/deepseek/ds_win_neutral_v001.png)
 - C5-05/06/11/12D · [GPT｜成年工作冬装·微笑](characters/gpt/gpt_work_neutral_v001.png)
+- C5-01 · [机场｜冬日到达厅](backgrounds/bg13_arrive_winter_v001.png)
+- C5-02 · [专业排练厅｜冬日白昼](backgrounds/bg20_rehearsal_day_v001.png)
+- C5-03 · [Claude临时住处｜黄昏](backgrounds/bg21_temporary_evening_v001.png)
+- C5-05 · [出版社｜日间编辑区](backgrounds/bg22_publisher_day_v001.png)
 
 待生成：无
 
