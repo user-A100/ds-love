@@ -24,6 +24,31 @@ testsuite art:
         assert eval not renpy.showing("art_act01_cg01_rooftop_collision")
         screenshot "opening-sprite.png"
 
+    testcase japanese_opening_sprite:
+        run Language("japanese")
+        run Start("ch00")
+        advance until "だ、大丈夫か！？"
+        assert eval renpy.showing("ds")
+        screenshot "japanese-opening-sprite.png"
+
+    testcase all_heroines_in_both_languages:
+        run Start("ch01")
+        advance until eval renpy.showing("cl")
+        screenshot "chinese-claude.png"
+        run MainMenu(confirm=False)
+        run Start("ch02")
+        advance until eval renpy.showing("gp")
+        screenshot "chinese-gpt.png"
+        run MainMenu(confirm=False)
+        run Language("japanese")
+        run Start("ch01")
+        advance until eval renpy.showing("cl")
+        screenshot "japanese-claude.png"
+        run MainMenu(confirm=False)
+        run Start("ch02")
+        advance until eval renpy.showing("gp")
+        screenshot "japanese-gpt.png"
+
     testcase handover_and_route_choice:
         run Start("ch06")
         advance until "她把厚厚一摞稿纸递给我。"

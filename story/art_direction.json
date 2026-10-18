@@ -1170,6 +1170,78 @@
       "width": 1536,
       "height": 1024,
       "label": "作品名单与候鸟出版物"
+    },
+    "ds_route.bg30_university_night": {
+      "source": "assets_src/ds_route/backgrounds/bg30_university_night_v001.png",
+      "runtime": "images/story/ds_route/backgrounds/bg30_university_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "大学校园｜冬夜"
+    },
+    "ds_route.bg26_filmclub_night": {
+      "source": "assets_src/ds_route/backgrounds/bg26_filmclub_night_v001.png",
+      "runtime": "images/story/ds_route/backgrounds/bg26_filmclub_night_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "大学影像社｜冬夜"
+    },
+    "ds_route.bg26_filmclub_spring_day": {
+      "source": "assets_src/ds_route/backgrounds/bg26_filmclub_spring_day_v001.png",
+      "runtime": "images/story/ds_route/backgrounds/bg26_filmclub_spring_day_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "大学影像社｜春日"
+    },
+    "ds_route.bg17_lakeside_spring_overcast": {
+      "source": "assets_src/ds_route/backgrounds/bg17_lakeside_spring_overcast_v001.png",
+      "runtime": "images/story/ds_route/backgrounds/bg17_lakeside_spring_overcast_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "旧公园｜春日柔阴"
+    },
+    "ds_route.bg20_rehearsal_evening": {
+      "source": "assets_src/ds_route/backgrounds/bg20_rehearsal_evening_v001.png",
+      "runtime": "images/story/ds_route/backgrounds/bg20_rehearsal_evening_v001.png",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "label": "专业排练厅｜冬日下午"
+    },
+    "ds_route.claude_indoor_hurt": {
+      "source": "assets_src/ds_route/characters/claude/claude_indoor_hurt_v001.png",
+      "runtime": "images/story/ds_route/characters/claude/claude_indoor_hurt_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜成年排练便服·受伤含泪"
+    },
+    "ds_route.claude_indoor_cry": {
+      "source": "assets_src/ds_route/characters/claude/claude_indoor_cry_v001.png",
+      "runtime": "images/story/ds_route/characters/claude/claude_indoor_cry_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜成年排练便服·哭泣"
+    },
+    "ds_route.claude_indoor_firm": {
+      "source": "assets_src/ds_route/characters/claude/claude_indoor_firm_v001.png",
+      "runtime": "images/story/ds_route/characters/claude/claude_indoor_firm_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "Claude｜成年排练便服·坚决"
+    },
+    "ds_route.gpt_work_lonely": {
+      "source": "assets_src/ds_route/characters/gpt/gpt_work_lonely_v001.png",
+      "runtime": "images/story/ds_route/characters/gpt/gpt_work_lonely_v001.png",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "label": "GPT｜成年工作装·克制失落"
     }
   },
   "scenes": [
@@ -1686,9 +1758,7 @@
         "occurrence": 1
       },
       "background": "act02.bg_classroom_evening",
-      "characters": {
-        "gp": "act02.gpt_hs_neutral"
-      },
+      "characters": {},
       "cues": [],
       "notes": []
     },
@@ -1702,15 +1772,13 @@
         "occurrence": 1
       },
       "background": "act02.bg_claude_bedroom_night",
-      "characters": {
-        "cl": "act01.claude_hs_neutral"
-      },
+      "characters": {},
       "cues": [
         {
           "anchor": {
             "chapter": "ch02",
             "speaker": "narrator",
-            "text": "她轻轻抱住膝盖。",
+            "text": "Claude 坐在床边，盯着手机。",
             "occurrence": 1
           },
           "cg": "act02.cg_c211_unsent"
@@ -1844,8 +1912,8 @@
         {
           "anchor": {
             "chapter": "ch03",
-            "speaker": "DeepSeek",
-            "text": "User……",
+            "speaker": "narrator",
+            "text": "最后，DeepSeek 也加入了合唱。",
             "occurrence": 1
           },
           "cg": "act03.cg04_cultural_festival"
@@ -2673,22 +2741,12 @@
       },
       "background": "act05.bg21_temporary_evening",
       "characters": {
-        "cl": "act05.claude_win_neutral"
+        "cl": "act05.claude_indoor_neutral"
       },
-      "cues": [
-        {
-          "anchor": {
-            "chapter": "ch05",
-            "speaker": "narrator",
-            "text": "厨房几乎没有使用过的痕迹。",
-            "occurrence": 1
-          },
-          "show": {
-            "cl": "act05.claude_win_worried"
-          }
-        }
-      ],
-      "notes": []
+      "cues": [],
+      "notes": [
+        "成年室内便服已替换冬大衣；坐姿、疲惫与担忧差分尚待补齐。"
+      ]
     },
     {
       "id": "C5-04",
@@ -2833,10 +2891,44 @@
       "characters": {
         "cl": "act05.claude_indoor_neutral"
       },
-      "cues": [],
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "她的声音开始颤抖。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "ds_route.claude_indoor_hurt"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "眼泪顺着脸颊落下。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "ds_route.claude_indoor_cry"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "我走过去，轻轻抱住她。",
+            "occurrence": 1
+          },
+          "hide": [
+            "cl"
+          ]
+        }
+      ],
       "notes": [
         "成年排练便服哭泣/拥抱CG尚缺；保持便服基准与原对白，不使用高中或机场拥抱CG。",
-        "正式音乐厅崩溃段缺少同服装含泪差分，仅使用现有成年排练基准。"
+        "已接成年排练便服含泪与哭泣；拥抱时隐藏站姿，以空镜承接，待专用拥抱CG。"
       ]
     },
     {
@@ -2886,7 +2978,19 @@
         "cl": "act05.claude_win_neutral",
         "gp": "act05.gpt_work_neutral"
       },
-      "cues": [],
+      "cues": [
+        {
+          "anchor": {
+            "chapter": "ch05",
+            "speaker": "narrator",
+            "text": "Claude 则走到钢琴前，轻轻按下几个琴键。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "act05.claude_indoor_neutral"
+          }
+        }
+      ],
       "notes": []
     },
     {
@@ -2900,7 +3004,7 @@
       },
       "background": "act05.bg10_musicroom_winter_evening",
       "characters": {
-        "cl": "act05.claude_win_neutral"
+        "cl": "act05.claude_indoor_neutral"
       },
       "cues": [],
       "notes": []
@@ -3334,11 +3438,18 @@
             "occurrence": 1
           },
           "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "我收起手机，向车站跑去。",
+            "occurrence": 1
+          },
+          "background": "ds_route.bg30_university_night"
         }
       ],
-      "notes": [
-        "缺少本场大学夜景/春季背景差分，暂复用同地点已有图，保留待补项。"
-      ]
+      "notes": []
     },
     {
       "id": "DS-02",
@@ -3349,10 +3460,8 @@
         "text": "我赶到活动室时，DeepSeek 正趴在桌上写东西。",
         "occurrence": 1
       },
-      "background": "act06.bg26_filmclub_day_continuity",
-      "characters": {
-        "ds": "act05.ds_indoor_firm_tear"
-      },
+      "background": "ds_route.bg26_filmclub_night",
+      "characters": {},
       "cues": [
         {
           "anchor": {
@@ -3374,7 +3483,7 @@
         }
       ],
       "notes": [
-        "缺少本场大学夜景/春季背景差分，暂复用同地点已有图，保留待补项。"
+        "现有室内表情立绘均抱蓝本，而本场蓝本先由男主持有后放桌；暂以夜景与道具演出，待空手室内表情。"
       ]
     },
     {
@@ -3386,7 +3495,7 @@
         "text": "第二天下午，我去找了 Claude。",
         "occurrence": 1
       },
-      "background": "act05.bg20_rehearsal_day",
+      "background": "ds_route.bg20_rehearsal_evening",
       "characters": {
         "cl": "act05.claude_indoor_neutral"
       },
@@ -3408,6 +3517,50 @@
             "occurrence": 1
           },
           "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "门关上的瞬间，音乐教室里重新响起钢琴声。",
+            "occurrence": 1
+          },
+          "hide": [
+            "cl"
+          ]
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她的表情微微一变。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "ds_route.claude_indoor_hurt"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "眼角已经泛红。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "ds_route.claude_indoor_cry"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "Claude",
+            "text": "你走吧。",
+            "occurrence": 1
+          },
+          "show": {
+            "cl": "ds_route.claude_indoor_firm"
+          }
         }
       ],
       "notes": []
@@ -3443,6 +3596,39 @@
             "occurrence": 1
           },
           "clear_prop": true
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "我走出咖啡馆。",
+            "occurrence": 1
+          },
+          "hide": [
+            "gp"
+          ]
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "GPT",
+            "text": "虽然，稍微有一点难过就是了。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "ds_route.gpt_work_lonely"
+          }
+        },
+        {
+          "anchor": {
+            "chapter": "route_ds",
+            "speaker": "narrator",
+            "text": "她笑了。",
+            "occurrence": 1
+          },
+          "show": {
+            "gp": "act05.gpt_work_neutral"
+          }
         }
       ],
       "notes": []
@@ -3472,11 +3658,10 @@
         "text": "和 DeepSeek 正式交往以后，我们的生活并没有立刻发生翻天覆地的变化。",
         "occurrence": 1
       },
-      "background": "act06.bg26_filmclub_day_continuity",
+      "background": "ds_route.bg26_filmclub_spring_day",
       "characters": {},
       "cues": [],
       "notes": [
-        "缺少本场大学夜景/春季背景差分，暂复用同地点已有图，保留待补项。",
         "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
       ]
     },
@@ -3524,11 +3709,10 @@
         "text": "DeepSeek 离开的前三天，我主动提出，希望我们暂时把恋人的关系放回原点。",
         "occurrence": 1
       },
-      "background": "act04.bg_lakeside_sunset",
+      "background": "ds_route.bg17_lakeside_spring_overcast",
       "characters": {},
       "cues": [],
       "notes": [
-        "缺少本场大学夜景/春季背景差分，暂复用同地点已有图，保留待补项。",
         "大学春装缺失，使用环境与道具承接对白，不显示错误年龄/服装的女主。"
       ]
     },
