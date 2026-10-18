@@ -2,10 +2,12 @@
 ## whalegal 构建配置
 ## ============================================================
 
-define config.name = _("whalegal")
+define config.name = _("未抵达的心意")
 define gui.show_name = True
 define gui.show_version = True
 define gui.about = _p("""
+《未抵达的心意》—— 校园恋爱视觉小说。
+DeepSeek / Claude / GPT 与你之间的、未曾抵达的心意。
 """)
 
 define build.name = "whalegal"
