@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T14:35:13+08:00",
-  "status": "generating",
+  "updated_at": "2026-10-18T14:40:37+08:00",
+  "status": "complete_draft_pack",
   "scope": [
     "P-01",
     "C1-01",
@@ -11,13 +11,7 @@
   ],
   "planned_assets": 26,
   "planned_shot_count": 30,
-  "pending_assets": [
-    "ds_hs_book_happy",
-    "ds_hs_sad",
-    "cg_c103_notebook_return",
-    "ds_hs_proud",
-    "cg_c104_writing_together"
-  ],
+  "pending_assets": [],
   "assets": [
     {
       "id": "bg_rooftop_spring_day",
@@ -440,6 +434,112 @@
       ],
       "tool": "built-in imagegen",
       "status": "generated_draft"
+    },
+    {
+      "id": "ds_hs_book_happy",
+      "label": "DeepSeek · 抱本欣喜",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_book_happy_v001.png",
+      "prompt": "docs/art/act01/prompts/ds_hs_book_happy.txt",
+      "references": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1945219,
+      "sha256": "fcde3b7f016afcf150408c113b052c33d630c33f9df3bb714e569880e6be0af4",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_hs_sad",
+      "label": "DeepSeek · 沮丧",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_sad_v001.png",
+      "prompt": "docs/art/act01/prompts/ds_hs_sad.txt",
+      "references": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1896774,
+      "sha256": "45413dcd82277fc2cd75ed4a140496482d7af23ca95acf62db8ff0f35818a6bc",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c103_notebook_return",
+      "label": "C1-03 · 归还笔记本",
+      "path": "assets_src/act01/cg/cg_c103_notebook_return_v001.png",
+      "prompt": "docs/art/act01/prompts/cg_c103_notebook_return.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2103529,
+      "sha256": "dd0418495de56275d4401bb9763b7ea97ec3a94449714ce4fe721aa6eeb94577",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ds_hs_proud",
+      "label": "DeepSeek · 得意",
+      "path": "assets_src/act01/characters/deepseek/ds_hs_proud_v001.png",
+      "prompt": "docs/art/act01/prompts/ds_hs_proud.txt",
+      "references": [
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1884970,
+      "sha256": "54c76b11dccd37888b570ff5ebea8bb92f3abd3919de10afd9212bd15d639105",
+      "transparent_requested": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
+    },
+    {
+      "id": "cg_c104_writing_together",
+      "label": "C1-04 · 第一次合作",
+      "path": "assets_src/act01/cg/cg_c104_writing_together_v001.png",
+      "prompt": "docs/art/act01/prompts/cg_c104_writing_together.txt",
+      "references": [
+        "assets_src/act01/backgrounds/bg_library_day_v001.png",
+        "assets_src/act01/characters/deepseek/ds_hs_neutral_v002.png",
+        "assets_src/act01/props/pr01_blue_notebook_v001.png",
+        "assets_src/act01/props/pr02_flying_whale_sketch_v001.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2226900,
+      "sha256": "95208677fb20f453fa55f440c445ca344a9fdd1a4634b6a3d26f0c34e6004330",
+      "transparent_requested": false,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "tool": "built-in imagegen",
+      "status": "generated_draft"
     }
   ],
   "shots": [
@@ -584,10 +684,31 @@
       "prop": null
     },
     {
+      "id": "C1-03-B01",
+      "title": "图书馆，沮丧的她",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_sad",
+      "prop": null
+    },
+    {
+      "id": "C1-03-B02",
+      "title": "找回最重要的本子",
+      "bg": "cg_c103_notebook_return",
+      "sprite": null,
+      "prop": null
+    },
+    {
       "id": "C1-03-B03",
       "title": "读过故事后的羞窘",
       "bg": "bg_library_day",
       "sprite": "ds_hs_flustered",
+      "prop": null
+    },
+    {
+      "id": "C1-03-B04",
+      "title": "如果拍成电影",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_book_happy",
       "prop": null
     },
     {
@@ -598,11 +719,32 @@
       "prop": "pr01_blue_notebook"
     },
     {
+      "id": "C1-04-B01",
+      "title": "带来一摞稿本",
+      "bg": "bg_library_day",
+      "sprite": "ds_hs_proud",
+      "prop": "pr_manuscript_stack"
+    },
+    {
       "id": "C1-04-B02",
       "title": "想飞的鲸鱼",
       "bg": "bg_library_day",
       "sprite": null,
       "prop": "pr02_flying_whale_sketch"
+    },
+    {
+      "id": "C1-04-B03",
+      "title": "认真阅读与讨论",
+      "bg": "cg_c104_writing_together",
+      "sprite": null,
+      "prop": null
+    },
+    {
+      "id": "C1-04-B04",
+      "title": "第一次创作合作",
+      "bg": "cg_c104_writing_together",
+      "sprite": null,
+      "prop": null
     },
     {
       "id": "C1-04-B05",

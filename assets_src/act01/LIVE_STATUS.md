@@ -1,10 +1,10 @@
 # 第一幕实时制作状态
 
-更新：2026-10-18T14:35:13+08:00（北京时间）。
+更新：2026-10-18T14:40:37+08:00（北京时间）。
 
-已保存并校验 **21 / 26** 项入选资产；覆盖 **24 / 30** 个演出镜头。
+已保存并校验 **26 / 26** 项入选资产；覆盖 **30 / 30** 个演出镜头。
 
-当前仍在连续生成。以此页和 manifest.json 的实际文件为准；README 的资产数是整批目标。
+本轮整批美术试稿已完成。
 
 ## 队友使用的固定参考
 
@@ -42,13 +42,10 @@
 | DeepSeek · 听铃退场 | [ds_hs_alarmed_v001.png](characters/deepseek/ds_hs_alarmed_v001.png) |
 | DeepSeek · 慌张 | [ds_hs_flustered_v001.png](characters/deepseek/ds_hs_flustered_v001.png) |
 | CG02 · 单杠告白 | [cg02_pullup_confession_v001.png](cg/cg02_pullup_confession_v001.png) |
-
-## 正在生成 / 待生成
-
-- `ds_hs_book_happy`
-- `ds_hs_sad`
-- `cg_c103_notebook_return`
-- `ds_hs_proud`
-- `cg_c104_writing_together`
+| DeepSeek · 抱本欣喜 | [ds_hs_book_happy_v001.png](characters/deepseek/ds_hs_book_happy_v001.png) |
+| DeepSeek · 沮丧 | [ds_hs_sad_v001.png](characters/deepseek/ds_hs_sad_v001.png) |
+| C1-03 · 归还笔记本 | [cg_c103_notebook_return_v001.png](cg/cg_c103_notebook_return_v001.png) |
+| DeepSeek · 得意 | [ds_hs_proud_v001.png](characters/deepseek/ds_hs_proud_v001.png) |
+| C1-04 · 第一次合作 | [cg_c104_writing_together_v001.png](cg/cg_c104_writing_together_v001.png) |
 
 逐图提示词与参考路径：[production-plan.json](../../docs/art/act01/production-plan.json)；完整校验：[manifest.json](manifest.json)。
