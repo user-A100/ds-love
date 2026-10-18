@@ -22,6 +22,11 @@ Ren'Py SDK ──build_web.sh──▶ server/public/ (纯静态产物, gitignor
   Deploy command = `npx wrangler deploy`（读取分支根的 `wrangler.jsonc`，
   把 `public/` 目录作为静态资产上传）。
 
+> ⚠️ **web-dist 是纯产物分支，publish 脚本永远强推（-f）**——它只代表
+> "最近一次成功部署"，不承载任何需要保留的历史。**任何人不要手动构建
+> 后直接推 web-dist**（旧基线构建会用过期配置覆盖线上，且可能超出
+> CF 25MiB 单文件限制导致部署失败）。
+
 ## 1. 前置条件
 
 - Ren'Py 8.5.3 SDK 位于 `renpy-8.5.3-sdk/`（含 `web/` 支持包），见仓库初始化记录

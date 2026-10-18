@@ -7,3 +7,6 @@
 + image game/**
 + music game/audio/bgm/**
 + voice game/audio/voice/**
+## 多语言语音/音乐（日文配音等）一律散装按需加载，不进 game.zip
++ voice game/tl/**
++ music game/tl/**

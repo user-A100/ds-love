@@ -75,6 +75,8 @@ if git diff --cached --quiet; then
     echo "无变化，跳过发布"
 else
     git commit -m "web: deploy $(date -u +%FT%TZ)"
-    git push ${GIT_PUSH_FORCE:+-f} origin "${BRANCH}"
-    echo "✔ 已推送 ${BRANCH}，Cloudflare Pages 将自动部署"
+    ## web-dist 是纯产物分支：每次发布整体替换，永远强推，
+    ## 避免与任何手动构建推送产生 non-fast-forward 冲突
+    git push -f origin "${BRANCH}"
+    echo "✔ 已推送 ${BRANCH}，Cloudflare 将自动部署"
 fi
