@@ -1,4 +1,8 @@
-﻿################################################################################
+## 对话 UI 配色借鉴 dsh-deep-whale (MIT) by Small-tailqwq
+## https://github.com/Small-tailqwq/dsh-deep-whale （maid-atelier 色板）
+## 贴图由 tools/gen_ui_assets.py 生成，不含原仓库美术素材
+
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -50,7 +54,7 @@ define gui.muted_color = '#512800'
 define gui.hover_muted_color = '#7a3d00'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#ffffff'
+define gui.text_color = '#f5f1e6'
 define gui.interface_text_color = '#ffffff'
 
 
@@ -66,10 +70,13 @@ define gui.name_text_font = "DejaVuSans.ttf"
 define gui.interface_text_font = "DejaVuSans.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 22
+define gui.text_size = 26
 
 ## The size of character names.
 define gui.name_text_size = 30
+
+## 名牌文字：金柔
+define gui.name_text_color = '#e2cfaa'
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 24
@@ -109,8 +116,8 @@ define gui.textbox_yalign = 1.0
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 240
-define gui.name_ypos = 0
+define gui.name_xpos = 40
+define gui.name_ypos = -22
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -123,7 +130,7 @@ define gui.namebox_height = None
 
 ## The borders of the box containing the character's name, in left, top, right,
 ## bottom order.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
+define gui.namebox_borders = Borders(12, 8, 12, 8)
 
 ## If True, the background of the namebox will be tiled, if False, the
 ## background if the namebox will be scaled.
@@ -133,11 +140,11 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 268
-define gui.dialogue_ypos = 50
+define gui.dialogue_xpos = 72
+define gui.dialogue_ypos = 52
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 744
+define gui.dialogue_width = 1136
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -193,8 +200,10 @@ define gui.page_button_borders = Borders(10, 4, 10, 4)
 
 define gui.quick_button_borders = Borders(10, 4, 10, 0)
 define gui.quick_button_text_size = 14
-define gui.quick_button_text_idle_color = gui.idle_small_color
-define gui.quick_button_text_selected_color = gui.accent_color
+define gui.quick_button_text_idle_color = '#8ea5da'
+define gui.quick_button_text_selected_color = '#c5a468'
+define gui.quick_button_text_hover_color = '#e2cfaa'
+define gui.quick_button_text_insensitive_color = '#4d5d7f'
 
 ## You can also add your own customizations, by adding properly-named variables.
 ## For example, you can uncomment the following line to set the width of a
